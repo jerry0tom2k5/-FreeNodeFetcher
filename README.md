@@ -94,27 +94,35 @@
 
 ### 方式二：本地一键导入（Windows）
 
-双击 `v2rayn.bat`，脚本会自动：
-1. 并发测试所有节点源的可用性
-2. 有死源时自动搜索新源替换
-3. 从所有存活源获取节点
-4. 去重后复制到剪贴板
-5. 启动 V2rayN
-6. 右键托盘图标 → 服务器 → 从剪贴板批量导入
+双击 `v2rayn.bat`，脚本自动完成以下步骤：
+
+```
+[1/4] Health check（并发测试所有节点源）
+      ↓ 有死源？→ 自动搜索 GitHub 替换
+[2/4] Fetching nodes（从所有存活源获取节点）
+[3/4] Copying to clipboard（去重后复制到剪贴板）
+[4/4] Launching V2rayN（自动启动）
+      ↓ 右键托盘 → 服务器 → 从剪贴板批量导入
+```
+
+#### V2rayN 路径配置
+
+首次运行会自动搜索 V2rayN，支持以下方式（按优先级）：
+
+1. **config.ini** — 手动填写路径（推荐）
+2. **自动搜索** — 扫描桌面、下载目录、C/D/E 盘
+3. **手动输入** — 都没找到时弹出输入框，输入后自动保存
+
+编辑 `config.ini` 填写你的 V2rayN 路径：
+
+```ini
+V2RAYN_PATH=E:\your\path\to\v2rayN.exe
+```
 
 #### 前置要求
 
 - Windows 系统
-- Python 3.10+（仅健康检查+自动发现需要）
 - V2rayN 已安装
-
-#### 自定义 V2rayN 路径
-
-编辑 `v2rayn_add_sub.ps1`，修改第 215 行：
-
-```powershell
-$v2raynExe = "你的v2rayN.exe路径"
-```
 
 ## 项目结构
 
@@ -127,8 +135,9 @@ FreeNodeFetcher/
 │   ├── v2rayn_0.txt              # V2rayN base64 订阅
 │   ├── clash_0.yaml              # Clash YAML 订阅
 │   └── index.html                # GitHub Pages 首页
-├── v2rayn.bat                    # 一键导入入口
+├── v2rayn.bat                    # 一键导入入口（双击运行）
 ├── v2rayn_add_sub.ps1            # PowerShell 主脚本
+├── config.ini                    # V2rayN 路径配置
 └── README.md
 ```
 
@@ -138,8 +147,8 @@ FreeNodeFetcher/
 # 抓取节点（无需第三方依赖）
 python scripts/fetch_nodes.py
 
-# 一键导入（Windows）
-双击 v2rayn.bat
+# 一键导入（Windows，双击即可）
+v2rayn.bat
 ```
 
 ## 自定义节点源
