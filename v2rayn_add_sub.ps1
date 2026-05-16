@@ -220,17 +220,86 @@ Remove-Item $tempFile -ErrorAction SilentlyContinue
 Write-Host "  Copied to clipboard" -ForegroundColor Green
 
 # ============================================================
-# 4. Launch V2rayN
+# 4. Find and launch V2rayN
 # ============================================================
 Write-Host ""
 Write-Host "[4/4] Launching V2rayN..." -ForegroundColor Yellow
 
-$v2raynExe = "E:\zm\压缩包\v2rayN-windows-64\v2rayN-windows-64\v2rayN.exe"
-if (Test-Path $v2raynExe) {
+$configFile = Join-Path $scriptDir "config.ini"
+$v2raynExe = ""
+
+# 4a. Read from config.ini
+if (Test-Path $configFile) {
+    foreach ($line in (Get-Content $configFile -Encoding UTF8)) {
+        if ($line -match '^\s*V2RAYN_PATH\s*=\s*(.+)') {
+            $v2raynExe = $matches[1].Trim().Trim('"')
+            break
+        }
+    }
+}
+
+# 4b. Auto-search if config is empty
+if (-not $v2raynExe -or -not (Test-Path $v2raynExe)) {
+    Write-Host "  Auto-searching V2rayN..." -ForegroundColor Yellow
+
+    # Common locations
+    $searchPaths = @(
+        "$env:USERPROFILE\Desktop\v2rayN*\v2rayN.exe",
+        "$env:USERPROFILE\Downloads\v2rayN*\v2rayN.exe",
+        "$env:USERPROFILE\v2rayN*\v2rayN.exe",
+        "C:\v2rayN*\v2rayN.exe",
+        "D:\v2rayN*\v2rayN.exe",
+        "E:\v2rayN*\v2rayN.exe",
+        "C:\Program Files\v2rayN*\v2rayN.exe",
+        "D:\Program Files\v2rayN*\v2rayN.exe"
+    )
+
+    foreach ($pattern in $searchPaths) {
+        $found = Get-Item -Path $pattern -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($found) {
+            $v2raynExe = $found.FullName
+            break
+        }
+    }
+
+    # Deeper search on all drives (max 4 levels deep)
+    if (-not $v2raynExe) {
+        Get-PSDrive -PSProvider FileSystem | ForEach-Object {
+            if ($v2raynExe) { return }
+            $found = Get-ChildItem -Path "$($_.Root)" -Filter "v2rayN.exe" -Recurse -ErrorAction SilentlyContinue -Depth 4 | Select-Object -First 1
+            if ($found) { $v2raynExe = $found.FullName }
+        }
+    }
+
+    # Save to config.ini
+    if ($v2raynExe) {
+        Write-Host ("  Found: {0}" -f $v2raynExe) -ForegroundColor Green
+        $configContent = "# FreeNodeFetcher config`n# V2rayN executable path`nV2RAYN_PATH=$v2raynExe"
+        [System.IO.File]::WriteAllText($configFile, $configContent, [System.Text.Encoding]::UTF8)
+        Write-Host "  Saved to config.ini" -ForegroundColor Gray
+    }
+}
+
+# 4c. Prompt user if still not found
+if (-not $v2raynExe -or -not (Test-Path $v2raynExe)) {
+    Write-Host "  V2rayN not found!" -ForegroundColor Red
+    Write-Host ""
+    $v2raynExe = Read-Host "  Enter V2rayN.exe path (or press Enter to skip)"
+    if ($v2raynExe -and (Test-Path $v2raynExe)) {
+        $configContent = "# FreeNodeFetcher config`n# V2rayN executable path`nV2RAYN_PATH=$v2raynExe"
+        [System.IO.File]::WriteAllText($configFile, $configContent, [System.Text.Encoding]::UTF8)
+        Write-Host "  Saved to config.ini" -ForegroundColor Gray
+    } else {
+        $v2raynExe = ""
+    }
+}
+
+# 4d. Launch
+if ($v2raynExe -and (Test-Path $v2raynExe)) {
     Start-Process -FilePath $v2raynExe
     Write-Host "  V2rayN started" -ForegroundColor Green
 } else {
-    Write-Host ("  Not found: {0}" -f $v2raynExe) -ForegroundColor Red
+    Write-Host "  Skipped launching V2rayN" -ForegroundColor Yellow
 }
 
 Write-Host ""
