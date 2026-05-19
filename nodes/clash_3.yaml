@@ -1,1183 +1,681 @@
 proxies:
-  - name: "🇳🇱NL-13.73.229.250-0431"
-    type: vmess
-    server: 13.73.229.250
-    port: 443
-    uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-64.112.42.73-0433"
-    type: vmess
-    server: 64.112.42.73
-    port: 443
-    uuid: 4946f776-0af3-49f3-acad-d157475d253e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: www.shunxin.ml
-    ws-opts:
-      path: /P0S5U7NK
-      headers:
-        Host: www.shunxin.ml
-  - name: "🇯🇵JP-172.105.219.18-0434"
-    type: vmess
-    server: 172.105.219.18
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-104.233.240.59-0436"
-    type: vmess
-    server: 104.233.240.59
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 104.233.240.59
-    ws-opts:
-      path: /
-      headers:
-        Host: 104.233.240.59
-  - name: "🇪🇪EE-176.112.146.190-0438"
-    type: vmess
-    server: 176.112.146.190
-    port: 80
-    uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.143.74-0439"
-    type: vmess
-    server: 172.67.143.74
-    port: 443
-    uuid: A9A56660-4554-4278-863A-D3CE30294B59
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pure.daycat.space
-    ws-opts:
-      path: /
-      headers:
-        Host: pure.daycat.space
-  - name: "🇭🇰HK-47.239.126.198-0441"
-    type: vmess
-    server: ee.oppo.quest
-    port: 80
-    uuid: f9247df4-02d5-4b31-acc5-4022652c5953
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: ee.oppo.quest
-    ws-opts:
-      path: /
-      headers:
-        Host: ee.oppo.quest
-  - name: "🇺🇸US-38.75.136.34-5416"
-    type: ss
-    server: 38.75.136.34
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🏁RELAY-172.64.153.150-0443"
-    type: vmess
-    server: 172.64.153.150
-    port: 443
-    uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg5.zhujicn2.com
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: lg5.zhujicn2.com
-  - name: "🇳🇱NL-46.182.107.45-0444"
-    type: vmess
-    server: 46.182.107.45
-    port: 443
-    uuid: fe5f69e7-e183-439b-950b-9661ef0651f2
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-91.195.240.12-0445"
-    type: vmess
-    server: sgp.kapok.buzz
-    port: 443
-    uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: sgp.kapok.buzz
-    ws-opts:
-      path: /4befdd8a6/
-      headers:
-        Host: sgp.kapok.buzz
-  - name: "🏁RELAY-141.101.115.2-0446"
-    type: vmess
-    server: 141.101.115.2
-    port: 443
-    uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.zhujicn2.com
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.zhujicn2.com
-  - name: "🇩🇪DE-89.163.157.147-0447"
-    type: vmess
-    server: 89.163.157.147
-    port: 443
-    uuid: b8aedf50-c4f5-4255-b73d-3779db661d70
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-23.227.38.33-0448"
-    type: vmess
-    server: shopify.com
-    port: 80
-    uuid: 4397d066-f753-4300-e7ed-44797ddfcd24
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: linode.cloudflare.quest
-    ws-opts:
-      path: /aries
-      headers:
-        Host: linode.cloudflare.quest
-  - name: "🇭🇰HK-47.239.126.198-0449"
-    type: vmess
-    server: cfhk.oppo.quest
-    port: 80
-    uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: scw.cloudflare.quest
-    ws-opts:
-      path: /
-      headers:
-        Host: scw.cloudflare.quest
-  - name: "🏁RELAY-172.64.155.200-0450"
-    type: vmess
-    server: 172.64.155.200
-    port: 443
-    uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg4.zhujicn2.com
-    ws-opts:
-      path: /
-      headers:
-        Host: lg4.zhujicn2.com
-  - name: "🇬🇧GB-83.142.225.59-0451"
-    type: vmess
-    server: 83.142.225.59
-    port: 443
-    uuid: 5267ca71-97e6-44c8-8fb5-9fe4afe0954e
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-23.227.38.33-0452"
-    type: vmess
-    server: shopify.com
-    port: 80
-    uuid: 36bd9969-bb96-4bdd-a6df-960bbd8e4439
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: tguk.cloudflare.quest
-    ws-opts:
-      path: /
-      headers:
-        Host: tguk.cloudflare.quest
-  - name: "🇭🇰HK-165.154.244.100-0453"
-    type: vmess
-    server: 165.154.244.100
-    port: 443
-    uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-198.41.212.30-0454"
-    type: vmess
-    server: 198.41.212.30
-    port: 443
-    uuid: 105c635f-918d-4b2a-8c9d-d5426e94eb4b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg2.zhujicn2.com
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: lg2.zhujicn2.com
-  - name: "🇫🇷FR-146.59.43.129-0457"
-    type: vmess
-    server: 146.59.43.129
-    port: 443
-    uuid: 54c6c823-4957-4c6c-b10c-359bc51f7cc3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇳🇴NO-46.29.218.84-0458"
-    type: vmess
-    server: 46.29.218.84
-    port: 443
-    uuid: f7a456da-9886-4dd7-b193-4c59a726219c
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇮🇪IE-185.108.128.60-0459"
-    type: vmess
-    server: 185.108.128.60
-    port: 443
-    uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇱🇹LT-85.206.165.36-0460"
-    type: vmess
-    server: 85.206.165.36
-    port: 443
-    uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.218.162-0462"
-    type: vmess
-    server: 172.67.218.162
-    port: 443
-    uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: eu.ptuu.tk
-    ws-opts:
-      path: /
-      headers:
-        Host: eu.ptuu.tk
-  - name: "🏁RELAY-172.67.196.0-0463"
-    type: vmess
-    server: 172.67.196.0
-    port: 443
-    uuid: 4db99e96-3ee3-419c-b1fb-856975801380
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    servername: localhoster.ml
-    ws-opts:
-      path: /ray
-      headers:
-        Host: localhoster.ml
-  - name: "🇰🇷KR-146.56.40.117-0464"
-    type: vmess
-    server: 146.56.40.117
-    port: 27675
-    uuid: 053ca0f4-057e-493d-ad30-5ba51f00f59c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-31.22.109.209-0467"
-    type: vmess
-    server: 31.22.109.209
-    port: 443
-    uuid: 36793d2c-0d5a-4a84-8862-f9c93e9af5b5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /4ba99a39b90faa/
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.223.63.189-0468"
+  - name: "B - 🇯🇵 JP 08 TG: @nodpai"
+    type: vless
+    server: 69.63.218.168
+    port: 10101
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 09 TG: @nodpai"
+    type: vless
+    server: 138.2.71.48
+    port: 28382
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 10 TG: @nodpai"
+    type: vless
+    server: 89.23.108.19
+    port: 4433
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 11 TG: @nodpai"
     type: trojan
-    server: 8.223.63.189
+    server: 198.13.37.176
+    port: 443
+    password: 162534
+    udp: true
+    sni: cchh2.pages.dev
+  - name: "B - 🇯🇵 JP 12 TG: @nodpai"
+    type: vless
+    server: 142.91.108.122
+    port: 443
+    uuid: 54407de7-ef98-4849-b1fb-837a5092d368
+    udp: true
+    tls: true
+    servername: www.microsoft.com
+  - name: "B - 🇯🇵 JP 13 TG: @nodpai"
+    type: trojan
+    server: 219.103.68.164
+    port: 20770
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇯🇵 JP 14 TG: @nodpai"
+    type: vless
+    server: 45.145.41.222
+    port: 48491
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 15 TG: @nodpai"
+    type: vless
+    server: 59.6.239.208
+    port: 18383
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 16 TG: @nodpai"
+    type: trojan
+    server: 140.83.34.214
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇯🇵 JP 17 TG: @nodpai"
+    type: trojan
+    server: 149.28.21.222
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-103.150.8.160-0469"
+  - name: "🇸🇪SE_5|2.7MB/s"
     type: trojan
-    server: 103.150.8.160
-    port: 50888
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-45.40.144.253-0470"
-    type: trojan
-    server: 45.40.144.253
+    server: 185.130.46.81
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇻🇳VN-103.186.155.37-0471"
-    type: ss
-    server: 103.186.155.37
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: "🇳🇱NL-142.93.225.99-0472"
+  - name: "B - 🇯🇵 JP 19 TG: @nodpai"
     type: trojan
-    server: 142.93.225.99
+    server: 45.32.51.200
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇯🇵 JP 20 TG: @nodpai"
+    type: trojan
+    server: 45.11.1.118
+    port: 44004
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇯🇵 JP 21 TG: @nodpai"
+    type: trojan
+    server: 88.214.22.165
+    port: 10563
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇯🇵 JP 22 TG: @nodpai"
+    type: vless
+    server: 192.220.249.130
+    port: 45210
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 23 TG: @nodpai"
+    type: vless
+    server: 185.104.151.190
+    port: 44333
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 24 TG: @nodpai"
+    type: trojan
+    server: 103.31.77.108
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇬SG-159.65.143.223-0473"
+  - name: "B - 🇯🇵 JP 25 TG: @nodpai"
+    type: vless
+    server: 62.60.250.193
+    port: 33496
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 26 TG: @nodpai"
+    type: vless
+    server: 209.97.170.177
+    port: 74
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 27 TG: @nodpai"
+    type: vless
+    server: mfa.gov.ua
+    port: 443
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "B - 🇯🇵 JP 28 TG: @nodpai"
+    type: vless
+    server: 89.22.238.213
+    port: 46209
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "A - 🇸🇬 SG 01 TG: @nodpai"
+    type: vless
+    server: 210.100.161.91
+    port: 10000
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "🇰🇷KR_7|1.2MB/s"
+    type: vless
+    server: 118.37.125.204
+    port: 32771
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "A - 🇸🇬 SG 04 TG: @nodpai"
+    type: vless
+    server: 45.202.113.85
+    port: 2096
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "A - 🇸🇬 SG 05 TG: @nodpai"
+    type: vless
+    server: 185.9.27.146
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 06 TG: @nodpai"
+    type: vless
+    server: cf9.danfeng.eu.org
+    port: 8443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+  - name: "B - 🇸🇬 SG 07 TG: @nodpai"
     type: trojan
-    server: 159.65.143.223
+    server: 47.84.54.115
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-140.83.50.165-0474"
+  - name: "B - 🇸🇬 SG 08 TG: @nodpai"
+    type: vless
+    server: 209.38.46.202
+    port: 2053
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 09 TG: @nodpai"
     type: trojan
-    server: 140.83.50.165
+    server: 138.2.87.237
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-72.56.21.49-0475"
+  - name: "B - 🇸🇬 SG 10 TG: @nodpai"
+    type: vless
+    server: 46.101.156.111
+    port: 2053
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 11 TG: @nodpai"
     type: trojan
-    server: 72.56.21.49
+    server: 66.42.61.215
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-62.84.103.249-0476"
+  - name: "B - 🇸🇬 SG 12 TG: @nodpai"
     type: trojan
-    server: 62.84.103.249
+    server: 47.82.155.79
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-198.46.190.116-0477"
+  - name: "B - 🇸🇬 SG 13 TG: @nodpai"
+    type: vless
+    server: 173.232.146.99
+    port: 2053
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+  - name: "B - 🇸🇬 SG 14 TG: @nodpai"
+    type: vless
+    server: 152.70.253.84
+    port: 8443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 15 TG: @nodpai"
     type: trojan
-    server: 198.46.190.116
+    server: 47.82.155.79
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 16 TG: @nodpai"
+    type: vless
+    server: 185.156.72.199
+    port: 4433
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 17 TG: @nodpai"
+    type: trojan
+    server: 172.236.154.50
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 18 TG: @nodpai"
+    type: vless
+    server: 58.182.142.161
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 19 TG: @nodpai"
+    type: trojan
+    server: 43.134.174.114
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 20 TG: @nodpai"
+    type: vless
+    server: 31.133.0.122
+    port: 2053
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: jbp7i.data-edge.chinav.indevs.in
+  - name: "B - 🇸🇬 SG 21 TG: @nodpai"
+    type: trojan
+    server: 165.232.165.200
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 22 TG: @nodpai"
+    type: trojan
+    server: 159.89.205.195
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 23 TG: @nodpai"
+    type: trojan
+    server: 5.34.176.71
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 24 TG: @nodpai"
+    type: trojan
+    server: 174.138.24.153
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 25 TG: @nodpai"
+    type: trojan
+    server: 209.97.171.87
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 26 TG: @nodpai"
+    type: trojan
+    server: 167.71.221.62
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 27 TG: @nodpai"
+    type: trojan
+    server: 5.34.176.240
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 28 TG: @nodpai"
+    type: trojan
+    server: 47.82.178.58
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 29 TG: @nodpai"
+    type: trojan
+    server: 129.212.233.197
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇸🇬 SG 30 TG: @nodpai"
+    type: trojan
+    server: 178.128.60.89
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "C_-_🇸🇬_SG_31_TG:_@nodpai"
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "B - 🇺🇸 US 01 TG: @nodpai"
+    type: trojan
+    server: 178.128.190.138
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 02 TG: @nodpai"
+    type: trojan
+    server: 142.171.214.164
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 03 TG: @nodpai"
+    type: trojan
+    server: 157.245.178.181
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 04 TG: @nodpai"
+    type: trojan
+    server: 31.58.50.114
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-185.52.0.84-0478"
+  - name: "B - 🇺🇸 US 05 TG: @nodpai"
     type: trojan
-    server: 185.52.0.84
+    server: 50.62.88.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-172.245.246.110-0480"
+  - name: "B - 🇺🇸 US 06 TG: @nodpai"
     type: trojan
-    server: 172.245.246.110
+    server: 50.62.198.253
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-185.184.122.243-0481"
+  - name: "B - 🇺🇸 US 07 TG: @nodpai"
     type: trojan
-    server: 185.184.122.243
+    server: 31.59.136.20
     port: 443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇯🇵JP-139.162.117.173-0482"
-    type: vmess
-    server: 139.162.117.173
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /chat
-      headers:
-        Host: 
-  - name: "🇯🇵JP-168.138.44.176-0483"
+  - name: "B - 🇺🇸 US 08 TG: @nodpai"
     type: trojan
-    server: 168.138.44.176
+    server: 149.104.110.97
     port: 443
-    password: 8d2d5953-d649-4034-94f2-72f2df2623da
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🇰🇷KR-138.2.113.248-0484"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 09 TG: @nodpai"
     type: trojan
-    server: 138.2.113.248
+    server: 23.177.185.138
     port: 443
-    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🇲🇴MO-45.64.22.55-0485"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 10 TG: @nodpai"
     type: trojan
-    server: 45.64.22.55
-    port: 443
-    password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+    server: 172.66.42.200
+    port: 2083
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-    sni: stutter.freetrade.link
-  - name: "🇭🇰HK-104.208.96.44-0486"
-    type: vmess
-    server: 104.208.96.44
-    port: 80
-    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /zh-cn/download
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.215.250-0487"
-    type: vmess
-    server: hk80.sanfen001.pics
-    port: 80
-    uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: hk80.sanfen001.pics
-    ws-opts:
-      path: /zh-cn/download
-      headers:
-        Host: hk80.sanfen001.pics
-  - name: "🇺🇸US-128.14.162.48-0488"
-    type: vmess
-    server: 128.14.162.48
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.66.40.10-0490"
-    type: vmess
-    server: 172.66.40.10
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 38.72img.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 38.72img.xyz
-  - name: "🏁RELAY-141.101.114.100-0491"
-    type: vmess
-    server: 141.101.114.100
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn2.xyz
-    ws-opts:
-      path: /VHONOFZ3
-      headers:
-        Host: lg1.cfcdn2.xyz
-  - name: "🇺🇸US-13.248.169.48-0492"
-    type: vmess
-    server: zhuyong.hucloud-dns.xyz
-    port: 443
-    uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: zhuyong.hucloud-dns.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: zhuyong.hucloud-dns.xyz
-  - name: "🏁RELAY-141.101.114.120-0493"
-    type: vmess
-    server: 141.101.114.120
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.64.153.155-0494"
-    type: vmess
-    server: 172.64.153.155
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 
-  - name: "🏁RELAY-141.101.114.150-0495"
-    type: vmess
-    server: 141.101.114.150
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-198.41.203.5-0496"
-    type: vmess
-    server: 198.41.203.5
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg30.cfcdn3.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-  - name: "🏁RELAY-172.66.43.1-0497"
-    type: vmess
-    server: 172.66.43.1
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 38.72img.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 38.72img.xyz
-  - name: "🏁RELAY-198.41.203.6-0498"
-    type: vmess
-    server: 198.41.203.6
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fr2.cfcdn4.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-198.41.203.3-0499"
-    type: vmess
-    server: 198.41.203.3
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 
-  - name: "🏁RELAY-141.101.114.102-0501"
-    type: vmess
-    server: 141.101.114.102
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-104.21.8.116-0503"
-    type: vmess
-    server: uk.xlkjjs.top
-    port: 443
-    uuid: 6ea22ab5-2923-3feb-827c-79e4b8cd3f38
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: uk.xlkjjs.top
-    ws-opts:
-      path: /
-      headers:
-        Host: uk.xlkjjs.top
-  - name: "🇺🇸US-129.146.190.42-0504"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 11 TG: @nodpai"
     type: trojan
-    server: 129.146.190.42
-    port: 443
-    password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+    server: 85.209.195.61
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🇺🇸US-129.146.135.157-0505"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 12 TG: @nodpai"
     type: trojan
-    server: 129.146.135.157
-    port: 443
-    password: e23f408a-012e-4030-8b31-02022031cb50
+    server: 148.135.95.114
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-172.64.152.150-0507"
-    type: vmess
-    server: 172.64.152.150
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.121-0508"
-    type: vmess
-    server: 141.101.115.121
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg30.cfcdn3.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-  - name: "🇰🇷KR-146.56.162.25-0509"
-    type: vmess
-    server: 146.56.162.25
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg30.cfcdn3.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-  - name: "🇮🇳IN-152.67.160.174-0510"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇺🇸US_6|1.2MB/s"
     type: trojan
-    server: 152.67.160.174
+    server: 142.252.220.13
     port: 443
-    password: 54080134-2cba-4535-8599-95650bd9aa54
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-141.101.114.25-0511"
-    type: vmess
-    server: 141.101.114.25
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg30.cfcdn3.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-  - name: "🏁RELAY-104.21.89.56-0512"
-    type: vmess
-    server: surongwei.eu.org
-    port: 443
-    uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: surongwei.eu.org
-    ws-opts:
-      path: /reffs7y26g0ua
-      headers:
-        Host: surongwei.eu.org
-  - name: "🏁RELAY-172.67.73.39-0513"
-    type: vmess
-    server: hynesconstruction.com
-    port: 443
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: sg1-v2ray.sshkit.org
-    ws-opts:
-      path: /sshkit/401452697/635b464921141/
-      headers:
-        Host: sg1-v2ray.sshkit.org
-  - name: "🏁RELAY-172.67.125.28-0515"
-    type: vmess
-    server: 172.67.125.28
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 38.72img.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 38.72img.xyz
-  - name: "🇺🇸US-129.146.242.130-0516"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 14 TG: @nodpai"
     type: trojan
-    server: 129.146.242.130
-    port: 443
-    password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+    server: 31.58.50.114
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🇺🇸US-128.14.140.254-0517"
-    type: vmess
-    server: 128.14.140.254
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: v2ray2.ssr-free2.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray2.ssr-free2.xyz
-  - name: "🇮🇳IN-155.248.241.52-0518"
-    type: vmess
-    server: 155.248.241.52
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-141.101.114.111-0519"
-    type: vmess
-    server: 141.101.114.111
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fr2.cfcdn4.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-172.64.154.102-0520"
-    type: vmess
-    server: 172.64.154.102
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-198.41.212.145-0521"
-    type: vmess
-    server: 198.41.212.145
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn3.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: lg1.cfcdn3.xyz
-  - name: "🏁RELAY-104.29.64.2-0522"
-    type: vmess
-    server: 104.29.64.2
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fr2.cfcdn4.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-  - name: "🇻🇳VN-103.161.112.225-0523"
-    type: vmess
-    server: 103.161.112.225
-    port: 80
-    uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vpndata.shop
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.64.154.155-0524"
-    type: vmess
-    server: 172.64.154.155
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-172.67.183.35-0526"
-    type: vmess
-    server: 172.67.183.35
-    port: 443
-    uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 38.72img.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 38.72img.xyz
-  - name: "🏁RELAY-172.64.154.222-0529"
-    type: vmess
-    server: 172.64.154.222
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn1.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-  - name: "🏁RELAY-141.101.114.20-0530"
-    type: vmess
-    server: 141.101.114.20
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash1.trump2023.net
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash1.trump2023.net
-  - name: "🏁RELAY-141.101.115.140-0534"
-    type: vmess
-    server: 141.101.115.140
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.133-0537"
-    type: vmess
-    server: 141.101.115.133
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn1.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-  - name: "🇫🇷FR-176.31.83.90-0538"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 15 TG: @nodpai"
     type: trojan
-    server: 176.31.83.90
-    port: 443
-    password: origin
+    server: 192.210.217.68
+    port: 2087
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-141.101.115.120-0539"
-    type: vmess
-    server: 141.101.115.120
-    port: 443
-    uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: 
-  - name: "🏁RELAY-141.101.114.133-0540"
-    type: vmess
-    server: 141.101.114.133
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn1.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-  - name: "🏁RELAY-141.101.115.111-0541"
-    type: vmess
-    server: 141.101.115.111
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fr2.cfcdn4.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-141.101.115.136-0542"
-    type: vmess
-    server: 141.101.115.136
-    port: 443
-    uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg1.cfcdn1.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg1.cfcdn1.xyz
-  - name: "🇺🇸US-66.212.20.3-0543"
-    type: vmess
-    server: 66.212.20.3
-    port: 443
-    uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: v2ray2.ssr-free2.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: v2ray2.ssr-free2.xyz
-  - name: "🏁RELAY-198.41.212.100-0545"
-    type: vmess
-    server: 198.41.212.100
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: lg30.cfcdn3.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: lg30.cfcdn3.xyz
-  - name: "🇳🇱NL-94.102.53.19-0546"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 16 TG: @nodpai"
     type: trojan
-    server: 94.102.53.19
-    port: 443
-    password: TestingServer@@
+    server: 94.183.185.28
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-172.64.154.150-0549"
-    type: vmess
-    server: 172.64.154.150
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🏁RELAY-141.101.115.100-0550"
-    type: vmess
-    server: 141.101.115.100
-    port: 443
-    uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /VHONOFZ3
-      headers:
-        Host: 
-  - name: "🏁RELAY-141.101.114.17-0551"
-    type: vmess
-    server: 141.101.114.17
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🇨🇦CA-148.113.141.99-0552"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 17 TG: @nodpai"
     type: trojan
-    server: 148.113.141.99
+    server: 20.106.211.232
     port: 443
-    password: HdsUZmsHQW
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-198.41.212.122-0553"
-    type: vmess
-    server: 198.41.212.122
-    port: 443
-    uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fr2.cfcdn4.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: fr2.cfcdn4.xyz
-  - name: "🏁RELAY-141.101.115.160-0557"
-    type: vmess
-    server: 141.101.115.160
-    port: 443
-    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash6.ssr-free.xyz
-    ws-opts:
-      path: /dongtaiwang.com
-      headers:
-        Host: clash6.ssr-free.xyz
-  - name: "🇺🇸US-185.212.200.75-0560"
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 18 TG: @nodpai"
     type: trojan
-    server: 185.212.200.75
+    server: 144.31.104.3
     port: 443
-    password: Sp3eDVp
+    password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
-  - name: "🏁RELAY-172.67.170.169-0561"
-    type: vmess
-    server: buyvm.imkcp.eu.org
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 19 TG: @nodpai"
+    type: trojan
+    server: 23.168.72.17
     port: 443
-    uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-    alterId: 0
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 20 TG: @nodpai"
+    type: trojan
+    server: 43.162.119.244
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 21 TG: @nodpai"
+    type: trojan
+    server: 107.174.245.19
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 22 TG: @nodpai"
+    type: trojan
+    server: 142.171.243.204
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 23 TG: @nodpai"
+    type: trojan
+    server: 144.31.65.66
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 24 TG: @nodpai"
+    type: trojan
+    server: 34.219.143.144
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 25 TG: @nodpai"
+    type: trojan
+    server: 2.26.110.36
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 26 TG: @nodpai"
+    type: trojan
+    server: 72.56.98.157
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 27 TG: @nodpai"
+    type: trojan
+    server: 173.230.145.212
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 28 TG: @nodpai"
+    type: trojan
+    server: 150.136.61.82
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 29 TG: @nodpai"
+    type: trojan
+    server: 199.119.137.41
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 30 TG: @nodpai"
+    type: trojan
+    server: 107.172.137.69
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 31 TG: @nodpai"
+    type: trojan
+    server: 72.56.71.235
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 32 TG: @nodpai"
+    type: trojan
+    server: 72.56.103.129
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 33 TG: @nodpai"
+    type: trojan
+    server: 72.56.108.132
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 34 TG: @nodpai"
+    type: trojan
+    server: 45.67.202.88
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 35 TG: @nodpai"
+    type: trojan
+    server: 34.16.97.144
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 36 TG: @nodpai"
+    type: trojan
+    server: 172.235.51.42
+    port: 443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "B - 🇺🇸 US 37 TG: @nodpai"
+    type: trojan
+    server: azerb.net
+    port: 443
+    password: trojan
+    udp: true
+    sni: store.timimi.dpdns.org
+  - name: "C - 🇺🇸 US 38 TG: @nodpai"
+    type: vless
+    server: 162.159.45.207
+    port: 443
+    uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+    udp: true
+  - name: "🇮🇳IN_@WangCai_8"
+    type: hysteria2
+    server: 13.233.132.27
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    udp: true
+  - name: "🇭🇰HK_@WangCai_8"
+    type: hysteria2
+    server: 202.146.222.30
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    udp: true
+  - name: "@Proxy_Vpney v+p (4)"
+    type: hysteria2
+    server: 45.81.19.251
+    port: 443
+    password: DBUklcvOyH
+    udp: true
+  - name: "Telegram : @V2ynpv"
+    type: hysteria2
+    server: 5.175.249.174
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    udp: true
+  - name: "tg频道:@ripaojiedian #1"
+    type: ss
+    server: 63.180.254.10
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇭🇰_香港|@ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
-    network: ws
-    tls: true
-    servername: buyvm.imkcp.eu.org
-    ws-opts:
-      path: /imkcpyyds
-      headers:
-        Host: buyvm.imkcp.eu.org
+    network: tcp
+  - name: "香港3|@ripaojiedian"
+    type: trojan
+    server: 35.72.180.73
+    port: 53018
+    password: a922dfbe65cf53c7bc225fcfeb6cedbc
+    udp: true
+    sni: www.nintendogames.net
+  - name: "香港4|@ripaojiedian"
+    type: trojan
+    server: 18.166.210.152
+    port: 54708
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "香港5|@ripaojiedian"
+    type: trojan
+    server: 18.162.145.230
+    port: 11233
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
