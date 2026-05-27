@@ -639,12 +639,18 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇨🇦CA-85.208.108.59-5634"
-    type: ss
-    server: 85.208.108.59
-    port: 9102
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
+  - name: "🇭🇰HK-8.217.187.15-7303"
+    type: vmess
+    server: 8.217.187.15
+    port: 31254
+    uuid: 338938c6-4acd-413e-959c-cae13b21b9e6
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
   - name: "🇺🇸US-66.253.7.254-7304"
     type: vmess
     server: 66.253.7.254

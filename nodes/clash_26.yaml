@@ -113,24 +113,32 @@ proxies:
     port: 5500
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
-  - name: "🇩🇪DE-145.239.1.100-5585"
+  - name: "🇸🇬SG-13.213.2.160-3772"
     type: ss
-    server: 145.239.1.100
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇩🇪DE-145.239.1.100-5587"
+    server: 13.213.2.160
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇲🇦MA-154.70.207.97-0191"
     type: ss
-    server: 145.239.1.100
-    port: 5004
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "🇫🇷FR-149.202.82.172-5588"
-    type: ss
-    server: 149.202.82.172
-    port: 8118
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
+    server: 154.70.207.97
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "🏁RELAY-172.67.71.160-7530"
+    type: vmess
+    server: 172.67.71.160
+    port: 443
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: obdii.cfd
+    ws-opts:
+      path: /linkws
+      headers:
+        Host: obdii.cfd
   - name: "🇩🇪DE-145.239.1.100-5589"
     type: ss
     server: 145.239.1.100
@@ -269,30 +277,24 @@ proxies:
     port: 5001
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.64.138.145-0297"
+  - name: "🇨🇦CA-85.208.108.59-5631"
     type: ss
-    server: 38.64.138.145
-    port: 8080
+    server: 85.208.108.59
+    port: 8090
     cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇵🇱PL-217.30.10.70-0241"
+    password: PCnnH6SQSnfoS27
+  - name: "🇨🇦CA-85.208.108.21-5633"
     type: ss
-    server: 217.30.10.70
-    port: 9053
-    cipher: aes-256-cfb
-    password: SBM7R883jBmnqe6C
-  - name: "🇭🇰HK-8.217.187.15-7303"
-    type: vmess
-    server: 8.217.187.15
-    port: 31254
-    uuid: 338938c6-4acd-413e-959c-cae13b21b9e6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
+    server: 85.208.108.21
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇨🇦CA-85.208.108.59-5634"
+    type: ss
+    server: 85.208.108.59
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
   - name: "🇨🇦CA-85.208.108.58-5635"
     type: ss
     server: 85.208.108.58

@@ -440,12 +440,12 @@ proxies:
       path: /anti13.zingfast.vn
       headers:
         Host: 
-  - name: "🇰🇷KR-141.164.45.187-0158"
+  - name: "🇹🇼TW-46.249.109.128-4673"
     type: ss
-    server: 141.164.45.187
-    port: 6679
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
+    server: download.riferoser.icu
+    port: 56594
+    cipher: chacha20-ietf-poly1305
+    password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
   - name: "🇸🇬SG-54.169.245.181-4675"
     type: trojan
     server: engaged-ram.rooster465.autos
@@ -458,39 +458,24 @@ proxies:
     port: 3462
     password: 736cd94d-7b94-3e44-8106-3419f64eaf09
     udp: true
-  - name: "🇨🇦CA-23.162.200.227-0146"
-    type: vmess
-    server: 23.162.200.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇨🇦CA-134.195.198.147-0124"
-    type: vmess
-    server: 134.195.198.147
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: inna.cfd
-    ws-opts:
-      path: /
-      headers:
-        Host: inna.cfd
-  - name: "🇺🇸US-52.207.245.144-0087"
+  - name: "🇪🇸ES-5.188.181.201-4678"
     type: ss
-    server: 52.207.245.144
-    port: 443
+    server: 5.188.181.201
+    port: 9005
     cipher: aes-256-cfb
-    password: amazonskr05
+    password: ZET59LF6DvCC8KVt
+  - name: "🇪🇸ES-5.188.181.201-4679"
+    type: ss
+    server: 5.188.181.201
+    port: 9031
+    cipher: aes-256-cfb
+    password: BwcAUZk8hUFAkDGN
+  - name: "🇬🇧GB-146.70.61.37-4698"
+    type: ss
+    server: 146.70.61.37
+    port: 8080
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
   - name: "🇰🇷KR-13.125.84.24-4700"
     type: trojan
     server: touching-pigeon.rooster465.autos
@@ -521,26 +506,18 @@ proxies:
     port: 443
     password: IL37892054
     udp: true
-  - name: "🇺🇸US-45.145.74.91-0077"
-    type: trojan
-    server: a2.okz2.com
-    port: 50001
-    password: 35a3b37b-9fb4-4b0c-91b4-2b3e738af930
-    udp: true
-  - name: "🇭🇰HK-8.218.208.240-0071"
-    type: vmess
-    server: xia.xiaxiang.top
-    port: 443
-    uuid: 75386430-93e2-41d3-8fd0-1be083c517cc
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: xia.xiaxiang.top
-    ws-opts:
-      path: /cyoqvws
-      headers:
-        Host: xia.xiaxiang.top
+  - name: "🇸🇬SG-103.36.91.32-4708"
+    type: ss
+    server: 103.36.91.32
+    port: 8388
+    cipher: chacha20-ietf
+    password: asd123456
+  - name: "🇭🇰HK-203.23.128.92-4712"
+    type: ss
+    server: 203.23.128.92
+    port: 990
+    cipher: chacha20-ietf-poly1305
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   - name: "🇭🇰HK-43.198.75.77-4713"
     type: vmess
     server: bgroup.node4.v.nodelist-airport.com
@@ -584,20 +561,19 @@ proxies:
     port: 443
     password: WF42809561
     udp: true
-  - name: "🇺🇸US-172.239.193.198-0069"
+  - name: "🇺🇸US-205.185.124.145-0053"
     type: vmess
-    server: sh.moonfree.top
-    port: 11263
-    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
-    alterId: 0
+    server: 205.185.124.145
+    port: 85
+    uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
+    alterId: 2
     cipher: auto
     network: ws
-    tls: true
-    servername: ocrb1.moonfree.top
+    servername: 205.185.124.145
     ws-opts:
-      path: /
+      path: /v2ray
       headers:
-        Host: ocrb1.moonfree.top
+        Host: 205.185.124.145
   - name: "🇯🇵JP-3.113.25.200-4727"
     type: trojan
     server: engaging-toucan.rooster465.autos
@@ -616,117 +592,12 @@ proxies:
     port: 443
     password: ZY07256934
     udp: true
-  - name: "🇺🇸US-172.239.193.198-0068"
-    type: vmess
-    server: sh.moonfree.top
-    port: 11262
-    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: ocrb2.moonfree.top
-    ws-opts:
-      path: /
-      headers:
-        Host: ocrb2.moonfree.top
-  - name: "🇺🇸US-13.248.169.48-0067"
-    type: vmess
-    server: 51us.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 51us.fans8.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 51us.fans8.xyz
-  - name: "🇰🇷KR-3.34.143.133-4748"
-    type: trojan
-    server: growing-tuna.rooster465.autos
-    port: 443
-    password: IL37892054
-    udp: true
-  - name: "🇷🇺RU-45.139.25.43-4750"
+  - name: "🇳🇬NG-185.255.123.110-4741"
     type: ss
-    server: 45.139.25.43
-    port: 442
-    cipher: aes-128-gcm
-    password: 6784aee2-0dfe-474f-8446-480259ff9918
-  - name: "🇺🇸US-23.19.26.217-0059"
-    type: vmess
-    server: 23.19.26.217
-    port: 50719
-    uuid: 57242145-e59e-47b7-aaba-2ef2892161af
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /tmfe9GgD/
-      headers:
-        Host: 
-  - name: "🇺🇸US-88.210.36.106-4754"
-    type: ss
-    server: 88.210.36.106
-    port: 2377
+    server: 185.255.123.110
+    port: 990
     cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  - name: "🇺🇸US-54.184.22.123-4757"
-    type: trojan
-    server: nearby-muskrat.rooster465.autos
-    port: 443
-    password: WF42809561
-    udp: true
-  - name: "🇺🇸US-172.239.34.52-0056"
-    type: vmess
-    server: ocrb2.moonfree.top
-    port: 443
-    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: ocrb2.moonfree.top
-    ws-opts:
-      path: /
-      headers:
-        Host: ocrb2.moonfree.top
-  - name: "🇿🇦ZA-20.87.107.99-4772"
-    type: ss
-    server: 20.87.107.99
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: akMKO9KXowxFcx5A
-  - name: "🇺🇸US-208.98.48.2-0054"
-    type: vmess
-    server: 208.98.48.2
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: 4
-    cipher: auto
-    network: ws
-    tls: true
-    servername: iesei1ei.com
-    ws-opts:
-      path: /ws
-      headers:
-        Host: iesei1ei.com
-  - name: "🇺🇸US-205.185.124.145-0053"
-    type: vmess
-    server: 205.185.124.145
-    port: 85
-    uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
-    alterId: 2
-    cipher: auto
-    network: ws
-    servername: 205.185.124.145
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: 205.185.124.145
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   - name: "🇺🇸US-13.248.169.48-0050"
     type: vmess
     server: 521sg.fans8.xyz
@@ -741,12 +612,36 @@ proxies:
       path: /ray
       headers:
         Host: 521sg.fans8.xyz
-  - name: "🇺🇸US-167.172.249.115-4791"
+  - name: "🇰🇷KR-3.34.143.133-4748"
+    type: trojan
+    server: growing-tuna.rooster465.autos
+    port: 443
+    password: IL37892054
+    udp: true
+  - name: "🇷🇺RU-45.139.25.43-4750"
     type: ss
-    server: 167.172.249.115
-    port: 41195
+    server: 45.139.25.43
+    port: 442
+    cipher: aes-128-gcm
+    password: 6784aee2-0dfe-474f-8446-480259ff9918
+  - name: "🇵🇱PL-217.30.10.70-4753"
+    type: ss
+    server: 217.30.10.70
+    port: 9040
+    cipher: aes-256-cfb
+    password: p9z5BVADH2YFs3MN
+  - name: "🇺🇸US-88.210.36.106-4754"
+    type: ss
+    server: 88.210.36.106
+    port: 2377
     cipher: chacha20-ietf-poly1305
-    password: SUSbr2eLCXmbc64xOHhgEt
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  - name: "🇺🇸US-54.184.22.123-4757"
+    type: trojan
+    server: nearby-muskrat.rooster465.autos
+    port: 443
+    password: WF42809561
+    udp: true
   - name: "🇺🇸US-13.248.169.48-0049"
     type: vmess
     server: 422wkl.fans8.xyz
@@ -761,3 +656,71 @@ proxies:
       path: /ray
       headers:
         Host: 422wkl.fans8.xyz
+  - name: "🇿🇦ZA-20.87.107.99-4772"
+    type: ss
+    server: 20.87.107.99
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: akMKO9KXowxFcx5A
+  - name: "🏁RELAY-172.64.81.27-0048"
+    type: vmess
+    server: 172.64.81.27
+    port: 443
+    uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: sg.wweblog.pw
+    ws-opts:
+      path: /xxX6
+      headers:
+        Host: sg.wweblog.pw
+  - name: "🏁RELAY-172.64.147.71-0047"
+    type: vmess
+    server: 172.64.147.71
+    port: 443
+    uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: sg.wweblog.pw
+    ws-opts:
+      path: /xxX8
+      headers:
+        Host: sg.wweblog.pw
+  - name: "🇺🇸US-13.248.169.48-0046"
+    type: vmess
+    server: 523hk1.fans8.xyz
+    port: 443
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    alterId: 2
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 523hk1.fans8.xyz
+    ws-opts:
+      path: /ray
+      headers:
+        Host: 523hk1.fans8.xyz
+  - name: "🇺🇸US-167.172.249.115-4791"
+    type: ss
+    server: 167.172.249.115
+    port: 41195
+    cipher: chacha20-ietf-poly1305
+    password: SUSbr2eLCXmbc64xOHhgEt
+  - name: "🇺🇸US-172.236.100.134-0039"
+    type: vmess
+    server: oz.moonfree.top
+    port: 443
+    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: oz.moonfree.top
+    ws-opts:
+      path: /
+      headers:
+        Host: oz.moonfree.top

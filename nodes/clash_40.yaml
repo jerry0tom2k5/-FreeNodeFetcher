@@ -97,20 +97,12 @@ proxies:
       path: /
       headers:
         Host: obdii.cfd
-  - name: "🏁RELAY-172.67.71.160-7530"
-    type: vmess
-    server: 172.67.71.160
-    port: 443
-    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: obdii.cfd
-    ws-opts:
-      path: /linkws
-      headers:
-        Host: obdii.cfd
+  - name: "🇫🇷FR-149.202.82.172-5588"
+    type: ss
+    server: 149.202.82.172
+    port: 8118
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
   - name: "🏁RELAY-172.67.198.187-7531"
     type: vmess
     server: 172.67.198.187

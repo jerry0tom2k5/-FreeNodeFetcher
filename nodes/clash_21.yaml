@@ -1,32 +1,24 @@
 proxies:
-  - name: "🏁RELAY-172.64.81.27-0048"
+  - name: "🇫🇷FR-104.166.135.10-0038"
     type: vmess
-    server: 172.64.81.27
+    server: 104.166.135.10
     port: 443
-    uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
-    alterId: 0
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: 4
     cipher: auto
     network: ws
     tls: true
-    servername: sg.wweblog.pw
+    servername: ahdaeph8.com
     ws-opts:
-      path: /xxX6
+      path: /ws
       headers:
-        Host: sg.wweblog.pw
-  - name: "🏁RELAY-172.64.147.71-0047"
-    type: vmess
-    server: 172.64.147.71
-    port: 443
-    uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: sg.wweblog.pw
-    ws-opts:
-      path: /xxX8
-      headers:
-        Host: sg.wweblog.pw
+        Host: ahdaeph8.com
+  - name: "🇺🇸US-45.55.40.127-4803"
+    type: ss
+    server: 45.55.40.127
+    port: 49726
+    cipher: chacha20-ietf-poly1305
+    password: elTuo73FsQwO90EbLo96Ve
   - name: "🇺🇸US-38.180.193.194-4805"
     type: trojan
     server: 38.180.193.194
