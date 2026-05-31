@@ -1,4 +1,735 @@
 proxies:
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v10.hdacd.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: cu7.ainivp.com
+    port: 33414
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: cu7.ainivp.com
+    ws-opts:
+      path: /ray
+      headers:
+        Host: cu7.ainivp.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: dotu-twv1.kunlun03dns.com
+    port: 11113
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: dotu-twv1.kunlun03dns.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: dotu-jpv1.kunlun03dns.com
+    port: 11121
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: dotu-jpv1.kunlun03dns.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11144
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: dotu-krv1.kunlun03dns.com
+  - name: "🇯🇵_JP日本(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: cu2.ainivp.com
+    port: 33203
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: cu2.ainivp.com
+    ws-opts:
+      path: /ray
+      headers:
+        Host: cu2.ainivp.com
+  - name: "🇳🇴 挪威(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 193.180.209.21
+    port: 443
+    password: rYuChHcwQZskq9E0zdoR
+    udp: true
+    sni: vpn5.rnmcnm.com
+  - name: "🇳🇴 挪威(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 2.56.204.246
+    port: 443
+    password: rYuChHcwQZskq9E0zdoR
+    udp: true
+    sni: vpn5.rnmcnm.com
+  - name: "🇳🇴 挪威(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 125.7.24.251
+    port: 443
+    password: rYuChHcwQZskq9E0zdoR
+    udp: true
+    sni: vpn5.rnmcnm.com
+  - name: "🇳🇴 挪威(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 103.63.30.230
+    port: 443
+    password: rYuChHcwQZskq9E0zdoR
+    udp: true
+    sni: vpn5.rnmcnm.com
+  - name: "🇳🇴 挪威(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.152.48.205
+    port: 443
+    password: rYuChHcwQZskq9E0zdoR
+    udp: true
+    sni: vpn5.rnmcnm.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v36.hdacd.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v4.hdacd.com
+    port: 30804
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v4.hdacd.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: tinkered-pennies-puppies.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hbGrpfvNrJsUmKmPbR3iY2
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 2a02:6ea0:d32f::f8fe:349b
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 2a02:6ea0:d32f::f8fe:349b
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v29.hdacd.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v10.hdacd.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: jpbgp.netvigor.cc
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 211.76.176.98
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v24.hdacd.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: fra35.chasem2026sud.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v9.hdacd.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v35.hdacd.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: t.me%2Fripaojiedian
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: chengbai02.ascwt179.com
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: 202.85.76.170
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇲🇾_马来西亚(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v29.hdacd.com
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 121.178.83.161
+    port: 26214
+    password: GKHWMe2R4qwNcNxu6l3KMkdd
+    udp: true
+    sni: vpn1.rnmcnm.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: dotu-krv1.kunlun03dns.com
+    port: 11146
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: dotu-krv1.kunlun03dns.com
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 59.21.203.65
+    port: 10443
+    password: GKHWMe2R4qwNcNxu6l3KMkdd
+    udp: true
+    sni: vpn1.rnmcnm.com
+  - name: "🇭🇰_HK香港(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: yd4.ainivp.com
+    port: 33204
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: yd4.ainivp.com
+    ws-opts:
+      path: /ray
+      headers:
+        Host: yd4.ainivp.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: dotu-usv1.kunlun03dns.com
+    port: 11129
+    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: dotu-usv1.kunlun03dns.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.21.40.34
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.gossipglove.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: www.gossipglove.com
+    port: 443
+    password: humanity
+    udp: true
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 59.30.42.194
+    port: 12345
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
+    udp: true
+    sni: vpn.rnmcnm.com
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.250
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: kfm-bn0.pages.dev
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: epge.muarua.filegear-sg.me
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: jflsjlaf.pages.dev
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: jflsjlaf.pages.dev
+  - name: "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
+    type: ss
+    server: hackney-latest-strike.freesocks.work
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: XUMTygEM1jVYIvysXKqA5T
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: kfm-bn0.pages.dev
+  - name: "🇩🇪_DE德国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.250
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: jp2-8sb.6121999.dpdns.org
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: epge.muarua.filegear-sg.me
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: trojan.burgerip.co.uk
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: jp2-8sb.6121999.dpdns.org
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: fra33.chasem2026sud.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: fra34.chasem2026sud.com
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.214
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.37
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: trojan.burgerip.co.uk
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: t.me%252Fripaojiedian
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: ads.x5.ru
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: ads.x5.ru
+  - name: "🇺🇸_US美国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 103.181.164.145
+  - name: "🇬🇧_GB英国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇬🇧_GB英国(mibei77.com_米贝节点分享)"
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 121.180.171.43
+    port: 11310
+    password: GKHWMe2R4qwNcNxu6l3KMkdd
+    udp: true
+    sni: vpn1.rnmcnm.com
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 59.21.203.65
+    port: 10443
+    password: GKHWMe2R4qwNcNxu6l3KMkdd
+    udp: true
+    sni: vpn1.rnmcnm.com
+  - name: "8元老牌专线机场：cczzuu.top"
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: efan.dnsefan04881.com
+  - name: "🇨🇳 台湾省 starcorenode.com"
+    type: trojan
+    server: 211.76.176.98
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇺🇸_美国_starcorenode.com"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: gtm-sg-cc54q7d1q01.365cloud0285.com
+  - name: "亚太地区_starcorenode.com"
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇬🇧_英国_starcorenode.com"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "亚太地区_starcorenode.com_2"
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸 美国 starcorenode.com 2"
+    type: ss
+    server: 149.104.109.74
+    port: 21273
+    cipher: chacha20-ietf-poly1305
+    password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  - name: "_CN_中国"
+    type: ss
+    server: mofacpdd.til69.com
+    port: 41921
+    cipher: chacha20-ietf-poly1305
+    password: 5d68d91f-ccc5-4c00-b1f6-0d764937f4f6
+  - name: "🇺🇸 _US_美国"
+    type: trojan
+    server: 216.24.57.250
+    port: 443
+    password: 5027e2a4-c4d2-463a-9508-83a2c7d1ad83
+    udp: true
+    sni: afrcloud1.mmv.kr
   - name: "美国_V2CROSS.COM"
     type: vmess
     server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -7,64 +738,14 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 104.20.6.134
-    port: 2052
-    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-    udp: true
-  - name: "美国+V2CROSS.COM"
-    type: vless
-    server: 192.200.160.252
-    port: 443
-    uuid: 5b6be23b-dff4-428f-8a60-4f11568abe12
-    udp: true
-    tls: true
-    servername: sync.amordad.xyz
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 162.159.152.4
-    port: 443
-    uuid: f2a73750-3087-48ff-a763-1348c15dce68
-    udp: true
-    tls: true
-    servername: rAyAn-007.mAxImA.DpDnS.OrG
   - name: "俄罗斯+V2CROSS.COM"
     type: vless
-    server: 85.234.114.53
-    port: 443
+    server: r1.mizulina.top
+    port: 22231
     uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     udp: true
     tls: true
     servername: r1.mizulina.top
-  - name: "巴林+V2CROSS.COM"
-    type: vless
-    server: ddfs.ummapeople.online
-    port: 443
-    uuid: ac195240-6005-412b-9829-1e56e5d5c52a
-    udp: true
-  - name: "美国+加利福尼亚"
-    type: vless
-    server: 64.176.36.17
-    port: 443
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    udp: true
-    tls: true
-    servername: i8dxb.media-cdn-us.chinav.indevs.in
-  - name: "美国+V2CROSS.COM"
-    type: vless
-    server: 63.141.128.5
-    port: 2083
-    uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
-    udp: true
-    tls: true
-    servername: mzaxmc.lizardshop.org
-  - name: "意大利+V2CROSS.COM"
-    type: ss
-    server: 185.213.20.110
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
   - name: "美国+V2CROSS.COM"
     type: ss
     server: 149.28.255.6
@@ -72,82 +753,79 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: GyZ5Xo0ht41vYmW3H4
   - name: "美国+CloudFlare节点"
+    type: vless
+    server: 198.41.219.218
+    port: 443
+    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+    udp: true
+    tls: true
+    servername: zyzzzoao.xn--fiqv8j.eu.org
+  - name: "保加利亚+V2CROSS.COM"
+    type: vless
+    server: 87.120.93.244
+    port: 443
+    uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
+    udp: true
+    tls: true
+    servername: sub.sbrf-cdn342.ru
+  - name: "美国+Microsoft数据中心"
+    type: ss
+    server: 20.164.221.1
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: dhUfc0noSQDTLOAR
+  - name: "委内瑞拉+V2CROSS.COM"
+    type: vless
+    server: 158.160.184.220
+    port: 443
+    uuid: 329f5c49-c8a1-46e0-8e4d-79b0bebdc59e
+    udp: true
+  - name: "德国+V2CROSS.COM"
+    type: vless
+    server: 194.59.183.234
+    port: 666
+    uuid: @IR_NETLIFY
+    udp: true
+  - name: "美国+CloudFlare节点"
     type: trojan
-    server: v1.dabache.top
+    server: 104.20.6.134
     port: 443
     password: humanity
     udp: true
-    sni: www.multiplydose.com
-  - name: "美国_V2CROSS.COM"
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6003
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: wangcai15.cloudflare.182682.xyz
-    port: 8880
-    uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-    udp: true
-  - name: "亚太地区_V2CROSS.COM"
-    type: vmess
-    server: dotu-twv1.kunlun03dns.com
-    port: 11113
-    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-    alterId: 0
-    cipher: auto
-    network: tcp
+    sni: www.calmloud.com
   - name: "美国+V2CROSS.COM"
+    type: trojan
+    server: 65.20.90.225
+    port: 443
+    password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
+    udp: true
+    sni: www.sandbox-cloud.click
+  - name: "英国+Level3通信股份有限公司"
     type: vless
-    server: 23.27.126.32
-    port: 587
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    server: 217.163.76.118
+    port: 2083
+    uuid: 41f37ced-2021-4111-93a8-82d57ff2eb5b
     udp: true
     tls: true
-    servername: i8dxb.media-cdn-us.chinav.indevs.in
-  - name: "俄罗斯+V2CROSS.COM"
+    servername: fl0.lizardshop.org
+  - name: "保加利亚+V2CROSS.COM"
     type: vless
-    server: 77.73.238.191
-    port: 16622
-    uuid: f2e9df1b-e0ba-4b37-a301-6aab8662c926
+    server: ger-nnn.prostosetup.org
+    port: 443
+    uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
     udp: true
-  - name: "韩国+KT电信"
-    type: vless
-    server: 119.195.168.105
-    port: 13720
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+  - name: "美国+Akamai科技公司CDN网络节点"
+    type: trojan
+    server: 172.236.220.10
+    port: 443
+    password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
     udp: true
-    tls: true
-    servername: i8dxb.media-cdn-us.chinav.indevs.in
+    sni: 172.236.220.10
   - name: "亚太地区_V2CROSS.COM"
     type: vmess
-    server: yd2.ainivp.com
-    port: 33201
-    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: yd2.ainivp.com
-    ws-opts:
-      path: /ray
-      headers:
-        Host: yd2.ainivp.com
-  - name: "亚太地区_V2CROSS.COM"
-    type: vmess
-    server: dotu-hkv1.kunlun03dns.com
-    port: 11102
-    uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-    alterId: 0
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     network: tcp
-  - name: "台湾省+V2CROSS.COM"
-    type: trojan
-    server: jpbgp.netvigor.cc
-    port: 19128
-    password: gcuCpQfaiVeDBdWG
-    udp: true
-    sni: yazhou10.dynu.net
