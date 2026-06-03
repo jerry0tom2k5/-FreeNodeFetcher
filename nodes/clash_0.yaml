@@ -1,681 +1,646 @@
 proxies:
-  - name: "🇺🇸US-156.146.38.170-0104"
-    type: ss
-    server: 156.146.38.170
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-156.146.38.167-0103"
-    type: ss
-    server: 156.146.38.167
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-156.146.38.169-0105"
-    type: ss
-    server: 156.146.38.169
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-156.146.38.168-0106"
-    type: ss
-    server: 156.146.38.168
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-149.28.255.6-0107"
-    type: ss
-    server: 149.28.255.6
-    port: 816
-    cipher: chacha20-ietf-poly1305
-    password: GyZ5Xo0ht41vYmW3H4
-  - name: "🇺🇸US-108.181.0.177-0159"
-    type: ss
-    server: 108.181.0.177
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: G5p6ww4o67HB
-  - name: "🇨🇦CA-137.184.174.93-0110"
-    type: ss
-    server: 137.184.174.93
-    port: 8080
-    cipher: rc4-md5
-    password: 14fFPrbezE3HDZzsMOr6
-  - name: "🇺🇸US-173.244.56.6-0109"
-    type: ss
-    server: 173.244.56.6
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-172.236.226.7-4699"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 02"
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    udp: true
+    tls: true
+    servername: r1.mizulina.top
+  - name: "🇺🇸 机场推荐:dafei.de 美国 03"
+    type: trojan
+    server: 95.40.4.37
+    port: 2520
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇺🇸_机场推荐:dafei.de_美国_04"
     type: vmess
-    server: usaapp2.jisuyun.top
-    port: 2053
-    uuid: 95dd45fb-8e36-4ff2-fa9e-24b68a34f3cd
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
-    tls: true
-    servername: usaapp2.jisuyun.top
-    ws-opts:
-      path: /usavm
-      headers:
-        Host: usaapp2.jisuyun.top
-  - name: "🇺🇸US-173.244.56.9-0108"
-    type: ss
-    server: 173.244.56.9
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-146.70.61.37-0139"
-    type: ss
-    server: 146.70.61.37
-    port: 8080
-    cipher: rc4-md5
-    password: 14fFPrbezE3HDZzsMOr6
-  - name: "🇳🇱NL-193.29.139.235-0118"
-    type: ss
-    server: 193.29.139.235
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇺🇸US-172.236.244.171-4700"
+    network: tcp
+  - name: "🇺🇸_机场推荐:dafei.de_美国_05"
     type: vmess
-    server: usaapp1.jisuyun.top
-    port: 2053
-    uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
+  - name: "🇺🇸 机场推荐:dafei.de 美国 06"
+    type: vless
+    server: 85.234.114.53
+    port: 443
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    udp: true
     tls: true
-    servername: usaapp1.jisuyun.top
-    ws-opts:
-      path: /usavm
-      headers:
-        Host: usaapp1.jisuyun.top
-  - name: "🇳🇱NL-193.29.139.227-0130"
-    type: ss
-    server: 193.29.139.227
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: "🇬🇧GB-82.38.31.214-0115"
-    type: ss
-    server: 82.38.31.214
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.210-0122"
-    type: ss
-    server: 82.38.31.210
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.208-0120"
-    type: ss
-    server: 82.38.31.208
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.191-0124"
-    type: ss
-    server: 82.38.31.191
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.217-0123"
-    type: ss
-    server: 82.38.31.217
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-82.38.31.35-0133"
-    type: ss
-    server: 82.38.31.35
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇳🇱NL-193.29.139.151-0114"
-    type: ss
-    server: 193.29.139.151
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇳🇱NL-193.29.139.217-0119"
-    type: ss
-    server: 193.29.139.217
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: "🇳🇱NL-193.29.139.233-0125"
-    type: ss
-    server: 193.29.139.233
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: "🇺🇸US-37.19.198.243-0117"
-    type: ss
-    server: 37.19.198.243
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇳🇱NL-193.29.139.157-0113"
-    type: ss
-    server: 193.29.139.157
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: cvII85TrW6n0OGyfpHVS1u
-  - name: "🇺🇸US-37.19.198.160-0132"
-    type: ss
-    server: 37.19.198.160
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-82.38.31.194-0121"
-    type: ss
-    server: 82.38.31.194
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇳🇱NL-109.201.152.181-0128"
-    type: ss
-    server: 109.201.152.181
-    port: 443
-    cipher: aes-128-cfb
-    password: shadowsocks
-  - name: "🇺🇸US-37.19.198.236-0129"
-    type: ss
-    server: 37.19.198.236
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-37.19.198.244-0116"
-    type: ss
-    server: 37.19.198.244
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇳🇱NL-193.29.139.204-0112"
-    type: ss
-    server: 193.29.139.204
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇨🇦CA-149.22.95.183-0134"
-    type: ss
-    server: 149.22.95.183
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇨🇦CA-134.195.198.147-6542"
+    servername: r1.mizulina.top
+  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    type: trojan
+    server: 121.191.33.84
+    port: 30303
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
+    udp: true
+    sni: vpn.rnmcnm.com
+  - name: "🇺🇸_机场推荐:dafei.de_美国_08"
     type: vmess
-    server: 134.195.198.147
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
+    network: tcp
+  - name: "🇺🇸 机场推荐:dafei.de 美国 09"
+    type: trojan
+    server: 492-lessweb.mmm.uw.to
+    port: 443
+    password: ecdc0264-1dcd-4ed8-9369-7de102fe308b
+    udp: true
+    sni: 492-LESSWEB.mmm.uw.to
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 02"
+    type: trojan
+    server: 18.181.199.223
+    port: 1180
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 03"
+    type: trojan
+    server: 211.76.176.98
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    udp: true
+    sni: yazhou10.dynu.net
+  - name: "🇭🇰 机场推荐:dafei.de 香港 01"
+    type: trojan
+    server: 18.183.163.141
+    port: 50712
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇭🇰 机场推荐:dafei.de 香港 06"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: de.01.naiun.bilibili.com
+  - name: "🇭🇰 机场推荐:dafei.de 香港 07"
+    type: trojan
+    server: 155.117.198.83
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: fr.01.naiun.bilibili.com
+  - name: "🇭🇰 机场推荐:dafei.de 香港 08"
+    type: trojan
+    server: 155.117.198.86
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇭🇰 机场推荐:dafei.de 香港 09"
+    type: trojan
+    server: hkntt1.nauk.eu.cc
+    port: 443
+    password: 8b6fa5e7-2583-4dcf-a589-f3924c685dbb
+    udp: true
+    sni: HKNTT1.nauk.eu.cc
+  - name: "🇬🇧 机场推荐:dafei.de 英国 01"
+    type: vless
+    server: 31.76.113.122
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
+    type: vless
+    server: 31.76.113.110
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
+    type: vless
+    server: 31.76.113.31
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 04"
+    type: vless
+    server: 31.76.113.13
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 05"
+    type: vless
+    server: 31.76.113.114
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 06"
+    type: vless
+    server: 31.76.113.30
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 07"
+    type: vless
+    server: 31.76.113.112
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 08"
+    type: vless
+    server: 31.76.113.26
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 09"
+    type: vless
+    server: 151.101.193.57
+    port: 80
+    uuid: 2c15f192-3812-98db-85a2-88cd7d02b868
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 10"
+    type: vless
+    server: 31.76.113.127
+    port: 443
+    uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 02"
+    type: vless
+    server: vrubg.mostserv.xyz
+    port: 443
+    uuid: 0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 03"
+    type: vless
+    server: 150.251.158.76
+    port: 443
+    uuid: 10550754-cf62-3d3b-ba6a-50be27a275d7
+    udp: true
     tls: true
-    servername: inna.cfd
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: inna.cfd
-  - name: "🇬🇧GB-82.38.31.218-0127"
+    servername: s646.okgg.top
+  - name: "🇨🇭 机场推荐:dafei.de 瑞士 01"
+    type: vless
+    server: 172.65.111.43
+    port: 22
+    uuid: monacoVPN
+    udp: true
+  - name: "🇨🇭 机场推荐:dafei.de 瑞士 02"
+    type: trojan
+    server: 155.117.198.83
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: ch.01.naiun.bilibili.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 01"
+    type: vless
+    server: 178.215.238.148
+    port: 8443
+    uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
     type: ss
-    server: 82.38.31.218
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇨🇦CA-108.181.118.10-0160"
-    type: ss
-    server: 108.181.118.10
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: G5p6ww4o67HB
-  - name: "🇬🇧GB-82.38.31.149-0131"
-    type: ss
-    server: 82.38.31.149
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇳🇴NO-185.213.23.63-0140"
-    type: ss
-    server: 185.213.23.63
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: "🇳🇱NL-108.181.58.239-0138"
-    type: ss
-    server: 108.181.58.239
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: CJmTCCx7Ltud
-  - name: "🇺🇸US-107.172.250.161-0144"
-    type: ss
-    server: 107.172.250.161
-    port: 59556
-    cipher: chacha20-ietf-poly1305
-    password: QTmLViU4VEmuwbOxUw4IXd
-  - name: "🇯🇵JP-149.22.87.204-0142"
-    type: ss
-    server: 149.22.87.204
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇳🇱NL-108.181.126.122-0137"
-    type: ss
-    server: 108.181.126.122
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: CJmTCCx7Ltud
-  - name: "🇯🇵JP-149.22.87.240-0143"
-    type: ss
-    server: 149.22.87.240
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇨🇦CA-23.162.200.227-6540"
-    type: vmess
-    server: 23.162.200.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇯🇵JP-149.22.87.241-0141"
-    type: ss
-    server: 149.22.87.241
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇩🇪DE-209.46.102.22-0147"
-    type: ss
-    server: 209.46.102.22
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: 1hhrqrokj3ag
-  - name: "🇯🇵JP-103.106.228.175-0145"
-    type: ss
-    server: 103.106.228.175
-    port: 8009
+    server: 46.225.30.16
+    port: 49534
     cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-  - name: "🇬🇧GB-20.108.42.193-0150"
-    type: ss
-    server: admin.c1.webramz.co
+    password: 2022-blake3-aes-256-gcm
+  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
+    type: hysteria2
+    server: 185.228.139.247
+    port: 4433
+    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
+    type: vless
+    server: 104.19.64.105
+    port: 2053
+    uuid: fb3293c6-106f-4462-a1af-3ec17473e371
+    udp: true
+    tls: true
+    servername: uiz2001.bingnet.online
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
+    type: vless
+    server: 194.226.169.36
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: "🇬🇧GB-20.108.42.193-0148"
-    type: ss
-    server: series-a2.samanehha.co
+    uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: trojan
+    server: 155.117.198.87
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇯🇵 机场推荐:dafei.de 日本 01"
+    type: hysteria2
+    server: 108.160.134.123
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: "🇬🇧GB-20.108.42.193-0146"
-    type: ss
-    server: series-a1.samanehha.co
+    password: 205d6869-02ca-3b36-b933-be2465250c7e
+    udp: true
+  - name: "🇮🇳 机场推荐:dafei.de 印度 01"
+    type: hysteria2
+    server: 139.84.155.186
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: "🇬🇧GB-20.108.42.193-0149"
-    type: ss
-    server: admin.c1.havij.co
+    password: 205d6869-02ca-3b36-b933-be2465250c7e
+    udp: true
+  - name: "🇮🇪_机场推荐:dafei.de_爱尔兰_01"
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "🇬🇭 机场推荐:dafei.de 加纳 01"
+    type: trojan
+    server: 155.117.198.83
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 01"
+    type: vless
+    server: 185.139.214.254
     port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 1kVr0KATIJI7mwOF
-  - name: "🇬🇧GB-141.98.101.179-0161"
-    type: ss
-    server: 141.98.101.179
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇫🇷FR-51.254.128.106-0156"
-    type: ss
-    server: 51.254.128.106
+    uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+    udp: true
+  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 02"
+    type: vless
+    server: 144.31.190.130
+    port: 8081
+    uuid: 99f1fc84-29a9-4715-bc60-e25fc4f56ff9
+    udp: true
+  - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
+    type: vless
+    server: 64.188.80.199
+    port: 8443
+    uuid: 18dbc918-7d0c-4b4c-b26f-a16aeb761788
+    udp: true
+  - name: "🇦🇪 机场推荐:dafei.de 阿联酋 01"
+    type: vless
+    server: 89.125.244.246
+    port: 666
+    uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+    udp: true
+    tls: true
+    servername: 89.125.244.246
+  - name: "防范境外势力渗透"
+    type: vmess
+    server: 127.0.0.53
+    port: 80
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#5"
+    type: vmess
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "@KAFING_2"
+    type: hysteria2
+    server: 181.214.99.162
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    udp: true
+  - name: "🚘43@oneclickvpnkeys"
+    type: hysteria2
+    server: 185.228.139.247
+    port: 4433
+    password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+    udp: true
+  - name: "Channel id: @internet_azad_202..."
+    type: hysteria2
+    server: 47.76.94.197
+    port: 58771
+    password: IG9Sundefinedvx6RJ
+    udp: true
+  - name: "@internet_azad_2026"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 1040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 #2"
+    type: hysteria2
+    server: 18.157.205.223
     port: 2083
-    cipher: aes-256-gcm
-    password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=
-  - name: "🇬🇧GB-141.98.101.182-0167"
-    type: ss
-    server: 141.98.101.182
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-82.38.31.205-0193"
-    type: ss
-    server: 82.38.31.205
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇬🇧GB-141.98.101.178-0152"
-    type: ss
-    server: 141.98.101.178
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧GB-141.98.101.181-0155"
-    type: ss
-    server: 141.98.101.181
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇩🇪DE-8.209.74.72-0154"
-    type: ss
-    server: 8.209.74.72
-    port: 20001
-    cipher: chacha20-ietf-poly1305
-    password: PWpjPo3tqhPN4yRZ
-  - name: "🇫🇮FI-193.47.60.186-0153"
-    type: ss
-    server: 193.47.60.186
-    port: 28687
-    cipher: chacha20-ietf-poly1305
-    password: yKVMoB3AwiTEznpnoq2FYR
-  - name: "🇹🇼TW-36.230.8.15-0157"
-    type: ss
-    server: r3mrcg001269pz2.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  - name: "🇬🇧GB-82.38.31.155-0135"
-    type: ss
-    server: 82.38.31.155
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇭🇰HK-216.250.97.82-0262"
-    type: ss
-    server: 216.250.97.82
-    port: 38388
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: "🇺🇸US-62.146.231.112-0166"
-    type: ss
-    server: 62.146.231.112
-    port: 12012
-    cipher: chacha20-ietf-poly1305
-    password: 4e287631dc4fc8fc
-  - name: "🇿🇦ZA-102.133.165.160-0163"
-    type: ss
-    server: 102.133.165.160
-    port: 16233
-    cipher: chacha20-ietf-poly1305
-    password: Xsy8Ox4yOV3xLlpxtjzs3X
-  - name: "🇿🇦ZA-102.37.156.224-0162"
-    type: ss
-    server: 102.37.156.224
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: aduB9HGxQHjA2SBMRjkHX6
-  - name: "🇵🇱PL-64.176.65.85-0191"
-    type: trojan
-    server: 64.176.65.85
-    port: 443
-    password: iGccGWTMHtoXtBhGYK4mogg7iIUhGbcvCf
+    password: Masir_Sefid
     udp: true
-  - name: "🇬🇧GB-94.156.250.148-0151"
-    type: ss
-    server: 94.156.250.148
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇺🇸US-149.104.109.74-0170"
-    type: ss
-    server: 149.104.109.74
-    port: 21273
-    cipher: chacha20-ietf-poly1305
-    password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  - name: "🇹🇼TW-36.224.187.125-0279"
-    type: ss
-    server: r3mrcg001286ek2.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  - name: "🇲🇾MY-130.94.68.100-0740"
-    type: trojan
-    server: 130.94.68.100
-    port: 443
-    password: l64tlWoGT6USQr%3D3WnjWedzvVSHXn8TNTE
+  - name: "@internet_azad_2026 #3"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 4040
+    password: Masir_Sefid
     udp: true
-    sni: www.rolll.click
-  - name: "🇮🇳IN-65.20.90.225-0169"
-    type: trojan
-    server: 65.20.90.225
-    port: 443
-    password: Tu1fZjElnkRg0ECRj0sI0u54PY8ptUmATg
+  - name: "@internet_azad_2026 #4"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 44044
+    password: Masir_Sefid
     udp: true
-    sni: www.sandbox-cloud.click
-  - name: "🇹🇼TW-185.189.160.105-0164"
-    type: ss
-    server: 185.189.160.105
-    port: 41632
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: "🇰🇷KR-152.67.218.38-0182"
-    type: vmess
-    server: 152.67.218.38
+  - name: "@internet_azad_2026 #5"
+    type: hysteria2
+    server: 18.157.205.223
     port: 443
-    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 152.67.218.38
-    ws-opts:
-      path: /
-      headers:
-        Host: 152.67.218.38
-  - name: "🇰🇷KR-152.67.218.38-0172"
-    type: vmess
-    server: 152.67.218.38
-    port: 443
-    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇹🇼TW-36.228.154.213-0183"
-    type: ss
-    server: nbmrcg0034686rw.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  - name: "🇯🇵JP-168.138.43.75-4775"
-    type: vmess
-    server: jp01.a0a.xyz
-    port: 80
-    uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: jp01.a0a.xyz
-    ws-opts:
-      path: /cctv13.m3u8
-      headers:
-        Host: jp01.a0a.xyz
-  - name: "🇩🇪DE-172.104.237.100-0174"
-    type: trojan
-    server: 172.104.237.100
-    port: 443
-    password: VPTFm=oZ++SuNT+jMRqGZqrAnWq-r8KJyY
+    password: Masir_Sefid
     udp: true
-    sni: 172.104.237.100
-  - name: "🇩🇪DE-185.137.157.254-0491"
-    type: trojan
-    server: 185.137.157.254
-    port: 443
-    password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  - name: "@internet_azad_2026 #6"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 444
+    password: Masir_Sefid
     udp: true
-    sni: www.directorypipeline.click
-  - name: "🇩🇪DE-172.236.220.10-0171"
-    type: trojan
-    server: 172.236.220.10
-    port: 443
-    password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui
+  - name: "@internet_azad_2026 #7"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 4784
+    password: Masir_Sefid
     udp: true
-    sni: 172.236.220.10
-  - name: "🇹🇼TW-36.224.139.206-0173"
-    type: ss
-    server: r3mrcg001287h3p.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  - name: "🇩🇪DE-172.238.120.124-0493"
-    type: trojan
-    server: 172.238.120.124
-    port: 443
-    password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ
+  - name: "@internet_azad_2026 #8"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 48637
+    password: Masir_Sefid
     udp: true
-  - name: "🇳🇱NL-51.15.23.63-0186"
-    type: ss
-    server: 51.15.23.63
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-149.104.104.101-0490"
-    type: trojan
-    server: 149.104.104.101
-    port: 443
-    password: BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m
+  - name: "@internet_azad_2026 #9"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 48
+    password: Masir_Sefid
     udp: true
-    sni: www.registry-monitor.click
-  - name: "🇮🇳IN-152.67.8.205-0223"
-    type: vmess
-    server: 152.67.8.205
-    port: 80
-    uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-213.202.208.199-0168"
-    type: ss
-    server: 213.202.208.199
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇦🇹AT-38.180.197.41-0175"
-    type: ss
-    server: 38.180.197.41
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-172.235.63.252-0180"
-    type: trojan
-    server: 172.235.63.252
-    port: 443
-    password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E
+  - name: "@internet_azad_2026 #10"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 52848
+    password: Masir_Sefid
     udp: true
-    sni: 172.235.63.252
-  - name: "🇮🇶IQ-130.94.97.11-0791"
-    type: trojan
-    server: 130.94.97.11
-    port: 443
-    password: Z3_=ewk_+l1U4OT4usQ5=o2vFfk95yfy1V
+  - name: "@internet_azad_2026 #11"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 54040
+    password: Masir_Sefid
     udp: true
-    sni: www.selectnet.click
-  - name: "🇰🇷KR-218.237.185.230-0192"
-    type: ss
-    server: p141.panda001.net
-    port: 4652
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: "🇭🇰HK-112.213.102.188-0185"
-    type: ss
-    server: 112.213.102.188
-    port: 41632
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: "🇮🇩ID-130.94.92.144-0738"
-    type: trojan
-    server: 130.94.92.144
-    port: 443
-    password: oUAfbL8z87q-mhgjZ6g7mWQobf9%3Db7ut_F
+  - name: "@internet_azad_2026 #12"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 59826
+    password: Masir_Sefid
     udp: true
-    sni: www.node-finder.click
-  - name: "🇳🇱NL-195.93.253.245-0165"
-    type: ss
-    server: 195.93.253.245
-    port: 49137
-    cipher: chacha20-ietf-poly1305
-    password: FDeCHSu4lt8qflCS5zDOy8
-  - name: "🇺🇸US-216.105.168.18-0177"
-    type: ss
-    server: 216.105.168.18
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: hCCWOcIsK5wrFz4OX70rWf
-  - name: "🇨🇱CL-130.94.104.210-0188"
-    type: trojan
-    server: 130.94.104.210
-    port: 443
-    password: lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m
+  - name: "@internet_azad_2026 #13"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 8443
+    password: Masir_Sefid
     udp: true
-    sni: www.cdn-structure.click
-  - name: "🇭🇰HK-47.244.120.197-4574"
-    type: vmess
-    server: 47.244.120.197
-    port: 36703
-    uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-      headers:
-        Host: 
-  - name: "🏁RELAY-104.21.7.184-4701"
-    type: vmess
-    server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-    port: 80
-    uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-    ws-opts:
-      path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp
-      headers:
-        Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-  - name: "🇬🇧GB-185.5.38.111-0189"
-    type: ss
-    server: 185.5.38.111
-    port: 55988
-    cipher: chacha20-ietf-poly1305
-    password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-  - name: "🇹🇼TW-46.249.109.128-0187"
-    type: ss
-    server: download.riferoser.icu
-    port: 56594
-    cipher: chacha20-ietf-poly1305
-    password: mzeMYBJYp4Bo7nA1qYLvv7QG73igtAA85nt4pr8A9ntx2qhDfYgRtiJ7iH7VrcneQKNmtvpbsvvFKPaUATYELi18iH56Ttr4
-  - name: "🇬🇧GB-82.38.31.187-0199"
-    type: ss
-    server: 82.38.31.187
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇳🇱NL-193.29.139.143-0198"
-    type: ss
-    server: 193.29.139.143
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: 1RWwXhwfAB5gAEozU4G2Pg
-  - name: "🇬🇧GB-82.38.31.199-0208"
-    type: ss
-    server: 82.38.31.199
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "@internet_azad_2026 #14"
+    type: hysteria2
+    server: 18.157.205.223
+    port: 8880
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🕊⭐️"
+    type: hysteria2
+    server: 18.159.66.5
+    port: 1040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🕊⭐️ #1"
+    type: hysteria2
+    server: 18.159.66.5
+    port: 4040
+    password: Masir_Sefid
+    udp: true
+  - name: "@vmessorg"
+    type: hysteria2
+    server: 18.159.66.5
+    port: 443
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🕊⭐️ #3"
+    type: hysteria2
+    server: 18.159.66.5
+    port: 54040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🕊⭐️ #4"
+    type: hysteria2
+    server: 18.159.66.5
+    port: 8880
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 #15"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 1040
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊⁹ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 2083
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊³ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 4040
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊⁶ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 44044
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊¹ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 443
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊² @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 444
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 #19"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 48637
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊⁷ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 48
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 #20"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 52848
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊⁴ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 54040
+    password: Masir_Sefid
+    udp: true
+  - name: "🕊⁵ @Fear_Config"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 59826
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 #23"
+    type: hysteria2
+    server: 18.185.89.204
+    port: 8880
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 1040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #1"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 4040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #2"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 443
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #3"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 444
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #4"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 54040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #5"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 59826
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026  ⭐️ #6"
+    type: hysteria2
+    server: 18.193.90.31
+    port: 8880
+    password: Masir_Sefid
+    udp: true
+  - name: "Echo_Center"
+    type: hysteria2
+    server: 18.194.238.82
+    port: 54040
+    password: Masir_Sefid
+    udp: true
+  - name: "🚀@V2ray_official"
+    type: hysteria2
+    server: 18.196.180.90
+    port: 444
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026🫥"
+    type: hysteria2
+    server: 18.198.106.153
+    port: 1040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🤯"
+    type: hysteria2
+    server: 18.198.106.153
+    port: 4040
+    password: Masir_Sefid
+    udp: true
+  - name: "@internet_azad_2026 🌃"
+    type: hysteria2
+    server: 18.198.106.153
+    port: 443
+    password: Masir_Sefid
+    udp: true
