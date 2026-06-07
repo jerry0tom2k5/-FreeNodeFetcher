@@ -1,701 +1,723 @@
 proxies:
-  - name: "🇫🇷FR-31.56.146.122-1623"
+  - name: "🇯🇵JP-43.207.82.53-1568"
+    type: ss
+    server: 43.207.82.53
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🏁RELAY-172.67.175.148-1569"
+    type: vmess
+    server: namer-us-sea-01-edgecast.qdns.live
+    port: 2053
+    uuid: 94898122-6f57-3272-8ccf-87ab366b29ed
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: namer-us-sea-01-edgecast.qdns.live
+    ws-opts:
+      path: /
+      headers:
+        Host: namer-us-sea-01-edgecast.qdns.live
+  - name: "🇩🇪DE-63.180.254.10-1570"
+    type: ss
+    server: 63.180.254.10
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇭🇰HK-43.198.226.205-1571"
+    type: trojan
+    server: 43.198.226.205
+    port: 53018
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇯🇵JP-52.196.69.56-1572"
+    type: trojan
+    server: 52.196.69.56
+    port: 4327
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇯🇵JP-18.176.57.129-1573"
+    type: trojan
+    server: 18.176.57.129
+    port: 4099
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇭🇰HK-18.167.42.231-1574"
+    type: trojan
+    server: 18.167.42.231
+    port: 5701
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-43.198.226.205-1575"
+    type: trojan
+    server: 43.198.226.205
+    port: 37973
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-95.40.35.52-1576"
+    type: trojan
+    server: 95.40.35.52
+    port: 12143
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-18.167.42.231-1577"
+    type: trojan
+    server: 18.167.42.231
+    port: 6357
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-16.163.138.24-1578"
+    type: trojan
+    server: 16.163.138.24
+    port: 41421
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "🇭🇰HK-95.40.35.52-1579"
+    type: trojan
+    server: 95.40.35.52
+    port: 6604
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-18.167.42.231-1580"
+    type: trojan
+    server: 18.167.42.231
+    port: 17005
+    password: d84665c37878196ecf983cf6910e3b44
+    udp: true
+    sni: www.nintendogames.net
+  - name: "🇭🇰HK-95.40.40.218-1581"
+    type: trojan
+    server: 95.40.40.218
+    port: 44265
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇺🇸US-172.236.100.134-0016"
+    type: vmess
+    server: v6d1.moonfree.top
+    port: 443
+    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: v6d1.moonfree.top
+    ws-opts:
+      path: /
+      headers:
+        Host: v6d1.moonfree.top
+  - name: "🇺🇸US-155.117.198.83-1583"
+    type: trojan
+    server: 155.117.198.83
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: de.01.naiun.bilibili.com
+  - name: "🏁RELAY-104.19.3.16-0014"
+    type: vmess
+    server: 104.19.3.16
+    port: 443
+    uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: v2fly.samrt.website
+    ws-opts:
+      path: /chcar
+      headers:
+        Host: v2fly.samrt.website
+  - name: "🇨🇦CA-52.60.99.199-1585"
+    type: ss
+    server: 52.60.99.199
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇯🇵JP-152.70.87.181-0013"
+    type: vmess
+    server: 152.70.87.181
+    port: 59438
+    uuid: 28399139-a18d-4b87-b127-ac4df1a986cb
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇸🇬SG-140.235.140.105-1587"
+    type: trojan
+    server: 140.235.140.105
+    port: 443
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "🇫🇮FI-194.164.235.62-1589"
+    type: trojan
+    server: 194.164.235.62
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇬🇧GB-43.245.227.108-1590"
+    type: trojan
+    server: 43.245.227.108
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇪🇪EE-185.252.177.115-1591"
+    type: trojan
+    server: 185.252.177.115
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇳🇱NL-194.120.116.68-1592"
+    type: trojan
+    server: 194.120.116.68
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇵🇱PL-31.133.0.55-1593"
+    type: trojan
+    server: 31.133.0.55
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇮FI-87.251.16.237-1594"
+    type: trojan
+    server: 87.251.16.237
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇮FI-141.105.143.132-1595"
+    type: trojan
+    server: 141.105.143.132
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇵🇱PL-31.133.0.159-1596"
+    type: trojan
+    server: 31.133.0.159
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇵🇱PL-45.144.51.133-1597"
+    type: trojan
+    server: 45.144.51.133
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇦🇹AT-46.102.156.144-1598"
+    type: trojan
+    server: 46.102.156.144
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇷FR-77.110.106.91-1599"
+    type: trojan
+    server: 77.110.106.91
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇷FR-92.119.127.156-1600"
+    type: trojan
+    server: 92.119.127.156
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇩🇪DE-93.115.19.15-1601"
+    type: trojan
+    server: 93.115.19.15
+    port: 2053
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇷FR-31.58.76.50-1602"
+    type: trojan
+    server: 31.58.76.50
+    port: 8443
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    udp: true
+    sni: Koma-YT.PAGeS.Dev
+  - name: "🇫🇷FR-31.56.146.122-1603"
     type: trojan
     server: 31.56.146.122
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.56.228.7-1624"
+  - name: "🇫🇷FR-31.56.228.7-1604"
     type: trojan
     server: 31.56.228.7
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-95.182.98.140-1625"
+  - name: "🇫🇷FR-95.182.98.140-1605"
     type: trojan
     server: 95.182.98.140
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-94.183.186.206-1626"
+  - name: "🇫🇷FR-94.183.186.206-1606"
     type: trojan
     server: 94.183.186.206
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇦🇹AT-212.113.106.125-1627"
+  - name: "🇦🇹AT-212.113.106.125-1607"
     type: trojan
     server: 212.113.106.125
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-31.59.170.59-1628"
+  - name: "🇳🇱NL-31.59.170.59-1608"
     type: trojan
     server: 31.59.170.59
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.59.41.182-1629"
+  - name: "🇫🇮FI-31.59.41.182-1609"
     type: trojan
     server: 31.59.41.182
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-46.8.236.176-1630"
+  - name: "🇫🇮FI-46.8.236.176-1610"
     type: trojan
     server: 46.8.236.176
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-138.124.50.47-1631"
+  - name: "🇩🇪DE-138.124.50.47-1611"
     type: trojan
     server: 138.124.50.47
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-193.42.61.121-1632"
+  - name: "🇫🇷FR-193.42.61.121-1612"
     type: trojan
     server: 193.42.61.121
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-46.226.167.115-1633"
+  - name: "🇫🇷FR-46.226.167.115-1613"
     type: trojan
     server: 46.226.167.115
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-77.110.106.55-1634"
+  - name: "🇫🇷FR-77.110.106.55-1614"
     type: trojan
     server: 77.110.106.55
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-77.239.98.141-1635"
+  - name: "🇩🇪DE-77.239.98.141-1615"
     type: trojan
     server: 77.239.98.141
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-77.239.98.191-1636"
+  - name: "🇩🇪DE-77.239.98.191-1616"
     type: trojan
     server: 77.239.98.191
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-178.236.253.242-1637"
+  - name: "🇩🇪DE-178.236.253.242-1617"
     type: trojan
     server: 178.236.253.242
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-92.246.136.90-1638"
+  - name: "🇩🇪DE-92.246.136.90-1618"
     type: trojan
     server: 92.246.136.90
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇬🇷GR-91.186.217.16-1639"
+  - name: "🇬🇷GR-91.186.217.16-1619"
     type: trojan
     server: 91.186.217.16
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇺🇸US-37.46.19.79-1641"
+  - name: "🇺🇸US-37.46.19.79-1621"
     type: trojan
     server: 37.46.19.79
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇮🇷IR-62.60.216.82-1642"
+  - name: "🇮🇷IR-62.60.216.82-1622"
     type: trojan
     server: 62.60.216.82
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-84.200.192.87-1643"
+  - name: "🇩🇪DE-84.200.192.87-1623"
     type: trojan
     server: 84.200.192.87
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-104.194.156.228-1644"
+  - name: "🇩🇪DE-104.194.156.228-1624"
     type: trojan
     server: 104.194.156.228
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-147.45.69.68-1645"
+  - name: "🇳🇱NL-147.45.69.68-1625"
     type: trojan
     server: 147.45.69.68
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-185.218.137.139-1646"
+  - name: "🇩🇪DE-185.218.137.139-1626"
     type: trojan
     server: 185.218.137.139
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-193.23.216.14-1647"
+  - name: "🇩🇪DE-193.23.216.14-1627"
     type: trojan
     server: 193.23.216.14
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-45.159.189.26-1648"
+  - name: "🇳🇱NL-45.159.189.26-1628"
     type: trojan
     server: 45.159.189.26
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-212.34.152.202-1649"
+  - name: "🇳🇱NL-212.34.152.202-1629"
     type: trojan
     server: 212.34.152.202
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-62.60.157.104-1650"
+  - name: "🇫🇷FR-62.60.157.104-1630"
     type: trojan
     server: 62.60.157.104
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-89.110.112.8-1651"
+  - name: "🇳🇱NL-89.110.112.8-1631"
     type: trojan
     server: 89.110.112.8
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.215.31.110-1652"
+  - name: "🇫🇮FI-188.215.31.110-1632"
     type: trojan
     server: 188.215.31.110
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-94.183.190.229-1653"
+  - name: "🇫🇮FI-94.183.190.229-1633"
     type: trojan
     server: 94.183.190.229
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-195.58.38.221-1654"
+  - name: "🇩🇪DE-195.58.38.221-1634"
     type: trojan
     server: 195.58.38.221
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.56.196.25-1655"
+  - name: "🇫🇮FI-31.56.196.25-1635"
     type: trojan
     server: 31.56.196.25
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.57.93.4-1656"
+  - name: "🇫🇮FI-31.57.93.4-1636"
     type: trojan
     server: 31.57.93.4
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-46.8.237.174-1657"
+  - name: "🇫🇮FI-46.8.237.174-1637"
     type: trojan
     server: 46.8.237.174
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-46.8.238.49-1658"
+  - name: "🇫🇮FI-46.8.238.49-1638"
     type: trojan
     server: 46.8.238.49
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-94.183.190.229-1659"
+  - name: "🇫🇮FI-94.183.190.229-1639"
     type: trojan
     server: 94.183.190.229
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-94.183.191.228-1660"
+  - name: "🇫🇮FI-94.183.191.228-1640"
     type: trojan
     server: 94.183.191.228
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-138.124.54.117-1661"
+  - name: "🇩🇪DE-138.124.54.117-1641"
     type: trojan
     server: 138.124.54.117
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-147.45.197.78-1662"
+  - name: "🇩🇪DE-147.45.197.78-1642"
     type: trojan
     server: 147.45.197.78
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-152.53.153.158-1663"
+  - name: "🇩🇪DE-152.53.153.158-1643"
     type: trojan
     server: 152.53.153.158
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-213.165.38.7-1664"
+  - name: "🇳🇱NL-213.165.38.7-1644"
     type: trojan
     server: 213.165.38.7
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇸🇪SE-62.60.151.252-1665"
+  - name: "🇸🇪SE-62.60.151.252-1645"
     type: trojan
     server: 62.60.151.252
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-77.110.98.16-1666"
+  - name: "🇫🇮FI-77.110.98.16-1646"
     type: trojan
     server: 77.110.98.16
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-91.220.8.170-1667"
+  - name: "🇩🇪DE-91.220.8.170-1647"
     type: trojan
     server: 91.220.8.170
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-193.109.84.103-1668"
+  - name: "🇫🇮FI-193.109.84.103-1648"
     type: trojan
     server: 193.109.84.103
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-217.60.63.211-1669"
-    type: trojan
-    server: 217.60.63.211
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.57.108.242-1670"
+  - name: "🇺🇸US-38.114.114.67-5480"
+    type: ss
+    server: 38.114.114.67
+    port: 6379
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+  - name: "🇫🇷FR-31.57.108.242-1650"
     type: trojan
     server: 31.57.108.242
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.56.176.37-1671"
+  - name: "🇫🇷FR-31.56.176.37-1651"
     type: trojan
     server: 31.56.176.37
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.59.103.95-1672"
+  - name: "🇫🇷FR-31.59.103.95-1652"
     type: trojan
     server: 31.59.103.95
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-217.145.79.119-1673"
+  - name: "🇫🇮FI-217.145.79.119-1653"
     type: trojan
     server: 217.145.79.119
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.57.105.39-1674"
+  - name: "🇫🇮FI-31.57.105.39-1654"
     type: trojan
     server: 31.57.105.39
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-146.103.105.19-1675"
+  - name: "🇳🇱NL-146.103.105.19-1655"
     type: trojan
     server: 146.103.105.19
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-212.34.152.202-1676"
+  - name: "🇳🇱NL-212.34.152.202-1656"
     type: trojan
     server: 212.34.152.202
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-45.156.25.160-1677"
+  - name: "🇳🇱NL-45.156.25.160-1657"
     type: trojan
     server: 45.156.25.160
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇦🇪AE-78.40.196.36-1678"
+  - name: "🇦🇪AE-78.40.196.36-1658"
     type: trojan
     server: 78.40.196.36
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-194.147.115.37-1679"
+  - name: "🇳🇱NL-194.147.115.37-1659"
     type: trojan
     server: 194.147.115.37
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-109.248.162.47-1680"
+  - name: "🇳🇱NL-109.248.162.47-1660"
     type: trojan
     server: 109.248.162.47
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-93.183.127.235-1681"
+  - name: "🇳🇱NL-93.183.127.235-1661"
     type: trojan
     server: 93.183.127.235
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-212.34.153.206-1682"
+  - name: "🇳🇱NL-212.34.153.206-1662"
     type: trojan
     server: 212.34.153.206
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-212.34.155.252-1683"
+  - name: "🇳🇱NL-212.34.155.252-1663"
     type: trojan
     server: 212.34.155.252
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-31.15.18.58-1684"
+  - name: "🇳🇱NL-31.15.18.58-1664"
     type: trojan
     server: 31.15.18.58
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-77.238.236.134-1685"
+  - name: "🇳🇱NL-77.238.236.134-1665"
     type: trojan
     server: 77.238.236.134
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-80.85.246.45-1686"
+  - name: "🇳🇱NL-80.85.246.45-1666"
     type: trojan
     server: 80.85.246.45
     port: 2053
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-152.53.200.202-1687"
+  - name: "🇳🇱NL-152.53.200.202-1667"
     type: trojan
     server: 152.53.200.202
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-203.18.98.246-1688"
+  - name: "🇫🇮FI-203.18.98.246-1668"
     type: trojan
     server: 203.18.98.246
     port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.56.227.49-1689"
+  - name: "🇫🇮FI-31.56.227.49-1669"
     type: trojan
     server: 31.56.227.49
     port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-46.8.236.104-1690"
-    type: trojan
-    server: 46.8.236.104
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-185.92.183.132-1691"
-    type: trojan
-    server: 185.92.183.132
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-185.92.183.239-1692"
-    type: trojan
-    server: 185.92.183.239
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.130.206.254-1693"
-    type: trojan
-    server: 188.130.206.254
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.215.31.110-1694"
-    type: trojan
-    server: 188.215.31.110
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.215.31.36-1695"
-    type: trojan
-    server: 188.215.31.36
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-188.215.31.98-1696"
-    type: trojan
-    server: 188.215.31.98
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-213.232.204.28-1697"
-    type: trojan
-    server: 213.232.204.28
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-217.145.79.218-1698"
-    type: trojan
-    server: 217.145.79.218
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-217.145.79.218-1699"
-    type: trojan
-    server: 217.145.79.218
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.56.205.233-1700"
-    type: trojan
-    server: 31.56.205.233
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.57.26.194-1701"
-    type: trojan
-    server: 31.57.26.194
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.57.27.73-1703"
-    type: trojan
-    server: 31.57.27.73
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.57.62.145-1704"
-    type: trojan
-    server: 31.57.62.145
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.58.137.8-1705"
-    type: trojan
-    server: 31.58.137.8
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-31.58.78.246-1706"
-    type: trojan
-    server: 31.58.78.246
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-46.8.70.178-1707"
-    type: trojan
-    server: 46.8.70.178
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇬🇧GB-5.144.179.205-1708"
-    type: trojan
-    server: 5.144.179.205
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-5.178.96.130-1709"
-    type: trojan
-    server: 5.178.96.130
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇮FI-91.108.189.152-1710"
-    type: trojan
-    server: 91.108.189.152
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇨🇭CH-45.59.117.238-1711"
-    type: trojan
-    server: 45.59.117.238
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-31.56.228.7-1712"
-    type: trojan
-    server: 31.56.228.7
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-82.115.6.129-1713"
-    type: trojan
-    server: 82.115.6.129
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-146.103.106.115-1714"
-    type: trojan
-    server: 146.103.106.115
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-77.37.65.221-1715"
-    type: trojan
-    server: 77.37.65.221
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇬🇷GR-91.186.212.131-1716"
-    type: trojan
-    server: 91.186.212.131
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇧🇬BG-192.145.31.58-1717"
-    type: trojan
-    server: 192.145.31.58
-    port: 2083
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-62.84.103.249-1718"
-    type: trojan
-    server: 62.84.103.249
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-89.110.116.183-1719"
-    type: trojan
-    server: 89.110.116.183
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-93.183.126.165-1720"
-    type: trojan
-    server: 93.183.126.165
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-147.45.69.27-1721"
-    type: trojan
-    server: 147.45.69.27
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇳🇱NL-77.238.252.237-1722"
-    type: trojan
-    server: 77.238.252.237
-    port: 2053
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇩🇪DE-138.124.54.117-1723"
-    type: trojan
-    server: 138.124.54.117
-    port: 8443
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    udp: true
-    sni: Koma-YT.PAGeS.Dev
-  - name: "🇫🇷FR-217.60.63.232-1724"
-    type: trojan
-    server: 217.60.63.232
-    port: 8443
     password: 8r%3C%5B9%27l6hAO%238ZQi
     udp: true
     sni: Koma-YT.PAGeS.Dev
