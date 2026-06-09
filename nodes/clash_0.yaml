@@ -1,70 +1,33 @@
 proxies:
-  - name: "立陶宛+V2CROSS.COM"
+  - name: "南非+V2CROSS.COM"
     type: vless
-    server: 89.116.46.210
+    server: tralalero.site
+    port: 8443
+    uuid: 85c42ce4-7789-49cb-9012-9d6d6ba16581
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: trojan
+    server: 149.104.87.182
+    port: 443
+    password: PtRV8to08i8FMsY.Uw7=yMuIaR3eVTGmvA
+    udp: true
+    sni: www.jewelapp.click
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 199.232.78.159
+    port: 443
+    uuid: b2bfb4f3-f4c3-4323-9810-a086fef2f25d
+    udp: true
+    tls: true
+    servername: default.ssl.fastly.net
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 45.130.125.0
     port: 443
     uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
     udp: true
     tls: true
     servername: octopusss4.com
-  - name: "英国+惠普HP"
-    type: vless
-    server: 15.204.97.206
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    udp: true
-  - name: "英国_V2CROSS.COM"
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "俄罗斯+V2CROSS.COM"
-    type: vless
-    server: r1.mizulina.top
-    port: 22231
-    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-    udp: true
-    tls: true
-    servername: r1.mizulina.top
-  - name: "英国_V2CROSS.COM"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "英国+社会保险安全部"
-    type: vless
-    server: 51.250.66.119
-    port: 443
-    uuid: 59341a57-7f08-4776-9f94-e4aab1461432
-    udp: true
-  - name: "俄罗斯+Samara+State+University"
-    type: vless
-    server: 195.209.87.184
-    port: 443
-    uuid: bfef1a3f-d106-4346-89fa-4f7e369e99de
-    udp: true
-    tls: true
-    servername: s46053.cdn.ngenix.net
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 1password.com
-    port: 443
-    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-    udp: true
-    tls: true
-    servername: rAyAn-007.fOtOn.dPdNs.oRg
-  - name: "台湾省台北市+中华电信"
-    type: ss
-    server: r3mrcg001286ek2.cybervena.com
-    port: 50099
-    cipher: chacha20-ietf-poly1305
-    password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   - name: "美国+德克萨斯州达拉斯Linode数据中心"
     type: trojan
     server: 45.79.8.17
@@ -72,18 +35,241 @@ proxies:
     password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
     udp: true
     sni: 45.79.8.17
-  - name: "美国+Amazon+EC2服务器"
-    type: hysteria2
-    server: vpn-de-002.fastervpn.world
+  - name: "挪威+V2CROSS.COM"
+    type: vless
+    server: w6.homestorage.online
     port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    uuid: 5481bfe3-bf42-425c-b561-cb9d64bff7ff
     udp: true
-  - name: "俄罗斯+V2CROSS.COM"
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.21.23.131
+    port: 80
+    uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 172.67.211.74
+    port: 80
+    uuid: e84064cc-617f-4ba8-aa6f-13e920fd2610
+    udp: true
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "美国+Fastly全球Anycast节点"
+    type: vless
+    server: 151.101.0.1
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "tg频道:@ripaojiedian"
+    type: ss
+    server: 63.180.254.10
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "香港|@ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "香港3|@ripaojiedian"
+    type: trojan
+    server: 43.199.189.110
+    port: 53018
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "香港4|@ripaojiedian"
+    type: trojan
+    server: 119.246.1.143
+    port: 443
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "香港5|@ripaojiedian"
+    type: trojan
+    server: 52.196.69.56
+    port: 4327
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "日本|@ripaojiedian"
+    type: trojan
+    server: 54.178.8.69
+    port: 6737
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "日本2|@ripaojiedian"
+    type: trojan
+    server: 43.199.189.110
+    port: 3743
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "日本3|@ripaojiedian"
+    type: trojan
+    server: 43.198.108.17
+    port: 3743
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡|@ripaojiedian"
+    type: trojan
+    server: 18.162.124.37
+    port: 6357
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡2|@ripaojiedian"
+    type: trojan
+    server: 18.162.124.37
+    port: 48738
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "新加坡3|@ripaojiedian"
+    type: trojan
+    server: 18.162.54.223
+    port: 41421
+    password: BxceQaOe
+    udp: true
+    sni: t.me%252Fripaojiedian
+  - name: "美国|@ripaojiedian"
+    type: trojan
+    server: 18.162.124.37
+    port: 17005
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "美国2|@ripaojiedian"
+    type: trojan
+    server: 43.198.98.40
+    port: 17005
+    password: d02e3bb7e6b3333e818d36866d40de6e
+    udp: true
+    sni: www.nintendogames.net
+  - name: "美国3|@ripaojiedian"
+    type: trojan
+    server: 43.199.217.233
+    port: 39959
+    password: BxceQaOe
+    udp: true
+    sni: t.me%2Fripaojiedian
+  - name: "美国4|@ripaojiedian"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸 机场推荐:dafei.de 美国 03"
     type: vless
     server: 217.149.25.106
     port: 443
     uuid: 029a4bc6-4557-4b6b-a5fc-6232e943e43b
     udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 04"
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    udp: true
+    tls: true
+    servername: r1.mizulina.top
+  - name: "🇺🇸 机场推荐:dafei.de 美国 05"
+    type: vless
+    server: 85.234.114.53
+    port: 443
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    udp: true
+    tls: true
+    servername: r1.mizulina.top
+  - name: "🇺🇸_机场推荐:dafei.de_美国_06"
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    type: trojan
+    server: rak1.bnm.uw.to
+    port: 443
+    password: 96c25073-74cd-4181-951e-068f2347d0a7
+    udp: true
+    sni: rak1.bnm.uw.to
+  - name: "🇮🇸 机场推荐:dafei.de 冰岛 01"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: is.01.naiun.bilibili.com
+  - name: "🇬🇭 机场推荐:dafei.de 加纳 01"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇬🇭 机场推荐:dafei.de 加纳 02"
+    type: trojan
+    server: 155.117.198.83
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: de.01.naiun.bilibili.com
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
+    type: trojan
+    server: 155.117.198.87
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "🇸🇪 机场推荐:dafei.de 瑞典 01"
+    type: vless
+    server: ser.moktana.app
+    port: 443
+    uuid: fde8f78b-ec9b-4047-b288-d712f2d6c08d
+    udp: true
+  - name: "🇰🇷_机场推荐:dafei.de_韩国_01"
+    type: vmess
+    server: lsv-kr.mmm.uw.to
+    port: 443
+    uuid: 60f4e608-94fa-4ee2-931a-e0ace9bd5d13
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: lsv-kr.mmm.uw.to
+    ws-opts:
+      path: /60f4e608-94fa-4ee2-931a-e0ace9bd5d13-vm
+      headers:
+        Host: lsv-kr.mmm.uw.to
+  - name: "🇭🇰 机场推荐:dafei.de 香港 01"
+    type: trojan
+    server: hkntt1.mmm.uw.to
+    port: 443
+    password: bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a
+    udp: true
+    sni: HKNTT1.mmm.uw.to
   - name: "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000"
     type: ss
     server: 144.217.164.29
@@ -348,19 +534,20 @@ proxies:
       path: /api/v1/graphql
       headers:
         Host: cg1c14.waimaojd.com
-  - name: "🇺🇸 美国 CloudFlare节点"
+  - name: "🇷🇴 罗马尼亚 V2CROSS.COM"
     type: trojan
-    server: 104.20.6.134
+    server: 185.137.157.254
     port: 443
-    password: humanity
+    password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
     udp: true
-    sni: www.multiplydose.com
-  - name: "🇸🇬 新加坡 Amazon数据中心"
-    type: ss
-    server: ss.036.node-for-bigairport.win
-    port: 19887
-    cipher: aes-256-gcm
-    password: 6c4bd474-ac23-47fc-8742-c8f990357836
+    sni: www.directorypipeline.click
+  - name: "🇩🇪 德国 V2CROSS.COM"
+    type: trojan
+    server: 91.233.8.25
+    port: 443
+    password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+    udp: true
+    sni: fra34.tracker-ws.click
   - name: "🇭🇰_香港|@ripaojiedian"
     type: vmess
     server: v10.hdacd.com
@@ -372,14 +559,14 @@ proxies:
     servername: v10.hdacd.com
   - name: "🇭🇰 香港3|@ripaojiedian"
     type: trojan
-    server: 43.199.71.149
-    port: 53018
-    password: d84665c37878196ecf983cf6910e3b44
+    server: 16.163.146.65
+    port: 2008
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇭🇰 香港4|@ripaojiedian"
     type: trojan
-    server: 95.40.84.247
+    server: 16.162.142.74
     port: 11031
     password: BxceQaOe
     udp: true
@@ -393,63 +580,63 @@ proxies:
     sni: t.me%2Fripaojiedian
   - name: "🇯🇵 日本|@ripaojiedian"
     type: trojan
-    server: 43.199.65.125
-    port: 9731
+    server: 35.77.201.105
+    port: 16712
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "🇯🇵 日本2|@ripaojiedian"
     type: trojan
-    server: 43.199.189.134
-    port: 37973
-    password: d84665c37878196ecf983cf6910e3b44
+    server: 16.163.146.65
+    port: 5701
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇯🇵 日本3|@ripaojiedian"
     type: trojan
-    server: 43.199.189.134
-    port: 37973
-    password: d84665c37878196ecf983cf6910e3b44
+    server: 43.199.144.41
+    port: 55973
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡|@ripaojiedian"
     type: trojan
-    server: 18.167.51.169
-    port: 6357
-    password: d84665c37878196ecf983cf6910e3b44
+    server: 16.163.146.65
+    port: 29642
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡2|@ripaojiedian"
     type: trojan
-    server: 18.167.51.169
-    port: 6357
-    password: d84665c37878196ecf983cf6910e3b44
+    server: 18.166.208.105
+    port: 48738
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇸🇬 新加坡3|@ripaojiedian"
     type: trojan
-    server: 95.40.47.145
-    port: 28111
+    server: 18.166.29.119
+    port: 32434
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "🇺🇸 美国|@ripaojiedian"
     type: trojan
-    server: 43.199.71.149
+    server: 95.40.24.24
     port: 49277
-    password: d84665c37878196ecf983cf6910e3b44
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇺🇸 美国2|@ripaojiedian"
     type: trojan
-    server: 43.199.71.149
+    server: 16.163.146.65
     port: 49277
-    password: d84665c37878196ecf983cf6910e3b44
+    password: d02e3bb7e6b3333e818d36866d40de6e
     udp: true
     sni: www.nintendogames.net
   - name: "🇺🇸 美国3|@ripaojiedian"
     type: trojan
-    server: 95.40.47.145
+    server: 54.46.2.184
     port: 17801
     password: BxceQaOe
     udp: true
@@ -462,6 +649,12 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "台湾省台北市丨yoyapai.com\r"
+    type: ss
+    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto3ztczmwvjmy1moguxltqzzjytotjjzi0zotc4zde0nza1yzracjntcmnnmdaxmjg2zwsylmn5ymvydmvuys5jb206ntawotk
+    port: None
+    cipher: aes-256-gcm
+    password: 
   - name: "美國節點"
     type: vmess
     server: 2a02:6ea0:d32f::f8fe:349b
@@ -488,220 +681,7 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: 2a02:6ea0:d32f::f8fe:349b
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
-  - name: "美國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: Koma-YT.PAGeS.Dev
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra34.chasem2026sud.com
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: Koma-YT.PAGeS.Dev
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.214
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: jp2-8sb.6121999.dpdns.org
-  - name: "美國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.214
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.214
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: epge.muarua.filegear-sg.me
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra35.chasem2026sud.com
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra35.chasem2026sud.com
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: node33.ourfast.asia
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: Koma-YT.PAGeS.Dev
-  - name: "美國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: ads.x5.ru
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra33.chasem2026sud.com
-  - name: "美國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.214
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra34.chasem2026sud.com
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: node33.ourfast.asia
-  - name: "美國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.214
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: jp2-8sb.6121999.dpdns.org
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: fra33.chasem2026sud.com
-  - name: "🇺🇸 US美國丨yoyapai.com\r"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpyvu1uewdfttfqvlljdnlzwetxqtvuqghhy2tuzxktbgf0zxn0lxn0cmlrzs5mcmvlc29ja3mud29yazo0ndm
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "美國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: ads.x5.ru
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: epge.muarua.filegear-sg.me
-  - name: "美國節點丨yoyapai.com\r"
+  - name: "德國節點丨yoyapai.com\r"
     type: ss
     server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpyvu1uewdfttfqvlljdnlzwetxqtvuqghhy2tuzxktbgf0zxn0lxn0cmlrzs5mcmvlc29ja3mud29yazo0ndm
     port: None
@@ -725,118 +705,87 @@ proxies:
     cipher: auto
     network: tcp
     servername: t.me%252Fripaojiedian
-  - name: "德國丨yoyapai.com\r"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpyvu1uewdfttfqvlljdnlzwetxqtvuqghhy2tuzxktbgf0zxn0lxn0cmlrzs5mcmvlc29ja3mud29yazo0ndm
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "德國節點丨yoyapai.com\r"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpyvu1uewdfttfqvlljdnlzwetxqtvuqghhy2tuzxktbgf0zxn0lxn0cmlrzs5mcmvlc29ja3mud29yazo0ndm
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "美國節點丨yoyapai.com\r"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwntpoykdycgz2tnjkc1vts21qylizavkyqhrpbmtlcmvklxblbm5pzxmtchvwcgllcy5mcmvlc29ja3mud29yazo0ndm
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "俄羅斯"
+  - name: "德國節點"
     type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    network: ws
-    servername: renderer-stream-1-411.mirra.now
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
-      headers:
-        Host: renderer-stream-1-411.mirra.now
-  - name: "美國"
+    network: tcp
+    servername: kfm-bn0.pages.dev
+  - name: "德國節點"
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
     cipher: auto
     network: tcp
-    servername: 103.181.164.145
+    servername: jflsjlaf.pages.dev
   - name: "美國節點"
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 103.181.164.145
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
-    servername: 82.198.246.37
-  - name: "美國節點"
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: tcp
-    servername: 103.181.164.145
-  - name: "英國"
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: trojan.burgerip.co.uk
-  - name: "亞太地區"
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 103.181.164.145
-  - name: "美國"
-    type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: 82.198.246.37
+    servername: 0b0c6db6-t70f40-tbe46y-1la7v.hkt.gotochinatown.net
   - name: "英國節點"
     type: vmess
-    server: 82.198.246.37
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: jp2-8sb.6121999.dpdns.org
-  - name: "英國節點"
-    type: vmess
-    server: 82.198.246.37
+    server: 82.198.246.250
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
     network: tcp
     servername: ads.x5.ru
+  - name: "英國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "德國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: Koma-YT.PAGeS.Dev
+  - name: "英國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: 82.198.246.250
+  - name: "美國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: fra35.chasem2026sud.com
+  - name: "英國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: fra33.chasem2026sud.com
   - name: "美國節點"
     type: vmess
     server: 82.198.246.250
@@ -846,6 +795,15 @@ proxies:
     cipher: auto
     network: tcp
     servername: 82.198.246.250
+  - name: "英國節點"
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+    servername: usaapp2.jisuyun.top
   - name: "德國節點"
     type: vmess
     server: 82.198.246.250
