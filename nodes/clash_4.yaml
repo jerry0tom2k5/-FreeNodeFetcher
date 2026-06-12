@@ -1,863 +1,128 @@
 proxies:
-  - name: "🇺🇸US-45.55.40.127-0177"
-    type: ss
-    server: 45.55.40.127
-    port: 49726
-    cipher: chacha20-ietf-poly1305
-    password: elTuo73FsQwO90EbLo96Ve
-  - name: "🇨🇦CA-23.162.200.227-0178"
-    type: vmess
-    server: 23.162.200.227
+  - name: "🇪🇪EE_1|3.1MB/s"
+    type: vless
+    server: 95.85.228.212
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-107.175.91.118-0180"
-    type: vmess
-    server: 107.175.91.118
-    port: 443
-    uuid: 1bb1f95f-7425-4442-93f7-8fc1bd1a2001
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇬🇧GB-82.38.31.218-0082"
-    type: ss
-    server: 82.38.31.218
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇳🇱NL-193.29.139.217-0081"
-    type: ss
-    server: 193.29.139.217
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: "🇳🇱NL-193.29.139.227-0183"
-    type: ss
-    server: 193.29.139.227
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: fbx1Fw7mENCd7vZMvorQZ5
-  - name: "🇬🇧GB-82.38.31.208-0184"
-    type: ss
-    server: 82.38.31.208
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: k1dBOmOB4oqi7Ump37a1bQ
-  - name: "🇺🇸US-13.248.169.48-0186"
-    type: vmess
-    server: cn.zzv01.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv01.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv01.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0187"
-    type: vmess
-    server: cn.zzv12.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv12.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv12.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0188"
-    type: vmess
-    server: cn.zzv02.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv02.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv02.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0189"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-76.223.54.146-0190"
-    type: vmess
-    server: cn.zzv05.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv05.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv05.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0191"
-    type: vmess
-    server: cn.zzv06.infonode.xyz
-    port: 17013
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv06.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv06.infonode.xyz
-  - name: "🇫🇷FR-161.97.68.139-0193"
-    type: ss
-    server: 161.97.68.139
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 94dvoW0TdKRq
-  - name: "🇩🇪DE-91.195.240.123-0194"
-    type: vmess
-    server: 1chuan.top
-    port: 443
-    uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 1chuan.top
-    ws-opts:
-      path: /
-      headers:
-        Host: 1chuan.top
-  - name: "🇯🇵JP-20.210.216.169-0195"
-    type: ss
-    server: 20.210.216.169
-    port: 8313
-    cipher: chacha20-ietf-poly1305
-    password: ljqdalu13..
-  - name: "🇰🇷KR-20.214.201.81-0196"
-    type: ss
-    server: 20.214.201.81
-    port: 8313
-    cipher: chacha20-ietf-poly1305
-    password: ljqdalu13..
-  - name: "🇺🇸US-103.224.182.214-0197"
-    type: trojan
-    server: azhk.ziqiyun.xyz
-    port: 443
-    password: 7b561e94-42f3-4f92-979c-4cf97c328025
+    uuid: 9bc4a008-bc91-4ec2-aa3d-589584511965
     udp: true
-  - name: "🇺🇸US-103.224.182.214-0198"
-    type: trojan
-    server: azrb.ziqiyun.xyz
+    tls: true
+    servername: est.hatvpn.org
+  - name: "🇫🇮FI_1|2.4MB/s"
+    type: vless
+    server: 144.31.129.174
     port: 443
-    password: 7b561e94-42f3-4f92-979c-4cf97c328025
+    uuid: a3e387a8-2284-000a-b5ea-48837b9691ce
     udp: true
-  - name: "🇺🇸US-76.223.54.146-0199"
-    type: vmess
-    server: cn.zzv01.infonode.xyz
-    port: 17014
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv01.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv01.infonode.xyz
-  - name: "🇺🇸US-76.223.54.146-0200"
-    type: vmess
-    server: cn.zzv05.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv05.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv05.infonode.xyz
-  - name: "🇪🇸ES-5.188.181.201-0201"
-    type: ss
-    server: 5.188.181.201
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇪🇸ES-5.188.181.201-0202"
-    type: ss
-    server: 5.188.181.201
-    port: 9027
-    cipher: aes-256-cfb
-    password: EXN3S3eQpjE7EJu8
-  - name: "🇪🇸ES-5.188.181.201-0203"
-    type: ss
-    server: 5.188.181.201
-    port: 9005
-    cipher: aes-256-cfb
-    password: ZET59LF6DvCC8KVt
-  - name: "🇺🇸US-13.248.169.48-0204"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17015
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-149.28.255.6-0070"
-    type: ss
-    server: 149.28.255.6
-    port: 816
-    cipher: chacha20-ietf-poly1305
-    password: GyZ5Xo0ht41vYmW3H4
-  - name: "🇺🇸US-13.248.169.48-0061"
-    type: vmess
-    server: cn.zzv01.infonode.xyz
-    port: 17011
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv01.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv01.infonode.xyz
-  - name: "🇨🇦CA-208.66.228.224-0207"
-    type: vmess
-    server: sg6.6yhy.top
-    port: 4443
-    uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: sg6.6yhy.top
-    ws-opts:
-      path: /
-      headers:
-        Host: sg6.6yhy.top
-  - name: "🇺🇸US-103.224.182.214-0208"
-    type: trojan
-    server: shs.ziqiyun.xyz
-    port: 443
-    password: 7b561e94-42f3-4f92-979c-4cf97c328025
+    servername: s3-fi-1.rucdn777.com
+  - name: "🇨🇭CH_4|3.5MB/s"
+    type: vless
+    server: 83.228.235.106
+    port: 2082
+    uuid: b300edfb-02c0-4a1d-bbb5-1817d9e16927
     udp: true
-  - name: "🇺🇸US-13.248.169.48-0060"
-    type: vmess
-    server: cn.zzv01.infonode.xyz
-    port: 17014
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv01.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv01.infonode.xyz
-  - name: "🇺🇸US-23.22.52.7-0211"
-    type: vmess
-    server: xr-5.herokuapp.com
-    port: 443
-    uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: xr-5.herokuapp.com
-    ws-opts:
-      path: /
-      headers:
-        Host: xr-5.herokuapp.com
-  - name: "🇹🇼TW-211.76.176.98-0212"
-    type: trojan
-    server: 211.76.176.98
-    port: 19128
-    password: gcuCpQfaiVeDBdWG
+    servername: cdn.nobitex.ir
+  - name: "🇺🇸US_7|2.4MB/s"
+    type: vless
+    server: 38.180.81.209
+    port: 443
+    uuid: b5692799-0576-4c94-b67b-506994428dee
     udp: true
-    sni: yazhou10.dynu.net
-  - name: "🇫🇮FI-77.83.247.20-0214"
-    type: ss
-    server: 77.83.247.20
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: ihtUBnhX69ji
-  - name: "🇫🇷FR-155.133.130.93-0215"
-    type: ss
-    server: 155.133.130.93
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: uOaNBB7dlKXH
-  - name: "🇫🇮FI-185.204.1.253-0216"
-    type: ss
-    server: 185.204.1.253
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: V29BpbtkhWZr
-  - name: "🇺🇸US-13.248.169.48-0059"
-    type: vmess
-    server: cn.zzv02.infonode.xyz
-    port: 17015
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv02.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv02.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0058"
-    type: vmess
-    server: cn.zzv02.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv02.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv02.infonode.xyz
-  - name: "🇫🇷FR-144.91.109.71-0219"
-    type: ss
-    server: 144.91.109.71
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: V8stXKscUpkN
-  - name: "🇫🇷FR-144.91.109.75-0220"
-    type: ss
-    server: 144.91.109.75
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: revC4XzAemkX
-  - name: "🇺🇸US-172.239.193.198-0221"
-    type: vmess
-    server: rk59.moonfree.top
-    port: 443
-    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
-    alterId: 0
-    cipher: auto
-    network: ws
     tls: true
-    servername: rk59.moonfree.top
-    ws-opts:
-      path: /
-      headers:
-        Host: rk59.moonfree.top
-  - name: "🇺🇸US-13.248.169.48-0057"
-    type: vmess
-    server: cn.zzv05.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv05.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv05.infonode.xyz
-  - name: "🇭🇰HK-103.149.182.105-0223"
-    type: ss
-    server: 103.149.182.105
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - name: "🇭🇰HK-103.141.221.124-0224"
-    type: ss
-    server: 103.141.221.124
-    port: 8388
-    cipher: chacha20-ietf
-    password: asd123456
-  - name: "🇳🇱NL-193.29.139.199-0225"
-    type: ss
-    server: 193.29.139.199
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: QCXDxuDlTTMD7jtgHUjIoj
-  - name: "🇩🇪DE-109.120.138.95-0226"
-    type: ss
-    server: 109.120.138.95
-    port: 28655
-    cipher: chacha20-ietf-poly1305
-    password: 4a4cb575-15bd-4664-b94d-2e6a6b4ccda8
-  - name: "🇺🇸US-13.248.169.48-0056"
-    type: vmess
-    server: cn.zzv06.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv06.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv06.infonode.xyz
-  - name: "🇺🇸US-76.223.54.146-0055"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17011
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0054"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17015
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-13.248.169.48-0053"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /v2ray
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-76.223.54.146-0232"
-    type: vmess
-    server: cn.zzv07.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv07.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv07.infonode.xyz
-  - name: "🇺🇸US-172.239.193.198-0233"
-    type: vmess
-    server: oz.moonfree.top
-    port: 443
-    uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
-    alterId: 0
-    cipher: auto
-    network: ws
+    servername: www.cloudflare.com
+  - name: "🇨🇭CH_5|3.4MB/s"
+    type: vless
+    server: l10-1.l-itx.info
+    port: 7443
+    uuid: ca428a2e-7f82-4030-851b-cab731a5645a
+    udp: true
     tls: true
-    servername: oz.moonfree.top
-    ws-opts:
-      path: /
-      headers:
-        Host: oz.moonfree.top
-  - name: "🇹🇷TR-188.132.209.15-0234"
-    type: ss
-    server: 188.132.209.15
-    port: 15303
-    cipher: chacha20-ietf-poly1305
-    password: HZb52eFfHGeb
-  - name: "🇺🇸US-13.248.169.48-0235"
-    type: vmess
-    server: 330tw.fans8.xyz
+    servername: colorlib.com
+  - name: "🇭🇺HU_3|2.7MB/s"
+    type: vless
+    server: hu.locklance.lol
     port: 443
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+    uuid: d5b52d85-714e-4b3c-95cd-ca0cbfba35c3
+    udp: true
+    tls: true
+    servername: hu.locklance.lol
+  - name: "🇩🇪DE_9|2.6MB/s"
+    type: vless
+    server: 45.153.190.26
+    port: 443
+    uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
+    udp: true
+    tls: true
+    servername: mageia.ubuntuhosting.host
+  - name: "🇷🇺RU_1|2.3MB/s"
+    type: vless
+    server: l12.l-itx.info
+    port: 443
+    uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
+    udp: true
+    tls: true
+    servername: yandex.by
+  - name: "🇸🇬SG_3|3.6MB/s"
+    type: vmess
+    server: 103.182.97.12
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
-    network: ws
-    tls: true
-    servername: 330tw.fans8.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 330tw.fans8.xyz
-  - name: "🇺🇸US-13.248.169.48-0236"
-    type: vmess
-    server: 331tw.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 331tw.fans8.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 331tw.fans8.xyz
-  - name: "🇺🇸US-13.248.169.48-0051"
-    type: vmess
-    server: 527hk1.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 527hk1.fans8.xyz
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 527hk1.fans8.xyz
-  - name: "🇺🇸US-76.223.54.146-0238"
-    type: vmess
-    server: 527hk1.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: 2
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 527hk1.fans8.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: 527hk1.fans8.xyz
-  - name: "🇵🇱PL-217.30.10.70-0239"
-    type: ss
-    server: 217.30.10.70
-    port: 9093
-    cipher: aes-256-cfb
-    password: wfLC2y7rzZyCmuyt
-  - name: "🇺🇸US-13.248.169.48-0240"
+    network: tcp
+  - name: "DE_speednode_0001"
     type: trojan
-    server: 527hk5.fans8.xyz
-    port: 443
-    password: 9c289eb1-59b1-49ff-9c80-9a3c879c654e
+    server: de-1.hysteria.ltd
+    port: 9443
+    password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
     udp: true
-  - name: "🇵🇱PL-217.30.10.70-0241"
-    type: ss
-    server: 217.30.10.70
-    port: 9043
-    cipher: aes-256-cfb
-    password: HSZuyJQcWe8dxNdF
-  - name: "🇺🇸US-13.248.169.48-0042"
-    type: trojan
-    server: hk64.fans8.xyz
+    sni: de-1.hysteria.ltd
+  - name: "GB_speednode_0002"
+    type: vless
+    server: 82.40.60.172
     port: 443
-    password: a09dd8f9-564f-40bc-9ae6-e30ce742cfe2
+    uuid: bbaaff1e-c914-4817-9d33-58be35a3bee6
     udp: true
-  - name: "🇲🇾MY-47.250.45.234-0244"
-    type: vmess
-    server: 47.250.45.234
-    port: 43063
-    uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇾MY-47.250.45.234-0245"
-    type: vmess
-    server: 47.250.45.234
-    port: 8613
-    uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.244.120.197-0246"
-    type: vmess
-    server: 47.244.120.197
-    port: 44867
-    uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-38.114.114.104-0249"
-    type: ss
-    server: 38.114.114.104
-    port: 7306
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "🇺🇸US-38.33.49.99-0250"
-    type: vmess
-    server: 38.33.49.99
-    port: 37002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
     tls: true
-    servername: www.43499599.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: www.43499599.xyz
-  - name: "🇸🇬SG-103.172.116.5-0251"
-    type: ss
-    server: 103.172.116.5
-    port: 9084
-    cipher: aes-256-cfb
-    password: c3NtHJ5ujV2tGDfj
-  - name: "🇷🇺RU-93.93.89.99-0252"
-    type: vmess
-    server: renderer-stream-1-411.mirra.now
+    servername: nl-1.liambo.ai
+  - name: "LB_speednode_0004"
+    type: vless
+    server: 213.165.56.102
     port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
-    cipher: auto
-    network: ws
+    uuid: 0a12381a-e241-4b63-a03c-1a5a45a95977
+    udp: true
     tls: true
-    servername: renderer-stream-1-411.mirra.now
-    ws-opts:
-      path: /
-      headers:
-        Host: renderer-stream-1-411.mirra.now
-  - name: "🏁RELAY-172.64.80.1-0253"
-    type: vmess
-    server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
+    servername: freede.aiage.work
+  - name: "NL_speednode_0005"
+    type: vless
+    server: 147.45.145.127
+    port: 443
+    uuid: 534cbbe2-cc36-4f2d-8fb0-90410e7148c9
+    udp: true
+    tls: true
+    servername: yahoo.com
+  - name: "US_speednode_0049"
+    type: vless
+    server: 199.232.197.131
     port: 80
-    uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-    ws-opts:
-      path: /
-      headers:
-        Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca
-  - name: "🇸🇬SG-194.87.10.139-0255"
-    type: ss
-    server: 194.87.10.139
-    port: 8388
-    cipher: aes-256-gcm
-    password: c770a24nZJYv
-  - name: "🇺🇸US-76.223.54.146-0256"
-    type: vmess
-    server: cn.zzv06.infonode.xyz
-    port: 17016
-    uuid: edac1153-eff4-3719-92a3-c7620ea00bd7
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: cn.zzv06.infonode.xyz
-    ws-opts:
-      path: /
-      headers:
-        Host: cn.zzv06.infonode.xyz
-  - name: "🇸🇬SG-154.18.239.126-0257"
-    type: ss
-    server: 154.18.239.126
-    port: 37425
-    cipher: chacha20-ietf-poly1305
-    password: eLPlIVuRZ6UJyapVDeT++l7fYC0uowXJFlb9qhntAd4=
-  - name: "🇭🇰HK-47.239.0.60-0260"
-    type: ss
-    server: li.feng3d.com
-    port: 8388
-    cipher: aes-256-gcm
-    password: feng3d@ss2025
-  - name: "🇺🇸US-38.64.138.145-0261"
-    type: ss
-    server: 38.64.138.145
-    port: 5003
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "🇺🇸US-38.114.114.67-0262"
-    type: ss
-    server: 38.114.114.67
-    port: 6697
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇺🇸US-38.75.136.21-0263"
-    type: ss
-    server: 38.75.136.21
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇦🇺AU-185.167.116.253-0264"
-    type: ss
-    server: 185.167.116.253
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇺🇸US-38.114.114.19-0265"
-    type: ss
-    server: 38.114.114.19
-    port: 5601
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇺🇸US-38.75.136.21-0266"
-    type: ss
-    server: 38.75.136.21
-    port: 5001
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇦🇺AU-185.167.116.253-0267"
-    type: ss
-    server: 185.167.116.253
-    port: 9050
-    cipher: aes-256-cfb
-    password: FG5ddLsMPbV5CutE
-  - name: "🇺🇸US-38.114.114.19-0268"
-    type: ss
-    server: 38.114.114.19
-    port: 443
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: "🇺🇸US-38.75.136.21-0269"
-    type: ss
-    server: 38.75.136.21
-    port: 5003
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "🇺🇸US-38.143.66.99-0270"
-    type: ss
-    server: 38.143.66.99
-    port: 8118
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇺🇸US-38.143.66.99-0271"
-    type: ss
-    server: 38.143.66.99
-    port: 5001
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇬🇧GB-78.129.253.9-0273"
-    type: ss
-    server: 78.129.253.9
-    port: 809
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇦🇺AU-185.167.116.24-0274"
-    type: ss
-    server: 185.167.116.24
-    port: 9097
-    cipher: aes-256-cfb
-    password: Sn5B7jTqr76aCJT8
-  - name: "🇺🇸US-38.68.134.85-0275"
-    type: ss
-    server: 38.68.134.85
-    port: 5600
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇨🇦CA-134.195.196.149-0276"
-    type: ss
-    server: 134.195.196.149
-    port: 7307
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: "🇺🇸US-38.64.138.145-0277"
-    type: ss
-    server: 38.64.138.145
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-38.68.134.85-0278"
-    type: ss
-    server: 38.68.134.85
-    port: 6679
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇺🇸US-167.88.63.79-0279"
-    type: ss
-    server: 167.88.63.79
-    port: 3306
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇫🇷FR-195.154.200.150-0280"
-    type: ss
-    server: 195.154.200.150
-    port: 2376
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-  - name: "🇩🇪DE-145.239.1.100-0281"
-    type: ss
-    server: 145.239.1.100
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-38.121.43.71-0282"
-    type: ss
-    server: 38.121.43.71
-    port: 8119
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇩🇪DE-145.239.1.100-0283"
-    type: ss
-    server: 145.239.1.100
-    port: 8888
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇫🇷FR-149.202.82.172-0284"
-    type: ss
-    server: 149.202.82.172
-    port: 6697
-    cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-  - name: "🇷🇺RU-213.183.53.222-0285"
-    type: ss
-    server: 213.183.53.222
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇩🇪DE-145.239.1.100-0286"
-    type: ss
-    server: 145.239.1.100
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🏁RELAY-172.67.197.47-0288"
-    type: trojan
-    server: supersouth.xn--mesv7f5toqlp.club
-    port: 12004
-    password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
     udp: true
-  - name: "🇫🇷FR-149.202.82.172-0289"
-    type: ss
-    server: 149.202.82.172
-    port: 8080
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
+  - name: "US_speednode_0050"
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    udp: true
+  - name: "US_speednode_0051"
+    type: vless
+    server: 151.101.2.219
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    udp: true
+  - name: "US_speednode_0052"
+    type: vless
+    server: 151.101.0.1
+    port: 80
+    uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+    udp: true
