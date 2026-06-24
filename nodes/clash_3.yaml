@@ -1,19 +1,240 @@
 proxies:
-  - name: "捷克+V2CROSS.COM"
-    type: vless
-    server: 95.85.233.181
+  - name: "希腊+V2CROSS.COM"
+    type: trojan
+    server: 92.119.35.127
     port: 443
-    uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
+    password: aR9EJWEB2Jp3m6xKJK=Ct7kLyqFSU-iDBR
     udp: true
-  - name: "俄罗斯+V2CROSS.COM"
+  - name: "美国+Fastly全球Anycast节点"
     type: vless
-    server: 193.233.21.140
+    server: 151.101.192.151
     port: 80
-    uuid: f9255507-1b65-433f-bfd8-193b35e068e2
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
     udp: true
-  - name: "巴西+圣保罗Host1Plus数据中心"
+  - name: "美国+得克萨斯州达拉斯Fastly节点"
     type: vless
-    server: 191.44.118.101
+    server: 151.101.49.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "美国+Akamai科技公司CDN网络节点"
+    type: ss
+    server: 172.234.202.34
+    port: 24833
+    cipher: chacha20-ietf-poly1305
+    password: hRd=IXkjozMEKLeGR_0q09jtwly5J2la2O
+  - name: "美国+V2CROSS.COM"
+    type: trojan
+    server: 207.126.167.162
     port: 443
-    uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+    password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+    udp: true
+  - name: "美国+加利福尼亚州洛杉矶Fastly节点"
+    type: vless
+    server: 151.101.24.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "澳大利亚+V2CROSS.COM"
+    type: ss
+    server: 104.156.233.234
+    port: 27116
+    cipher: chacha20-ietf-poly1305
+    password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  - name: "美国+Fastly节点"
+    type: vless
+    server: 151.101.71.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "美国+华盛顿Cogent通信公司"
+    type: trojan
+    server: 38.54.64.247
+    port: 443
+    password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+    udp: true
+  - name: "芬兰+赫尔辛基Fastly节点"
+    type: vless
+    server: 151.101.247.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.20.6.134
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.calmloud.com
+  - name: "🇫🇮 机场推荐:dafei.de 芬兰 02"
+    type: vless
+    server: cdn4.portalcode.ir
+    port: 2095
+    uuid: a36b1024-70b2-476e-9caf-0fd644d5b9ac
+    udp: true
+  - name: "🇫🇮 机场推荐:dafei.de 芬兰 03"
+    type: vless
+    server: 85.192.61.67
+    port: 14302
+    uuid: 1dd5f2be-f124-4f35-9239-8abc042829c2
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    type: hysteria2
+    server: vpn-us-006.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 08"
+    type: hysteria2
+    server: vpn-us-004.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "🇺🇸_机场推荐:dafei.de_美国_12"
+    type: vmess
+    server: 154.12.50.89
+    port: 37215
+    uuid: 2a2b08aa-c05e-494b-a5a6-8e63abcb9bbd
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸_机场推荐:dafei.de_美国_13"
+    type: vmess
+    server: 43.130.35.53
+    port: 10087
+    uuid: 7cc3912c-b743-4825-9b6c-e588e48ab09e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇺🇸 机场推荐:dafei.de 美国 14"
+    type: vless
+    server: hentai-cdn.apruxdomain.xyz
+    port: 80
+    uuid: c8c0a619-74ad-4365-9ca6-65af13e7739c
+    udp: true
+  - name: "🇨🇭 机场推荐:dafei.de 瑞士 01"
+    type: vless
+    server: 172.65.111.43
+    port: 22
+    uuid: monacoVPN
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
+    type: vless
+    server: 151.101.2.219
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
+    type: vless
+    server: 151.101.38.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
+    type: vless
+    server: 199.232.197.131
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 07"
+    type: vless
+    server: 151.101.109.223
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 08"
+    type: vless
+    server: 151.101.24.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 09"
+    type: vless
+    server: 151.101.27.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 10"
+    type: vless
+    server: 151.101.103.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 11"
+    type: vless
+    server: 151.101.119.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 12"
+    type: vless
+    server: speedtest.net
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 13"
+    type: vless
+    server: 151.101.170.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 14"
+    type: vless
+    server: 151.101.66.219
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 15"
+    type: vless
+    server: 151.101.120.151
+    port: 80
+    uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
+    type: vless
+    server: 81.90.29.53
+    port: 8443
+    uuid: cf038a28-8f85-41fc-9e86-ba99a3fdd0d9
+    udp: true
+  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
+    type: vless
+    server: cdn1.portalcode.ir
+    port: 2095
+    uuid: a36b1024-70b2-476e-9caf-0fd644d5b9ac
+    udp: true
+  - name: "🇨🇳 机场推荐:dafei.de 台湾 01"
+    type: hysteria2
+    server: vpn-tw-002.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "🇯🇵 机场推荐:dafei.de 日本 01"
+    type: hysteria2
+    server: vpn-jp-002.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "🇯🇵_机场推荐:dafei.de_日本_03"
+    type: vmess
+    server: v.wudamiao.cn
+    port: 8443
+    uuid: 7cc3912c-b743-4825-9b6c-e588e48ab09e
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "🇷🇺 机场推荐:dafei.de 俄罗斯 01"
+    type: vless
+    server: 5.129.194.22
+    port: 443
+    uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
     udp: true
