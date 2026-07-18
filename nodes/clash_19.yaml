@@ -1,230 +1,801 @@
 proxies:
-  - name: "🏁RELAY-103.21.244.238-3558"
+  - name: "🇹🇷TR-202.78.162.5-2274"
     type: vmess
-    server: 103.21.244.238
-    port: 8443
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /8cda48b3
-      headers:
-        Host: 
-  - name: "🏁RELAY-103.21.244.248-3560"
-    type: vmess
-    server: 103.21.244.248
-    port: 8443
-    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /8cda48b3
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.199.34-3567"
-    type: vmess
-    server: 172.67.199.34
+    server: 202.78.162.5
     port: 443
-    uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    ws-opts:
-      path: /shares
-      headers:
-        Host: 
-  - name: "🇳🇱NL-163.172.220.71-3568"
-    type: vmess
-    server: 163.172.220.71
-    port: 6616
-    uuid: 459d23f4-dcfd-4fef-9ba3-ef0ad10fc336
-    alterId: 0
-    cipher: auto
-    network: ws
+    servername: sahand.serveminecraft.net
     ws-opts:
       path: /
       headers:
-        Host: 
-  - name: "🏁RELAY-190.93.245.3-3570"
+        Host: sahand.serveminecraft.net
+  - name: "🇫🇷FR-193.243.147.128-2276"
+    type: ss
+    server: 193.243.147.128
+    port: 40368
+    cipher: aes-256-gcm
+    password: 7BcLdsO1WweoGD0X
+  - name: "🇹🇷TR-202.78.162.5-2281"
     type: vmess
-    server: 190.93.245.3
+    server: 202.78.162.5
+    port: 443
+    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: pendar.onthewifi.com
+    ws-opts:
+      path: /
+      headers:
+        Host: pendar.onthewifi.com
+  - name: "🇺🇸US-96.43.91.60-2288"
+    type: vmess
+    server: 96.43.91.60
+    port: 443
+    uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 96.43.91.60
+    ws-opts:
+      path: /path/310910211916
+      headers:
+        Host: 96.43.91.60
+  - name: "🏁RELAY-104.19.45.117-2296"
+    type: vmess
+    server: 104.19.45.117
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.19.45.117
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.19.45.117
+  - name: "🇸🇬SG-139.99.61.53-2297"
+    type: vmess
+    server: 139.99.61.53
+    port: 80
+    uuid: ce3868a4-e2ca-4a6f-8731-e7e88d098886
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 139.99.61.53
+    ws-opts:
+      path: /
+      headers:
+        Host: 139.99.61.53
+  - name: "🇦🇺AU-103.224.212.216-2299"
+    type: trojan
+    server: us2.trojanvh.xyz
+    port: 80
+    password: 255c924c-1314-4084-9a9e-1d1a82a5cf49
+    udp: true
+  - name: "🇺🇸US-23.224.101.102-2301"
+    type: vmess
+    server: 23.224.101.102
+    port: 443
+    uuid: 946ba5df-5771-4873-a3cb-892378526147
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 23.224.101.102
+    ws-opts:
+      path: /footers
+      headers:
+        Host: 23.224.101.102
+  - name: "🏁RELAY-104.26.9.179-2306"
+    type: vmess
+    server: ping.pe
+    port: 443
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: ping.pe
+    ws-opts:
+      path: /111111.online
+      headers:
+        Host: ping.pe
+  - name: "🏁RELAY-104.18.13.15-2311"
+    type: vmess
+    server: workers.dev
+    port: 443
+    uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: workers.dev
+    ws-opts:
+      path: /111111.online
+      headers:
+        Host: workers.dev
+  - name: "🏁RELAY-172.67.222.46-2312"
+    type: vmess
+    server: 172.67.222.46
+    port: 80
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 172.67.222.46
+    ws-opts:
+      path: /
+      headers:
+        Host: 172.67.222.46
+  - name: "🏁RELAY-141.193.213.21-2318"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: news.microsoft.com
+    ws-opts:
+      path: /
+      headers:
+        Host: news.microsoft.com
+  - name: "🏁RELAY-203.24.108.8-2327"
+    type: vmess
+    server: 203.24.108.8
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 203.24.108.8
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: 203.24.108.8
+  - name: "🏁RELAY-173.245.49.10-2328"
+    type: vmess
+    server: 173.245.49.10
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 173.245.49.10
+    ws-opts:
+      path: /
+      headers:
+        Host: 173.245.49.10
+  - name: "🏁RELAY-104.25.52.187-2333"
+    type: vmess
+    server: 104.25.52.187
+    port: 443
+    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
+    alterId: 1
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.25.52.187
+    ws-opts:
+      path: /y475
+      headers:
+        Host: 104.25.52.187
+  - name: "🏁RELAY-104.17.21.243-2334"
+    type: vmess
+    server: 104.17.21.243
+    port: 443
+    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
+    alterId: 1
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.17.21.243
+    ws-opts:
+      path: /y475
+      headers:
+        Host: 104.17.21.243
+  - name: "🇨🇿CZ-46.8.9.227-2335"
+    type: vmess
+    server: superstar.jp1.srayx.xyz
+    port: 80
+    uuid: 27c4d8dc-9676-4ac4-95bf-46a0e338f82e
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: superstar.jp1.srayx.xyz
+    ws-opts:
+      path: /superstar
+      headers:
+        Host: superstar.jp1.srayx.xyz
+  - name: "🏁RELAY-104.19.7.84-2347"
+    type: vmess
+    server: 104.19.7.84
+    port: 443
+    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
+    alterId: 1
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.19.7.84
+    ws-opts:
+      path: /y475
+      headers:
+        Host: 104.19.7.84
+  - name: "🇹🇷TR-37.221.79.48-2349"
+    type: vmess
+    server: v2ray.online
+    port: 443
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: v2ray.online
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: v2ray.online
+  - name: "🏁RELAY-104.19.36.160-2354"
+    type: vmess
+    server: 104.19.36.160
+    port: 443
+    uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.19.36.160
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.19.36.160
+  - name: "🏁RELAY-104.19.110.34-2355"
+    type: vmess
+    server: 104.19.110.34
+    port: 443
+    uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80
+    alterId: 1
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.19.110.34
+    ws-opts:
+      path: /y475
+      headers:
+        Host: 104.19.110.34
+  - name: "🏁RELAY-141.193.213.21-2356"
+    type: vmess
+    server: 141.193.213.21
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 141.193.213.21
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: 141.193.213.21
+  - name: "🏁RELAY-172.67.69.244-2375"
+    type: vmess
+    server: powerservice.com
+    port: 443
+    uuid: 0764a598-82c4-4b41-ba10-551a625beed5
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: powerservice.com
+    ws-opts:
+      path: /
+      headers:
+        Host: powerservice.com
+  - name: "🏁RELAY-203.30.189.190-2380"
+    type: vmess
+    server: 203.30.189.190
     port: 443
     uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
     tls: true
+    servername: 203.30.189.190
     ws-opts:
       path: /5QNROSRV
       headers:
-        Host: 
-  - name: "🇸🇬SG-13.215.200.86-3573"
-    type: ss
-    server: 13.215.200.86
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇫🇷FR-51.77.158.169-3574"
+        Host: 203.30.189.190
+  - name: "🏁RELAY-141.193.213.20-2381"
     type: vmess
-    server: 51.77.158.169
-    port: 2096
-    uuid: c92fd902-b5d3-4208-bb48-630b1c7babea
+    server: 141.193.213.20
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
+    servername: 141.193.213.20
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: 141.193.213.20
+  - name: "🇦🇺AU-103.224.212.216-2383"
+    type: trojan
+    server: uk1.trojanvh.xyz
+    port: 80
+    password: b640d791-ff83-4300-b509-c2a02f97f167
+    udp: true
+  - name: "🏁RELAY-190.93.244.2-2389"
+    type: vmess
+    server: 190.93.244.2
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 190.93.244.2
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: 190.93.244.2
+  - name: "🏁RELAY-104.18.6.138-2396"
+    type: vmess
+    server: 104.18.6.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.18.6.138
     ws-opts:
       path: /
       headers:
-        Host: 
-  - name: "🏁RELAY-172.64.141.75-3577"
+        Host: 104.18.6.138
+  - name: "🏁RELAY-104.21.48.161-2399"
     type: vmess
-    server: uicdn.cf
-    port: 80
-    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: uicdn.cf
-    ws-opts:
-      path: /sshkit/1736960111/63859bc177a33/
-      headers:
-        Host: uicdn.cf
-  - name: "🇫🇮FI-65.109.137.157-3578"
-    type: vmess
-    server: 65.109.137.157
-    port: 80
-    uuid: 2aac77de-b3e4-4017-845c-ca1380f2e8d0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /telegram-id-@privatevpns
-      headers:
-        Host: 
-  - name: "🇰🇷KR-13.125.124.161-3580"
-    type: ss
-    server: 13.125.124.161
+    server: 104.21.48.161
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇭🇰HK-203.198.34.33-3581"
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.21.48.161
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.21.48.161
+  - name: "🏁RELAY-104.19.173.68-2414"
     type: vmess
-    server: hk3.grpc.stream
-    port: 8300
-    uuid: 6031b5c3-d8ba-5756-b708-f61084a2b678
+    server: www.digitalocean.com
+    port: 443
+    uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe
     alterId: 0
     cipher: auto
     network: ws
-    servername: hk3.grpc.stream
+    tls: true
+    servername: www.digitalocean.com
     ws-opts:
-      path: /event
+      path: /111111.online
       headers:
-        Host: hk3.grpc.stream
-  - name: "🏁RELAY-104.18.100.193-3582"
+        Host: www.digitalocean.com
+  - name: "🏁RELAY-104.18.7.138-2432"
     type: vmess
-    server: 104.18.100.193
+    server: 104.18.7.138
+    port: 443
+    uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 104.18.7.138
+    ws-opts:
+      path: /
+      headers:
+        Host: 104.18.7.138
+  - name: "🇷🇺RU-45.136.244.181-2434"
+    type: vmess
+    server: 45.136.244.181
+    port: 80
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 45.136.244.181
+    ws-opts:
+      path: /fr-unlimitxxx
+      headers:
+        Host: 45.136.244.181
+  - name: "🏁RELAY-141.193.213.21-2436"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: news.microsoft.com
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: news.microsoft.com
+  - name: "🇩🇪DE-143.42.21.187-2437"
+    type: vmess
+    server: 143.42.21.187
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /chat
+      headers:
+        Host: 
+  - name: "🇦🇺AU-172.105.255.4-2439"
+    type: vmess
+    server: 172.105.255.4
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /chat
+      headers:
+        Host: 
+  - name: "🇸🇬SG-202.79.172.53-2440"
+    type: vmess
+    server: 202.79.172.53
+    port: 443
+    uuid: 30216206-14b7-40e7-995d-61c1219ba584
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/220128071100
+      headers:
+        Host: 
+  - name: "🇰🇷KR-27.124.8.141-2441"
+    type: vmess
+    server: 27.124.8.141
+    port: 443
+    uuid: c7e645be-1704-4f0a-afe9-8b21f9c711d6
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/220128071100
+      headers:
+        Host: 
+  - name: "🇸🇬SG-143.198.219.182-2456"
+    type: vmess
+    server: 143.198.219.182
+    port: 80
+    uuid: e9c4ce52-9a78-4381-b6f8-23350bc4d606
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /v2ray
+      headers:
+        Host: 
+  - name: "🇯🇵JP-140.83.84.209-2460"
+    type: vmess
+    server: 140.83.84.209
+    port: 1234
+    uuid: e94247e0-d3e5-4f96-d8f3-b2144b383292
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /1234
+      headers:
+        Host: 
+  - name: "🇨🇳CN-120.226.39.25-2462"
+    type: trojan
+    server: 120.226.39.25
+    port: 19215
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇺🇸US-76.223.54.146-2463"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 18634
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: avas04.xiaohouzi.club
+  - name: "🇨🇳CN-120.226.39.25-2464"
+    type: trojan
+    server: 120.226.39.25
+    port: 19243
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇺🇸US-76.223.54.146-2465"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 18831
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: avas01.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-2466"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 27094
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: siga01.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-2467"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 17107
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🏁RELAY-172.67.207.209-2468"
+    type: vmess
+    server: 172.67.207.209
     port: 2082
-    uuid: 36fa45db-2d4a-4295-a1fe-223836989878
+    uuid: 082122a2-8479-4089-82f0-f32ba5fc5426
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /pineapple
+      path: /bb
       headers:
         Host: 
-  - name: "🏁RELAY-162.159.128.7-3591"
+  - name: "🇺🇸US-13.248.169.48-2470"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 16082
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: nh-hinet06.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-2473"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18433
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🏁RELAY-172.67.169.131-2475"
     type: vmess
-    server: 162.159.128.7
+    server: 172.67.169.131
     port: 443
-    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /5QNROSRV
+      path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇺🇸US-169.197.142.48-3592"
-    type: ss
-    server: 169.197.142.48
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇸🇬SG-18.142.183.235-3593"
-    type: ss
-    server: 18.142.183.235
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇸🇬SG-13.213.2.160-3654"
-    type: ss
-    server: 13.213.2.160
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇩🇪DE-162.55.214.110-3773"
+  - name: "🏁RELAY-173.245.49.23-2476"
     type: vmess
-    server: 162.55.214.110
-    port: 51549
-    uuid: 6399ab58-b7ce-4d24-be9e-92c581c93b44
+    server: 173.245.49.23
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: 
+  - name: "🇺🇸US-13.248.169.48-2477"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 16015
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🏁RELAY-185.162.228.110-2479"
+    type: vmess
+    server: 185.162.228.110
+    port: 443
+    uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /AUIKN8AU
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.185.133-2480"
+    type: vmess
+    server: 172.67.185.133
+    port: 443
+    uuid: 44ceb389-4cea-4ea1-eef9-11ce6f3effe6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
     ws-opts:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-38.91.107.72-3774"
-    type: ss
-    server: 38.91.107.72
-    port: 5500
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-  - name: "🇺🇸US-5.161.114.91-3775"
+  - name: "🏁RELAY-172.67.178.127-2482"
     type: vmess
-    server: 5.161.114.91
-    port: 26613
-    uuid: 2c10a354-ca2d-4db3-d8f6-6f89f5117c9f
+    server: 172.67.178.127
+    port: 443
+    uuid: 26b5fbcf-d199-407e-e8bf-96d7489d247d
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: /
+      path: /123
       headers:
         Host: 
-  - name: "🇳🇱NL-95.211.249.49-3776"
+  - name: "🇻🇳VN-42.96.3.193-2486"
     type: vmess
-    server: 95.211.249.49
-    port: 41065
-    uuid: a81cc101-bc8b-4124-acc6-4b1eba08fefa
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dfgd55dg5dG
-      headers:
-        Host: 
-  - name: "🇳🇱NL-104.248.80.136-3777"
-    type: vmess
-    server: 104.248.80.136
+    server: 42.96.3.193
     port: 80
-    uuid: df756db8-a7de-4ff9-a847-d2632bd021e2
+    uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
     alterId: 0
     cipher: auto
     network: ws
     ws-opts:
-      path: /graphql
+      path: /
       headers:
         Host: 
-  - name: "🇺🇸US-128.14.140.254-3778"
+  - name: "🇸🇬SG-146.190.82.241-2493"
     type: vmess
-    server: 128.14.140.254
+    server: 146.190.82.241
+    port: 80
+    uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-24.199.119.135-2497"
+    type: vmess
+    server: 24.199.119.135
+    port: 443
+    uuid: e6da31cb-6c97-4699-c412-124d5ab80856
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇬🇧GB-78.129.253.9-5118"
+    type: ss
+    server: 78.129.253.9
+    port: 807
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-85.208.108.90-2500"
+    type: ss
+    server: 85.208.108.90
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇿🇦ZA-129.151.164.152-2501"
+    type: vmess
+    server: 129.151.164.152
+    port: 55600
+    uuid: e30f8588-2555-48b8-c354-c8e63f57232d
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇫🇮FI-65.109.184.152-2502"
+    type: vmess
+    server: 65.109.184.152
+    port: 443
+    uuid: 5cf836c8-bb7d-4eac-f0ee-bc721fb7453b
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🏁RELAY-141.193.213.21-2505"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: news.microsoft.com
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: news.microsoft.com
+  - name: "🇩🇪DE-87.254.31.23-2506"
+    type: vmess
+    server: 87.254.31.23
+    port: 41647
+    uuid: aae02fcc-179b-4edc-aa69-6878ff29d01c
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /uk/getData
+      headers:
+        Host: 
+  - name: "🇨🇳CN-120.226.39.25-2507"
+    type: trojan
+    server: 120.226.39.25
+    port: 19201
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2509"
+    type: trojan
+    server: 120.226.39.25
+    port: 19240
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🏁RELAY-103.21.244.122-2510"
+    type: vmess
+    server: 103.21.244.122
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: 
+  - name: "🇺🇸US-13.248.169.48-2511"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18459
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-2512"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 18432
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-13.248.169.48-2514"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 49363
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hnm.xiaohouzi.club
+  - name: "🏁RELAY-203.30.191.20-2515"
+    type: vmess
+    server: 203.30.191.20
     port: 443
     uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
@@ -235,583 +806,76 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🇩🇪DE-150.230.149.55-3779"
+  - name: "🏁RELAY-203.30.191.18-2516"
     type: vmess
-    server: 150.230.149.55
-    port: 6374
-    uuid: 80f25361-877d-46d4-8404-f0dce1faf84f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇻🇳VN-103.98.151.144-3780"
-    type: vmess
-    server: 103.98.151.144
-    port: 80
-    uuid: 7fd77cee-282f-4f59-8e78-27146725ba89
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇬🇧GB-51.75.160.126-3781"
-    type: vmess
-    server: 51.75.160.126
-    port: 80
-    uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇷🇸RS-194.71.126.31-3782"
-    type: ss
-    server: 194.71.126.31
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇧🇦BA-185.164.35.9-3783"
-    type: ss
-    server: 185.164.35.9
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇳🇱NL-172.99.188.99-3784"
-    type: ss
-    server: 172.99.188.99
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇬🇧GB-78.129.253.9-3785"
-    type: ss
-    server: 78.129.253.9
-    port: 810
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-78.129.253.9-3786"
-    type: ss
-    server: 78.129.253.9
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-85.208.108.61-3788"
-    type: ss
-    server: 85.208.108.61
+    server: 203.30.191.18
     port: 443
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: "🇨🇦CA-85.208.108.92-3789"
-    type: ss
-    server: 85.208.108.92
-    port: 443
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: "🇪🇪EE-37.252.5.234-3791"
-    type: ss
-    server: 37.252.5.234
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇲🇽MX-190.103.179.23-3792"
-    type: ss
-    server: 190.103.179.23
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇩🇪DE-185.104.184.78-3793"
-    type: ss
-    server: 185.104.184.78
-    port: 802
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇩🇪DE-185.104.184.78-3794"
-    type: ss
-    server: 185.104.184.78
-    port: 804
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇷🇺RU-92.223.109.126-3795"
-    type: ss
-    server: 92.223.109.126
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇬🇧GB-78.129.253.9-3796"
-    type: ss
-    server: 78.129.253.9
-    port: 802
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-78.129.253.9-3797"
-    type: ss
-    server: 78.129.253.9
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-78.129.253.9-3798"
-    type: ss
-    server: 78.129.253.9
-    port: 808
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇪SE-13.49.241.14-3800"
-    type: ss
-    server: 13.49.241.14
-    port: 27092
-    cipher: chacha20-ietf-poly1305
-    password: pydQILh06AvJ
-  - name: "🇨🇭CH-156.146.62.160-3801"
-    type: ss
-    server: 156.146.62.160
-    port: 443
-    cipher: aes-128-cfb
-    password: shadowsocks
-  - name: "🇭🇰HK-148.66.56.98-3802"
-    type: ss
-    server: 148.66.56.98
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-169.197.141.14-3803"
-    type: ss
-    server: 169.197.141.14
-    port: 9101
-    cipher: aes-256-gcm
-    password: e4FCWrgpkji3QY
-  - name: "🇳🇱NL-37.48.102.95-3806"
-    type: vmess
-    server: 37.48.102.95
-    port: 42066
-    uuid: 147e8924-4079-4125-be5f-15b3d0462c4d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /dgfdrg5GB5t5er
-      headers:
-        Host: 
-  - name: "🇩🇪DE-185.104.184.78-3807"
-    type: ss
-    server: 185.104.184.78
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-78.129.253.9-3808"
-    type: ss
-    server: 78.129.253.9
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-5.161.131.154-3812"
-    type: vmess
-    server: 5.161.131.154
-    port: 58637
-    uuid: e741be25-c051-4009-bc12-060ddb41f6cb
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-167.235.192.0-3813"
-    type: vmess
-    server: 167.235.192.0
-    port: 25052
-    uuid: cbeff4ce-adcb-4e25-a42b-b4e5463b0d93
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇫🇷FR-51.77.213.197-3815"
-    type: trojan
-    server: 51.77.213.197
-    port: 443
-    password: 973ed2e0-c4d8-4737-a093-71629148086d
-    udp: true
-    sni: frt2.sshocean.net
-  - name: "🇳🇱NL-85.17.5.150-3818"
-    type: vmess
-    server: 85.17.5.150
-    port: 36306
-    uuid: 4070fdde-43d5-4b3f-dbcf-7751c77e4bf6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /Af5645tr
-      headers:
-        Host: 
-  - name: "🇫🇷FR-141.94.59.200-3819"
-    type: vmess
-    server: 141.94.59.200
-    port: 8080
-    uuid: 2f685138-93b0-453f-d683-9398b3a3b8a0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-38.9.140.66-3820"
-    type: trojan
-    server: 38.9.140.66
-    port: 443
-    password: vvip-periantara
-    udp: true
-    sni: id3tr.jagoan.vip
-  - name: "🇫🇷FR-57.128.45.161-3821"
-    type: vmess
-    server: 57.128.45.161
-    port: 80
-    uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /user
-      headers:
-        Host: 
-  - name: "🇨🇿CZ-46.8.8.220-3822"
-    type: vmess
-    server: sg-v.sshmax.xyz
-    port: 80
-    uuid: 0baaf014-af04-4028-be53-f5c75bb276ae
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sg-v.sshmax.xyz
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg-v.sshmax.xyz
-  - name: "🇩🇪DE-159.223.30.153-3824"
-    type: vmess
-    server: 159.223.30.153
-    port: 8081
-    uuid: c2743f4a-9590-4406-dc78-6ac98c12004a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-5.161.105.171-3825"
-    type: vmess
-    server: 5.161.105.171
-    port: 80
-    uuid: 5e9d0956-4f00-45ce-cb2f-f35d7c9b71aa
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇦🇺AU-139.99.135.182-3826"
-    type: vmess
-    server: 139.99.135.182
-    port: 80
-    uuid: e7df0582-d168-43af-bfff-90c25af7d085
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇦🇿AZ-94.20.154.26-3827"
-    type: ss
-    server: 94.20.154.26
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇫🇮FI-37.143.129.230-3828"
-    type: ss
-    server: 37.143.129.230
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇫🇮FI-135.181.114.242-3829"
-    type: ss
-    server: 135.181.114.242
-    port: 8478
-    cipher: chacha20-ietf-poly1305
-    password: siF98xBL2v1i
-  - name: "🇬🇧GB-78.129.253.9-3830"
-    type: ss
-    server: 78.129.253.9
-    port: 804
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇩🇰DK-192.36.27.94-3831"
-    type: ss
-    server: 192.36.27.94
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇳🇱NL-172.99.188.99-3832"
-    type: ss
-    server: 172.99.188.99
-    port: 5601
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇩🇪DE-5.75.247.192-3833"
-    type: vmess
-    server: 5.75.247.192
-    port: 443
-    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-    alterId: 0
-    cipher: auto
-    network: http
-  - name: "🇩🇪DE-88.198.104.211-3834"
-    type: vmess
-    server: 88.198.104.211
-    port: 443
-    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
-    alterId: 0
-    cipher: auto
-    network: http
-  - name: "🇫🇮FI-65.109.134.191-3835"
-    type: vmess
-    server: 65.109.134.191
-    port: 80
-    uuid: 91698747-92b3-4a07-b5da-22694edbea82
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /graphql
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.64.80.1-3836"
-    type: vmess
-    server: sg80-2.sanfen001.pics
-    port: 80
-    uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: sg80-2.sanfen001.pics
-    ws-opts:
-      path: /zh-cn/download
-      headers:
-        Host: sg80-2.sanfen001.pics
-  - name: "🇭🇰HK-104.208.117.86-3905"
-    type: vmess
-    server: univstar-104-208-117-86.nip.io
-    port: 443
-    uuid: 328b2547-d141-4df4-a76e-4f1c2e361f5c
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: univstar-104-208-117-86.nip.io
-    ws-opts:
-      path: /
-      headers:
-        Host: univstar-104-208-117-86.nip.io
-  - name: "🇮🇳IN-45.79.120.243-3907"
-    type: vmess
-    server: 45.79.120.243
-    port: 20
-    uuid: d380107c-54f3-4da6-d034-18ed66152f07
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-51.77.71.131-3908"
-    type: trojan
-    server: 51.77.71.131
-    port: 443
-    password: Sp3eDVp
-    udp: true
-  - name: "🇩🇪DE-51.77.71.134-3913"
-    type: trojan
-    server: 51.77.71.134
-    port: 443
-    password: origin
-    udp: true
-  - name: "🇺🇸US-51.81.211.171-3916"
-    type: trojan
-    server: 51.81.211.171
-    port: 443
-    password: 2dab5d78-5c56-4252-850d-c037753a40db
-    udp: true
-  - name: "🇸🇬SG-8.219.58.58-3917"
-    type: vmess
-    server: 8.219.58.58
-    port: 443
-    uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /ray
-      headers:
-        Host: 
-  - name: "🇷🇺RU-176.119.159.245-3924"
-    type: vmess
-    server: 176.119.159.245
-    port: 37672
-    uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
-    alterId: 64
-    cipher: auto
-    network: http
-  - name: "🇯🇵JP-153.125.148.41-3932"
-    type: trojan
-    server: trs12.bolab.net
-    port: 443
-    password: 14bdba6dede262387ebdebaa706e1c90
-    udp: true
-  - name: "🏁RELAY-172.67.215.250-3939"
-    type: trojan
-    server: hk1.sanfen001.pics
-    port: 443
-    password: 8800c518-e68a-4441-a45c-cd67855784c8
-    udp: true
-    sni: hk1.sanfen001.pics
-  - name: "🏁RELAY-172.67.215.250-3941"
-    type: trojan
-    server: hk2.sanfen001.pics
-    port: 443
-    password: 8800c518-e68a-4441-a45c-cd67855784c8
-    udp: true
-  - name: "🏁RELAY-104.21.91.112-3942"
-    type: trojan
-    server: jp2.sanfen001.pics
-    port: 443
-    password: 8800c518-e68a-4441-a45c-cd67855784c8
-    udp: true
-    sni: jp1.sanfen001.pics
-  - name: "🏁RELAY-104.21.91.112-3943"
-    type: trojan
-    server: kr1.sanfen001.pics
-    port: 443
-    password: 8800c518-e68a-4441-a45c-cd67855784c8
-    udp: true
-  - name: "🏁RELAY-104.21.91.112-3944"
-    type: trojan
-    server: kr2.sanfen001.pics
-    port: 443
-    password: 8800c518-e68a-4441-a45c-cd67855784c8
-    udp: true
-    sni: kr1.sanfen001.pics
-  - name: "🇭🇰HK-18.167.121.42-3951"
-    type: vmess
-    server: 18.167.121.42
-    port: 35781
-    uuid: d3978bd0-dade-4181-81de-bae3091339f1
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hk.wumaojichang.ml
-      headers:
-        Host: 
-  - name: "🇨🇦CA-196.247.59.156-3964"
-    type: ss
-    server: 196.247.59.156
-    port: 806
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇬🇧GB-212.102.53.78-3965"
-    type: ss
-    server: 212.102.53.78
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇺🇸US-79.133.109.56-3966"
-    type: ss
-    server: 79.133.109.56
-    port: 1036
-    cipher: chacha20-ietf-poly1305
-    password: )1N1E6v0SU_rGTpg
-  - name: "🇺🇸US-144.168.60.70-3967"
-    type: ss
-    server: 144.168.60.70
-    port: 252
-    cipher: aes-256-cfb
-    password: bwhskrskr03
-  - name: "🇺🇸US-198.181.56.163-3969"
-    type: ss
-    server: 198.181.56.163
-    port: 238
-    cipher: aes-256-cfb
-    password: bwhskrskr05
-  - name: "🇺🇸US-172.96.192.58-3970"
-    type: ss
-    server: 172.96.192.58
-    port: 254
-    cipher: aes-256-cfb
-    password: bwhskrskr03
-  - name: "🇺🇸US-97.64.31.80-3971"
-    type: ss
-    server: 97.64.31.80
-    port: 247
-    cipher: aes-256-cfb
-    password: bwhskrskr03
-  - name: "🇺🇸US-162.251.61.221-3972"
-    type: ss
-    server: 162.251.61.221
-    port: 809
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-162.251.61.221-3973"
-    type: ss
-    server: 162.251.61.221
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇺🇸US-23.237.33.106-3976"
-    type: vmess
-    server: 23.237.33.106
-    port: 443
-    uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: clash1.trump2023.net
     ws-opts:
       path: /dongtaiwang.com
       headers:
-        Host: clash1.trump2023.net
-  - name: "🏁RELAY-172.67.178.55-3977"
-    type: vmess
-    server: 172.67.178.55
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-2517"
+    type: trojan
+    server: hnm.xiaohouzi.club
+    port: 47651
+    password: 21e10785-99c6-316e-a184-a03384ee06e5
+    udp: true
+    sni: $hnm.xiaohouzi.club
+  - name: "🇸🇬SG-54.179.221.54-2518"
+    type: ss
+    server: 54.179.221.54
     port: 443
-    uuid: 0145bfef-aa53-416f-90d4-8634295dab57
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇨🇦CA-85.208.108.90-2519"
+    type: ss
+    server: 85.208.108.90
+    port: 6379
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+  - name: "🇺🇸US-173.82.240.199-2520"
+    type: trojan
+    server: 173.82.240.199
+    port: 44301
+    password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
+    udp: true
+    sni: lav002.jd0001.top
+  - name: "🇺🇸US-3.145.14.67-2524"
+    type: trojan
+    server: 3.145.14.67
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇨🇳CN-153.101.64.221-2527"
+    type: vmess
+    server: 153.101.64.221
+    port: 40013
+    uuid: 5716c1b4-c2d3-4a9d-a9a8-5d9919d0ed8f
     alterId: 0
     cipher: auto
     network: ws
-    tls: true
-    servername: www.aoopmiss.cf
     ws-opts:
-      path: /live
+      path: /qwe123321ewq
       headers:
-        Host: www.aoopmiss.cf
-  - name: "🇵🇱PL-70.34.252.176-3979"
+        Host: 
+  - name: "🇫🇷FR-51.38.99.96-2528"
+    type: trojan
+    server: 51.38.99.96
+    port: 443
+    password: b8808043-6566-4923-9195-e66bfb553d57
+    udp: true
+    sni: ba24.ir
+  - name: "🇸🇬SG-18.143.123.35-2529"
     type: vmess
-    server: 70.34.252.176
-    port: 8081
-    uuid: 984ff24e-2bbb-4461-a761-bf8ccb77b80d
+    server: 18.143.123.35
+    port: 80
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
     alterId: 0
     cipher: auto
     network: ws
@@ -819,65 +883,152 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-98.142.141.198-3980"
+  - name: "🇰🇷KR-144.24.76.54-2532"
+    type: trojan
+    server: 144.24.76.54
+    port: 8443
+    password: cd27884b-c5af-34ec-b75f-8248077818fe
+    udp: true
+    sni: 2.hg.kr.cat77.cloud
+  - name: "🏁RELAY-23.227.38.100-2539"
+    type: vmess
+    server: 23.227.38.100
+    port: 443
+    uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /UMW36262
+      headers:
+        Host: 
+  - name: "🇨🇳CN-120.226.39.25-2542"
+    type: trojan
+    server: 120.226.39.25
+    port: 19241
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2543"
+    type: trojan
+    server: 120.226.39.25
+    port: 19232
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2544"
+    type: trojan
+    server: 120.226.39.25
+    port: 19233
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2545"
+    type: trojan
+    server: 120.226.39.25
+    port: 19239
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2546"
+    type: trojan
+    server: 120.226.39.25
+    port: 19248
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2547"
+    type: trojan
+    server: 120.226.39.25
+    port: 19245
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇨🇳CN-120.226.39.25-2549"
+    type: trojan
+    server: 120.226.39.25
+    port: 19225
+    password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
+    udp: true
+  - name: "🇺🇸US-129.146.113.254-2550"
+    type: vmess
+    server: 129.146.113.254
+    port: 44107
+    uuid: fd84746b-24ed-449f-c53e-def4b90e122e
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-76.223.54.146-2551"
+    type: trojan
+    server: hn.xiaohouzi.club
+    port: 14185
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: hn.xiaohouzi.club
+  - name: "🇺🇸US-76.223.54.146-2552"
+    type: trojan
+    server: gz01.xiaohouzi.club
+    port: 20091
+    password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
+    udp: true
+    sni: gz01.xiaohouzi.club
+  - name: "🏁RELAY-172.64.154.155-2555"
+    type: vmess
+    server: 172.64.154.155
+    port: 443
+    uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /dongtaiwang.com
+      headers:
+        Host: 
+  - name: "🇸🇬SG-13.215.191.190-2556"
     type: ss
-    server: 98.142.141.198
-    port: 16219
-    cipher: aes-256-gcm
-    password: VJw0ehrreo
-  - name: "🏁RELAY-198.41.212.92-3984"
-    type: vmess
-    server: 198.41.212.92
+    server: 13.215.191.190
     port: 443
-    uuid: bd014532-1f8b-4d33-b79d-50131d8d4633
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: www.998808.xyz
-    ws-opts:
-      path: /vbje5ytgwfgdrhe
-      headers:
-        Host: www.998808.xyz
-  - name: "🏁RELAY-172.67.72.172-3985"
-    type: vmess
-    server: 172.67.72.172
-    port: 443
-    uuid: 1bff15f1-a71d-4f07-b8bf-9471708eff8b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: nat.998808.xyz
-    ws-opts:
-      path: /fthe4gsefgtdu
-      headers:
-        Host: nat.998808.xyz
-  - name: "🏁RELAY-172.67.79.117-3987"
-    type: vmess
-    server: 172.67.79.117
-    port: 443
-    uuid: bd014532-1f8b-4d33-b79d-50131d8d4633
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: www.998808.xyz
-    ws-opts:
-      path: /vbje5ytgwfgdrhe
-      headers:
-        Host: www.998808.xyz
-  - name: "🇹🇼TW-211.72.35.110-3993"
-    type: vmess
-    server: 211.72.35.110
-    port: 443
-    uuid: 2eb30779-2e8c-4b89-e6bd-a0ec760ca506
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: woideneu7.jsworld.eu.org
-    ws-opts:
-      path: /nishikata
-      headers:
-        Host: woideneu7.jsworld.eu.org
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇨🇦CA-51.161.118.38-2557"
+    type: ss
+    server: 51.161.118.38
+    port: 812
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2558"
+    type: ss
+    server: 51.161.118.38
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2559"
+    type: ss
+    server: 51.161.118.38
+    port: 808
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2560"
+    type: ss
+    server: 51.161.118.38
+    port: 811
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2561"
+    type: ss
+    server: 51.161.118.38
+    port: 807
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2562"
+    type: ss
+    server: 51.161.118.38
+    port: 802
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇨🇦CA-51.161.118.38-2563"
+    type: ss
+    server: 51.161.118.38
+    port: 804
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
