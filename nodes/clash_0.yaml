@@ -1,289 +1,52 @@
 proxies:
-  - name: "防范境外势力渗透"
-    type: vmess
-    server: 127.0.0.53
-    port: 80
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#1"
-    type: vmess
-    server: 127.0.0.53
-    port: 81
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#2"
-    type: vmess
-    server: 127.0.0.53
-    port: 82
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#3"
-    type: vmess
-    server: 127.0.0.53
-    port: 83
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#4"
-    type: vmess
-    server: 127.0.0.53
-    port: 84
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#5"
-    type: vmess
-    server: 127.0.0.53
-    port: 85
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#6"
-    type: vmess
-    server: 127.0.0.53
-    port: 86
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#7"
-    type: vmess
-    server: 127.0.0.53
-    port: 87
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#8"
-    type: vmess
-    server: 127.0.0.53
-    port: 88
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "防范境外势力渗透_#9"
-    type: vmess
-    server: 127.0.0.53
-    port: 89
-    uuid: 88888888-8888-8888-8888-888888888888
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "美国2"
-    type: hysteria2
-    server: mg2.mangshe.xyz
-    port: 2056
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: www.wto.org
+    port: 2095
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
     udp: true
-  - name: "新加坡1"
-    type: hysteria2
-    server: xjp1.mangshe.xyz
-    port: 2055
-    password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-    udp: true
-  - name: "JP"
-    type: hysteria2
-    server: jp7.dexlos.com
-    port: 13778
-    password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
-    udp: true
-  - name: "DE"
-    type: hysteria2
-    server: de.eyucdn.xyz
-    port: 2056
-    password: a084933d-0b41-4571-ae0c-7163b8c71ed1
-    udp: true
-  - name: "🇭🇰 HK"
-    type: hysteria2
-    server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.26.6.159
     port: 443
-    password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+    password: humanity
     udp: true
-  - name: "@KAFING_2"
-    type: hysteria2
-    server: 181.214.99.162
-    port: 35000
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    udp: true
-  - name: "SG"
-    type: hysteria2
-    server: sg3.oomz.ru
-    port: 30000
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    udp: true
-  - name: "TW"
-    type: hysteria2
-    server: tw.oomz.ru
-    port: 30000
-    password: e7965e64-e001-4e8c-8273-39c61ff4a094
-    udp: true
-  - name: "@AzarAndoozVPNbot"
-    type: hysteria2
-    server: 140.233.177.48
-    port: 33884
-    password: 3uIVdQh2vc
-    udp: true
-  - name: "🇩🇪@V2RayyNGvpn کانال ما ❗"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: 73x493S1pE
-    udp: true
-  - name: "@AzarAndoozVPNbot #1"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: ALg6h4f8Mo
-    udp: true
-  - name: "⚽75@oneclickvpnkeys"
-    type: hysteria2
-    server: 81.27.102.215
-    port: 8443
-    password: Apt1923_N9x234gn_Nal5Nx3j_s
-    udp: true
-  - name: "@one_shop_official"
-    type: hysteria2
-    server: 103.115.109.49
+    sni: www.creationlong.org
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 172.64.152.23
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    password: humanity
     udp: true
-  - name: "@icv2ray"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: IoFmkhjUlE
+    sni: www.creationlong.org
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: cloudflare.182682.xyz
+    port: 443
+    uuid: 4a1441b0-7bc8-4906-85cf-6b59c256b480
     udp: true
-  - name: "🩵+@Azarakhsh_Proxy+🩷"
-    type: hysteria2
-    server: 179.61.132.96
-    port: 8443
-    password: KevinZakarian
+    tls: true
+    servername: edt2.yfqh08811.ccwu.cc
+  - name: "荷兰+V2CROSS.COM"
+    type: trojan
+    server: 188.164.248.122
+    port: 443
+    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
     udp: true
-  - name: "@Surfboardv2ray"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: M4q4riAk3C
+    sni: space.byu.id.yxls.eu.cc
+  - name: "德国+黑森州法兰克福DigitalOcean数据中心"
+    type: vless
+    server: 167.172.173.163
+    port: 58324
+    uuid: 3d675570-43d2-443e-93bb-29b9d1fdc563
     udp: true
-  - name: "@AzarAndoozVPNbot #2"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: Ov5kSglMCd
-    udp: true
-  - name: "🇳🇱@V2RayyNGvpn کانال ما  🇳🇱"
-    type: hysteria2
-    server: 51.15.110.119
-    port: 19978
-    password: Pld6E6l8xI
-    udp: true
-  - name: "🇩🇪@V2RayyNGvpn🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: R9BN2XHrGV
-    udp: true
-  - name: "telegram @mtmvpn 15"
-    type: hysteria2
-    server: 91.107.174.32
-    port: 25810
-    password: UUoAsk2eM4
-    udp: true
-  - name: "@Surfboardv2ray #1"
-    type: hysteria2
-    server: 91.107.174.32
-    port: 25810
-    password: V2RayyNGvpn
-    udp: true
-  - name: "@Surfboardv2ray #2"
-    type: hysteria2
-    server: 91.107.174.32
-    port: 25810
-    password: VpxzokH9V4
-    udp: true
-  - name: "🇳🇱 - NL - @FreeOnlineVPN"
-    type: hysteria2
-    server: 206.71.158.37
-    port: 35000
-    password: Yet-Another-Public-Config-1
-    udp: true
-  - name: "🇩🇪 کانال ما @V2RayyNGvpn🇩🇪"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: ZkWtnfGK6h
-    udp: true
-  - name: "@AzarAndoozVPNbot #3"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: ZkaDQncyundefineda
-    udp: true
-  - name: "@KAFING_2 #2"
-    type: hysteria2
-    server: 5.175.249.174
-    port: 35000
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    udp: true
-  - name: "@prrofile_purple  ♥️👈 تلگرام"
-    type: hysteria2
-    server: assets.gateway-stream.com
-    port: 52021
-    password: elknam6l7izf3z71
-    udp: true
-  - name: "🇳🇱@V2RayyNGvpn🇳🇱"
-    type: hysteria2
-    server: 51.15.110.119
-    port: 19978
-    password: gG5szcxrbt
-    udp: true
-  - name: "🇩🇪T-ME-V2RayyNGvpn🎖️"
-    type: hysteria2
-    server: 91.107.174.32
-    port: 25810
-    password: idCPgpLEqx
-    udp: true
-  - name: "🇩🇪 کانال ما @V2RayyNGvpn🇩🇪 #1"
-    type: hysteria2
-    server: 91.107.152.188
-    port: 31999
-    password: lubtxOi8h8
-    udp: true
-  - name: "📊87@oneclickvpnkeys"
-    type: hysteria2
-    server: nrealistic.nn-foto.ru
-    port: 1935
-    password: o3774es6cfv74kaf
-    udp: true
-  - name: "MTMVPN 🇩🇪"
-    type: hysteria2
-    server: 91.107.174.32
-    port: 25810
-    password: p0IbtS8wCZ
-    udp: true
-  - name: "@Surfboardv2ray #3"
-    type: hysteria2
-    server: 140.233.177.48
-    port: 33884
-    password: vVaz4PV7B7
-    udp: true
-  - name: "tg频道:@ripaojiedian #1"
+  - name: "tg频道:@ripaojiedian"
     type: ss
     server: 63.180.254.10
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇭🇰_香港|@ripaojiedian"
+  - name: "香港|@ripaojiedian"
     type: vmess
     server: v10.hdacd.com
     port: 30807
@@ -293,392 +56,598 @@ proxies:
     network: tcp
   - name: "香港3|@ripaojiedian"
     type: trojan
-    server: 18.167.109.142
-    port: 13118
+    server: 43.198.78.177
+    port: 47867
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "香港4|@ripaojiedian"
     type: trojan
-    server: 43.198.15.160
-    port: 11035
+    server: 43.198.11.229
+    port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "香港5|@ripaojiedian"
     type: trojan
-    server: 43.198.246.144
-    port: 11231
+    server: 43.198.17.21
+    port: 27161
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
   - name: "日本|@ripaojiedian"
     type: trojan
-    server: 18.163.84.128
-    port: 4099
+    server: 43.199.253.12
+    port: 54411
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "日本2|@ripaojiedian"
     type: trojan
-    server: 35.77.80.32
-    port: 40138
+    server: 18.167.84.124
+    port: 38937
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "日本3|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
-    port: 38937
+    server: 16.163.109.164
+    port: 40138
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
+    server: 43.198.78.177
     port: 6357
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡2|@ripaojiedian"
     type: trojan
-    server: 18.162.245.180
+    server: 18.167.84.124
     port: 6357
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "新加坡3|@ripaojiedian"
     type: trojan
-    server: 43.199.146.29
-    port: 9149
+    server: 43.198.106.37
+    port: 45744
     password: BxceQaOe
     udp: true
     sni: t.me%252Fripaojiedian
   - name: "美国|@ripaojiedian"
     type: trojan
-    server: 95.40.51.248
+    server: 16.162.187.38
     port: 49277
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "美国2|@ripaojiedian"
     type: trojan
-    server: 18.167.109.142
-    port: 17005
+    server: 18.167.84.124
+    port: 49277
     password: b490740312aedb5f9f6b84c7aebd08c0
     udp: true
     sni: www.nintendogames.net
   - name: "美国3|@ripaojiedian"
     type: trojan
-    server: 18.166.225.126
-    port: 11993
+    server: 43.198.106.37
+    port: 29085
     password: BxceQaOe
     udp: true
     sni: t.me%2Fripaojiedian
-  - name: "香港|@ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇦🇱AL_1|1.5MB/s"
-    type: vless
-    server: al03.tunnely.space
+  - name: "🇺🇸US-156.146.38.169-0140"
+    type: ss
+    server: 156.146.38.169
     port: 443
-    uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-    udp: true
-    tls: true
-    servername: al03.tunnely.space
-  - name: "🇦🇹AT_1|3.2MB/s"
-    type: vless
-    server: at08.tunnely.ru
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-156.146.38.170-0144"
+    type: ss
+    server: 156.146.38.170
     port: 443
-    uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-    udp: true
-    tls: true
-    servername: at08.tunnely.ru
-  - name: "🇩🇪DE_1|3.8MB/s"
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-156.146.38.167-0120"
+    type: ss
+    server: 156.146.38.167
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-100.23.100.118-0508"
     type: trojan
-    server: aware-pika.rooster465.autos
+    server: integral-elf.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: aware-pika.rooster465.autos
-  - name: "🇫🇷FR_1|3.1MB/s"
+    sni: integral-elf.rooster465.autos
+  - name: "🇺🇸US-156.146.38.168-0143"
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-35.91.0.206-0130"
     type: trojan
-    server: definite-giraffe.rooster465.autos
+    server: wondrous-dogfish.rooster465.autos
+    port: 443
+    password: KV63147582
+    udp: true
+    sni: wondrous-dogfish.rooster465.autos
+  - name: "🇺🇸US-16.145.201.0-0526"
+    type: trojan
+    server: 16.145.201.0
+    port: 443
+    password: CF68213490
+    udp: true
+    sni: capable-eel.rooster465.autos
+  - name: "🇨🇦CA-137.184.174.93-0105"
+    type: ss
+    server: 137.184.174.93
+    port: 8080
+    cipher: rc4-md5
+    password: 14fFPrbezE3HDZzsMOr6
+  - name: "🇺🇸US-52.32.130.95-0517"
+    type: trojan
+    server: tidy-gopher.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+    sni: tidy-gopher.rooster465.autos
+  - name: "🇺🇸US-44.251.239.102-0175"
+    type: trojan
+    server: polite-coyote.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+    sni: polite-coyote.rooster465.autos
+  - name: "🇺🇸US-34.219.189.213-0131"
+    type: trojan
+    server: dashing-possum.rooster465.autos
+    port: 443
+    password: HW85960347
+    udp: true
+    sni: dashing-possum.rooster465.autos
+  - name: "🇺🇸US-44.252.127.212-0523"
+    type: trojan
+    server: 44.252.127.212
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: better-silkworm.rooster465.autos
+  - name: "🇺🇸US-35.164.15.250-0525"
+    type: trojan
+    server: 35.164.15.250
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: emerging-hagfish.rooster465.autos
+  - name: "🇺🇸US-35.90.87.253-0123"
+    type: trojan
+    server: harmless-akita.rooster465.autos
+    port: 443
+    password: ON38567014
+    udp: true
+    sni: harmless-akita.rooster465.autos
+  - name: "🇺🇸US-34.222.117.208-0142"
+    type: trojan
+    server: legal-glider.rooster465.autos
+    port: 443
+    password: SX95078263
+    udp: true
+  - name: "🇺🇸US-44.251.47.151-0115"
+    type: trojan
+    server: primary-mallard.rooster465.autos
+    port: 443
+    password: JA96378052
+    udp: true
+  - name: "🇺🇸US-54.70.42.11-0135"
+    type: trojan
+    server: firm-squid.rooster465.autos
+    port: 443
+    password: HW85960347
+    udp: true
+  - name: "🇺🇸US-34.220.29.172-0518"
+    type: trojan
+    server: sterling-dinosaur.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+    sni: sterling-dinosaur.rooster465.autos
+  - name: "🇺🇸US-16.145.201.0-0515"
+    type: trojan
+    server: capable-eel.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+    sni: capable-eel.rooster465.autos
+  - name: "🇺🇸US-52.43.195.42-0519"
+    type: trojan
+    server: 52.43.195.42
+    port: 443
+    password: KV63147582
+    udp: true
+    sni: winning-manatee.rooster465.autos
+  - name: "🇺🇸US-44.246.163.88-0136"
+    type: trojan
+    server: sincere-man.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: definite-giraffe.rooster465.autos
-  - name: "🇫🇷FR_5|3.3MB/s"
+  - name: "🇺🇸US-37.19.198.236-0104"
+    type: ss
+    server: 37.19.198.236
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇺🇸US-108.181.0.177-0162"
+    type: ss
+    server: 108.181.0.177
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: G5p6ww4o67HB
+  - name: "🇮🇪IE-3.255.100.31-0158"
     type: trojan
-    server: desired-pony.rooster465.autos
+    server: thankful-piranha.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: thankful-piranha.rooster465.autos
+  - name: "🇬🇧GB-82.38.31.186-5867"
+    type: ss
+    server: 82.38.31.186
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇮🇪IE-108.130.91.15-0108"
+    type: trojan
+    server: adapting-ghost.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: desired-pony.rooster465.autos
-  - name: "🇫🇷FR_3|3.2MB/s"
-    type: trojan
-    server: humane-bird.rooster465.autos
+    sni: adapting-ghost.rooster465.autos
+  - name: "🇺🇸US-37.19.198.243-0101"
+    type: ss
+    server: 37.19.198.243
     port: 443
-    password: IQ68037294
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇮🇪IE-108.131.117.154-0109"
+    type: trojan
+    server: funky-opossum.rooster465.autos
+    port: 443
+    password: NQ26071394
     udp: true
-  - name: "🇮🇪IE_1|2.5MB/s"
+    sni: funky-opossum.rooster465.autos
+  - name: "🇺🇸US-37.19.198.244-0103"
+    type: ss
+    server: 37.19.198.244
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇬🇧GB-82.38.31.218-0242"
+    type: ss
+    server: 82.38.31.218
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇺🇸US-37.19.198.160-0102"
+    type: ss
+    server: 37.19.198.160
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇮🇪IE-34.253.182.161-0107"
     type: trojan
     server: moving-wren.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
     sni: moving-wren.rooster465.autos
-  - name: "🇯🇵JP_1|2.1MB/s"
+  - name: "🇬🇧GB-82.38.31.34-0117"
+    type: ss
+    server: 82.38.31.34
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇮🇪IE-34.242.69.173-0106"
     type: trojan
-    server: amazed-burro.rooster465.autos
+    server: fun-labrador.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: fun-labrador.rooster465.autos
+  - name: "🇮🇪IE-52.212.156.233-0172"
+    type: trojan
+    server: wired-tick.rooster465.autos
+    port: 443
+    password: OD90375861
+    udp: true
+  - name: "🇬🇧GB-82.38.31.219-0236"
+    type: ss
+    server: 82.38.31.219
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇫🇷FR-15.237.217.186-0153"
+    type: trojan
+    server: desired-pony.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇯🇵JP_2|2.8MB/s"
+    sni: desired-pony.rooster465.autos
+  - name: "🇨🇦CA-108.181.118.10-0163"
+    type: ss
+    server: 108.181.118.10
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: G5p6ww4o67HB
+  - name: "🇮🇪IE-34.249.41.208-0110"
     type: trojan
-    server: literate-grizzly.rooster465.autos
+    server: correct-starfish.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: correct-starfish.rooster465.autos
+  - name: "🇩🇪DE-63.182.30.36-0150"
+    type: trojan
+    server: aware-pika.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: literate-grizzly.rooster465.autos
-  - name: "🇰🇷KR_1|3.3MB/s"
+    sni: aware-pika.rooster465.autos
+  - name: "🇺🇸US-173.244.56.9-0157"
+    type: ss
+    server: 173.244.56.9
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇫🇷FR-35.181.65.111-0141"
     type: trojan
-    server: select-marmoset.rooster465.autos
+    server: ready-kangaroo.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+    sni: ready-kangaroo.rooster465.autos
+  - name: "🇩🇪DE-3.75.174.185-0148"
+    type: trojan
+    server: certain-prawn.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇬🇧GB-82.38.31.149-0127"
+    type: ss
+    server: 82.38.31.149
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇳🇱NL-193.29.139.151-0138"
+    type: ss
+    server: 193.29.139.151
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇫🇷FR-13.39.161.149-0149"
+    type: trojan
+    server: humane-bird.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇰🇷KR_2|2.7MB/s"
+  - name: "🇺🇸US-173.244.56.6-0165"
+    type: ss
+    server: 173.244.56.6
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇳🇱NL-193.169.239.76-0166"
     type: trojan
-    server: whole-perch.rooster465.autos
+    server: renewed-chigger.rooster465.autos
+    port: 443
+    password: XG59623478
+    udp: true
+  - name: "🇳🇱NL-109.201.152.181-0155"
+    type: ss
+    server: 109.201.152.181
+    port: 443
+    cipher: aes-128-cfb
+    password: shadowsocks
+  - name: "🇳🇱NL-85.234.65.26-0156"
+    type: trojan
+    server: pro-crane.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇫🇷FR-13.39.89.72-0134"
+    type: trojan
+    server: definite-giraffe.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: whole-perch.rooster465.autos
-  - name: "🇰🇷KR_3|3.3MB/s"
+    sni: definite-giraffe.rooster465.autos
+  - name: "🇵🇱PL-62.112.222.26-0513"
     type: trojan
-    server: adjusted-labrador.rooster465.autos
+    server: upright-hamster.rooster465.autos
+    port: 443
+    password: PI36027154
+    udp: true
+    sni: upright-hamster.rooster465.autos
+  - name: "🇵🇱PL-62.112.222.12-0159"
+    type: trojan
+    server: ready-lion.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇵🇱PL-62.112.222.212-0164"
+    type: trojan
+    server: more-trout.rooster465.autos
+    port: 443
+    password: KV63147582
+    udp: true
+    sni: more-trout.rooster465.autos
+  - name: "🇵🇱PL-62.112.222.69-0516"
+    type: trojan
+    server: ideal-robin.rooster465.autos
+    port: 443
+    password: OD90375861
+    udp: true
+    sni: ideal-robin.rooster465.autos
+  - name: "🇬🇧GB-82.38.31.192-0152"
+    type: ss
+    server: 82.38.31.192
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇵🇱PL-62.112.222.177-0161"
+    type: trojan
+    server: kind-unicorn.rooster465.autos
+    port: 443
+    password: NQ26071394
+    udp: true
+  - name: "🇩🇪DE-209.46.102.22-0168"
+    type: ss
+    server: 209.46.102.22
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: 1hhrqrokj3ag
+  - name: "🇵🇱PL-62.112.222.151-0160"
+    type: trojan
+    server: emerging-weevil.rooster465.autos
+    port: 443
+    password: CF68213490
+    udp: true
+  - name: "🇬🇧GB-82.38.31.46-0124"
+    type: ss
+    server: 82.38.31.46
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇵🇱PL-62.112.222.26-0522"
+    type: trojan
+    server: 62.112.222.26
+    port: 443
+    password: PI36027154
+    udp: true
+    sni: upright-hamster.rooster465.autos
+  - name: "🇬🇧GB-82.38.31.184-0207"
+    type: ss
+    server: 82.38.31.184
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇨🇦CA-149.22.95.183-0171"
+    type: ss
+    server: 149.22.95.183
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇬🇧GB-82.38.31.174-0116"
+    type: ss
+    server: 82.38.31.174
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇳🇱NL-193.29.139.235-0118"
+    type: ss
+    server: 193.29.139.235
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "🇯🇵JP-94.177.131.149-0507"
+    type: trojan
+    server: new-antelope.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: adjusted-labrador.rooster465.autos
-  - name: "🇰🇷KR_4|2.1MB/s"
+    sni: new-antelope.rooster465.autos
+  - name: "🇳🇱NL-89.39.70.222-0167"
     type: trojan
-    server: artistic-pigeon.rooster465.autos
+    server: casual-bullfrog.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-    sni: artistic-pigeon.rooster465.autos
-  - name: "🇳🇱NL_1|3.3MB/s"
+    sni: casual-bullfrog.rooster465.autos
+  - name: "🇬🇧GB-82.38.31.210-0119"
+    type: ss
+    server: 82.38.31.210
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: k1dBOmOB4oqi7Ump37a1bQ
+  - name: "🇦🇺AU-82.117.225.212-0178"
+    type: trojan
+    server: true-pony.rooster465.autos
+    port: 443
+    password: PD07395842
+    udp: true
+  - name: "🇦🇺AU-82.117.225.56-0521"
+    type: trojan
+    server: 82.117.225.56
+    port: 443
+    password: XG59623478
+    udp: true
+    sni: stirring-dane.rooster465.autos
+  - name: "🇦🇺AU-82.117.225.216-0179"
+    type: trojan
+    server: 82.117.225.216
+    port: 443
+    password: XG59623478
+    udp: true
+    sni: concise-buck.rooster465.autos
+  - name: "🇦🇺AU-82.117.225.216-0188"
+    type: trojan
+    server: concise-buck.rooster465.autos
+    port: 443
+    password: XG59623478
+    udp: true
+    sni: concise-buck.rooster465.autos
+  - name: "🇸🇬SG-45.135.228.211-0248"
+    type: trojan
+    server: endless-kiwi.rooster465.autos
+    port: 443
+    password: IQ68037294
+    udp: true
+  - name: "🇸🇬SG-81.28.13.48-0183"
+    type: trojan
+    server: glowing-deer.rooster465.autos
+    port: 443
+    password: IQ68037294
+    udp: true
+  - name: "🇳🇱NL-89.39.70.205-0176"
     type: trojan
     server: whole-woodcock.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇸🇬SG_1|2.6MB/s"
+  - name: "🇸🇬SG-91.243.81.129-2237"
+    type: trojan
+    server: casual-stallion.rooster465.autos
+    port: 443
+    password: IQ68037294
+    udp: true
+  - name: "🇸🇬SG-81.28.13.9-0184"
     type: trojan
     server: prepared-turkey.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
     sni: prepared-turkey.rooster465.autos
-  - name: "🇸🇬SG_2|2.4MB/s"
+  - name: "🇸🇬SG-45.135.228.28-0182"
     type: trojan
-    server: 188.164.248.122
-    port: 443
-    password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-    udp: true
-    sni: space.byu.id.yxls.eu.cc
-  - name: "🇸🇬SG_3|3.0MB/s"
-    type: trojan
-    server: endless-kiwi.rooster465.autos
+    server: pleased-sawfly.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇹🇷TR_1|2.0MB/s"
-    type: vless
-    server: 194.26.229.162
-    port: 443
-    uuid: d768d4ba-0b73-4509-87ea-afb074d2f766
-    udp: true
-    tls: true
-    servername: tr.sellflow.org
-  - name: "🇺🇸US_1|2.6MB/s"
+  - name: "🇸🇬SG-91.243.81.26-0192"
     type: trojan
-    server: sincere-man.rooster465.autos
+    server: full-mackerel.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇩🇪DE_2|5.0MB/s"
-    type: ss
-    server: 63.176.169.206
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇺🇸US_2|2.1MB/s"
-    type: vless
-    server: raygan.up.railway.app
-    port: 443
-    uuid: df6d6d7b-299b-6cfb-c317-708405fb5fe9
-    udp: true
-    tls: true
-    servername: raygan.up.railway.app
-  - name: "🇺🇸US_3|2.7MB/s"
-    type: vless
-    server: x4g-production-zps54.up.railway.app
-    port: 443
-    uuid: 34cc83ad-ff54-2a69-5b3a-b5779a9b74bd
-    udp: true
-    tls: true
-  - name: "🇳🇱NL_2|1.5MB/s"
-    type: vless
-    server: 104.17.108.1
-    port: 443
-    uuid: b79948e1-a34a-480d-8eb7-260f809e1b6a
-    udp: true
-    tls: true
-    servername: aa.farxmode.ir
-  - name: "🇬🇧GB_1|2.1MB/s"
-    type: vless
-    server: 31.77.201.85
-    port: 443
-    uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
-    udp: true
-    tls: true
-    servername: ag-03.rita-cloud.com
-  - name: "🇳🇱NL_3|2.5MB/s"
-    type: ss
-    server: 82.38.31.174
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "🇺🇸US_4|2.7MB/s"
-    type: vless
-    server: x4g-production-zps54.up.railway.app
-    port: 443
-    uuid: 34cc83ad-ff54-2a69-5b3a-b5779a9b74bd
-    udp: true
-    tls: true
-    servername: x4g-production-zps54.up.railway.app
-  - name: "🇦🇹AT_2|1.9MB/s"
-    type: vless
-    server: at1.fulli.net
-    port: 443
-    uuid: 0c00d078-f90c-4e90-8c71-40e7504399f1
-    udp: true
-    tls: true
-  - name: "🇺🇸US_5|1.7MB/s"
-    type: vless
-    server: soskeynets.up.railway.app
-    port: 443
-    uuid: df6d6d7b-299b-6cfb-c317-708405fb5fe9
-    udp: true
-    tls: true
-    servername: raygan.up.railway.app
-  - name: "🇸🇬SG_4|2.9MB/s"
+  - name: "🇸🇬SG-81.28.13.68-3079"
     type: trojan
-    server: glowing-deer.rooster465.autos
+    server: pet-albacore.rooster465.autos
     port: 443
     password: IQ68037294
     udp: true
-  - name: "🇯🇵JP_3|2.5MB/s"
-    type: trojan
-    server: major-duckling.rooster465.autos
-    port: 443
-    password: IQ68037294
-    udp: true
-  - name: "🇫🇷FR_4|2.5MB/s"
-    type: vless
-    server: 15.188.124.12
-    port: 22222
-    uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-    udp: true
-  - name: "🇩🇪DE_4|2.4MB/s"
-    type: vless
-    server: 83.243.86.45
-    port: 443
-    uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
-    udp: true
-    tls: true
-    servername: download.amd.com
-  - name: "🇺🇸US_6|2.5MB/s"
-    type: vless
-    server: 72.56.40.33
-    port: 443
-    uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
-    udp: true
-    tls: true
-    servername: download.nvidia.com
-  - name: "🇨🇭CH_1|3.7MB/s"
-    type: vless
-    server: ch10.tunnely.ru
-    port: 443
-    uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-    udp: true
-    tls: true
-    servername: ch10.tunnely.ru
-  - name: "🇫🇮FI_1|2.5MB/s"
-    type: vless
-    server: 45.145.6.247
-    port: 443
-    uuid: be2bcd98-0ecc-000a-aa1a-b453a1878393
-    udp: true
-    tls: true
-    servername: s3-fi-1.rucdn777.com
-  - name: "🇭🇰HK_1|2.1MB/s"
-    type: trojan
-    server: 185.14.47.195
-    port: 443
-    password: HW85960347
-    udp: true
-    sni: eminent-lamb.rooster465.autos
-  - name: "🇳🇱NL_4|1.9MB/s"
-    type: vless
-    server: 45.151.62.149
-    port: 443
-    uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-    udp: true
-    tls: true
-    servername: www.aviasales.com
-  - name: "🇸🇬SG_5|2.1MB/s"
-    type: vless
-    server: 66.33.23.152
-    port: 443
-    uuid: 237ac65e-da33-93c3-7e70-a2dd60d54f4a
-    udp: true
-    tls: true
-    servername: rr-production-4e3f.up.railway.app
-  - name: "🇷🇺RU_1|3.4MB/s"
-    type: vless
-    server: 87.242.85.201
-    port: 13561
-    uuid: 566f8818-17fe-4ca9-8035-c9081ece6f68
-    udp: true
-  - name: "🇺🇸US_7|2.6MB/s"
-    type: vless
-    server: 69.46.46.56
-    port: 443
-    uuid: 64332188-5854-91f5-7a03-db61a1128a49
-    udp: true
-    tls: true
-    servername: x4g-production-1755.up.railway.app
-  - name: "🇳🇱NL_5|2.4MB/s"
-    type: vless
-    server: nl03.tunnely.ru
-    port: 443
-    uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
-    udp: true
-    tls: true
-    servername: nl03.tunnely.ru
-  - name: "🇪🇪EE_1|2.1MB/s"
-    type: vless
-    server: ru-xr-1.124515.xyz
-    port: 443
-    uuid: 56b812e4-2d96-0001-b365-6c801663a37a
-    udp: true
-    tls: true
-    servername: ru-xr-1.124515.xyz
+    sni: pet-albacore.rooster465.autos
