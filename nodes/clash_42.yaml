@@ -1,1235 +1,601 @@
 proxies:
-  - name: "🇸🇬SG-103.172.116.6-7747"
+  - name: "🇺🇸US-38.75.136.135-7383"
     type: ss
-    server: 103.172.116.6
-    port: 9011
-    cipher: aes-256-cfb
-    password: M3t2ZEQcMGRWBjRa
-  - name: "🇳🇱NL-51.158.151.24-7750"
-    type: vmess
-    server: 51.158.151.24
-    port: 20104
-    uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /arki
-      headers:
-        Host: 
-  - name: "🇲🇾MY-47.250.45.234-7752"
-    type: vmess
-    server: 47.250.45.234
-    port: 43063
-    uuid: c77f48f5-4be3-4461-b52b-49998e7b897b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇨🇦CA-23.162.200.227-7755"
-    type: vmess
-    server: 23.162.200.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇨🇦CA-134.195.196.149-0005"
+    server: 38.75.136.135
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.86.135.36-7385"
     type: ss
-    server: 134.195.196.149
+    server: 38.86.135.36
     port: 7307
     cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
-  - name: "🇫🇷FR-57.128.189.240-7763"
-    type: vmess
-    server: 57.128.189.240
+  - name: "🇺🇸US-172.245.218.162-7386"
+    type: ss
+    server: 172.245.218.162
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-167.88.61.213-7389"
+    type: ss
+    server: 167.88.61.213
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.107.226.48-7390"
+    type: ss
+    server: 38.107.226.48
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.75.137.9-7391"
+    type: ss
+    server: 38.75.137.9
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.107.226.241-7393"
+    type: ss
+    server: 38.107.226.241
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-167.88.62.68-7394"
+    type: ss
+    server: 167.88.62.68
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.75.136.21-7395"
+    type: ss
+    server: 38.75.136.21
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.68.134.9-7396"
+    type: ss
+    server: 38.68.134.9
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-167.88.61.175-7397"
+    type: ss
+    server: 167.88.61.175
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.86.135.27-7398"
+    type: ss
+    server: 38.86.135.27
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.63.59-7399"
+    type: ss
+    server: 167.88.63.59
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇬🇧GB-172.99.190.61-7400"
+    type: ss
+    server: 172.99.190.61
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-142.202.48.83-7401"
+    type: ss
+    server: 142.202.48.83
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-38.114.114.67-7402"
+    type: ss
+    server: 38.114.114.67
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇫🇷FR-91.134.8.100-7764"
-    type: vmess
-    server: 91.134.8.100
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-38.114.114.69-7403"
+    type: ss
+    server: 38.114.114.69
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.114.114.67-7405"
+    type: ss
+    server: 38.114.114.67
+    port: 5001
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.64.138.145-7406"
+    type: ss
+    server: 38.64.138.145
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.68.134.191-7407"
+    type: ss
+    server: 38.68.134.191
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.64.138.145-7408"
+    type: ss
+    server: 38.64.138.145
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.63.59-7409"
+    type: ss
+    server: 167.88.63.59
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-142.202.48.83-7410"
+    type: ss
+    server: 142.202.48.83
+    port: 8008
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.114.114.19-7412"
+    type: ss
+    server: 38.114.114.19
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-142.202.48.7-7413"
+    type: ss
+    server: 142.202.48.7
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.68.134.191-7414"
+    type: ss
+    server: 38.68.134.191
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: kampong.org
-    ws-opts:
-      path: /
-      headers:
-        Host: kampong.org
-  - name: "🇨🇦CA-148.113.176.192-7765"
-    type: vmess
-    server: 148.113.176.192
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.63.59-7415"
+    type: ss
+    server: 167.88.63.59
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.86.135.36-7418"
+    type: ss
+    server: 38.86.135.36
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.107.226.49-7419"
+    type: ss
+    server: 38.107.226.49
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-167.88.63.44-7420"
+    type: ss
+    server: 167.88.63.44
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.121.43.71-7421"
+    type: ss
+    server: 38.121.43.71
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.63.59-7423"
+    type: ss
+    server: 167.88.63.59
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-142.202.48.7-7425"
+    type: ss
+    server: 142.202.48.7
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.63.59-7426"
+    type: ss
+    server: 167.88.63.59
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.64.138.145-7427"
+    type: ss
+    server: 38.64.138.145
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-38.114.114.49-7428"
+    type: ss
+    server: 38.114.114.49
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-167.88.63.79-7429"
+    type: ss
+    server: 167.88.63.79
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.86.135.36-7430"
+    type: ss
+    server: 38.86.135.36
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-38.75.137.9-7431"
+    type: ss
+    server: 38.75.137.9
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.61.2-7432"
+    type: ss
+    server: 167.88.61.2
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-167.88.61.60-7433"
+    type: ss
+    server: 167.88.61.60
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.143.66.87-7434"
+    type: ss
+    server: 38.143.66.87
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.62.62-7435"
+    type: ss
+    server: 167.88.62.62
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.68.134.85-7436"
+    type: ss
+    server: 38.68.134.85
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.114.114.67-7437"
+    type: ss
+    server: 38.114.114.67
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.68.134.191-7439"
+    type: ss
+    server: 38.68.134.191
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-38.75.136.21-7441"
+    type: ss
+    server: 38.75.136.21
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.61.60-7443"
+    type: ss
+    server: 167.88.61.60
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: linkvws
-      headers:
-        Host: 
-  - name: "🇩🇪DE-57.129.28.63-7770"
-    type: vmess
-    server: 57.129.28.63
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-38.68.134.85-7444"
+    type: ss
+    server: 38.68.134.85
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.107.226.48-7447"
+    type: ss
+    server: 38.107.226.48
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-37.120.147.230-7448"
+    type: ss
+    server: 37.120.147.230
+    port: 809
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-38.143.66.87-7449"
+    type: ss
+    server: 38.143.66.87
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.91.107.16-7450"
+    type: ss
+    server: 38.91.107.16
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-38.91.107.16-7451"
+    type: ss
+    server: 38.91.107.16
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7452"
+    type: ss
+    server: 38.68.134.85
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-38.91.107.16-7453"
+    type: ss
+    server: 38.91.107.16
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-37.120.147.230-7454"
+    type: ss
+    server: 37.120.147.230
+    port: 805
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-38.68.135.18-7455"
+    type: ss
+    server: 38.68.135.18
+    port: 7002
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.91.107.225-7456"
+    type: ss
+    server: 38.91.107.225
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇺🇸US-167.88.63.44-7458"
+    type: ss
+    server: 167.88.63.44
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.75.136.102-7459"
+    type: ss
+    server: 38.75.136.102
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.75.136.102-7460"
+    type: ss
+    server: 38.75.136.102
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇳🇱NL-172.99.188.71-7461"
+    type: ss
+    server: 172.99.188.71
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.75.136.102-7462"
+    type: ss
+    server: 38.75.136.102
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.75.136.21-7463"
+    type: ss
+    server: 38.75.136.21
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.75.136.135-7464"
+    type: ss
+    server: 38.75.136.135
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.75.137.9-7465"
+    type: ss
+    server: 38.75.137.9
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-167.88.61.60-7466"
+    type: ss
+    server: 167.88.61.60
+    port: 8008
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-167.88.63.82-7467"
+    type: ss
+    server: 167.88.63.82
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.61.60-7468"
+    type: ss
+    server: 167.88.61.60
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.107.226.132-7469"
+    type: ss
+    server: 38.107.226.132
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇳🇱NL-172.99.188.71-7470"
+    type: ss
+    server: 172.99.188.71
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7471"
+    type: ss
+    server: 38.68.134.85
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7472"
+    type: ss
+    server: 38.68.134.85
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.68.134.48-7473"
+    type: ss
+    server: 38.68.134.48
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.68.134.85-7474"
+    type: ss
+    server: 38.68.134.85
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.121.43.71-7478"
+    type: ss
+    server: 38.121.43.71
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.121.43.71-7479"
+    type: ss
+    server: 38.121.43.71
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-142.202.48.34-7482"
+    type: ss
+    server: 142.202.48.34
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-142.202.48.34-7484"
+    type: ss
+    server: 142.202.48.34
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.107.226.159-7485"
+    type: ss
+    server: 38.107.226.159
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-37.218.241.43-7486"
+    type: ss
+    server: 37.218.241.43
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fapeng.org
-    ws-opts:
-      path: /
-      headers:
-        Host: fapeng.org
-  - name: "🇫🇷FR-57.128.189.142-7774"
-    type: vmess
-    server: 57.128.189.142
+    cipher: chacha20-ietf-poly1305
+    password: xCjmxGzrUoBA
+  - name: "🇺🇸US-38.68.134.85-7487"
+    type: ss
+    server: 38.68.134.85
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.114.114.69-7488"
+    type: ss
+    server: 38.114.114.69
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.143.66.20-7489"
+    type: ss
+    server: 38.143.66.20
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.114.114.67-7490"
+    type: ss
+    server: 38.114.114.67
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇬🇧GB-172.99.190.61-7492"
+    type: ss
+    server: 172.99.190.61
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-167.88.61.60-7494"
+    type: ss
+    server: 167.88.61.60
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇳🇱NL-172.99.188.71-7495"
+    type: ss
+    server: 172.99.188.71
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.114.114.67-7496"
+    type: ss
+    server: 38.114.114.67
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.68.135.19-7497"
+    type: ss
+    server: 38.68.135.19
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇩🇪DE-57.129.25.23-7776"
-    type: vmess
-    server: 57.129.25.23
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.61.60-7498"
+    type: ss
+    server: 167.88.61.60
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-167.88.61.14-7499"
+    type: ss
+    server: 167.88.61.14
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇳🇱NL-172.99.188.71-7500"
+    type: ss
+    server: 172.99.188.71
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.91.100.27-7501"
+    type: ss
+    server: 38.91.100.27
     port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: yichueng.org
-    ws-opts:
-      path: /
-      headers:
-        Host: yichueng.org
-  - name: "🇨🇦CA-15.235.50.172-7777"
-    type: vmess
-    server: 15.235.50.172
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: baradiha.com
-    ws-opts:
-      path: /
-      headers:
-        Host: baradiha.com
-  - name: "🇫🇷FR-57.128.189.206-7782"
-    type: vmess
-    server: 57.128.189.206
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇫🇷FR-91.134.8.93-7785"
-    type: vmess
-    server: 91.134.8.93
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pelang.org
-    ws-opts:
-      path: /
-      headers:
-        Host: pelang.org
-  - name: "🇨🇦CA-15.235.85.147-7786"
-    type: vmess
-    server: 15.235.85.147
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pelang.org
-    ws-opts:
-      path: /
-      headers:
-        Host: pelang.org
-  - name: "🇩🇪DE-57.129.28.213-7790"
-    type: vmess
-    server: 57.129.28.213
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fapeng.org
-    ws-opts:
-      path: /
-      headers:
-        Host: fapeng.org
-  - name: "🇩🇪DE-57.129.59.193-7792"
-    type: vmess
-    server: 57.129.59.193
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: serkat.org/?Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: serkat.org/?Join----JKVPN---Join----JKVPN----Join----JKVPN----Join----JKVPN
-  - name: "🇫🇷FR-57.128.189.227-7794"
-    type: vmess
-    server: 57.128.189.227
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇩🇪DE-57.129.24.131-7801"
-    type: vmess
-    server: 57.129.24.131
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: kampong.org
-    ws-opts:
-      path: /
-      headers:
-        Host: kampong.org
-  - name: "🇫🇷FR-57.128.189.241-7802"
-    type: vmess
-    server: 57.128.189.241
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇨🇦CA-15.235.83.228-7804"
-    type: vmess
-    server: 15.235.83.228
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇩🇪DE-57.129.25.20-7805"
-    type: vmess
-    server: 57.129.25.20
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 1
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 57.129.25.20
-    ws-opts:
-      path: /
-      headers:
-        Host: 57.129.25.20
-  - name: "🇩🇪DE-57.129.64.199-7807"
-    type: vmess
-    server: 57.129.64.199
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pelang.org
-    ws-opts:
-      path: /
-      headers:
-        Host: pelang.org
-  - name: "🇩🇪DE-57.129.24.125-7812"
-    type: vmess
-    server: 57.129.24.125
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  - name: "🇩🇪DE-57.129.28.216-7814"
-    type: vmess
-    server: 57.129.28.216
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: fapeng.org
-    ws-opts:
-      path: /
-      headers:
-        Host: fapeng.org
-  - name: "🇫🇷FR-57.128.189.230-7816"
-    type: vmess
-    server: 57.128.189.230
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🇫🇷FR-141.94.155.229-7820"
-    type: vmess
-    server: 141.94.155.229
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pelang.org
-    ws-opts:
-      path: /
-      headers:
-        Host: pelang.org
-  - name: "🇫🇷FR-146.59.85.226-7823"
-    type: vmess
-    server: 146.59.85.226
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: pelang.org
-    ws-opts:
-      path: /
-      headers:
-        Host: pelang.org
-  - name: "🇫🇷FR-57.128.189.226-7826"
-    type: vmess
-    server: 57.128.189.226
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /linkvws
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.64.152.23-7827"
-    type: vmess
-    server: 172.64.152.23
-    port: 2053
-    uuid: 8b23a6c9-0ca6-4134-83f2-39d42da0d648
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.210.79.212-7829"
-    type: vmess
-    server: 8.210.79.212
-    port: 55185
-    uuid: aa3c3018-288b-46f3-af1c-9044e18d6e5b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /Notif_Chat
-      headers:
-        Host: 
-  - name: "🇬🇧GB-18.168.124.58-7831"
-    type: vmess
-    server: 18.168.124.58
-    port: 80
-    uuid: ff7be42d-7d09-445e-b89f-96d7712eb4bf
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇨SC-154.201.76.172-7833"
-    type: vmess
-    server: 154.201.76.172
-    port: 20521
-    uuid: 496cec71-a0fd-4f25-bba1-cba9e9d5a52f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇰🇷KR-43.203.184.84-7834"
-    type: vmess
-    server: gtm1.ktmwan.net
-    port: 12883
-    uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: gtm1.ktmwan.net
-    ws-opts:
-      path: /
-      headers:
-        Host: gtm1.ktmwan.net
-  - name: "🇭🇰HK-45.136.12.37-7836"
-    type: vmess
-    server: 45.136.12.37
-    port: 20521
-    uuid: 090d0bd9-f9c4-4c3b-8aae-ffa678765935
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.199.111-7837"
-    type: vmess
-    server: 8.218.199.111
-    port: 8080
-    uuid: f55db42d-ee52-4a47-880b-6f7b123ab222
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.213.247-7839"
-    type: vmess
-    server: 47.243.213.247
-    port: 53860
-    uuid: 63f2dca7-434c-444c-a9a1-130b377218c5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.51.237-7840"
-    type: vmess
-    server: 47.243.51.237
-    port: 23559
-    uuid: e3f4cb0e-3b3d-41ad-b24a-9cbc2927b451
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.242.140.52-7843"
-    type: vmess
-    server: 47.242.140.52
-    port: 34815
-    uuid: 1a46b66c-6ba9-4e9c-aa0b-0ebac2b69e32
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇰🇷KR-49.128.219.213-7848"
-    type: vmess
-    server: 49.128.219.213
-    port: 38265
-    uuid: 3c9d0123-6621-448e-b232-4547d476052e
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-45.150.52.40-7849"
-    type: vmess
-    server: 45.150.52.40
-    port: 443
-    uuid: c31777a1-2ee6-4864-db4c-a79fcbc8188b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇯🇵JP-166.88.95.249-7850"
-    type: vmess
-    server: 166.88.95.249
-    port: 20255
-    uuid: ace9cb6f-282c-4379-98be-5c9429aeaff7
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.242.239.78-7894"
-    type: vmess
-    server: 47.242.239.78
-    port: 4210
-    uuid: 58f25da8-4de6-4de0-973c-700cd1637ad9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.242.162.235-7896"
-    type: vmess
-    server: 47.242.162.235
-    port: 3787
-    uuid: e748fe05-2678-4c31-84c6-14ed825b92b4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.242.162.148-7898"
-    type: vmess
-    server: 47.242.162.148
-    port: 31813
-    uuid: 00308f3b-747a-4710-b2cb-32c8de9785a1
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-38.92.10.226-7899"
-    type: vmess
-    server: 38.92.10.226
-    port: 45979
-    uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.92.110-7900"
-    type: vmess
-    server: 8.217.92.110
-    port: 20522
-    uuid: 31e1f90f-0218-4097-91f9-a42df9b3334a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇧🇷BR-45.231.132.46-7901"
-    type: vmess
-    server: 45.231.132.46
-    port: 45979
-    uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.238.247.69-7914"
-    type: vmess
-    server: 47.238.247.69
-    port: 25608
-    uuid: 575ac013-bfe8-4b24-8e9f-cc29a6bc8151
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.21.237-7915"
-    type: vmess
-    server: 8.217.21.237
-    port: 26998
-    uuid: 248b7151-e940-4a68-b734-e206b0fa1d9a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.252.30-7919"
-    type: vmess
-    server: 47.239.252.30
-    port: 23540
-    uuid: 2d5ad251-8bc3-41c4-8880-d57ef7f36759
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.252.30-7921"
-    type: vmess
-    server: 47.239.252.30
-    port: 23540
-    uuid: 2d5ad251-8bc3-41c4-8880-d57ef7f36759
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-107.172.82.41-7923"
-    type: vmess
-    server: 107.172.82.41
-    port: 11814
-    uuid: 4f34f242-b5a7-48c1-c258-f019be3bf9c7
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.140.27-7924"
-    type: vmess
-    server: 8.218.140.27
-    port: 13589
-    uuid: 9297b311-b73a-4332-9016-bb25cbe475ee
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.210.52.211-7925"
-    type: vmess
-    server: 8.210.52.211
-    port: 20522
-    uuid: 37827036-1fc5-41ea-9fc5-111af1db49dc
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.140.27-7927"
-    type: vmess
-    server: 8.218.140.27
-    port: 13589
-    uuid: 9297b311-b73a-4332-9016-bb25cbe475ee
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.168.211-7928"
-    type: vmess
-    server: 47.243.168.211
-    port: 24680
-    uuid: 33cb9737-88a5-4372-9db0-84255e243c1d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.26.234-7930"
-    type: vmess
-    server: 8.218.26.234
-    port: 15233
-    uuid: 8a638047-8de4-4034-9b24-d8bf9fb18fa4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.152.97-7931"
-    type: vmess
-    server: 8.218.152.97
-    port: 15815
-    uuid: ece5c3d7-9c77-407a-9f89-993159f76ea5
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.102.115-7934"
-    type: vmess
-    server: 47.239.102.115
-    port: 5361
-    uuid: a053682e-9373-4fe7-8277-1de3f8d1eacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.102.115-7936"
-    type: vmess
-    server: 47.239.102.115
-    port: 5361
-    uuid: a053682e-9373-4fe7-8277-1de3f8d1eacd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇬SG-45.76.181.246-7937"
-    type: vmess
-    server: 45.76.181.246
-    port: 12345
-    uuid: 52263901-b3cf-4d7d-b4fd-a12fe178ef2a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇾MY-47.250.112.93-7939"
-    type: vmess
-    server: 47.250.112.93
-    port: 20522
-    uuid: 65ffb070-d263-4e0d-b8c1-2c04a643d29b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇾MY-47.250.112.93-7941"
-    type: vmess
-    server: 47.250.112.93
-    port: 20522
-    uuid: 65ffb070-d263-4e0d-b8c1-2c04a643d29b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.175.64-7944"
-    type: vmess
-    server: 8.218.175.64
-    port: 51377
-    uuid: 45bfcaaa-f3db-4e93-8164-4203eaa2a2cc
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.113.19-7946"
-    type: vmess
-    server: 8.218.113.19
-    port: 54100
-    uuid: 9b401fe8-7a80-4c9d-8126-e29407a6032c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /arki?ed=2048
-      headers:
-        Host: 
-  - name: "🇨🇾CY-45.89.107.51-7949"
-    type: vmess
-    server: 45.89.107.51
-    port: 20521
-    uuid: 3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.39.173-7950"
-    type: vmess
-    server: 47.243.39.173
-    port: 20522
-    uuid: 8993ea91-d437-4899-a6d9-1dcc0aa17820
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.231.14-7951"
-    type: vmess
-    server: 47.243.231.14
-    port: 20522
-    uuid: 8353b026-ad63-4395-907e-5cc31b9e0d3b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.210.122.139-7952"
-    type: vmess
-    server: 8.210.122.139
-    port: 30464
-    uuid: d25946c5-a32d-4873-ae55-15decaf17b7f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.172.177-7953"
-    type: vmess
-    server: 47.243.172.177
-    port: 17527
-    uuid: 499ee2c5-30a7-4939-8b3c-781b07486d4c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.251.240-7955"
-    type: vmess
-    server: 47.243.251.240
-    port: 14382
-    uuid: d9d94dcc-f461-41d2-8f30-45716b902475
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.76.246.12-7957"
-    type: vmess
-    server: 47.76.246.12
-    port: 42669
-    uuid: 13709d57-530e-4f9c-97d7-ebc774bdfc6c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.209.82-7959"
-    type: vmess
-    server: 8.217.209.82
-    port: 3600
-    uuid: d31a1f2f-b552-44fc-893a-6cf55fa2d4e3
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.83.174.131-7961"
-    type: vmess
-    server: 47.83.174.131
-    port: 19850
-    uuid: cdc5c72c-9a50-4a28-ae46-89b7d398e753
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.251.240-7965"
-    type: vmess
-    server: 47.243.251.240
-    port: 14382
-    uuid: d9d94dcc-f461-41d2-8f30-45716b902475
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.243.39.20-7969"
-    type: vmess
-    server: 47.243.39.20
-    port: 16664
-    uuid: 396c29a5-a9be-4cc9-ae22-2c935d9551a6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-148.135.33.226-7972"
-    type: vmess
-    server: 148.135.33.226
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.210.212.196-7973"
-    type: vmess
-    server: 8.210.212.196
-    port: 34348
-    uuid: fb9fc043-2c70-42eb-88c0-66804ca33062
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.238.78.223-7974"
-    type: vmess
-    server: 47.238.78.223
-    port: 17723
-    uuid: 48acb3b4-574a-45b2-b527-c0f9a3e6dfa0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.127.167-7975"
-    type: vmess
-    server: 8.217.127.167
-    port: 32209
-    uuid: 65799f4c-f5ea-40bd-88ac-4b49837f569f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.218.71.140-7976"
-    type: vmess
-    server: 8.218.71.140
-    port: 37121
-    uuid: dec97969-e770-44ec-9429-6b57be19fc63
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.76.136.178-7977"
-    type: vmess
-    server: 47.76.136.178
-    port: 28653
-    uuid: 836bf0ea-d6db-4d2e-c4b1-4ab28b6fdee6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.238.78.223-7981"
-    type: vmess
-    server: 47.238.78.223
-    port: 17723
-    uuid: 48acb3b4-574a-45b2-b527-c0f9a3e6dfa0
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.159.96-7982"
-    type: vmess
-    server: 8.217.159.96
-    port: 47872
-    uuid: 23ea0b75-206b-4e3b-b624-e093d5808bf8
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.158.92-7983"
-    type: vmess
-    server: 8.217.158.92
-    port: 25506
-    uuid: a3846e50-9935-4b49-bb7c-ce258f3253b2
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-8.217.158.92-7987"
-    type: vmess
-    server: 8.217.158.92
-    port: 25506
-    uuid: a3846e50-9935-4b49-bb7c-ce258f3253b2
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.141.74-7990"
-    type: vmess
-    server: 47.239.141.74
-    port: 11886
-    uuid: 0d36b017-6d7c-493d-bb12-55c34faf6efc
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇾MY-38.54.98.150-7992"
-    type: vmess
-    server: 38.54.98.150
-    port: 62656
-    uuid: b771d99f-ef69-4b5c-8398-665bf851a661
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇻🇳VN-160.30.54.67-7993"
-    type: vmess
-    server: 160.30.54.67
-    port: 20522
-    uuid: 4651d550-ab4e-4e76-9320-f44fc2a0189f
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.20.252-7994"
-    type: vmess
-    server: 47.239.20.252
-    port: 26048
-    uuid: 5011f3af-eb8c-4057-9d00-7141e875c45a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.20.252-7996"
-    type: vmess
-    server: 47.239.20.252
-    port: 26048
-    uuid: 5011f3af-eb8c-4057-9d00-7141e875c45a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-192.3.233.216-7998"
-    type: vmess
-    server: 192.3.233.216
-    port: 16556
-    uuid: 600f0d3e-a25d-468b-c789-0b5baa2f52c1
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇨SC-45.192.98.205-7999"
-    type: vmess
-    server: 45.192.98.205
-    port: 31084
-    uuid: bed083f8-a4df-4293-a46d-f158a27b5d5c
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-42.3.131.41-8001"
-    type: vmess
-    server: hkt.gotochinatown.net
-    port: 80
-    uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
-    alterId: 2
-    cipher: auto
-    network: ws
-    servername: broadcastlv.chat.bilibili.com
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: "🇭🇰HK-8.217.124.8-8002"
-    type: vmess
-    server: 8.217.124.8
-    port: 14165
-    uuid: 1f8daab3-34f9-4d01-914c-71c56c41c039
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇧🇪BE-192.121.170.52-8004"
-    type: vmess
-    server: 192.121.170.52
-    port: 20522
-    uuid: 08f870ed-520c-483a-bdec-c4884aad4665
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.81.113-8005"
-    type: vmess
-    server: 47.239.81.113
-    port: 17002
-    uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.239.81.113-8007"
-    type: vmess
-    server: 47.239.81.113
-    port: 17002
-    uuid: 97798ac2-80d4-4e7f-84cc-8221244ed741
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇭🇰HK-47.76.89.175-8008"
-    type: vmess
-    server: 47.76.89.175
-    port: 22336
-    uuid: 41275f5b-a181-4a5c-bada-ee869d5ae8a4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.62.68-7502"
+    type: ss
+    server: 167.88.62.68
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.86.135.27-7504"
+    type: ss
+    server: 38.86.135.27
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇬🇧GB-172.99.190.87-7505"
+    type: ss
+    server: 172.99.190.87
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.107.226.132-7506"
+    type: ss
+    server: 38.107.226.132
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.75.136.102-7507"
+    type: ss
+    server: 38.75.136.102
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
