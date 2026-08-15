@@ -1,9 +1,84 @@
 proxies:
-  - name: "未知_VMESS-1067_|_free-nodes"
+  - name: "🇬🇧GB-138.124.183.222-1839"
+    type: trojan
+    server: 138.124.183.222
+    port: 443
+    password: xxoo
+    udp: true
+    sni: 138.124.183.222
+  - name: "🇺🇸US-38.91.102.30-1842"
+    type: ss
+    server: 38.91.102.30
+    port: 4444
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-38.91.102.30-1843"
+    type: ss
+    server: 38.91.102.30
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.91.102.30-1850"
+    type: ss
+    server: 38.91.102.30
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-38.91.102.30-1851"
+    type: ss
+    server: 38.91.102.30
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-38.91.102.30-1860"
+    type: ss
+    server: 38.91.102.30
+    port: 8882
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-38.91.102.30-1861"
+    type: ss
+    server: 38.91.102.30
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.91.102.30-1862"
+    type: ss
+    server: 38.91.102.30
+    port: 8008
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-192.210.207.213-1864"
     type: vmess
-    server: 62.60.151.41
-    port: 57865
-    uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+    server: 192.210.207.213
+    port: 5806
+    uuid: 13b73114-f3a4-4a1a-f083-b4621cf73275
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-38.91.102.30-1866"
+    type: ss
+    server: 38.91.102.30
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇸🇬SG-15.235.184.36-1872"
+    type: vmess
+    server: 15.235.184.36
+    port: 80
+    uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 
+  - name: "🇰🇷KR-152.70.252.218-1874"
+    type: vmess
+    server: 152.70.252.218
+    port: 10020
+    uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8
     alterId: 0
     cipher: auto
     network: ws
@@ -11,11 +86,42 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "未知_VMESS-1068_|_free-nodes"
+  - name: "🇸🇬SG-139.99.61.154-1877"
     type: vmess
-    server: 62.60.151.41
-    port: 57865
-    uuid: 3c61ea53-a550-4252-8211-956f9f7dc2d0
+    server: 139.99.61.154
+    port: 80
+    uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 
+  - name: "🇺🇸US-107.181.161.163-1879"
+    type: trojan
+    server: 107.181.161.163
+    port: 443
+    password: d1478689-439c-4590-b7ce-36e786a02dc3
+    udp: true
+    sni: 107.181.161.163
+  - name: "🇺🇸US-38.91.102.30-1887"
+    type: ss
+    server: 38.91.102.30
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇨🇦CA-72.140.224.195-1894"
+    type: ss
+    server: 72.140.224.195
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇸🇬SG-109.123.237.41-1904"
+    type: vmess
+    server: 109.123.237.41
+    port: 80
+    uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
     alterId: 0
     cipher: auto
     network: ws
@@ -23,1184 +129,728 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "未知_VMESS-1069_|_free-nodes"
+  - name: "🇺🇸US-5.161.106.72-1907"
     type: vmess
-    server: 64.186.253.113
-    port: 2095
-    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+    server: 5.161.106.72
+    port: 40969
+    uuid: 2fb9f60e-d4dc-458b-e3b2-d9b44f9bbd9e
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-5.78.63.45-1908"
+    type: vmess
+    server: 5.78.63.45
+    port: 28635
+    uuid: 0e8ec3a5-27a1-4e78-9e48-ee4347e92ee2
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-96.43.86.4-1910"
+    type: vmess
+    server: 96.43.86.4
+    port: 17129
+    uuid: e67d0104-9de3-4a5a-9141-be673fbf094e
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-5.161.106.72-1913"
+    type: vmess
+    server: 5.161.106.72
+    port: 50978
+    uuid: 89e6248b-0152-4317-a6ed-b6a0cf41f2cb
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-5.161.106.72-1915"
+    type: vmess
+    server: 5.161.106.72
+    port: 40969
+    uuid: 2fb9f60e-d4dc-458b-e3b2-d9b44f9bbd9e
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇺🇸US-5.78.63.45-1916"
+    type: vmess
+    server: 5.78.63.45
+    port: 47783
+    uuid: 5b4203d5-422f-4ce4-ca25-ecdbfee45a46
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-23.227.38.39-1923"
+    type: vmess
+    server: 23.227.38.39
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+      path: /5QNROSRV
       headers:
         Host: 
-  - name: "未知_VMESS-1070_|_free-nodes"
+  - name: "🇨🇦CA-85.208.108.60-1924"
+    type: ss
+    server: 85.208.108.60
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🏁RELAY-198.41.203.6-1925"
     type: vmess
-    server: 64.186.253.113
-    port: 2095
-    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+    server: 198.41.203.6
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+      path: /9JZFDTKE
       headers:
         Host: 
-  - name: "未知_VMESS-1071_|_free-nodes"
+  - name: "🏁RELAY-203.24.108.8-1926"
     type: vmess
-    server: 64.186.253.113
-    port: 2095
-    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+    server: 203.24.108.8
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+      path: /ECTCJ0DF
       headers:
         Host: 
-  - name: "未知_VMESS-1072_|_free-nodes"
+  - name: "🇺🇸US-167.88.63.79-1927"
+    type: ss
+    server: 167.88.63.79
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇨🇳CN-14.29.124.168-1928"
+    type: ss
+    server: 14.29.124.168
+    port: 25251
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🏁RELAY-190.93.246.195-1932"
     type: vmess
-    server: 64.186.253.113
-    port: 2095
-    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: www.bing.com
-    ws-opts:
-      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-      headers:
-        Host: www.bing.com
-  - name: "未知_VMESS-1073_|_free-nodes"
-    type: vmess
-    server: 64.186.253.113
-    port: 2095
-    uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: www.bing.com
-    ws-opts:
-      path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
-      headers:
-        Host: www.bing.com
-  - name: "未知_VMESS-1074_|_free-nodes"
-    type: vmess
-    server: 65.109.186.44
-    port: 433
-    uuid: ec702875-e1df-490f-8d8e-8f59f83d83f1
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1075_|_free-nodes"
-    type: vmess
-    server: 65.109.208.236
-    port: 40873
-    uuid: 4ae81411-9337-4cac-a612-f5b1650c7627
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1076_|_free-nodes"
-    type: vmess
-    server: 65.109.208.236
-    port: 46962
-    uuid: c896406b-ccc4-4c37-8b8c-15964f32a9a2
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1077_|_free-nodes"
-    type: vmess
-    server: 65.109.218.60
-    port: 8088
-    uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1078_|_free-nodes"
-    type: vmess
-    server: 65.109.218.60
-    port: 8088
-    uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1079_|_free-nodes"
-    type: vmess
-    server: 65.109.221.245
-    port: 33366
-    uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1080_|_free-nodes"
-    type: vmess
-    server: 65.109.221.245
-    port: 33366
-    uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1081_|_free-nodes"
-    type: vmess
-    server: 68.155.139.204
-    port: 36801
-    uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: ajax.microsoft.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: ajax.microsoft.com
-  - name: "未知_VMESS-1082_|_free-nodes"
-    type: vmess
-    server: 69.46.46.71
+    server: 190.93.246.195
     port: 443
-    uuid: 63d7e870-e195-47b9-abc1-8f21f999a0ea
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: 3x-ui-upgrade-production-4817.up.railway.app
     ws-opts:
-      path: /ws
-      headers:
-        Host: 3x-ui-upgrade-production-4817.up.railway.app
-  - name: "未知_VMESS-1083_|_free-nodes"
-    type: vmess
-    server: 69.63.204.31
-    port: 2082
-    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+      path: /IYKLD53M
       headers:
         Host: 
-  - name: "未知_VMESS-1084_|_free-nodes"
+  - name: "🏁RELAY-203.30.191.191-1935"
     type: vmess
-    server: 69.63.204.31
-    port: 2082
-    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+    server: 203.30.191.191
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+      path: /ECTCJ0DF
       headers:
         Host: 
-  - name: "未知_VMESS-1085_|_free-nodes"
+  - name: "🇩🇪DE-193.108.118.34-1936"
+    type: ss
+    server: 193.108.118.34
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-167.88.63.79-1939"
+    type: ss
+    server: 167.88.63.79
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🏁RELAY-203.30.188.189-1940"
     type: vmess
-    server: 69.63.204.31
-    port: 2082
-    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+    server: 203.30.188.189
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+      path: /5QNROSRV
       headers:
         Host: 
-  - name: "未知_VMESS-1086_|_free-nodes"
+  - name: "🏁RELAY-203.30.189.189-1941"
     type: vmess
-    server: 69.63.204.31
-    port: 2082
-    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
+    server: 203.30.189.189
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
+    tls: true
     ws-opts:
-      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
+      path: /ECTCJ0DF
       headers:
         Host: 
-  - name: "未知_VMESS-1087_|_free-nodes"
+  - name: "🏁RELAY-190.93.246.2-1943"
     type: vmess
-    server: 69.63.204.31
-    port: 2082
-    uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: www.bing.com
-    ws-opts:
-      path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
-      headers:
-        Host: www.bing.com
-  - name: "未知_VMESS-1088_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1089_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1090_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1091_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1092_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1093_|_free-nodes"
-    type: vmess
-    server: 69.84.182.49
-    port: 80
-    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-    ws-opts:
-      path: /
-      headers:
-        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: "未知_VMESS-1094_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
+    server: 190.93.246.2
     port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
     ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1095_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1096_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1097_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1098_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1099_|_free-nodes"
-    type: vmess
-    server: 6jdvarazgu3qqr6q.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: "未知_VMESS-1100_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1101_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1102_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1103_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1104_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1105_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1106_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1107_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1108_|_free-nodes"
-    type: vmess
-    server: 7timuei1uufoixbf.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 7tImuei1uuFOiXbf.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 7tImuei1uuFOiXbf.v.3dns.vip
-  - name: "未知_VMESS-1109_|_free-nodes"
-    type: vmess
-    server: 8.210.189.158
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-  - name: "未知_VMESS-1110_|_free-nodes"
-    type: vmess
-    server: 8.210.189.158
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 2b9hwy8ocx7q74nm.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 2b9hwy8ocx7q74nm.v.3dns.vip
-  - name: "未知_VMESS-1111_|_free-nodes"
-    type: vmess
-    server: 8.211.149.30
-    port: 443
-    uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: polartime.link
-    ws-opts:
-      path: /ws/
-      headers:
-        Host: polartime.link
-  - name: "未知_VMESS-1112_|_free-nodes"
-    type: vmess
-    server: 8.211.149.30
-    port: 443
-    uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: polartime.link
-    ws-opts:
-      path: /ws/
-      headers:
-        Host: polartime.link
-  - name: "未知_VMESS-1113_|_free-nodes"
-    type: vmess
-    server: 8.211.149.30
-    port: 443
-    uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: polartime.link
-    ws-opts:
-      path: /ws/
-      headers:
-        Host: polartime.link
-  - name: "未知_VMESS-1114_|_free-nodes"
-    type: vmess
-    server: 8.211.149.30
-    port: 443
-    uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: polartime.link
-    ws-opts:
-      path: /ws/
-      headers:
-        Host: polartime.link
-  - name: "未知_VMESS-1115_|_free-nodes"
-    type: vmess
-    server: 89.167.82.102
-    port: 8880
-    uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1116_|_free-nodes"
-    type: vmess
-    server: 89.167.82.102
-    port: 4443
-    uuid: 88553247-c1c8-4e80-9db6-56bff7efc33b
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1117_|_free-nodes"
-    type: vmess
-    server: 89.167.82.102
-    port: 8880
-    uuid: 38d5f36b-b393-4e3f-a150-4937935c6bb1
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1118_|_free-nodes"
-    type: vmess
-    server: 89.167.82.102
-    port: 4443
-    uuid: 88553247-c1c8-4e80-9db6-56bff7efc33b
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1119_|_free-nodes"
-    type: vmess
-    server: 89.34.230.135
-    port: 11361
-    uuid: af6b6c9b-62bc-46c2-9147-81ec34885899
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /y83qykm0zm
+      path: /ECTCJ0DF
       headers:
         Host: 
-  - name: "未知_VMESS-1120_|_free-nodes"
-    type: vmess
-    server: 91.107.135.249
-    port: 15503
-    uuid: 25ee6754-05d0-4537-803a-2782843af12f
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1121_|_free-nodes"
-    type: vmess
-    server: 91.107.139.186
-    port: 51459
-    uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1122_|_free-nodes"
-    type: vmess
-    server: 91.107.139.186
-    port: 51459
-    uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1123_|_free-nodes"
-    type: vmess
-    server: 91.107.139.186
-    port: 51459
-    uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1124_|_free-nodes"
-    type: vmess
-    server: 91.107.157.137
-    port: 18003
-    uuid: e41f1455-24f5-4d28-9588-a2cba790171c
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1125_|_free-nodes"
-    type: vmess
-    server: 93.180.134.52
-    port: 2078
-    uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: windows64.net
-  - name: "未知_VMESS-1126_|_free-nodes"
-    type: vmess
-    server: 93.180.134.52
-    port: 2078
-    uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: windows64.net
-  - name: "未知_VMESS-1127_|_free-nodes"
-    type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
+  - name: "🇨🇳CN-14.29.124.168-1944"
+    type: ss
+    server: 14.29.124.168
+    port: 25252
+    cipher: aes-128-cfb
+    password: QazEdcTgb159@$*
+  - name: "🇸🇬SG-13.215.173.2-1948"
+    type: ss
+    server: 13.215.173.2
     port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 93ucrn4i0PffUAbk.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  - name: "未知_VMESS-1128_|_free-nodes"
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇺🇸US-167.88.63.79-1953"
+    type: ss
+    server: 167.88.63.79
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🏁RELAY-188.114.99.10-1954"
     type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
+    server: 188.114.99.10
     port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 93ucrn4i0PffUAbk.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  - name: "未知_VMESS-1129_|_free-nodes"
-    type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 93ucrn4i0PffUAbk.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  - name: "未知_VMESS-1130_|_free-nodes"
-    type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 93ucrn4i0PffUAbk.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  - name: "未知_VMESS-1131_|_free-nodes"
-    type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: 93ucrn4i0PffUAbk.v.3dns.vip
-    ws-opts:
-      path: /ws-vmess
-      headers:
-        Host: 93ucrn4i0PffUAbk.v.3dns.vip
-  - name: "未知_VMESS-1132_|_free-nodes"
-    type: vmess
-    server: 93ucrn4i0pffuabk.v.3dns.vip
-    port: 443
-    uuid: f23bb427c1f94373876c2f43e9f790f3
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
     tls: true
     ws-opts:
-      path: /ws-vmess
+      path: /5QNROSRV
       headers:
         Host: 
-  - name: "未知_VMESS-1133_|_free-nodes"
+  - name: "🏁RELAY-190.93.244.200-1959"
     type: vmess
-    server: 94.103.167.116
+    server: 190.93.244.200
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: 
+  - name: "🇺🇸US-167.88.63.79-1960"
+    type: ss
+    server: 167.88.63.79
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇨🇦CA-85.208.108.60-1961"
+    type: ss
+    server: 85.208.108.60
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🏁RELAY-162.159.135.42-1963"
+    type: vmess
+    server: 162.159.135.42
     port: 80
-    uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
+    uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1134_|_free-nodes"
+    network: ws
+    ws-opts:
+      path: /shares
+      headers:
+        Host: 
+  - name: "🏁RELAY-185.162.228.230-1964"
     type: vmess
-    server: 94.103.167.116
+    server: 185.162.228.230
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: 
+  - name: "🇯🇵JP-43.207.68.169-1965"
+    type: ss
+    server: 43.207.68.169
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇲🇳MN-103.168.56.77-1970"
+    type: trojan
+    server: 103.168.56.77
+    port: 443
+    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+    udp: true
+  - name: "🏁RELAY-141.101.115.134-1971"
+    type: vmess
+    server: 141.101.115.134
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: 
+  - name: "🇭🇰HK-47.242.52.13-1973"
+    type: vmess
+    server: 47.242.52.13
+    port: 31152
+    uuid: 59cf21e6-d029-47d8-9c37-7ef34280b9d1
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-203.30.188.120-1974"
+    type: vmess
+    server: 203.30.188.120
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: 
+  - name: "🇸🇬SG-103.172.116.196-1976"
+    type: trojan
+    server: 103.172.116.196
+    port: 3389
+    password: 0c6a3341e8d5ab17
+    udp: true
+  - name: "🇨🇦CA-85.208.108.60-1978"
+    type: ss
+    server: 85.208.108.60
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇭🇰HK-8.210.48.219-1979"
+    type: vmess
+    server: 8.210.48.219
+    port: 26812
+    uuid: cbe5ac22-eb42-4ca9-9fdc-283e57f98008
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-190.93.244.3-1980"
+    type: vmess
+    server: 190.93.244.3
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.24.108.10-2030"
+    type: vmess
+    server: 203.24.108.10
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: 
+  - name: "🇺🇸US-96.43.86.4-2031"
+    type: vmess
+    server: 96.43.86.4
+    port: 443
+    uuid: 6b8bacb5-75b2-4a17-9d32-3d75b100e61e
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇳🇱NL-172.99.188.99-2033"
+    type: ss
+    server: 172.99.188.99
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🏁RELAY-203.30.189.190-2035"
+    type: vmess
+    server: 203.30.189.190
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: 
+  - name: "🏁RELAY-190.93.245.170-2038"
+    type: vmess
+    server: 190.93.245.170
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.30.190.190-2039"
+    type: vmess
+    server: 203.30.190.190
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: 
+  - name: "🇺🇸US-3.85.62.200-2040"
+    type: trojan
+    server: 3.85.62.200
+    port: 54527
+    password: 2a9ba60d-10ce-4f79-97e7-817334456195
+    udp: true
+    sni: tr7.tgcunzhang.xyz
+  - name: "🇳🇱NL-172.99.188.99-2042"
+    type: ss
+    server: 172.99.188.99
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇳🇱NL-172.99.188.99-2043"
+    type: ss
+    server: 172.99.188.99
+    port: 6379
+    cipher: aes-256-gcm
+    password: zDNVedRFPQexG9v
+  - name: "🏁RELAY-188.114.99.11-2046"
+    type: vmess
+    server: 188.114.99.11
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: 
+  - name: "🇺🇸US-167.88.63.79-2053"
+    type: ss
+    server: 167.88.63.79
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-162.0.232.36-2054"
+    type: vmess
+    server: hohm.microsoft.com
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: hohm.microsoft.com
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: hohm.microsoft.com
+  - name: "🇷🇺RU-194.87.248.27-2056"
+    type: vmess
+    server: 194.87.248.27
+    port: 26743
+    uuid: 59952a8e-b712-4190-d85e-f9aadd65faa0
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🏁RELAY-185.162.228.228-2057"
+    type: vmess
+    server: 185.162.228.228
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: 
+  - name: "🏁RELAY-162.159.135.42-2059"
+    type: vmess
+    server: 162.159.135.42
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: 
+  - name: "🇯🇵JP-43.207.1.14-2062"
+    type: ss
+    server: 43.207.1.14
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🏁RELAY-141.101.114.32-2063"
+    type: vmess
+    server: 141.101.114.32
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: 
+  - name: "🇫🇷FR-141.95.61.209-2065"
+    type: trojan
+    server: 141.95.61.209
+    port: 1145
+    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+    udp: true
+  - name: "🇸🇬SG-109.123.237.41-2066"
+    type: vmess
+    server: 109.123.237.41
     port: 80
-    uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
+    uuid: 03a77360-808d-11ed-b736-205c6d5f5d78
     alterId: 0
     cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1135_|_free-nodes"
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: 
+  - name: "🏁RELAY-188.114.99.9-2067"
     type: vmess
-    server: 94.103.167.116
-    port: 80
-    uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "未知_VMESS-1136_|_free-nodes"
-    type: vmess
-    server: 96.47.230.5
-    port: 54840
-    uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+    server: 188.114.99.9
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: imafake.locker
     ws-opts:
-      path: /speedtest
+      path: /ECTCJ0DF
       headers:
-        Host: imafake.locker
-  - name: "未知_VMESS-1137_|_free-nodes"
+        Host: 
+  - name: "🏁RELAY-141.193.213.10-2068"
     type: vmess
-    server: 96.47.230.5
-    port: 54840
-    uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
+    server: 141.193.213.10
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: imafake.locker
     ws-opts:
-      path: /speedtest
+      path: /shirker
       headers:
-        Host: imafake.locker
-  - name: "未知_VMESS-1138_|_free-nodes"
+        Host: 
+  - name: "🇭🇰HK-47.242.95.19-2070"
     type: vmess
-    server: Chdxgih.viranix.ir
-    port: 10053
-    uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
+    server: 47.242.95.19
+    port: 40988
+    uuid: 1e60b35a-db17-4283-8b99-7358ee7d5fd5
     alterId: 0
     cipher: auto
-    network: tcp
-    servername: play.google.com
-  - name: "未知_VMESS-1139_|_free-nodes"
+    network: http
+  - name: "🏁RELAY-141.101.115.30-2075"
     type: vmess
-    server: Chdxgih.viranix.ir
-    port: 10119
-    uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: play.google.com
-  - name: "未知_VMESS-1140_|_free-nodes"
-    type: vmess
-    server: Chdxgih.viranix.ir
-    port: 10136
-    uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: play.google.com
-  - name: "未知_VMESS-1141_|_free-nodes"
-    type: vmess
-    server: Chdxgih.viranix.ir
-    port: 10119
-    uuid: 576b1be6-a3e7-4c40-8ec7-0a406d6eead8
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: play.google.com
-  - name: "未知_VMESS-1142_|_free-nodes"
-    type: vmess
-    server: JP032001.ssgreen.org
+    server: 141.101.115.30
     port: 443
-    uuid: 842bf7b4-1c6b-478f-8edb-5b93abde9691
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: JP032001.ssgreen.org
     ws-opts:
-      path: /wes
+      path: /ECTCJ0DF
       headers:
-        Host: JP032001.ssgreen.org
-  - name: "未知_VMESS-1143_|_free-nodes"
+        Host: 
+  - name: "🏁RELAY-66.235.200.21-2076"
     type: vmess
-    server: JP032002.ssgreen.org
+    server: 66.235.200.21
     port: 443
-    uuid: 5a412bde-b31d-4f75-bedb-375195b9cf41
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: JP032002.ssgreen.org
     ws-opts:
-      path: /wes
+      path: /5QNROSRV
       headers:
-        Host: JP032002.ssgreen.org
-  - name: "未知_VMESS-1144_|_free-nodes"
+        Host: 
+  - name: "🇭🇰HK-8.210.70.156-2077"
     type: vmess
-    server: JP032006.ssgreen.org
+    server: 8.210.70.156
+    port: 54148
+    uuid: 1346261e-3201-4932-bfba-df869ab48116
+    alterId: 0
+    cipher: auto
+    network: http
+  - name: "🇸🇬SG-13.215.163.54-2079"
+    type: ss
+    server: 13.215.163.54
     port: 443
-    uuid: 2f4b5909-0ae6-484e-b528-2a570d474e56
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: JP032006.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: JP032006.ssgreen.org
-  - name: "未知_VMESS-1145_|_free-nodes"
-    type: vmess
-    server: JP032008.ssgreen.org
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇨🇦CA-85.208.108.60-2080"
+    type: ss
+    server: 85.208.108.60
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇨🇦CA-85.208.108.60-2081"
+    type: ss
+    server: 85.208.108.60
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇨🇦CA-85.208.108.60-2082"
+    type: ss
+    server: 85.208.108.60
+    port: 8118
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇨🇦CA-85.208.108.60-2083"
+    type: ss
+    server: 85.208.108.60
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇨🇦CA-85.208.108.60-2085"
+    type: ss
+    server: 85.208.108.60
+    port: 5001
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇨🇦CA-85.208.108.60-2086"
+    type: ss
+    server: 85.208.108.60
+    port: 8080
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇨🇦CA-85.208.108.60-2087"
+    type: ss
+    server: 85.208.108.60
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇨🇦CA-85.208.108.60-2088"
+    type: ss
+    server: 85.208.108.60
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇨🇦CA-85.208.108.60-2089"
+    type: ss
+    server: 85.208.108.60
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇨🇦CA-85.208.108.60-2090"
+    type: ss
+    server: 85.208.108.60
+    port: 8008
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇨🇦CA-85.208.108.60-2091"
+    type: ss
+    server: 85.208.108.60
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇨🇦CA-85.208.108.60-2093"
+    type: ss
+    server: 85.208.108.60
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇨🇦CA-85.208.108.60-2095"
+    type: ss
+    server: 85.208.108.60
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-52.13.16.81-2097"
+    type: ss
+    server: 52.13.16.81
     port: 443
-    uuid: fdd5c90a-96f7-44dd-9adc-58413bd85981
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: JP032008.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: JP032008.ssgreen.org
-  - name: "未知_VMESS-1146_|_free-nodes"
-    type: vmess
-    server: JP032009.ssgreen.org
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇨🇦CA-85.208.108.60-2098"
+    type: ss
+    server: 85.208.108.60
+    port: 7002
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇨🇦CA-85.208.108.60-2102"
+    type: ss
+    server: 85.208.108.60
+    port: 8882
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇨🇦CA-85.208.108.60-2105"
+    type: ss
+    server: 85.208.108.60
     port: 443
-    uuid: 011fca93-33cd-4c3b-a584-7960621e0a3b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: JP032009.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: JP032009.ssgreen.org
-  - name: "未知_VMESS-1147_|_free-nodes"
-    type: vmess
-    server: JP032009.ssgreen.org
-    port: 443
-    uuid: 0976d0fd-e6c1-4adc-a2be-86a11c87bc8b
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: JP032009.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: JP032009.ssgreen.org
-  - name: "未知_VMESS-1148_|_free-nodes"
-    type: vmess
-    server: JP032010.ssgreen.org
-    port: 443
-    uuid: 114af209-c748-49eb-9e45-629986aacfbb
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: JP032010.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: JP032010.ssgreen.org
-  - name: "未知_VMESS-1149_|_free-nodes"
-    type: vmess
-    server: StrEaMCorEnoDe8-apILINkHUb4-NeTwEbGate.CloUDsYnc9.cOm
-    port: 443
-    uuid: cd78a4ff-a880-40c3-8417-e6a2a38c8963
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: STReamCoRENodE8-APiLInKHub4-netwEBGATE.clouDSYNC9.COm
-    ws-opts:
-      path: /mU5O3LNBc0Byn1BgoYh8
-      headers:
-        Host: STReamCoRENodE8-APiLInKHub4-netwEBGATE.clouDSYNC9.COm
-  - name: "未知_VMESS-1150_|_free-nodes"
-    type: vmess
-    server: US032010.westmgreen.com
-    port: 443
-    uuid: 238879d6-f2ea-4f0d-9fe9-0972a2995f78
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US032010.westmgreen.com
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032010.westmgreen.com
-  - name: "未知_VMESS-1151_|_free-nodes"
-    type: vmess
-    server: US032013.ssgreen.org
-    port: 443
-    uuid: 58968a6c-2def-4bfb-b20a-8cbc4baed978
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US032013.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032013.ssgreen.org
-  - name: "未知_VMESS-1152_|_free-nodes"
-    type: vmess
-    server: US032014.ssgreen.org
-    port: 443
-    uuid: 69bd12dd-03a2-4782-b4bd-46a90d17214f
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US032014.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032014.ssgreen.org
-  - name: "未知_VMESS-1153_|_free-nodes"
-    type: vmess
-    server: US032017.ssgreen.org
-    port: 443
-    uuid: 51ca2c43-70e5-4537-b7fd-cd52e24ac2c2
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US032017.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032017.ssgreen.org
-  - name: "未知_VMESS-1154_|_free-nodes"
-    type: vmess
-    server: US032017.ssgreen.org
-    port: 443
-    uuid: 7132fc21-21b1-46e1-aa59-6ce61e96d0fe
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US032017.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US032017.ssgreen.org
-  - name: "未知_VMESS-1155_|_free-nodes"
-    type: vmess
-    server: US122207.ssgreen.org
-    port: 443
-    uuid: a784449b-074f-4fe7-9f4a-119b33d8c05d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: US122207.ssgreen.org
-    ws-opts:
-      path: /wes
-      headers:
-        Host: US122207.ssgreen.org
-  - name: "未知_VMESS-1156_|_free-nodes"
-    type: vmess
-    server: ape.malwarewatch.info
-    port: 2095
-    uuid: e10b6c95-7923-471a-9967-73ee7cf26cea
-    alterId: 0
-    cipher: auto
-    network: tcp
-    servername: ape.malwarewatch.info
-  - name: "未知_VMESS-1157_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1158_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1159_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1160_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1161_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1162_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1163_|_free-nodes"
-    type: vmess
-    server: apjhdggyx.com
-    port: 443
-    uuid: 5f72f180-b21b-4b7a-8484-240759012604
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: apjhdggyx.com
-    ws-opts:
-      path: /5f72f180-b21b-4b7a-8484-240759096785
-      headers:
-        Host: apjhdggyx.com
-  - name: "未知_VMESS-1164_|_free-nodes"
-    type: vmess
-    server: atiins.com.tr
-    port: 443
-    uuid: 97775936-05ea-4fea-8562-e9eb98559790
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "未知_VMESS-1165_|_free-nodes"
-    type: vmess
-    server: atiins.com.tr
-    port: 443
-    uuid: 97775936-05ea-4fea-8562-e9eb98559790
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "未知_VMESS-1166_|_free-nodes"
-    type: vmess
-    server: atiins.com.tr
-    port: 443
-    uuid: 97775936-05ea-4fea-8562-e9eb98559790
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇨🇦CA-85.208.108.60-2108"
+    type: ss
+    server: 85.208.108.60
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇨🇦CA-85.208.108.60-2112"
+    type: ss
+    server: 85.208.108.60
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇨🇦CA-85.208.108.60-2119"
+    type: ss
+    server: 85.208.108.60
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
