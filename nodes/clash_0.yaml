@@ -1,645 +1,4 @@
 proxies:
-  - name: "tg频道:@ripaojiedian"
-    type: ss
-    server: 63.180.254.10
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港|@ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: 18.162.156.145
-    port: 50887
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 18.163.114.228
-    port: 7674
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "香港5|@ripaojiedian"
-    type: trojan
-    server: 16.162.103.28
-    port: 7674
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 54.46.126.133
-    port: 9408
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: 16.162.109.29
-    port: 18617
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "日本3|@ripaojiedian"
-    type: trojan
-    server: 18.163.114.228
-    port: 26704
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 16.162.100.124
-    port: 51396
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡2|@ripaojiedian"
-    type: trojan
-    server: 16.162.100.124
-    port: 51396
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "新加坡3|@ripaojiedian"
-    type: trojan
-    server: 16.163.139.175
-    port: 26704
-    password: BxceQaOe
-    udp: true
-    sni: t.me%252Fripaojiedian
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 16.162.192.182
-    port: 39024
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 16.162.100.124
-    port: 39024
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: 16.162.103.28
-    port: 53001
-    password: BxceQaOe
-    udp: true
-    sni: t.me%2Fripaojiedian
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.179
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.23.63
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.133
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.121
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 198.41.223.96
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.143
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.72
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.155
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.20.6.134
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "日本+V2CROSS.COM"
-    type: trojan
-    server: 2c.fast9988.com
-    port: 50887
-    password: 6ec301428255a78a1d826988d86cc87e
-    udp: true
-    sni: www.nintendogames.net
-  - name: "瑞士+V2CROSS.COM"
-    type: vless
-    server: 169.40.42.104
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "美国+加州"
-    type: trojan
-    server: 216.24.57.1
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "俄罗斯+V2CROSS.COM"
-    type: vless
-    server: 78.159.247.253
-    port: 2027
-    uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 172.67.149.60
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: www.speedtest.org
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.77
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.233
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.159
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.12.149
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "加拿大+V2CROSS.COM"
-    type: trojan
-    server: 130.250.137.171
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇺🇸_机场推荐:dafei.de_美国_22"
-    type: vmess
-    server: v29.hdacd.com
-    port: 30829
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇺🇸_机场推荐:dafei.de_美国_23"
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇺🇸 机场推荐:dafei.de 美国 24"
-    type: vless
-    server: 169.40.42.35
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 36"
-    type: vless
-    server: 169.40.42.104
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 38"
-    type: hysteria2
-    server: 23-19-231-152.liao.kdns.fr
-    port: 50160
-    password: 90af65ff00ef2ff089d28d6a11fc10de
-    udp: true
-  - name: "🇺🇸_机场推荐:dafei.de_美国_39"
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇺🇸_机场推荐:dafei.de_美国_44"
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇺🇸 机场推荐:dafei.de 美国 45"
-    type: vless
-    server: 169.40.42.231
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 46"
-    type: vless
-    server: 31.76.69.40
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 47"
-    type: vless
-    server: 169.40.42.89
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 48"
-    type: vless
-    server: 169.40.42.74
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 49"
-    type: vless
-    server: us22.sofast.live
-    port: 58011
-    uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 50"
-    type: vless
-    server: jp.sofast.live
-    port: 52683
-    uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 51"
-    type: vless
-    server: 154.17.4.70
-    port: 13779
-    uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 52"
-    type: vless
-    server: 169.40.42.90
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 53"
-    type: vless
-    server: 169.40.42.229
-    port: 443
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 55"
-    type: vless
-    server: 172.67.161.109
-    port: 443
-    uuid: 13da3f61-36bc-4f4f-9b49-4152de570bd3
-    udp: true
-    tls: true
-    servername: 1-m14.aYUTTHAYa-1.KdNs.Fr
-  - name: "🇯🇵 机场推荐:dafei.de 日本 02"
-    type: trojan
-    server: merry-falcon.rooster465.autos
-    port: 443
-    password: PQ05174892
-    udp: true
-    sni: merry-falcon.rooster465.autos
-  - name: "🇯🇵_机场推荐:dafei.de_日本_05"
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
-    type: trojan
-    server: 172.67.149.60
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 02"
-    type: trojan
-    server: join-telegram-channel.tirexnet.kdns.fr
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷_机场推荐:dafei.de_法国_03"
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇫🇷 机场推荐:dafei.de 法国 04"
-    type: vless
-    server: 163.5.153.153
-    port: 443
-    uuid: 0a76a766-d141-44b8-944e-dff757d7116f
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 07"
-    type: vless
-    server: begin.magazinetut.online
-    port: 443
-    uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
-    udp: true
-    tls: true
-    servername: begin.magazinetut.online
-  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
-    type: vless
-    server: 159.194.230.94
-    port: 443
-    uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 10"
-    type: trojan
-    server: 86.38.214.205
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 11"
-    type: trojan
-    server: www.ignitelimit.com
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 12"
-    type: trojan
-    server: 104.16.174.44
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇫🇷 机场推荐:dafei.de 法国 13"
-    type: trojan
-    server: 104.18.152.97
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "🇭🇰 机场推荐:dafei.de 香港 02"
-    type: vless
-    server: 95.40.100.129
-    port: 10126
-    uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-    udp: true
-  - name: "🇭🇰_机场推荐:dafei.de_香港_05"
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 0c657913-e593-4893-9555-f88478c33a4b
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    ws-opts:
-      path: /
-      headers:
-        Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-  - name: "🇭🇰 机场推荐:dafei.de 香港 12"
-    type: vless
-    server: 114.29.238.251
-    port: 13443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
-    type: vless
-    server: france3.spaidan.ir
-    port: 35974
-    uuid: c7333a4e-b8c9-44d4-aee6-f73bfe203902
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 08"
-    type: hysteria2
-    server: 139.28.98.26
-    port: 443
-    password: c4a4d98d-8d64-4e76-bc50-096b07d82382
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 12"
-    type: vless
-    server: 23.254.225.38
-    port: 443
-    uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-    udp: true
-    tls: true
-    servername: web-socket.tgdaosheng.ggff.net
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 14"
-    type: vless
-    server: magazinetut.online
-    port: 8443
-    uuid: 7d641c2e-6897-4b9f-8a82-3f0cc8980db1
-    udp: true
-    tls: true
-    servername: magazinetut.online
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 15"
-    type: vless
-    server: 185.227.70.102
-    port: 8082
-    uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 16"
-    type: vless
-    server: 185.227.70.107
-    port: 8082
-    uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-    udp: true
-  - name: "🇧🇷 机场推荐:dafei.de 巴西 03"
-    type: vless
-    server: 191.44.32.103
-    port: 5000
-    uuid: ead060e5-21f9-5369-b9f9-175ab7faa20f
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 01"
-    type: vless
-    server: 78.159.247.253
-    port: 2027
-    uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
-    type: vless
-    server: 87.120.84.32
-    port: 33843
-    uuid: 93dac4b8-3879-4179-abdb-9666a9e2ca8d
-    udp: true
-    tls: true
-    servername: deproxy2.lckdwn.ru
-  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
-    type: vless
-    server: 50.7.90.188
-    port: 2053
-    uuid: 629f88a6-b20b-4489-a22f-4d8b418c0488
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
-    type: vless
-    server: node1.vpnushka.lol
-    port: 8443
-    uuid: 133f76fc-a5ab-463e-b46d-9587d7137e55
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 07"
-    type: vless
-    server: 199.232.78.159
-    port: 443
-    uuid: e0454af2-6fe9-4983-a55d-05e1da202602
-    udp: true
-    tls: true
-    servername: ssl.fastly.com
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 05"
-    type: vless
-    server: 154.196.139.50
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 08"
-    type: vless
-    server: 125.77.20.210
-    port: 13565
-    uuid: 65500794-99b4-0343-bd18-a12453257a2b
-    udp: true
-  - name: "🇸🇬_机场推荐:dafei.de_新加坡_09"
-    type: vmess
-    server: v45.hdacd.com
-    port: 30845
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇫🇮 机场推荐:dafei.de 芬兰 02"
-    type: vless
-    server: 65.109.186.63
-    port: 55764
-    uuid: 55e612d3-1a0e-4290-b880-a9ae48868515
-    udp: true
-  - name: "🇹🇭 机场推荐:dafei.de 泰国 01"
-    type: vless
-    server: 18.239.83.52
-    port: 443
-    uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-    udp: true
-    tls: true
-    servername: d1yxsk0zprgivr.cloudfront.net
-  - name: "🇹🇭 机场推荐:dafei.de 泰国 03"
-    type: vless
-    server: 18.239.134.69
-    port: 80
-    uuid: de27291c-15a9-4256-9ba7-ad517569877e
-    udp: true
-  - name: "🇹🇭 机场推荐:dafei.de 泰国 04"
-    type: vless
-    server: 18.154.132.116
-    port: 443
-    uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-    udp: true
-    tls: true
-    servername: d1yxsk0zprgivr.cloudfront.net
-  - name: "🇮🇪_机场推荐:dafei.de_爱尔兰_01"
-    type: vmess
-    server: v4.hdacd.com
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "🇸🇪 机场推荐:dafei.de 瑞典 01"
-    type: vless
-    server: 144.31.171.143
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇱🇻 机场推荐:dafei.de 拉脱维亚 01"
-    type: vless
-    server: lit6.helper-internet.com
-    port: 443
-    uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-    udp: true
-  - name: "🇸🇰 机场推荐:dafei.de 斯洛伐克 01"
-    type: vless
-    server: 185.112.249.201
-    port: 8443
-    uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-    udp: true
-    tls: true
-    servername: web-socket.tgdaosheng.ggff.net
-  - name: "🇬🇷 机场推荐:dafei.de 希腊 01"
-    type: vless
-    server: grek.helper-internet.com
-    port: 443
-    uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
-    udp: true
-  - name: "🇦🇪 机场推荐:dafei.de 阿联酋 01"
-    type: vless
-    server: 217.60.23.231
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
-  - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
-    type: vless
-    server: id.tutdesignstudio.site
-    port: 8443
-    uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
-    udp: true
-    tls: true
-    servername: id.tutdesignstudio.site
-  - name: "🇧🇬 机场推荐:dafei.de 保加利亚 01"
-    type: vless
-    server: 195.123.226.114
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    udp: true
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -648,3 +7,615 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "防范境外势力渗透_#1"
+    type: vmess
+    server: 127.0.0.53
+    port: 81
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#2"
+    type: vmess
+    server: 127.0.0.53
+    port: 82
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#3"
+    type: vmess
+    server: 127.0.0.53
+    port: 83
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#4"
+    type: vmess
+    server: 127.0.0.53
+    port: 84
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#5"
+    type: vmess
+    server: 127.0.0.53
+    port: 85
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#6"
+    type: vmess
+    server: 127.0.0.53
+    port: 86
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "荷兰"
+    type: hysteria2
+    server: nl.prisma-access.club
+    port: 8445
+    password: 085178e12d2211ec
+    udp: true
+  - name: "🇵🇱|PL|@wxgqlfx|125"
+    type: hysteria2
+    server: 144.31.5.9
+    port: 2101
+    password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
+    udp: true
+  - name: "阿联酋"
+    type: hysteria2
+    server: db1.mangshe.xyz
+    port: 2056
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    udp: true
+  - name: "丹麦"
+    type: hysteria2
+    server: lsj1.mangshe.xyz
+    port: 2056
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    udp: true
+  - name: "🇸🇬SG"
+    type: hysteria2
+    server: xjp4.mangshe.xyz
+    port: 2060
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    udp: true
+  - name: "波兰 #1"
+    type: hysteria2
+    server: pl6.lckdwn.ru
+    port: 443
+    password: 2b5f7fc3d38f4798a0f62d4ef8876528
+    udp: true
+  - name: "瑞典"
+    type: hysteria2
+    server: swe.frkn.org
+    port: 8443
+    password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+    udp: true
+  - name: "🇱🇹LT"
+    type: hysteria2
+    server: latvia.koalaexpress.ru
+    port: 2443
+    password: 425e9e31-b017-4e32-bbd3-656473466d5e
+    udp: true
+  - name: "印度"
+    type: hysteria2
+    server: 92.4.68.18
+    port: 12694
+    password: 4e756809
+    udp: true
+  - name: "奥地利"
+    type: hysteria2
+    server: at133.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "法国"
+    type: hysteria2
+    server: fr194.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "荷兰 #1"
+    type: hysteria2
+    server: nl174.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "荷兰 #2"
+    type: hysteria2
+    server: nl8.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "瑞典 #1"
+    type: hysteria2
+    server: us54.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "台湾"
+    type: hysteria2
+    server: 211.22.154.26
+    port: 50160
+    password: 85a88b70b5f2f73d0dcac92bd3934a5e
+    udp: true
+  - name: "🇺🇸|US|@wxgqlfx|16"
+    type: hysteria2
+    server: 23-19-231-152.liao.kdns.fr
+    port: 50160
+    password: 90af65ff00ef2ff089d28d6a11fc10de
+    udp: true
+  - name: "俄罗斯"
+    type: hysteria2
+    server: 176.124.222.180
+    port: 8443
+    password: 95e8532b-cc69-42d4-9553-e3c23292b15b
+    udp: true
+  - name: "@Configvibes🇹🇷 #2"
+    type: hysteria2
+    server: 45.92.219.237
+    port: 8486
+    password: %40Telegram%40Configvibes
+    udp: true
+  - name: "芬兰"
+    type: hysteria2
+    server: 222.167.212.80
+    port: 8443
+    password: Apt1923_N9x234gn_Nal5Nx3j_s
+    udp: true
+  - name: "美国"
+    type: hysteria2
+    server: pg-usa2-hy2.gigatapbot.top
+    port: 1443
+    password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
+    udp: true
+  - name: "🇺🇸|US|@wxgqlfx|16 #1"
+    type: hysteria2
+    server: 18.226.172.222
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "罗马尼亚"
+    type: hysteria2
+    server: 85.204.107.164
+    port: 8443
+    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    udp: true
+  - name: "🇷🇴|RO|@wxgqlfx|225"
+    type: hysteria2
+    server: 85.204.107.166
+    port: 8443
+    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    udp: true
+  - name: "美国 #2"
+    type: hysteria2
+    server: 93.114.194.122
+    port: 8443
+    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    udp: true
+  - name: "法国 #1"
+    type: hysteria2
+    server: fr.vpn.legendaah.xyz
+    port: 36723
+    password: Krab9Hyst2_Rk7pQ2xL
+    udp: true
+  - name: "荷兰 #3"
+    type: hysteria2
+    server: 86.107.178.69
+    port: 8443
+    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    udp: true
+  - name: "荷兰 #4"
+    type: hysteria2
+    server: 86.107.178.72
+    port: 8443
+    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    udp: true
+  - name: "波兰 #2"
+    type: hysteria2
+    server: rpc-2068.internet-booster.com
+    port: 443
+    password: b11841e3-2acc-45ff-afe0-a9ed9a823aaa
+    udp: true
+  - name: "澳大利亚"
+    type: hysteria2
+    server: 137.23.2.19
+    port: 443
+    password: b42d90fa667942aebc734d60
+    udp: true
+  - name: "کانال تلگرام : Free_VPN_CH@"
+    type: hysteria2
+    server: 181.214.99.162
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    udp: true
+  - name: "🇯🇵|JP|@wxgqlfx|15"
+    type: hysteria2
+    server: 154.31.115.179
+    port: 50160
+    password: bc751c4c5c80f17dfbc05785c368b613
+    udp: true
+  - name: "德国"
+    type: hysteria2
+    server: 87.120.84.189
+    port: 443
+    password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
+    udp: true
+  - name: "荷兰 #5"
+    type: hysteria2
+    server: nl2.sferavpn.pro
+    port: 443
+    password: cd74c0a406664a5bc0bac098220a2468
+    udp: true
+  - name: "美国 #3"
+    type: hysteria2
+    server: node1.sferavpn.pro
+    port: 443
+    password: cd74c0a406664a5bc0bac098220a2468
+    udp: true
+  - name: "德国 #1"
+    type: hysteria2
+    server: bel-03.node.lumixnet.com
+    port: 443
+    password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+    udp: true
+  - name: "波兰 #3"
+    type: hysteria2
+    server: eh-spl1.craft-supply.org
+    port: 8443
+    password: df489ab2-2242-4952-a774-1074a3a31f41
+    udp: true
+  - name: "🇰🇷|KR|@wxgqlfx|24"
+    type: hysteria2
+    server: 193.122.104.200
+    port: 50160
+    password: dfb54e674104158210fdfcac45e5679d
+    udp: true
+  - name: "🇩🇪|DE|@wxgqlfx|182"
+    type: hysteria2
+    server: 194.180.188.21
+    port: 8443
+    password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+    udp: true
+  - name: "美国 #4"
+    type: hysteria2
+    server: uswx4.wxgqlfx.vip
+    port: 11683
+    password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
+    udp: true
+  - name: "荷兰 #6"
+    type: hysteria2
+    server: 144.31.135.204
+    port: 443
+    password: hysteria2_fastlane_9r63hua9f
+    udp: true
+  - name: "🇩🇪146504 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: de.1.23.h2corp.org
+    port: 443
+    password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+    udp: true
+  - name: "荷兰 #7"
+    type: hysteria2
+    server: 91.84.119.49
+    port: 443
+    password: netherlands_3_hysteria2_fastlane_xr3nai71s
+    udp: true
+  - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: 54.213.89.22
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    udp: true
+  - name: "荷兰 #8"
+    type: hysteria2
+    server: 205.237.109.219
+    port: 8443
+    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+    udp: true
+  - name: "英国"
+    type: hysteria2
+    server: 205.237.109.221
+    port: 8443
+    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+    udp: true
+  - name: "🇦🇪|AE|@wxgqlfx|211"
+    type: hysteria2
+    server: cabinet.wwwinternetvideo.click
+    port: 443
+    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
+    udp: true
+  - name: "🎈76@oneclickvpnkeys"
+    type: hysteria2
+    server: 150.241.102.127
+    port: 443
+    password: 042a1881-44e4-4781-bd40-bf75164faf4f
+    udp: true
+  - name: "Proxy_mtm 24"
+    type: hysteria2
+    server: gorbachev-new-th.kvnfreetest.uk
+    port: 55443
+    password: 083417772bc618cd61f0cca23dd91680
+    udp: true
+  - name: "🇵🇱|PL|@wxgqlfx|121"
+    type: hysteria2
+    server: 144.31.1.28
+    port: 2086
+    password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
+    udp: true
+  - name: "🇵🇱|PL|@wxgqlfx|128"
+    type: hysteria2
+    server: 144.31.5.9
+    port: 2102
+    password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
+    udp: true
+  - name: "Proxy_mtm 33"
+    type: hysteria2
+    server: assets.gateway-stream.com
+    port: 52000
+    password: 09e4b638945d44bfa60b4fd00edad131
+    udp: true
+  - name: "@confiig_hub"
+    type: hysteria2
+    server: 185.47.172.226
+    port: 32950
+    password: 0ansucp5k6aop125
+    udp: true
+  - name: "🇫🇮|FI|@wxgqlfx|221"
+    type: hysteria2
+    server: h2.vpnushka.lol
+    port: 443
+    password: 133f76fc-a5ab-463e-b46d-9587d7137e55
+    udp: true
+  - name: "🇺🇸|US|@wxgqlfx|251"
+    type: hysteria2
+    server: node3.vpnushka.lol
+    port: 443
+    password: 133f76fc-a5ab-463e-b46d-9587d7137e55
+    udp: true
+  - name: "🇩🇪|DE|@wxgqlfx|22"
+    type: hysteria2
+    server: mg2.mangshe.xyz
+    port: 2056
+    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+    udp: true
+  - name: "🇰🇷|KR|@wxgqlfx|23"
+    type: hysteria2
+    server: 152.67.200.82
+    port: 50160
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    udp: true
+  - name: "🇦🇹|AT|@wxgqlfx|216"
+    type: hysteria2
+    server: at133.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇦🇹|AT|@wxgqlfx|225"
+    type: hysteria2
+    server: at164.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇦🇹|AT|@wxgqlfx|224"
+    type: hysteria2
+    server: at164.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇦🇹|AT|@wxgqlfx|221"
+    type: hysteria2
+    server: at188.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇩🇪|DE|@wxgqlfx|220"
+    type: hysteria2
+    server: de120.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇩🇪|DE|@wxgqlfx|208"
+    type: hysteria2
+    server: de200.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇩🇪|DE|@wxgqlfx|223"
+    type: hysteria2
+    server: fr131.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇳🇱|NL|@wxgqlfx|218"
+    type: hysteria2
+    server: nl174.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇳🇱|NL|@wxgqlfx|233"
+    type: hysteria2
+    server: nl8.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇸🇪|SE|@wxgqlfx|238"
+    type: hysteria2
+    server: us63.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇸🇪|SE|@wxgqlfx|213"
+    type: hysteria2
+    server: us65.mechvpn.online
+    port: 443
+    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    udp: true
+  - name: "🇬🇧146501 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: f1b.wareznet.ru
+    port: 8444
+    password: 55b71f97202647049ce999646de57c50
+    udp: true
+  - name: "🇺🇸146342 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: 31.76.70.78
+    port: 8443
+    password: 5ca83936-136d-4314-8453-4ba10a86cf60
+    udp: true
+  - name: "🇩🇪@FreakConfig"
+    type: hysteria2
+    server: 31.76.80.69
+    port: 443
+    password: 6aab8efdf13945829ae3699c342be406
+    udp: true
+  - name: "@Daily_Configs"
+    type: hysteria2
+    server: fiproxy1.lockdwn.com
+    port: 443
+    password: 6aab8efdf13945829ae3699c342be406
+    udp: true
+  - name: "تلگرام ما MTMVPN 14"
+    type: hysteria2
+    server: gorbachev-th.kvnfreetest.uk
+    port: 55443
+    password: 6f7a8009ecf6a12e10d03f9d88493c89
+    udp: true
+  - name: "🇫🇮|FI|@wxgqlfx|222"
+    type: hysteria2
+    server: serv21.strettenvpn.com
+    port: 443
+    password: 707db87b-9cbf-438f-b4c7-9d984c8e944a
+    udp: true
+  - name: "🇬🇧|GB|@wxgqlfx|19"
+    type: hysteria2
+    server: 94-229-64-108.liao.kdns.fr
+    port: 50160
+    password: 725bc0b69e720cd5a2cd209252507c6e
+    udp: true
+  - name: "🇷🇺|RU|@wxgqlfx|229"
+    type: hysteria2
+    server: ru-i-2.monkeyisland.xyz
+    port: 443
+    password: 921db318-1694-4408-9cc7-c93df39f7f8e
+    udp: true
+  - name: "🇷🇴|RO|@wxgqlfx|219"
+    type: hysteria2
+    server: 162.249.124.104
+    port: 8443
+    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    udp: true
+  - name: "🇩🇪@FreakConfig #1"
+    type: hysteria2
+    server: dns.devmrzero.ir
+    port: 2096
+    password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599
+    udp: true
+  - name: "@Configvibes🇹🇷"
+    type: hysteria2
+    server: 198.105.123.106
+    port: 11504
+    password: %40Tel%40Configvibes
+    udp: true
+  - name: "@Configvibes🇹🇷 #1"
+    type: hysteria2
+    server: 107.181.155.107
+    port: 2096
+    password: %40Telegram%40Configvibes
+    udp: true
+  - name: "تلگرام ما MTMVPN 6"
+    type: hysteria2
+    server: 222.167.212.24
+    port: 8443
+    password: Apt1923_N9x234gn_Nal5Nx3j_s
+    udp: true
+  - name: "🇫🇮|FI|@wxgqlfx|217"
+    type: hysteria2
+    server: fast.wwwinternetvideo.click
+    port: 443
+    password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+    udp: true
+  - name: "🇨🇦V2RayyNGvpn🇨🇦"
+    type: hysteria2
+    server: 51.79.91.52
+    port: 38871
+    password: IJMFOXhvbQ
+    udp: true
+  - name: "🇷🇴|RO|@wxgqlfx|206"
+    type: hysteria2
+    server: 85.204.107.165
+    port: 8443
+    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    udp: true
+  - name: "🩵+@Azarakhsh_Proxy+🩷"
+    type: hysteria2
+    server: 179.61.132.96
+    port: 8443
+    password: KevinZakarian
+    udp: true
+  - name: "🇳🇱|NL|@wxgqlfx|236"
+    type: hysteria2
+    server: 86.107.178.73
+    port: 8443
+    password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+    udp: true
+  - name: "Telegram@vpnjey"
+    type: hysteria2
+    server: 31.76.27.23
+    port: 37009
+    password: Telegram%40vpnjey
+    udp: true
+  - name: "🇩🇪146484 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: 31.76.27.23
+    port: 37009
+    password: Telegram%40vpnjey
+    udp: true
+  - name: "Telegram@vpnjey #1"
+    type: hysteria2
+    server: 77.110.96.201
+    port: 36264
+    password: Telegram%40vpnjey
+    udp: true
+  - name: "Telegram@VPNjey🇩🇪🇩🇪"
+    type: hysteria2
+    server: 1.1.1.1
+    port: 37003
+    password: TelegramVPNJey
+    udp: true
+  - name: "Telegram@VPNjey🇩🇪🇩🇪 #1"
+    type: hysteria2
+    server: 179.61.251.253
+    port: 37003
+    password: TelegramVPNjey
+    udp: true
