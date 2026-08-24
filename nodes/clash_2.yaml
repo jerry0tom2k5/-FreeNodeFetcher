@@ -1,103 +1,42 @@
 proxies:
-  - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
     type: trojan
-    server: 165.215.250.14
+    server: 172.67.221.242
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.16.174.101
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.219
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "🇺🇸 US美国(mibei77.com 米贝节点分享)"
+    type: trojan
+    server: 104.18.152.246
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
   - name: "🇫🇷 FR法国(mibei77.com 米贝节点分享)"
     type: trojan
-    server: 130.250.137.171
+    server: 104.18.152.244
     port: 443
     password: humanity
     udp: true
     sni: www.ignitelimit.com
-  - name: "🇨🇳_CN_中国->🇩🇪_DE_德国"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymtexoa==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇮🇱_IL_以色列"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymtexng==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇺🇸_US_美国"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymtewoa==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymteymq==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇳🇱_NL_荷兰"
-    type: ss
-    server: mjaymi1ibgfrztmty2hhy2hhmjatcg9setezmdu6yvfgd0t5d1zxedrzmujpugtid1q3ofnnumjszjmvztz5zjhucndwqu54vt1amtm0ljk4ljezmy4xmji6ndu4mtk=
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇭🇰_HK_中国香港"
-    type: ss
-    server: ywvzlti1ni1ny206nzi1ntmzmjbhztziy2m4zkaymtiumtkylje1ljq2ojiwotkw
-    port: None
-    cipher: aes-256-gcm
-    password: 
   - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
-    type: vmess
-    server: v6.hdacd.com
-    port: 30806
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-    servername: v6.hdacd.com
-  - name: "🇨🇳_CN_中国->🇸🇬_SG_新加坡"
     type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc4ynjoymteymq==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇹🇭_TH_泰国"
-    type: ss
-    server: ywvzlti1ni1jzmi6n2vhzgm2zgjlmmflqdewmy4xnjkunjcumzq6nju0ndm=
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇮🇹_IT_意大利"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc4ynjoymtexmw==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇬🇧_GB_英国"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc4ynjoymtexnw==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇺🇸_US_美国"
-    type: vmess
-    server: rush-w1niu.teeopp.online
-    port: 443
-    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: rush-w1niu.teeopp.online
-    ws-opts:
-      path: /
-      headers:
-        Host: rush-w1niu.teeopp.online
-  - name: "🇨🇳_CN_中国->🇬🇧_GB_英国"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymtewna==
+    server: ywvzlti1ni1jzmi6n2vhzgm2zgjlmmflqdeyms40ni4ymzaumtm2ojy1ndqz
     port: None
     cipher: aes-256-gcm
     password: 
@@ -110,18 +49,190 @@ proxies:
     cipher: auto
     network: tcp
     servername: guanwang.awsno.com
+  - name: "🇹🇭_TH_泰国"
+    type: ss
+    server: ywvzlti1ni1jzmi6n2vhzgm2zgjlmmflqdewmy4xnjkunjcumzq6nju0ndm=
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: v10.zgtfqs.click
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v10.zgtfqs.click
+  - name: "🇭🇰_HK_中国香港"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v10.hdacd.com
+  - name: "🇺🇸_US_美国"
+    type: ss
+    server: ywvzlti1ni1ny206n3c5edvtngtov05gz0t1rfhgvxh1njh4lti2d2jxd2damzgunjquntgumjqyojgzodg=
+    port: None
+    cipher: aes-256-gcm
+    password: 
   - name: "🇨🇳_CN_中国->🇫🇷_FR_法国"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc40ndoymteyng==
-    port: None
-    cipher: aes-256-gcm
-    password: 
-  - name: "🇨🇳_CN_中国->🇮🇳_IN_印度"
-    type: ss
-    server: y2hhy2hhmjatawv0zi1wb2x5mtmwnto5mzi1ytm0ns1jnzjmltq2mzctythmnc0zngy5zwzmyjdiytzamjexljkxlje1oc4ynjoymteynq==
-    port: None
-    cipher: aes-256-gcm
-    password: 
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v35.hdacd.com
+  - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
+    type: vmess
+    server: v6.hdacd.com
+    port: 30806
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+    servername: v6.hdacd.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.44
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.97
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "拉脱维亚+V2CROSS.COM"
+    type: vless
+    server: 195.123.210.168
+    port: 13443
+    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.73.213
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.207
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "伊朗+V2CROSS.COM"
+    type: trojan
+    server: 2.144.21.112
+    port: 40443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.124
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+V2CROSS.COM"
+    type: trojan
+    server: 140.248.185.253
+    port: 443
+    password: MiTiVPN
+    udp: true
+    sni: ssl.fastly.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.50
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "英国+V2CROSS.COM"
+    type: vless
+    server: 31.76.70.31
+    port: 443
+    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+    udp: true
+  - name: "美国+加州"
+    type: trojan
+    server: 216.24.57.7
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.26.15.137
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+V2CROSS.COM"
+    type: vless
+    server: 208.103.161.32
+    port: 443
+    uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+    udp: true
+    tls: true
+    servername: josni.hoyes.cloudns.ch
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.179
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+加利福尼亚州洛杉矶QuadraNet数据中心"
+    type: hysteria2
+    server: 40t2.wxgqlfx.vip
+    port: 35193
+    password: 57ec0f01-0c00-4a69-ad67-937b4735640b
+    udp: true
+  - name: "澳大利亚+V2CROSS.COM"
+    type: hysteria2
+    server: de1.xiaoliyu.cyou
+    port: 4433
+    password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.16.174.101
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "英国+V2CROSS.COM"
+    type: hysteria2
+    server: fast.wwwinternetvideo.click
+    port: 443
+    password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+    udp: true
+  - name: "巴西圣保罗+CloudFlare节点"
+    type: trojan
+    server: 188.114.97.7
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
+  - name: "美国+CloudFlare节点"
+    type: trojan
+    server: 104.18.152.149
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.ignitelimit.com
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -202,31 +313,25 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "иҚ·е…°"
-    type: hysteria2
-    server: nl.prisma-access.club
-    port: 8445
-    password: 085178e12d2211ec
-    udp: true
-  - name: "жіўе…°"
+  - name: "波兰"
     type: hysteria2
     server: 144.31.5.9
     port: 2101
     password: 08794874-93d0-4cf2-b9d6-1f2774cdffeb
     udp: true
-  - name: "йҰҷжёҜ"
+  - name: "香港"
     type: hysteria2
     server: hk2.xiaoliyu.cyou
     port: 4433
     password: 1427eb10-7529-4d38-a6a2-01b337868b37
     udp: true
-  - name: "рҹ§®78@oneclickvpnkeys"
+  - name: "🧮78@oneclickvpnkeys"
     type: hysteria2
     server: do.aigh.store
     port: 10929
     password: 17aVvwmiSU
     udp: true
-  - name: "рҹҮӯрҹҮ°HK"
+  - name: "🇭🇰HK"
     type: hysteria2
     server: fg7xl1div.d33tqmk.cc
     port: 10030
@@ -238,109 +343,109 @@ proxies:
     port: 11173
     password: 1dcc3b89-0b45-3908-9120-19741361d55d
     udp: true
-  - name: "йҳҝиҒ”й…Ӣ"
+  - name: "阿联酋"
     type: hysteria2
     server: db1.mangshe.xyz
     port: 2056
     password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
     udp: true
-  - name: "дё№йәҰ"
+  - name: "丹麦"
     type: hysteria2
     server: lsj1.mangshe.xyz
     port: 2056
     password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
     udp: true
-  - name: "рҹҮәрҹҮёUS #1"
+  - name: "🇺🇸US #1"
     type: hysteria2
     server: mg2.mangshe.xyz
     port: 2056
     password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
     udp: true
-  - name: "рҹҚҘ16@oneclickvpnkeys"
+  - name: "德国"
     type: hysteria2
     server: pixelcast.wwwinternetvideo.click
     port: 443
     password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
     udp: true
-  - name: "жіўе…° #1"
+  - name: "波兰 #1"
     type: hysteria2
     server: node.embrofree.org
     port: 443
     password: 3703ccc0-ae74-49bd-b9d7-0897192bf8c4
     udp: true
-  - name: "з‘һе…ё"
+  - name: "瑞典"
     type: hysteria2
     server: swe.frkn.org
     port: 8443
     password: 3b8c82ed-fe66-472d-915e-034ccb57103f
     udp: true
-  - name: "еҚ°еәҰ"
+  - name: "印度"
     type: hysteria2
     server: 92.4.68.18
     port: 12694
     password: 4e756809
     udp: true
-  - name: "еҘҘең°еҲ©"
+  - name: "奥地利"
     type: hysteria2
     server: at133.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "дҝқеҠ еҲ©дәҡ"
+  - name: "保加利亚"
     type: hysteria2
     server: bg185.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "жі•еӣҪ"
+  - name: "法国"
     type: hysteria2
     server: fr194.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "иҚ·е…° #1"
+  - name: "荷兰"
     type: hysteria2
     server: nl174.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "иҚ·е…° #2"
+  - name: "荷兰 #1"
     type: hysteria2
     server: nl8.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "иӢұеӣҪ"
+  - name: "英国"
     type: hysteria2
     server: uk196.mechvpn.online
     port: 443
     password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
     udp: true
-  - name: "з‘һе…ё #1"
+  - name: "芬兰"
     type: hysteria2
-    server: us54.mechvpn.online
-    port: 443
-    password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+    server: 31.76.70.109
+    port: 8443
+    password: 83deb5ce-cd1c-41a6-8ec5-2ebc91f6f861
     udp: true
-  - name: "еҸ°ж№ҫ"
+  - name: "台湾"
     type: hysteria2
     server: 211.22.154.26
     port: 50160
     password: 85a88b70b5f2f73d0dcac92bd3934a5e
     udp: true
-  - name: "рҹҚҘ71@oneclickvpnkeys"
+  - name: "波兰 #2"
     type: hysteria2
     server: streambox.wwwinternetvideo.click
     port: 443
     password: 865e271f7c97b549b024255c9d02cebe9cc0c2c070a82b1e11bb11b9cd88dd01
     udp: true
-  - name: "еҫ·еӣҪ #1"
+  - name: "德国 #1"
     type: hysteria2
     server: deu0003ntrhy01.tcp-reset-club.net
     port: 443
     password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
     udp: true
-  - name: "еңҹиҖіе…¶"
+  - name: "土耳其"
     type: hysteria2
     server: 162.249.124.105
     port: 8080
@@ -352,103 +457,79 @@ proxies:
     port: 12645
     password: 9gWt2z3KdC9VI8kAQYVvvSvhT9e05CfI
     udp: true
-  - name: "рҹҮӯрҹҮ°HK #1"
+  - name: "🇭🇰HK #1"
     type: hysteria2
     server: 18.162.42.61
     port: 16001
     password: 9q3Mb0IzSVbnwaqK
     udp: true
-  - name: "@ConfigvibesрҹҮ№рҹҮ· #2"
-    type: hysteria2
-    server: 45.92.219.237
-    port: 8486
-    password: %40Telegram%40Configvibes
-    udp: true
-  - name: "иҠ¬е…°"
+  - name: "芬兰 #1"
     type: hysteria2
     server: 222.167.212.80
     port: 8443
     password: Apt1923_N9x234gn_Nal5Nx3j_s
     udp: true
-  - name: "зҫҺеӣҪ"
-    type: hysteria2
-    server: pg-usa2-hy2.gigatapbot.top
-    port: 1443
-    password: CJtE4HLmxz859YMNiZM1NTuDRy7jjs8t
-    udp: true
-  - name: "ж—Ҙжң¬"
+  - name: "日本"
     type: hysteria2
     server: 185.39.31.117
     port: 8443
     password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
     udp: true
-  - name: "рҹ§®25@oneclickvpnkeys"
+  - name: "🇺🇦UKraine"
     type: hysteria2
     server: hy2-germany.unlimited-access.ru
     port: 8443
     password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
     udp: true
-  - name: "зҫҺеӣҪ #1"
+  - name: "美国"
     type: hysteria2
     server: 18.226.172.222
     port: 443
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     udp: true
-  - name: "иҚ·е…° #3"
+  - name: "荷兰 #2"
     type: hysteria2
     server: hysteria.udpgw.com
     port: 8443
     password: HowdyHysteria2023w0W
     udp: true
-  - name: "зҪ—й©¬е°јдәҡ"
-    type: hysteria2
-    server: 85.204.107.164
-    port: 8443
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-    udp: true
-  - name: "рҹҚҘ75@oneclickvpnkeys"
+  - name: "德国 #2"
     type: hysteria2
     server: 85.204.107.169
     port: 8080
     password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
     udp: true
-  - name: "жі•еӣҪ #1"
-    type: hysteria2
-    server: fr.vpn.legendaah.xyz
-    port: 36723
-    password: Krab9Hyst2_Rk7pQ2xL
-    udp: true
-  - name: "иҚ·е…° #4"
+  - name: "荷兰 #3"
     type: hysteria2
     server: 86.107.178.72
     port: 8443
     password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
     udp: true
-  - name: "иҚ·е…° #5"
+  - name: "荷兰 #4"
     type: hysteria2
     server: 86.107.178.75
     port: 8443
     password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
     udp: true
-  - name: "рҹ§®17@oneclickvpnkeys"
+  - name: "荷兰 #5"
     type: hysteria2
     server: 86.107.178.78
     port: 8443
     password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
     udp: true
-  - name: "рҹҮёрҹҮ¬SG"
+  - name: "🇸🇬SG"
     type: hysteria2
     server: 43.156.90.144
     port: 34567
     password: P6qkAwznuC076mbIR2cGPg%3D%3D
     udp: true
-  - name: "зҫҺеӣҪ #2"
+  - name: "美国 #1"
     type: hysteria2
     server: 82.39.214.98
     port: 8080
     password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
     udp: true
-  - name: "жіўе…° #3"
+  - name: "波兰 #3"
     type: hysteria2
     server: go.wwwinternetvideo.click
     port: 443
@@ -460,97 +541,91 @@ proxies:
     port: 55793
     password: ZYTopBPE6fGijECIcT3KxqFEpjQJ44ND
     udp: true
-  - name: "еҫ·еӣҪ #3"
+  - name: "德国 #3"
     type: hysteria2
     server: ndge4.whit3.net
     port: 443
     password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
     udp: true
-  - name: "жіўе…° #4"
-    type: hysteria2
-    server: rpc-2068.internet-booster.com
-    port: 443
-    password: b11841e3-2acc-45ff-afe0-a9ed9a823aaa
-    udp: true
-  - name: "жҫіеӨ§еҲ©дәҡ"
+  - name: "澳大利亚"
     type: hysteria2
     server: 137.23.2.19
     port: 443
     password: b42d90fa667942aebc734d60
     udp: true
-  - name: "Ъ©Ш§ЩҶШ§Щ„ ШӘЩ„ЪҜШұШ§Щ… : Free..."
+  - name: "کانال تلگرام : Free_VPN_CH@"
     type: hysteria2
     server: 181.214.99.162
     port: 35000
     password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
     udp: true
-  - name: "жҜ”еҲ©ж—¶"
+  - name: "比利时"
     type: hysteria2
     server: 113.30.152.25
     port: 443
     password: belgium_hysteria2_fastlane_a118d9y0r
     udp: true
-  - name: "зҫҺеӣҪ #3"
+  - name: "美国 #2"
     type: hysteria2
     server: node1.sferavpn.pro
     port: 443
     password: cd74c0a406664a5bc0bac098220a2468
     udp: true
-  - name: "еҫ·еӣҪ #4"
+  - name: "德国 #4"
     type: hysteria2
     server: bel-03.node.lumixnet.com
     port: 443
     password: d1224950-ffab-4b9a-8696-431b40a6cfbd
     udp: true
-  - name: "еҫ·еӣҪ #5"
+  - name: "德国 #5"
     type: hysteria2
     server: 194.180.188.104
     port: 8443
     password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
     udp: true
-  - name: "еҫ·еӣҪ #6"
+  - name: "德国 #6"
     type: hysteria2
     server: 194.180.188.97
     port: 8443
     password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
     udp: true
-  - name: "ж—Ҙжң¬ #1"
+  - name: "日本 #1"
     type: hysteria2
     server: jp.cryptoofarm.com
     port: 443
     password: ef18d810-719c-4bf1-83c6-615d01f217eb
     udp: true
-  - name: "зҫҺеӣҪ #4"
+  - name: "美国 #3"
     type: hysteria2
     server: uswx4.wxgqlfx.vip
     port: 11683
     password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
     udp: true
-  - name: "рҹ§®60@oneclickvpnkeys"
+  - name: "英国 #2"
     type: hysteria2
     server: 138.124.0.168
     port: 8080
     password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
     udp: true
-  - name: "иӢұеӣҪ #3"
+  - name: "英国 #3"
     type: hysteria2
     server: 222.167.212.81
     port: 8080
     password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
     udp: true
-  - name: "иҚ·е…° #7"
+  - name: "荷兰 #6"
     type: hysteria2
     server: 144.31.135.204
     port: 443
     password: hysteria2_fastlane_9r63hua9f
     udp: true
-  - name: "еҫ·еӣҪ #7"
+  - name: "德国 #7"
     type: hysteria2
     server: de.1.23.h2corp.org
     port: 443
     password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
     udp: true
-  - name: "иҚ·е…° #8"
+  - name: "荷兰 #7"
     type: hysteria2
     server: 91.84.119.49
     port: 443
@@ -562,75 +637,21 @@ proxies:
     port: 32135
     password: oU4tGn37oQ9JGmqnlTGkU3knrfAbclsq
     udp: true
-  - name: "ж–°еҠ еқЎ"
+  - name: "新加坡"
     type: hysteria2
     server: 47.129.155.42
     port: 443
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     udp: true
-  - name: "рҹҮәрҹҮё139909 | вҡЎпёҸTelegra..."
+  - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
     type: hysteria2
     server: 54.213.89.22
     port: 443
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     udp: true
-  - name: "иҚ·е…° #9"
+  - name: "新加坡 #1"
     type: hysteria2
-    server: 46.229.243.139
-    port: 8443
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    udp: true
-  - name: "зҲұжІҷе°јдәҡ"
-    type: hysteria2
-    server: cabinet.wwwinternetvideo.click
+    server: 54.254.190.23
     port: 443
-    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-    udp: true
-  - name: "рҹ§®36@oneclickvpnkeys"
-    type: hysteria2
-    server: 167.179.34.31
-    port: 55443
-    password: 083417772bc618cd61f0cca23dd91680
-    udp: true
-  - name: "рҹ§®37@oneclickvpnkeys"
-    type: hysteria2
-    server: gorbachev-new-th.kvnfreetest.uk
-    port: 55443
-    password: 083417772bc618cd61f0cca23dd91680
-    udp: true
-  - name: "@confiig_hub"
-    type: hysteria2
-    server: 185.47.172.226
-    port: 32950
-    password: 0ansucp5k6aop125
-    udp: true
-  - name: "рҹҚҘ72@oneclickvpnkeys"
-    type: hysteria2
-    server: xby.mangshe.xyz
-    port: 2056
-    password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-    udp: true
-  - name: "вң…  @vistav2ray  рҹ‘Ҳрҹ‘ҲЪ©Ш§..."
-    type: hysteria2
-    server: 31.76.80.69
-    port: 443
-    password: 6aab8efdf13945829ae3699c342be406
-    udp: true
-  - name: "рҹ§®57@oneclickvpnkeys"
-    type: hysteria2
-    server: newos.klzvezdi.ru
-    port: 9443
-    password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
-    udp: true
-  - name: "рҹ§®46@oneclickvpnkeys"
-    type: hysteria2
-    server: che01plrhy01.tcp-reset-club.net
-    port: 443
-    password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-    udp: true
-  - name: "рҹ§®7@oneclickvpnkeys"
-    type: hysteria2
-    server: 162.249.124.108
-    port: 8443
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     udp: true
