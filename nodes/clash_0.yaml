@@ -1,142 +1,4 @@
 proxies:
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.23.63
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.109
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.225
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.22.63
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+V2CROSS.COM"
-    type: vless
-    server: 45.40.151.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.233
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "英国+V2CROSS.COM"
-    type: trojan
-    server: 176.97.66.175
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+V2CROSS.COM"
-    type: vless
-    server: 45.40.145.30
-    port: 8880
-    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.17.111.3
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.36
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 104.21.53.73
-    port: 443
-    uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
-    udp: true
-    tls: true
-    servername: 5-m19.SOUtH-aFrIca-LiNe.ccWU.CC
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.21.46.3
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.187
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "英国+V2CROSS.COM"
-    type: vless
-    server: 31.76.4.128
-    port: 5001
-    uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.113
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.18.152.229
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.101
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "巴西圣保罗+CloudFlare节点"
-    type: trojan
-    server: 188.114.97.7
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "美国+CloudFlare节点"
-    type: trojan
-    server: 104.16.174.37
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
-  - name: "加拿大+V2CROSS.COM"
-    type: trojan
-    server: 130.250.137.171
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.ignitelimit.com
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -217,423 +79,649 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
-  - name: "新加坡"
-    type: hysteria2
-    server: 38.180.190.215
-    port: 50160
-    password: 0a344117cfeef3d6602e338c2f1e7957
-    udp: true
-  - name: "芬兰"
-    type: hysteria2
-    server: samurai.h4ck.me
+  - name: "A - 🇭🇰 HK 02 TG: @nodpai"
+    type: vless
+    server: 198.41.219.218
     port: 443
-    password: 14f7504c-bd01-4d88-bd42-80dc6bf6b202
+    uuid: fe273991-0514-4a16-8ec4-b15ae861c000
     udp: true
-  - name: "韩国"
-    type: hysteria2
-    server: 132.226.226.189
-    port: 50160
-    password: 1671a252e2a97dc2bda4e515475931da
+    tls: true
+    servername: zyzzzoao.xn--fiqv8j.eu.org
+  - name: "B_-_🇭🇰_HK_04_TG:_@nodpai"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6001
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "B - 🇭🇰 HK 05 TG: @nodpai"
+    type: vless
+    server: 103.123.162.50
+    port: 10011
+    uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
     udp: true
-  - name: "日本"
+    tls: true
+    servername: www.microsoft.com
+  - name: "C_-_🇭🇰_HK_07_TG:_@nodpai"
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "A - 🇹🇼 TW 01 TG: @nodpai"
     type: hysteria2
-    server: 138.3.208.26
-    port: 50160
-    password: 184cdec28da5a09450803c8debcd2cc9
+    server: tw.9966690.xyz
+    port: 40000
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
     udp: true
-  - name: "新加坡 #1"
-    type: hysteria2
-    server: sg1.xiaoliyu.cyou
-    port: 1933
-    password: 19f72087-4591-4d72-930b-2697078ec2be
+  - name: "B_-_🇹🇼_TW_02_TG:_@nodpai"
+    type: vmess
+    server: ct3.ainivp.com
+    port: 33412
+    uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: ct3.ainivp.com
+    ws-opts:
+      path: /ray
+      headers:
+        Host: ct3.ainivp.com
+  - name: "A - 🇯🇵 JP 01 TG: @nodpai"
+    type: vless
+    server: 103.133.240.115
+    port: 17416
+    uuid: 00000000-0000-4000-8000-000000000000
     udp: true
-  - name: "土耳其"
-    type: hysteria2
-    server: 194.135.34.130
+  - name: "A - 🇯🇵 JP 02 TG: @nodpai"
+    type: vless
+    server: 140.235.10.14
+    port: 30003
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "A - 🇯🇵 JP 03 TG: @nodpai"
+    type: vless
+    server: 138.2.112.117
+    port: 15807
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A_-_🇯🇵_JP_04_TG:_@nodpai"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6003
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "A - 🇯🇵 JP 05 TG: @nodpai"
+    type: vless
+    server: 176.124.223.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇯🇵 JP 06 TG: @nodpai"
+    type: vless
+    server: 114.204.40.185
+    port: 30001
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  - name: "A - 🇯🇵 JP 07 TG: @nodpai"
+    type: vless
+    server: 8.219.129.246
+    port: 7152
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  - name: "B - 🇯🇵 JP 08 TG: @nodpai"
+    type: vless
+    server: 45.143.131.216
+    port: 42769
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A - 🇸🇬 SG 01 TG: @nodpai"
+    type: vless
+    server: 45.143.234.26
+    port: 13236
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A - 🇸🇬 SG 02 TG: @nodpai"
+    type: vless
+    server: 45.76.191.197
+    port: 10460
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A - 🇸🇬 SG 03 TG: @nodpai"
+    type: vless
+    server: 140.245.75.37
+    port: 627
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A - 🇸🇬 SG 04 TG: @nodpai"
+    type: vless
+    server: 144.24.64.13
+    port: 35555
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A - 🇸🇬 SG 05 TG: @nodpai"
+    type: vless
+    server: 146.56.106.51
+    port: 56271
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "A_-_🇸🇬_SG_06_TG:_@nodpai"
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "A - 🇸🇬 SG 07 TG: @nodpai"
+    type: vless
+    server: 104.26.5.134
+    port: 2096
+    uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+    udp: true
+  - name: "A - 🇸🇬 SG 08 TG: @nodpai"
+    type: vless
+    server: 45.131.4.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇸🇬 SG 09 TG: @nodpai"
+    type: vless
+    server: 114.129.43.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇸🇬 SG 10 TG: @nodpai"
+    type: vless
+    server: 46.149.71.46
     port: 443
-    password: 1ba59989-225e-4f1c-ab62-9bd7366009cb
+    uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
     udp: true
-  - name: "荷兰"
-    type: hysteria2
-    server: 45.88.14.120
+    tls: true
+    servername: www.avito.ru
+  - name: "A - 🇸🇬 SG 11 TG: @nodpai"
+    type: vless
+    server: 104.17.25.132
+    port: 80
+    uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+    udp: true
+  - name: "A - 🇸🇬 SG 12 TG: @nodpai"
+    type: vless
+    server: 195.26.229.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇸🇬 SG 13 TG: @nodpai"
+    type: vless
+    server: 104.21.1.5
+    port: 80
+    uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
+    udp: true
+  - name: "A - 🇸🇬 SG 14 TG: @nodpai"
+    type: vless
+    server: 172.67.186.114
+    port: 80
+    uuid: eb295cd7-a389-4cde-9598-ce126b0910bc
+    udp: true
+  - name: "B - 🇸🇬 SG 15 TG: @nodpai"
+    type: vless
+    server: 104.19.151.106
+    port: 80
+    uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+    udp: true
+  - name: "B_-_🇸🇬_SG_16_TG:_@nodpai"
+    type: vmess
+    server: v45.hdacd.com
+    port: 30845
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "B - 🇸🇬 SG 17 TG: @nodpai"
+    type: vless
+    server: 46.149.71.46
     port: 443
-    password: 252bb78f404ff43efa42808e98cc4ae9
+    uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
     udp: true
-  - name: "荷兰 #1"
-    type: hysteria2
-    server: 31.177.111.213
+    tls: true
+    servername: www.avito.ru
+  - name: "B - 🇸🇬 SG 18 TG: @nodpai"
+    type: vless
+    server: 140.238.33.0
+    port: 33940
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+  - name: "A - 🇺🇸 US 01 TG: @nodpai"
+    type: vless
+    server: 50.62.198.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 02 TG: @nodpai"
+    type: vless
+    server: 108.162.193.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 03 TG: @nodpai"
+    type: vless
+    server: 104.129.167.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 04 TG: @nodpai"
+    type: vless
+    server: 8.34.70.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 05 TG: @nodpai"
+    type: vless
+    server: 45.40.151.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 06 TG: @nodpai"
+    type: vless
+    server: 160.153.138.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇺🇸 US 07 TG: @nodpai"
+    type: vless
+    server: www.4chan.org
     port: 443
-    password: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "美国"
-    type: hysteria2
-    server: us.frkn.org
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 08 TG: @nodpai"
+    type: vless
+    server: icook.hk
     port: 443
-    password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "罗马尼亚"
-    type: hysteria2
-    server: lmny.mangshe.xyz
-    port: 2056
-    password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-    udp: true
-  - name: "日本 #1"
-    type: hysteria2
-    server: 138.2.8.249
-    port: 50160
-    password: 4d6d97a82ddf959252e2ada36c3c3053
-    udp: true
-  - name: "德国"
-    type: hysteria2
-    server: 157.228.137.81
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 09 TG: @nodpai"
+    type: vless
+    server: fbi.gov
     port: 443
-    password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "摩尔多瓦"
-    type: hysteria2
-    server: md1.cnyvpn.com
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 10 TG: @nodpai"
+    type: vless
+    server: www.gov.se
     port: 443
-    password: 60e2a548-96aa-4850-a279-1edab743c39b
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "美国 #1"
-    type: hysteria2
-    server: rm-eco-us-01.409648.xyz
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 11 TG: @nodpai"
+    type: vless
+    server: 198.41.208.203
+    port: 80
+    uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+    udp: true
+  - name: "A - 🇺🇸 US 12 TG: @nodpai"
+    type: vless
+    server: www.zsu.gov.ua
     port: 443
-    password: 6dcb725e-947e-4bbe-bb35-903374d57179
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "澳大利亚"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52004
-    password: 76ivwa51ce2gauym
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 13 TG: @nodpai"
+    type: vless
+    server: 45.40.153.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "芬兰 #1"
-    type: hysteria2
-    server: ltu-01.node.lumixnet.com
+  - name: "A - 🇺🇸 US 14 TG: @nodpai"
+    type: vless
+    server: www.baipiao.eu.org
     port: 443
-    password: 7c5566a7-4b55-4659-975f-06507d32fd3f
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "🇬🇧GB"
-    type: hysteria2
-    server: 31.76.22.210
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "A - 🇺🇸 US 15 TG: @nodpai"
+    type: vless
+    server: 173.245.49.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "B - 🇺🇸 US 16 TG: @nodpai"
+    type: vless
+    server: 155.117.127.137
     port: 443
-    password: 8674df07-56b3-43ea-b687-aef2b1a20137
+    uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
     udp: true
-  - name: "土耳其 #1"
-    type: hysteria2
-    server: 162.249.124.114
-    port: 8080
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    udp: true
-  - name: "土耳其 #2"
-    type: hysteria2
-    server: 162.249.124.118
-    port: 8080
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    udp: true
-  - name: "芬兰 #2"
-    type: hysteria2
-    server: fin14qr.wwwinternetvideo.click
+  - name: "B - 🇺🇸 US 17 TG: @nodpai"
+    type: vless
+    server: www.udacity.com
     port: 443
-    password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs%3D
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "澳大利亚 #1"
-    type: hysteria2
-    server: vpn-au-002.fastervpn.world
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "B_-_🇺🇸_US_18_TG:_@nodpai"
+    type: vmess
+    server: 82.198.246.37
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "B - 🇺🇸 US 19 TG: @nodpai"
+    type: vless
+    server: 85.234.114.53
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+    udp: true
+    tls: true
+    servername: r1.mizulina.top
+  - name: "B - 🇺🇸 US 20 TG: @nodpai"
+    type: vless
+    server: 172.66.44.211
+    port: 2083
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    udp: true
+    tls: true
+    servername: wk1.f1w.de5.net
+  - name: "B - 🇺🇸 US 22 TG: @nodpai"
+    type: vless
+    server: 173.249.210.53
+    port: 56671
+    uuid: 00000000-0000-4000-8000-000000000000
+    udp: true
+    tls: true
+    servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  - name: "B - 🇺🇸 US 23 TG: @nodpai"
+    type: vless
+    server: 85.234.114.53
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     udp: true
-  - name: "加拿大"
-    type: hysteria2
-    server: vpn-ca-001.fastervpn.world
+    tls: true
+    servername: r1.mizulina.top
+  - name: "B - 🇺🇸 US 24 TG: @nodpai"
+    type: trojan
+    server: blackshadow.dpdns.org
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
     udp: true
-  - name: "印度"
-    type: hysteria2
-    server: vpn-in-001.fastervpn.world
+    sni: support.zoom.us.blackshadow.dpdns.org
+  - name: "B - 🇺🇸 US 25 TG: @nodpai"
+    type: vless
+    server: 134.33.73.249
+    port: 54254
+    uuid: acba684c-4098-4eca-f519-828b09f96464
+    udp: true
+    tls: true
+    servername: apple.com
+  - name: "B - 🇺🇸 US 26 TG: @nodpai"
+    type: vless
+    server: 172.66.47.45
+    port: 2083
+    uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+    udp: true
+    tls: true
+    servername: wk1.f1w.de5.net
+  - name: "B - 🇺🇸 US 27 TG: @nodpai"
+    type: vless
+    server: usr.moktana.app
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    uuid: 7841aff6-8552-4f8e-ad0c-06c3b73e6440
     udp: true
-  - name: "🇬🇧GB_8|4.8MB/s"
-    type: hysteria2
-    server: vpn-uk-001.fastervpn.world
+    tls: true
+    servername: us.moktana.app
+  - name: "B - 🇺🇸 US 28 TG: @nodpai"
+    type: vless
+    server: 31.58.87.71
+    port: 12443
+    uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+    udp: true
+    tls: true
+    servername: sun6-21.userapi.com
+  - name: "B - 🇺🇸 US 29 TG: @nodpai"
+    type: vless
+    server: singapore.com
     port: 443
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "德国 #1"
-    type: hysteria2
-    server: 85.204.107.174
-    port: 8080
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "B - 🇺🇸 US 30 TG: @nodpai"
+    type: vless
+    server: srv1.khatibirepair.ir
+    port: 80
+    uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
     udp: true
-  - name: "⛑️88@oneclickvpnkeys"
-    type: hysteria2
-    server: 85.204.107.178
-    port: 8080
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  - name: "B - 🇺🇸 US 31 TG: @nodpai"
+    type: vless
+    server: r1.mizulina.top
+    port: 22231
+    uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
     udp: true
-  - name: "⛑️85@oneclickvpnkeys"
-    type: hysteria2
-    server: 85.204.107.181
-    port: 8080
-    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    tls: true
+    servername: r1.mizulina.top
+  - name: "B - 🇺🇸 US 32 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 45553
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
     udp: true
-  - name: "日本 #2"
-    type: hysteria2
-    server: c2.bestai.beauty
-    port: 3488
-    password: a9081889-1949-49ba-a2aa-7054515716de
+    sni: ch.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 33 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
     udp: true
-  - name: "法国"
-    type: hysteria2
-    server: dora3.api3-max.ru
+    sni: az.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 34 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 46424
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: de.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 35 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 48697
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: gh.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 36 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 47909
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: is.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 37 TG: @nodpai"
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 45619
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    udp: true
+    sni: fr.01.naiun.bilibili.com
+  - name: "B - 🇺🇸 US 38 TG: @nodpai"
+    type: vless
+    server: yx.cloudflare.182682.xyz
     port: 443
-    password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+    uuid: 5b9fa73b-b549-480b-add9-c45e650d236f
     udp: true
-  - name: "法国 #1"
-    type: hysteria2
-    server: dora4.api3-max.ru
+  - name: "B - 🇺🇸 US 39 TG: @nodpai"
+    type: vless
+    server: www.visa.com.sg
+    port: 2052
+    uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
+    udp: true
+  - name: "B - 🇺🇸 US 40 TG: @nodpai"
+    type: vless
+    server: japan.com
     port: 443
-    password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "土耳其 #3"
-    type: hysteria2
-    server: gora4.api3-max.ru
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "B - 🇺🇸 US 41 TG: @nodpai"
+    type: vless
+    server: russia.com
     port: 443
-    password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
+    uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
     udp: true
-  - name: "کانال تلگرام : Free_VPN_CH@"
-    type: hysteria2
-    server: 181.214.99.162
-    port: 35000
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    tls: true
+    servername: misaka.cndyw.ggff.net
+  - name: "B - 🇺🇸 US 42 TG: @nodpai"
+    type: trojan
+    server: 121.154.96.50
+    port: 18000
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
     udp: true
-  - name: "芬兰 #3"
-    type: hysteria2
-    server: 45.149.147.194
+    sni: vpn.rnmcnm.com
+  - name: "B - 🇺🇸 US 44 TG: @nodpai"
+    type: vless
+    server: s881.ccgfw.top
     port: 443
-    password: becd3b04-62a8-4b74-be67-be746008b4c2
+    uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
     udp: true
-  - name: "美国 #2"
-    type: hysteria2
-    server: nl1.sferavpn.pro
+    tls: true
+    servername: s881.ccgfw.top
+  - name: "C - 🇺🇸 US 45 TG: @nodpai"
+    type: vless
+    server: 172.64.146.127
+    port: 8880
+    uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
+    udp: true
+  - name: "C_-_🇺🇸_US_46_TG:_@nodpai"
+    type: vmess
+    server: 38.60.176.80
+    port: 52620
+    uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /8704a4ad
+      headers:
+        Host: 
+  - name: "A - 🇬🇧 GB 01 TG: @nodpai"
+    type: vless
+    server: 185.193.30.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇬🇧 GB 02 TG: @nodpai"
+    type: vless
+    server: 45.40.146.50
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇬🇧 GB 03 TG: @nodpai"
+    type: vless
+    server: 45.80.110.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "B - 🇬🇧 GB 04 TG: @nodpai"
+    type: vless
+    server: 185.159.247.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "B - 🇬🇧 GB 05 TG: @nodpai"
+    type: vless
+    server: 77.75.199.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇰🇷 KR 01 TG: @nodpai"
+    type: vless
+    server: 108.162.196.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇰🇷 KR 02 TG: @nodpai"
+    type: vless
+    server: 72.167.230.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    udp: true
+  - name: "A - 🇩🇪 DE 01 TG: @nodpai"
+    type: vless
+    server: 136.244.94.171
+    port: 10443
+    uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+    udp: true
+  - name: "A - 🇩🇪 DE 02 TG: @nodpai"
+    type: vless
+    server: 136.244.94.171
     port: 443
-    password: cd74c0a406664a5bc0bac098220a2468
+    uuid: 52516534-4986-4959-b30b-a89463eed9af
     udp: true
-  - name: "🇺🇸US"
-    type: hysteria2
-    server: ush2.shazamri.xyz
+  - name: "A - 🇩🇪 DE 04 TG: @nodpai"
+    type: vless
+    server: 194.58.41.65
     port: 443
-    password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+    uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
     udp: true
-  - name: "DE"
-    type: hysteria2
-    server: de1.apexvpn.space
+    tls: true
+    servername: www.microsoft.com
+  - name: "A - 🇩🇪 DE 05 TG: @nodpai"
+    type: vless
+    server: 194.58.41.65-uhe66vr6.nike77prime.ru
     port: 443
-    password: dffb4c3d-1e84-4938-8881-cad917e8efb2
+    uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
     udp: true
-  - name: "法国 #2"
-    type: hysteria2
-    server: 85.209.157.177
-    port: 8080
-    password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
+    tls: true
+    servername: www.microsoft.com
+  - name: "A - 🇩🇪 DE 06 TG: @nodpai"
+    type: vless
+    server: 45.80.111.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
-  - name: "英国 #1"
-    type: hysteria2
-    server: 103.246.248.234
-    port: 8080
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    udp: true
-  - name: "英国 #2"
-    type: hysteria2
-    server: 138.124.0.168
-    port: 8080
-    password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-    udp: true
-  - name: "新加坡 #2"
-    type: hysteria2
-    server: 13.229.82.184
+  - name: "B - 🇩🇪 DE 07 TG: @nodpai"
+    type: vless
+    server: 84.21.189.197
     port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
     udp: true
-  - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: 54.213.89.22
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    udp: true
-  - name: "美国 #3"
-    type: hysteria2
-    server: faq.wwwinternetvideo.click
-    port: 443
-    password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-    udp: true
-  - name: "德国 #4"
-    type: hysteria2
-    server: hold.wwwinternetvideo.click
-    port: 443
-    password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-    udp: true
-  - name: "-🇫🇮 @VConfing"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52029
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "@v2ray_phoenix"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52029
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "VCONFING"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52030
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "@v2ray_phoenix #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52030
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "@v2ray_phoenix #2"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52033
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "-🇹🇷 @VConfing"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52067
-    password: 1m1xfvpaa5ek4omq
-    udp: true
-  - name: "Channel: @Daily_Configs"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52016
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "-🇩🇪 @VConfing"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52021
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "@V2ray_Alpha🌎 2"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52024
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "-🇫🇮 @VConfing #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52029
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "VCONFING #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52030
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "@V2ray_Alpha🌎 3"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52060
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "-🇹🇷 @VConfing #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52067
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "Channel: @Daily_Configs #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52076
-    password: 1w61o8j0slf0q9yj
-    udp: true
-  - name: "⛑️32@oneclickvpnkeys"
-    type: hysteria2
-    server: 2.27.25.75
-    port: 443
-    password: 2_hysteria2_fastlane_udfa4x14j
-    udp: true
-  - name: "Channel : @Daily_Configs"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52021
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "@Daily_Configs"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52023
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "Channel : @Daily_Configs #1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52029
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "Channel : @Daily_Configs #2"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52030
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "@v2ray_phoenix #3"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52034
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "@vpnbaz 🍋‍🟩"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52062
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "Channel : @Daily_Configs #3"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52067
-    password: 4savc5ig1n3549e4
-    udp: true
-  - name: "@Begoo_VPN ²⁹⁰"
-    type: hysteria2
-    server: 91.142.73.159
-    port: 36758
-    password: 5bcodmhjtyfyyrqh
-    udp: true
-  - name: "@awlix_ir"
-    type: hysteria2
-    server: awlix1.pcjxq.digital
-    port: 36758
-    password: 5bcodmhjtyfyyrqh
-    udp: true
-  - name: "Telegram 🆔@cnetvpn 🇷🇺"
-    type: hysteria2
-    server: giftcard.gisora.ir
-    port: 52000
-    password: 617z9r1mbzbm1t5z
-    udp: true
-  - name: "✅  @vistav2ray  👈👈کانال ما ✅"
-    type: hysteria2
-    server: 31.76.80.69
-    port: 443
-    password: 6aab8efdf13945829ae3699c342be406
-    udp: true
-  - name: "🇩🇪AZARBAYJAB1"
-    type: hysteria2
-    server: giftcard.gateway-stream.com
-    port: 52022
-    password: 7nob86hyaj5rm0en
+    tls: true
+    servername: queuev4.vk.com
+  - name: "A - 🇫🇷 FR 01 TG: @nodpai"
+    type: vless
+    server: 45.85.119.30
+    port: 8880
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
     udp: true
