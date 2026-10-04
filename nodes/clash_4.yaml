@@ -1,276 +1,708 @@
 proxies:
-  - name: "🇫🇷 法国 | FRA 3"
-    type: hysteria2
-    server: github.com
-    port: None
-    password: 
-    udp: true
-  - name: "🇭🇰 香港 | HKG #2"
-    type: vless
-    server: 3696b38bsg.murphyweb.sbs
-    port: 32134
-    uuid: 5b01dc2d-6892-49b8-8289-3f73a32e00e4
-    udp: true
-    tls: true
-    servername: buylite.music.apple.com
-  - name: "🇮🇱 以色列 | ISR #1"
-    type: vless
-    server: 34.165.56.30
-    port: 443
-    uuid: 0c40bce9-8710-4820-8f22-0742b61df999
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇮🇳 印度 | IND #1"
-    type: vless
-    server: 151.241.137.132
-    port: 443
-    uuid: 5786d86f-7731-4174-b1a3-84297e54b015
-    udp: true
-    tls: true
-    servername: finland.ali-bard.online
-  - name: "🇮🇳 印度 | IND #2"
-    type: vless
-    server: 194.195.119.26
-    port: 443
-    uuid: d90087c3-54f5-4283-a13f-615260c8b0c7
-    udp: true
-    tls: true
-    servername: googleapis.com
-  - name: "🇯🇵_日本_|_JPN"
-    type: vmess
-    server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
-    port: 11775
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-  - name: "🇯🇵_日本_|_JPN_2"
-    type: vmess
-    server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
-    port: 21583
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇯🇵 日本 | JPN #3"
-    type: hysteria2
-    server: rb.mangshe.xyz
-    port: 2060
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    udp: true
-  - name: "🇯🇵 日本 | JPN #4"
-    type: vless
-    server: tyo-a-02.auuas.com
-    port: 1891
-    uuid: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-    udp: true
-    tls: true
-    servername: www.npmjs.com
-  - name: "🇯🇵_日本_|_JPN_5"
-    type: vmess
-    server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
-    port: 28785
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇯🇵 日本 | JPN #6"
-    type: vless
-    server: 202.182.113.69
-    port: 443
-    uuid: 817be056-2afc-4358-9b8d-5dbe836251f3
-    udp: true
-    tls: true
-    servername: googleapis.com
-  - name: "🇯🇵_日本_|_JPN_7"
-    type: vmess
-    server: g03.jp02-e3-vm0.entry.fr0528.art
-    port: 11775
-    uuid: a85150ba-dae3-3055-8984-700faca4d576
-    alterId: 1
-    cipher: auto
-    network: tcp
-  - name: "🇯🇵 日本 | JPN #8"
-    type: vless
-    server: 152.69.200.216
-    port: 443
-    uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-    udp: true
-    tls: true
-    servername: jp3.yohototo.top
-  - name: "🇯🇵_日本_|_JPN_9"
-    type: vmess
-    server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
-    port: 21583
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇰🇷 韩国 | KOR #1"
-    type: hysteria2
-    server: 3.36.121.228
-    port: 443
-    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    udp: true
-  - name: "🇳🇱 荷兰 | NLD #1"
-    type: vless
-    server: 31.59.217.119
-    port: 443
-    uuid: a15d1b88-e3f4-4f4d-9c04-462a2965a60a
-    udp: true
-    tls: true
-    servername: nl119.mech-pro.online
-  - name: "🇳🇱 荷兰 | NLD #2"
-    type: vless
-    server: nltr.ghostnode.lol
-    port: 443
-    uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-    udp: true
-    tls: true
-    servername: nltr.ghostnode.lol
-  - name: "🇳🇱 荷兰 | NLD #3"
-    type: vless
-    server: 31.77.114.212
-    port: 443
-    uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-    udp: true
-    tls: true
-    servername: aken.nightfall.best
-  - name: "🇵🇱 波兰 | POL #1"
-    type: vless
-    server: pl193.mech-pro.online
-    port: 443
-    uuid: a15d1b88-e3f4-4f4d-9c04-462a2965a60a
-    udp: true
-    tls: true
-    servername: pl193.mech-pro.online
-  - name: "🇷🇺 俄罗斯 | RUS #1"
-    type: vless
-    server: 45.128.78.84
-    port: 443
-    uuid: 3f58af8e-7c91-424e-85c7-ec6913b7fc8f
-    udp: true
-    tls: true
-    servername: sellflow.org
-  - name: "🇷🇺 俄罗斯 | RUS #2"
-    type: hysteria2
-    server: 91.240.86.70
-    port: 22443
-    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-    udp: true
-  - name: "🇷🇺 俄罗斯 | RUS #3"
-    type: vless
-    server: 45.131.212.231
-    port: 443
-    uuid: 19513b1b-d29a-4f3e-ba9a-888261e4e048
-    udp: true
-    tls: true
-    servername: sellflow.org
-  - name: "🇸🇪 瑞典 | SWE #1"
-    type: vless
-    server: 143.246.196.207
-    port: 443
-    uuid: ac0c2945-b758-11f1-8181-54db13ea7d40
-    udp: true
-    tls: true
-    servername: www.blocket.se
-  - name: "🇸🇪 瑞典 | SWE #2"
-    type: vless
-    server: 34.51.231.250
-    port: 443
-    uuid: e4be912f-68e8-4d51-80a4-1342b646f8e0
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇸🇪 瑞典 | SWE #3"
-    type: vless
-    server: 191.44.114.148
-    port: 443
-    uuid: 21d0929a-ba27-4822-9b50-bda9ee54a494
-    udp: true
-    tls: true
-    servername: n20.himoy.space
-  - name: "🇸🇬 新加坡 | SGP #1"
-    type: vless
-    server: 52.221.218.219
-    port: 443
-    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    udp: true
-    tls: true
-    servername: iresspro-uat.iress.com.sg
-  - name: "🇸🇬 新加坡 | SGP #2"
-    type: vless
-    server: 35.185.179.62
-    port: 443
-    uuid: 5567cac6-2a32-4318-83cd-7df3a9eebbd7
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇸🇬 新加坡 | SGP #3"
-    type: vless
-    server: 162.159.43.187
-    port: 2082
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "🇸🇬 新加坡 | SGP 4"
+  - name: "🇯🇵 日本 | JPN #2"
     type: trojan
-    server: www.wto.org
-    port: 8443
-    password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+    server: organic-caribou.rooster465.autos
+    port: 443
+    password: UX82473651
     udp: true
-    sni: jiangjc.pages.dev
-  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    sni: organic-caribou.rooster465.autos
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-... #4"
+    type: trojan
+    server: intense-sole.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: intense-sole.rooster465.autos
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-... #5"
+    type: trojan
+    server: fancy-javelin.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: fancy-javelin.rooster465.autos
+  - name: "🇯🇵 日本 | JPN #6"
+    type: trojan
+    server: comic-poodle.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: comic-poodle.rooster465.autos
+  - name: "🇯🇵 日本 | JPN #8"
+    type: trojan
+    server: promoted-rattler.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: promoted-rattler.rooster465.autos
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-... #8"
+    type: trojan
+    server: integral-rodent.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: integral-rodent.rooster465.autos
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-... #9"
+    type: trojan
+    server: assuring-skink.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: assuring-skink.rooster465.autos
+  - name: "🇯🇵 日本 | JPN #4"
+    type: trojan
+    server: evolving-platypus.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: evolving-platypus.rooster465.autos
+  - name: "🇯🇵 日本 | JPN #10"
+    type: trojan
+    server: brief-glider.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: brief-glider.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #9"
+    type: trojan
+    server: evolving-ewe.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: evolving-ewe.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #6"
+    type: trojan
+    server: kind-stork.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: kind-stork.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #5"
+    type: trojan
+    server: noted-cougar.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: noted-cougar.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #3"
+    type: trojan
+    server: optimum-snapper.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: optimum-snapper.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #2"
+    type: trojan
+    server: liked-eft.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: liked-eft.rooster465.autos
+  - name: "🇰🇷[www.v2nodes.com] trojan-KR-... #5"
+    type: trojan
+    server: engaging-toucan.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: engaging-toucan.rooster465.autos
+  - name: "🇰🇷 韩国 | KOR #1"
+    type: trojan
+    server: pretty-rat.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: pretty-rat.rooster465.autos
+  - name: "🇰🇷[www.v2nodes.com] trojan-KR-... #7"
+    type: trojan
+    server: main-fawn.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: main-fawn.rooster465.autos
+  - name: "🇰🇷[www.v2nodes.com] trojan-KR-... #8"
+    type: trojan
+    server: balanced-stag.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: balanced-stag.rooster465.autos
+  - name: "🇲🇾[www.v2nodes.com] trojan-MY-..."
+    type: trojan
+    server: 47.250.84.25
+    port: 443
+    password: 5931134d1cde66bf83a54acdfebe7ab2
+    udp: true
+  - name: "🇳🇱[www.v2nodes.com] trojan-NL-..."
+    type: trojan
+    server: 188.42.145.180
+    port: 443
+    password: humanity
+    udp: true
+    sni: www.volumeroot.com
+  - name: "🇸🇬 新加坡 | SGP #2"
+    type: trojan
+    server: desired-boxer.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: desired-boxer.rooster465.autos
+  - name: "🇸🇬 新加坡 | SGP #1"
+    type: trojan
+    server: real-cardinal.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: real-cardinal.rooster465.autos
+  - name: "🇸🇬[www.v2nodes.com] trojan-SG-... #2"
+    type: trojan
+    server: glowing-marmoset.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: glowing-marmoset.rooster465.autos
+  - name: "🇹🇼[www.v2nodes.com] trojan-TW-..."
     type: trojan
     server: ttww11.bpca2026.top
     port: 443
     password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
     udp: true
     sni: ttww11.bpca2026.top
-  - name: "🇺🇸 美国 | USA #1"
-    type: vless
-    server: 8.234.247.219
+  - name: "🇺🇸 美国 | USA #3"
+    type: trojan
+    server: guided-ferret.rooster465.autos
     port: 443
-    uuid: d6d58f01-b5ce-4d47-bce0-b8a806155852
+    password: UX82473651
+    udp: true
+    sni: guided-ferret.rooster465.autos
+  - name: "🇺🇸 美国 | USA #6"
+    type: trojan
+    server: happy-gibbon.rooster465.autos
+    port: 443
+    password: UX82473651
+    udp: true
+    sni: happy-gibbon.rooster465.autos
+  - name: "tg频道:@ripaojiedian #1"
+    type: ss
+    server: 63.180.254.10
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇭🇰_香港|@ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "🇭🇰_香港3|@ripaojiedian"
+    type: vmess
+    server: ADncdOvLHR4M1P36.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: ADncdOvLHR4M1P36.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: ADncdOvLHR4M1P36.v.3dns.vip
+  - name: "🇭🇰_香港2|@ripaojiedian"
+    type: vmess
+    server: kBONDXW9liFCi4h4.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: kBONDXW9liFCi4h4.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: kBONDXW9liFCi4h4.v.3dns.vip
+  - name: "🇭🇰_香港4|@ripaojiedian"
+    type: vmess
+    server: aZW0eunYVdvRe73k.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: aZW0eunYVdvRe73k.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: aZW0eunYVdvRe73k.v.3dns.vip
+  - name: "🇭🇰_香港5|@ripaojiedian"
+    type: vmess
+    server: syJ2gGUgMwBwQwQx.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: syJ2gGUgMwBwQwQx.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: syJ2gGUgMwBwQwQx.v.3dns.vip
+  - name: "🇯🇵_日本|@ripaojiedian"
+    type: vmess
+    server: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: Z9FfBx3zs2q5O0BG.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: Z9FfBx3zs2q5O0BG.v.3dns.vip
+  - name: "🇯🇵_日本2|@ripaojiedian"
+    type: vmess
+    server: kQov7UKaDknXb8a3.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: kQov7UKaDknXb8a3.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: kQov7UKaDknXb8a3.v.3dns.vip
+  - name: "🇯🇵_日本3|@ripaojiedian"
+    type: vmess
+    server: kneNaKHeSXnZH259.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: kneNaKHeSXnZH259.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: kneNaKHeSXnZH259.v.3dns.vip
+  - name: "🇸🇬_新加坡|@ripaojiedian"
+    type: vmess
+    server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: ASaqYIDZa9WDQ9Kq.v.3dns.vip
+  - name: "🇸🇬_新加坡2|@ripaojiedian"
+    type: vmess
+    server: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 6JiziO8PxQAXBAtZ.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
+  - name: "🇰🇷_韩国|@ripaojiedian"
+    type: vmess
+    server: 8nTzyR5KNivfabaT.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 8nTzyR5KNivfabaT.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 8nTzyR5KNivfabaT.v.3dns.vip
+  - name: "🇺🇸_美国|@ripaojiedian"
+    type: vmess
+    server: 53vXOVarmgcreAsv.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: 53vXOVarmgcreAsv.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: 53vXOVarmgcreAsv.v.3dns.vip
+  - name: "🇺🇸_美国2|@ripaojiedian"
+    type: vmess
+    server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    port: 443
+    uuid: f0b7bbd66aad458aaec0e9acaab768b6
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+    ws-opts:
+      path: /ws-vmess
+      headers:
+        Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
+  - name: "香港|@ripaojiedian"
+    type: vmess
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    network: tcp
+  - name: "香港2|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 12103
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "香港3|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 10115
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "香港4|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 12107
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "香港5|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 12102
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "日本2|@ripaojiedian"
+    type: trojan
+    server: 63182sh8-4d7b.aws-agent.net
+    port: 10125
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "新加坡|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 10135
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "美国|@ripaojiedian"
+    type: trojan
+    server: 63182sh8-4d7b.aws-agent.net
+    port: 10155
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "美国2|@ripaojiedian"
+    type: trojan
+    server: 63182sh8-4d7b.aws-agent.net
+    port: 12122
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "台湾|@ripaojiedian"
+    type: trojan
+    server: 7d0a2gz0-7a0c.aws-agent.net
+    port: 12142
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "韩国|@ripaojiedian"
+    type: trojan
+    server: 63182sh8-4d7b.aws-agent.net
+    port: 11171
+    password: AA885B42-133C-3828-FB69-E45105C06092
+    udp: true
+    sni: m.ctrip.com
+  - name: "🇩🇪DE_1|1.7MB/s"
+    type: vless
+    server: agroup.de1.ilovegairport.com
+    port: 443
+    uuid: 129e26fe-cee2-4786-9261-b29668337829
+    udp: true
+    tls: true
+    servername: eu-central-1.console.aws.amazon.com
+  - name: "🇩🇪DE_2|1.7MB/s"
+    type: vless
+    server: 104.21.69.30
+    port: 443
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    udp: true
+    tls: true
+    servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  - name: "🇺🇸US_2|1.6MB/s"
+    type: vless
+    server: 104.18.10.110
+    port: 443
+    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    udp: true
+    tls: true
+    servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  - name: "🇷🇴RO_1|1.4MB/s"
+    type: hysteria2
+    server: 103.126.51.38
+    port: 8443
+    password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+    udp: true
+  - name: "🇨🇦 加拿大 | CAN #1"
+    type: vless
+    server: 34.118.160.133
+    port: 443
+    uuid: 448b76ac-c636-4303-bec1-0b2c22afee0c
     udp: true
     tls: true
     servername: www.cloudflare.com
+  - name: "🇨🇭 瑞士 | CHE"
+    type: hysteria2
+    server: 152.67.75.161
+    port: 443
+    password: 3a702d4d1de4949005d8431220e040fb
+    udp: true
+  - name: "🇩🇪 德国 | DEU #2"
+    type: vless
+    server: 179.254.109.69
+    port: 443
+    uuid: 61bd5829-a243-4548-97f0-a210c2069fec
+    udp: true
+    tls: true
+    servername: m.swegg.daxaryx.fun
+  - name: "🇩🇪 德国 | DEU #3"
+    type: ss
+    server: gr-test.xelfona.ir
+    port: 49548
+    cipher: 2022-blake3-aes-256-gcm
+    password: vlXuQVNmjV3GyAmyCy8hn8e0TVIsLad+Deu4vFKhVGQ=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
+  - name: "🇩🇪 德国 | DEU #4"
+    type: vless
+    server: 34.107.61.142
+    port: 443
+    uuid: 3255d065-119c-4103-a422-ea9d301b0707
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇩🇪 德国 | DEU #5"
+    type: vless
+    server: defrnode.jumpernode.site
+    port: 443
+    uuid: 8af93649-403b-46d8-9966-923d4c58402c
+    udp: true
+    tls: true
+    servername: p-nt-www-amazon-com-kalias.amazon.com
+  - name: "🇩🇪 德国 | DEU #6"
+    type: vless
+    server: speedtest.org
+    port: 443
+    uuid: f8175a3d-ad69-44c8-a2aa-87d4d06994eb
+    udp: true
+    tls: true
+    servername: server4.birchvalleyway.top
+  - name: "🇩🇪 德国 | DEU #7"
+    type: vless
+    server: support.zoom.us.kashgsgsiajsh.apple.gymyoga.ir
+    port: 80
+    uuid: a55538b8-801e-4e45-80d6-d8a8eea31e4f
+    udp: true
+  - name: "🇩🇪 德国 | DEU #8"
+    type: vless
+    server: 94.156.112.43
+    port: 443
+    uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
+    udp: true
+    tls: true
+    servername: newblocksgerm.site
+  - name: "🇩🇪 德国 | DEU #9"
+    type: vless
+    server: fi1.rovilo.ir
+    port: 443
+    uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
+    udp: true
+    tls: true
+    servername: store.steampowered.com
+  - name: "🇩🇪 德国 | DEU #10"
+    type: hysteria2
+    server: de1.xiaoliyu.cyou
+    port: 4433
+    password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+    udp: true
+  - name: "🇪🇪 爱沙尼亚 | EST #1"
+    type: vless
+    server: 163.245.52.91
+    port: 443
+    uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+    udp: true
+    tls: true
+    servername: d3-ee1.cloud-cdn.xyz
+  - name: "🇪🇪 爱沙尼亚 | EST #2"
+    type: vless
+    server: 89.144.32.247
+    port: 25895
+    uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
+    udp: true
+    tls: true
+    servername: www.samsung.com
+  - name: "🇫🇷 法国 | FRA"
+    type: hysteria2
+    server: github.com
+    port: None
+    password: 
+    udp: true
+  - name: "🇭🇰 香港 | HKG #1"
+    type: vless
+    server: jumpernode.site
+    port: 443
+    uuid: 23af32ca-bea1-4a5e-bebb-04d1b1b633bc
+    udp: true
+    tls: true
+    servername: p-nt-www-amazon-com-kalias.amazon.com
+  - name: "🇭🇰 香港 | HKG #2"
+    type: vless
+    server: 34.92.16.7
+    port: 443
+    uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇭🇰 香港 | HKG #3"
+    type: vless
+    server: 27.44.143.169
+    port: 14343
+    uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
+    udp: true
+    tls: true
+    servername: thuk.huaweiyouxuan.com
+  - name: "🇭🇰 香港 | HKG #4"
+    type: hysteria2
+    server: hk2.xiaoliyu.cyou
+    port: 4433
+    password: 19f72087-4591-4d72-930b-2697078ec2be
+    udp: true
+  - name: "🇮🇪 爱尔兰 | IRL #1"
+    type: vless
+    server: 198.55.102.59
+    port: 4443
+    uuid: 7f86f371-5a85-48be-babc-7af1ae7ffb75
+    udp: true
+    tls: true
+    servername: vk.com
+  - name: "🇯🇵 日本 | JPN #1"
+    type: hysteria2
+    server: rb.mangshe.xyz
+    port: 2060
+    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    udp: true
+  - name: "🇯🇵 日本 | JPN #3"
+    type: vless
+    server: 34.153.218.25
+    port: 443
+    uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇰🇷 韩国 | KOR #4"
+    type: vless
+    server: 34.158.210.177
+    port: 443
+    uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇰🇷 韩国 | KOR #7"
+    type: vless
+    server: 3.36.120.14
+    port: 443
+    uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    udp: true
+    tls: true
+    servername: biblo-ontology-prod.shop
+  - name: "🇰🇷 韩国 | KOR #8"
+    type: vless
+    server: 34.47.83.187
+    port: 443
+    uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
+    udp: true
+    tls: true
+    servername: www.cloudflare.com
+  - name: "🇱🇻 拉脱维亚 | LVA #1"
+    type: vless
+    server: 185.28.47.28
+    port: 443
+    uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+    udp: true
+    tls: true
+    servername: latinki.pumpkinpie.study
+  - name: "🇱🇻 拉脱维亚 | LVA #2"
+    type: vless
+    server: latinki.pumpkinpie.study
+    port: 443
+    uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+    udp: true
+    tls: true
+    servername: latinki.pumpkinpie.study
+  - name: "🇸🇪 瑞典 | SWE #1"
+    type: vless
+    server: 144.31.235.214
+    port: 443
+    uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+    udp: true
+    tls: true
+    servername: swed4.o4ka-internet.com
+  - name: "🇹🇼 🇨🇳 台湾 | TWN #1"
+    type: vless
+    server: argo6.5671234.xyz
+    port: 443
+    uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+    udp: true
+  - name: "🇺🇦 乌克兰 | UKR #1"
+    type: vless
+    server: 13.143.175.56
+    port: 443
+    uuid: f811a2e8-08ed-4b30-b44c-449a7cab54d8
+    udp: true
+    tls: true
+    servername: newhollandafter.world
+  - name: "🇺🇸 美国 | USA #1"
+    type: vless
+    server: nice.iranapplecenter.com
+    port: 443
+    uuid: bbb537ac-a787-6076-06d4-ef2f5a560068
+    udp: true
+    tls: true
+    servername: speedtest.net
   - name: "🇺🇸 美国 | USA #2"
     type: vless
-    server: grimness-backlogs.cdn-content.com
+    server: 34.29.203.135
     port: 443
-    uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
+    uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
     udp: true
     tls: true
-    servername: grimness-backlogs.cdn-content.com
-  - name: "🇺🇸 美国 | USA #3"
-    type: vless
-    server: bounded-crammed.video-streams.org
-    port: 443
-    uuid: 18dee1c0-77be-4596-88d6-c23bd83fdae6
-    udp: true
-    tls: true
-    servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸 美国 | USA #4"
-    type: vless
-    server: piracy-android.video-streams.org
-    port: 443
-    uuid: 3469b316-bd3d-4170-a30f-688b1c0972d7
-    udp: true
-    tls: true
-    servername: piracy-android.video-streams.org
+    servername: www.cloudflare.com
   - name: "🇺🇸 美国 | USA #5"
-    type: vless
-    server: bounded-crammed.video-streams.org
-    port: 443
-    uuid: e2acf71a-5b4d-4a5f-b95a-697a3e4a62ad
-    udp: true
-    tls: true
-    servername: bounded-crammed.video-streams.org
-  - name: "🇺🇸 美国 | USA #6"
     type: vless
     server: 38.180.254.125
     port: 9443
@@ -278,135 +710,35 @@ proxies:
     udp: true
     tls: true
     servername: www.amazon.com
-  - name: "🇺🇸 美国 | USA #7"
+  - name: "🇿🇦 南非 | ZAF #1"
     type: vless
-    server: adheres-scruple.quick-cdn.net
+    server: 34.35.58.153
     port: 443
-    uuid: 3469b316-bd3d-4170-a30f-688b1c0972d7
+    uuid: 8d65c8a7-4876-4556-bb6a-feccfb46ee81
     udp: true
     tls: true
-    servername: adheres-scruple.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #8"
-    type: vless
-    server: 173.242.126.20
-    port: 443
-    uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-    udp: true
-    tls: true
-    servername: www.amazon.com
-  - name: "🇺🇸 美国 | USA #9"
-    type: vless
-    server: 156.229.162.171
-    port: 9443
-    uuid: 3969ccbc-7bb3-4def-a9b4-26e2c84b66f8
-    udp: true
-    tls: true
-    servername: www.amazon.com
-  - name: "🇺🇸 美国 | USA #10"
-    type: vless
-    server: adheres-scruple.quick-cdn.net
-    port: 443
-    uuid: 061117df-44af-48d5-8f3b-09c88c1874e5
-    udp: true
-    tls: true
-    servername: adheres-scruple.quick-cdn.net
-  - name: "🇺🇸 美国 | USA #11"
-    type: vless
-    server: undef.network
-    port: 2052
-    uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-    udp: true
-  - name: "🇺🇸 美国 | USA #12"
-    type: vless
-    server: piracy-android.video-streams.org
-    port: 443
-    uuid: 172db2f1-9180-4e5b-b1f5-0dfd0a05d496
-    udp: true
-    tls: true
-    servername: piracy-android.video-streams.org
-  - name: "🇺🇸 美国 | USA #13"
-    type: vless
-    server: 162.159.43.187
-    port: 8080
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-    udp: true
-  - name: "🇺🇸 美国 | USA 16"
+    servername: www.cloudflare.com
+  - name: "🇨🇭 瑞士 | CHE #1"
     type: hysteria2
-    server: me17.msjia8844.site
-    port: 7443
-    password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+    server: 152.67.75.161
+    port: 443
+    password: 3a702d4d1de4949005d8431220e040fb
     udp: true
-  - name: "🇩🇪 德国 | DEU #3"
+  - name: "🇩🇪 德国 | DEU #1"
+    type: trojan
+    server: 31.77.168.33
+    port: 443
+    password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+    udp: true
+    sni: d3-de2.cloud-cdn.xyz
+  - name: "🇳🇱 荷兰 | NLD #1"
     type: vless
-    server: 159.194.244.172
+    server: 87.58.201.211
     port: 443
-    uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+    uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
     udp: true
     tls: true
-    servername: ger.g4m1.biz
-  - name: "🇯🇵_日本_|_JPN_#1"
-    type: vmess
-    server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
-    port: 11775
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-  - name: "🇯🇵_日本_|_JPN_#2"
-    type: vmess
-    server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
-    port: 21583
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇯🇵_日本_|_JPN_#5"
-    type: vmess
-    server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
-    port: 28785
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇯🇵_日本_|_JPN_#7"
-    type: vmess
-    server: g03.jp02-e3-vm0.entry.fr0528.art
-    port: 11775
-    uuid: a85150ba-dae3-3055-8984-700faca4d576
-    alterId: 1
-    cipher: auto
-    network: tcp
-  - name: "🇯🇵_日本_|_JPN_#9"
-    type: vmess
-    server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
-    port: 21583
-    uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
-    alterId: 1
-    cipher: auto
-    network: tcp
-    tls: true
-  - name: "🇸🇬 新加坡 | SGP #4"
-    type: trojan
-    server: www.wto.org
-    port: 8443
-    password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
-    udp: true
-    sni: jiangjc.pages.dev
-  - name: "🇹🇼 🇨🇳 台湾 | TWN #1"
-    type: trojan
-    server: ttww11.bpca2026.top
-    port: 443
-    password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
-    udp: true
-    sni: ttww11.bpca2026.top
-  - name: "🇺🇸 美国 | USA #14"
-    type: hysteria2
-    server: me17.msjia8844.site
-    port: 7443
-    password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-    udp: true
+    servername: d3-nl1.cloud-cdn.xyz
   - name: "US_speednode_0130"
     type: vless
     server: 38.244.4.1
@@ -471,244 +803,3 @@ proxies:
     udp: true
     tls: true
     servername: cdnjs.cloudflare.com
-  - name: "US_speednode_0144"
-    type: vless
-    server: nsuc-znkbig.avonex.top
-    port: 443
-    uuid: ec31f6d7-c71a-413d-93aa-24296805a594
-    udp: true
-    tls: true
-    servername: www.bing.com
-  - name: "tg频道:@ripaojiedian"
-    type: ss
-    server: 63.180.254.10
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港|@ripaojiedian"
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    network: tcp
-  - name: "香港2|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12103
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 10115
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12107
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "香港5|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12102
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "日本|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10125
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10125
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "新加坡|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 10135
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "美国|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 10155
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 12122
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "台湾|@ripaojiedian"
-    type: trojan
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    port: 12142
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "韩国|@ripaojiedian"
-    type: trojan
-    server: 63182sh8-4d7b.aws-agent.net
-    port: 11171
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    udp: true
-    sni: m.ctrip.com
-  - name: "🇨🇳 机场推荐:dafei.de 台湾 01"
-    type: hysteria2
-    server: 85.237.207.49
-    port: 50160
-    password: a56619e2bed91121eabb97d20be207c3
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
-    type: vless
-    server: 91.233.121.32
-    port: 443
-    uuid: 5469c1d9-e949-4553-a146-ac3ad363a705
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 12"
-    type: vless
-    server: 13.143.173.223
-    port: 443
-    uuid: 21d0929a-ba27-4822-9b50-bda9ee54a494
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 13"
-    type: vless
-    server: 195.26.26.68
-    port: 25288
-    uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 14"
-    type: hysteria2
-    server: covers.pantera-radio.ru
-    port: 443
-    password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 15"
-    type: hysteria2
-    server: 162.249.127.141
-    port: 8443
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    udp: true
-  - name: "🇩🇪 机场推荐:dafei.de 德国 16"
-    type: hysteria2
-    server: 162.249.127.144
-    port: 8443
-    password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-    udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
-    type: vless
-    server: 34.155.54.237
-    port: 443
-    uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
-    type: vless
-    server: 162.35.242.252
-    port: 443
-    uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
-    type: vless
-    server: 34.91.254.8
-    port: 443
-    uuid: 6d6826ed-6cd1-4234-bc4c-fd8ff791b884
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 11"
-    type: vless
-    server: 31.77.114.114
-    port: 443
-    uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 12"
-    type: vless
-    server: 31.77.114.212
-    port: 443
-    uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 14"
-    type: vless
-    server: nltr.ghostnode.lol
-    port: 443
-    uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 19"
-    type: vless
-    server: nl0.d1.starzone.ir
-    port: 29247
-    uuid: 242953c9-fafa-4fa3-96d0-d96f2289ad08
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 20"
-    type: vless
-    server: netherlands.diginoisb.ir
-    port: 59228
-    uuid: 26c88828-53a0-40b9-84fc-e9a50fde5e7d
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 21"
-    type: hysteria2
-    server: 77.74.123.103
-    port: 8443
-    password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-    udp: true
-  - name: "🇺🇸_机场推荐:dafei.de_美国_06"
-    type: vmess
-    server: guanwang.awsno.com
-    port: 443
-    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    servername: guanwang.awsno.com
-    ws-opts:
-      path: /hls/cctv5phd.m3u8
-      headers:
-        Host: guanwang.awsno.com
-  - name: "🇺🇸 机场推荐:dafei.de 美国 09"
-    type: ss
-    server: 98.89.22.134
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇺🇸 机场推荐:dafei.de 美国 12"
-    type: vless
-    server: 125.208.247.88
-    port: 38241
-    uuid: 88ee0e1e-a2a2-477e-88ce-4875c058aeba
-    udp: true
-    tls: true
-    servername: 123.714541.xyz
-  - name: "🇺🇸 机场推荐:dafei.de 美国 14"
-    type: vless
-    server: 34.3.107.0
-    port: 443
-    uuid: ac3a403e-f7f1-4804-8a25-23b0ffe458f9
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 23"
-    type: vless
-    server: 8.234.247.219
-    port: 443
-    uuid: d6d58f01-b5ce-4d47-bce0-b8a806155852
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 26"
-    type: vless
-    server: 45.138.100.118
-    port: 443
-    uuid: af2bf319-ba88-4fec-8317-2b6a8cee96d1
-    udp: true
