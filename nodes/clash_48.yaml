@@ -1,665 +1,957 @@
 proxies:
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
-    type: vless
-    server: 134.185.81.5
-    port: 47881
-    uuid: 59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72
-    udp: true
-    tls: true
-    servername: www.tesla.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
-    type: vless
-    server: 5.34.177.164
+  - name: "🇺🇸US-205.134.180.151-8381"
+    type: ss
+    server: 205.134.180.151
     port: 443
-    uuid: ca678d26-5435-4d13-b378-06c4c3b070ff
-    udp: true
+    cipher: chacha20-ietf-poly1305
+    password: 5cp9Z3iWnJZ2
+  - name: "🇺🇸US-205.134.180.147-8382"
+    type: ss
+    server: 205.134.180.147
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 9Bvkw5aupNy8
+  - name: "🇺🇸US-205.134.180.145-8383"
+    type: ss
+    server: 205.134.180.145
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: hgLCgfLRgB6d
+  - name: "🇺🇸US-205.134.180.143-8384"
+    type: ss
+    server: 205.134.180.143
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: R9Xc4dHXGv3c
+  - name: "🇺🇸US-205.134.180.137-8385"
+    type: ss
+    server: 205.134.180.137
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: g13S7doXar0A
+  - name: "🏁RELAY-203.34.80.107-8386"
+    type: vmess
+    server: 203.34.80.107
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: gateway.icloud.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-    type: vless
-    server: 45.132.75.213
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.34.80.107-8387"
+    type: vmess
+    server: 203.34.80.107
+    port: 443
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.28.8.207-8388"
+    type: vmess
+    server: 203.28.8.207
     port: 2053
-    uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
-    udp: true
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.cloudflare.com
-  - name: "🏳[www.v2nodes.com] vless- #17"
-    type: vless
-    server: 147.93.173.45
-    port: 10444
-    uuid: 75c5f51b-d548-4eab-a26e-aa10fc3dbc7b
-    udp: true
-    tls: true
-    servername: video.yandex.ru
-  - name: "🏳[www.v2nodes.com] vless- #18"
-    type: vless
-    server: 139.162.27.96
-    port: 2096
-    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-    udp: true
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
-    type: vless
-    server: 206.206.76.75
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.24.103.45-8389"
+    type: vmess
+    server: 203.24.103.45
     port: 443
-    uuid: 32cf52f4-b8d2-4ed5-a37c-0d0a8e743309
-    udp: true
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.cloudflare.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
-    type: vless
-    server: 54.251.9.130
-    port: 24146
-    uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-    udp: true
-    tls: true
-    servername: www.intel.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
-    type: vless
-    server: 54.169.200.246
-    port: 41688
-    uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
-    udp: true
-    tls: true
-    servername: www.intel.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
-    type: vless
-    server: 46.137.202.178
-    port: 12512
-    uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
-    udp: true
-    tls: true
-    servername: www.intel.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
-    type: vless
-    server: sg2-8sb.6121999.dpdns.org
-    port: 19825
-    uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-    udp: true
-    tls: true
-    servername: sg2-8sb.6121999.dpdns.org
-  - name: "🇮🇳[www.v2nodes.com] vless-IN"
-    type: vless
-    server: hydra.yokkastars.com
-    port: 40443
-    uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
-    udp: true
-    tls: true
-    servername: deepl.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #10"
-    type: vless
-    server: 104.20.17.210
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.106.26-8390"
+    type: vmess
+    server: 203.23.106.26
     port: 443
-    uuid: d342d11e-d224-4463-b982-532309285094
-    udp: true
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: ccc.010304.xyz
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
-    type: vless
-    server: 3.0.111.82
-    port: 12972
-    uuid: 814bd064-544d-4255-a070-5705c03f6da9
-    udp: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.106.26-8392"
+    type: vmess
+    server: 203.23.106.26
+    port: 2053
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.apple.com
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-9..."
-    type: vless
-    server: 172.67.75.172
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.106.26-8394"
+    type: vmess
+    server: 203.23.106.26
+    port: 2053
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.106.157-8397"
+    type: vmess
+    server: 203.23.106.157
+    port: 443
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.106.157-8398"
+    type: vmess
+    server: 203.23.106.157
+    port: 443
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /12796
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.104.45-8399"
+    type: vmess
+    server: 203.23.104.45
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.104.242-8400"
+    type: vmess
+    server: 203.23.104.242
+    port: 2053
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.104.242-8402"
+    type: vmess
+    server: 203.23.104.242
+    port: 2053
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.104.222-8404"
+    type: vmess
+    server: 203.23.104.222
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-203.23.104.190-8405"
+    type: vmess
+    server: 203.23.104.190
+    port: 443
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /11201
+      headers:
+        Host: 
+  - name: "🇳🇱NL-199.247.30.45-8406"
+    type: vmess
+    server: 199.247.30.45
     port: 8080
-    uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-    udp: true
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-9... #1"
-    type: vless
-    server: 104.18.0.181
+    uuid: ca80451e-768a-469f-9913-57a27268fd70
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇩🇪DE-199.247.23.31-8408"
+    type: vmess
+    server: 199.247.23.31
+    port: 443
+    uuid: c13277ce-cda6-4d01-cedc-1e3605a0eb72
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /12796?ed=2048
+      headers:
+        Host: 
+  - name: "🇺🇸US-199.188.111.51-8409"
+    type: vmess
+    server: 199.188.111.51
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1686728830913
+      headers:
+        Host: 
+  - name: "🏁RELAY-198.41.222.199-8410"
+    type: vmess
+    server: 198.41.222.199
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-198.41.221.143-8411"
+    type: vmess
+    server: 198.41.221.143
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-198.41.214.55-8412"
+    type: vmess
+    server: 198.41.214.55
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-198.41.212.7-8413"
+    type: vmess
+    server: 198.41.212.7
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-198.41.193.110-8414"
+    type: vmess
+    server: 198.41.193.110
     port: 2082
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    udp: true
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-9... #2"
-    type: vless
-    server: 172.66.0.162
+    uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /blue
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.208.69-8415"
+    type: vmess
+    server: 198.2.208.69
     port: 443
-    uuid: d342d11e-d224-4463-b982-532309285094
-    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: ccc.010304.xyz
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-8..."
-    type: vless
-    server: 104.26.4.2
+    ws-opts:
+      path: /path/1689326360096
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.208.68-8417"
+    type: vmess
+    server: 198.2.208.68
     port: 443
-    uuid: d342d11e-d224-4463-b982-532309285094
-    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: ccc.010304.xyz
-  - name: "🇹🇭[www.v2nodes.com] vless-TH-1..."
-    type: vless
-    server: 45.154.26.63
+    ws-opts:
+      path: /path/1689068934789
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.204.161-8419"
+    type: vmess
+    server: 198.2.204.161
     port: 443
-    uuid: ff85e702-b605-4109-884d-2c1f065d0954
-    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.cloudflare.com
-  - name: "🏳[www.v2nodes.com] vless- #19"
-    type: vless
-    server: 104.16.10.9
+    ws-opts:
+      path: /path/1689935243027
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.197.72-8420"
+    type: vmess
+    server: 198.2.197.72
     port: 443
-    uuid: 3c52e091-6714-4915-949f-2149fe69951b
-    udp: true
-  - name: "🇹🇷[www.v2nodes.com] vless-TR-1... #1"
-    type: vless
-    server: 177.3.208.65
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1689767805929
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.197.72-8421"
+    type: vmess
+    server: 198.2.197.72
     port: 443
-    uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
-    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: tgmansion.site
-  - name: "🇹🇷[www.v2nodes.com] vless-TR-1... #2"
-    type: vless
-    server: 62.133.63.45
-    port: 8444
-    uuid: a346c521-7a7f-452b-9356-a4893feb5982
-    udp: true
-    tls: true
-    servername: github.com
-  - name: "🇹🇷[www.v2nodes.com] vless-TR-1... #3"
-    type: vless
-    server: 78.135.73.47
+    ws-opts:
+      path: /path/1689935243027
+      headers:
+        Host: 
+  - name: "🇺🇸US-198.2.197.71-8423"
+    type: vmess
+    server: 198.2.197.71
     port: 443
-    uuid: 25e16692-d097-4e69-9e2d-8415609c1968
-    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.datadoghq.com
-  - name: "🇹🇷[www.v2nodes.com] vless-TR-1... #4"
-    type: vless
-    server: 151.241.226.201
+    ws-opts:
+      path: /path/1689588497765
+      headers:
+        Host: 
+  - name: "🇺🇦UA-195.28.182.217-8424"
+    type: ss
+    server: 195.28.182.217
+    port: 51348
+    cipher: chacha20-ietf-poly1305
+    password: shwoghRia
+  - name: "🇰🇿KZ-195.245.221.246-8425"
+    type: vmess
+    server: 195.245.221.246
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🇫🇷FR-195.154.169.198-8426"
+    type: ss
+    server: 195.154.169.198
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇨🇿CZ-195.123.246.15-8427"
+    type: ss
+    server: 195.123.246.15
+    port: 51348
+    cipher: chacha20-ietf-poly1305
+    password: cyi4FDe4FdrTG3rUpna
+  - name: "🇷🇴RO-194.14.217.115-8429"
+    type: ss
+    server: 194.14.217.115
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇺🇸US-192.74.244.203-8432"
+    type: vmess
+    server: 192.74.244.203
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1689068934789
+      headers:
+        Host: 
+  - name: "🇧🇪BE-192.71.249.78-8434"
+    type: ss
+    server: 192.71.249.78
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇩🇰DK-192.36.27.116-8436"
+    type: ss
+    server: 192.36.27.116
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇺🇸US-192.3.150.233-8437"
+    type: vmess
+    server: 192.3.150.233
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: 
+  - name: "🏁RELAY-190.93.247.184-8440"
+    type: vmess
+    server: 190.93.247.184
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-190.93.246.41-8441"
+    type: vmess
+    server: 190.93.246.41
+    port: 443
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: 
+  - name: "🏁RELAY-190.93.244.195-8442"
+    type: vmess
+    server: 190.93.244.195
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🇨🇴CO-190.120.231.45-8443"
+    type: ss
+    server: 190.120.231.45
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇵🇪PE-190.120.229.28-8444"
+    type: ss
+    server: 190.120.229.28
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🏁RELAY-188.42.89.174-8446"
+    type: vmess
+    server: 188.42.89.174
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-188.42.88.227-8447"
+    type: vmess
+    server: 188.42.88.227
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-188.114.99.29-8448"
+    type: vmess
+    server: 188.114.99.29
+    port: 443
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🏁RELAY-188.114.99.29-8449"
+    type: vmess
+    server: 188.114.99.29
+    port: 443
+    uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /wss13889
+      headers:
+        Host: 
+  - name: "🏁RELAY-188.114.99.29-8450"
+    type: vmess
+    server: 188.114.99.29
     port: 2053
-    uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-    udp: true
+    uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.apple.com
-  - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
-    type: vless
-    server: 152.32.167.33
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 
+  - name: "🇳🇴NO-185.90.61.153-8451"
+    type: ss
+    server: 185.90.61.153
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇳🇱NL-185.88.141.118-8452"
+    type: ss
+    server: 185.88.141.118
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: XvK0ltH67Xhv9ht9RhYsFy
+  - name: "🇳🇱NL-185.88.140.204-8454"
+    type: ss
+    server: 185.88.140.204
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: qGjmI8WQlF0tfhDbkLqGdN
+  - name: "🇷🇺RU-185.59.218.177-8455"
+    type: vmess
+    server: 185.59.218.177
     port: 443
-    uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-    udp: true
+    uuid: 8f74ec8a-971c-11ed-a8fc-0242ac120002
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: www.amazon.com
-  - name: "🇹🇼[www.v2nodes.com] vless-TW-1... #1"
-    type: vless
-    server: 59.125.69.23
+    ws-opts:
+      path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
+      headers:
+        Host: 
+  - name: "🇵🇷PR-185.47.255.219-8456"
+    type: ss
+    server: 185.47.255.219
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇳🇬NG-185.255.123.90-8457"
+    type: ss
+    server: 185.255.123.90
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇷🇺RU-185.221.153.52-8458"
+    type: ss
+    server: 185.221.153.52
+    port: 444
+    cipher: chacha20-ietf-poly1305
+    password: slatpifOon
+  - name: "🏁RELAY-185.18.250.70-8459"
+    type: vmess
+    server: 185.18.250.70
     port: 443
-    uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-    udp: true
+    uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: ty986gfazs.cainiaohub.xyz
-  - name: "🇺🇦[www.v2nodes.com] vless-UA-1... #5"
-    type: vless
-    server: 83.147.18.75
+    ws-opts:
+      path: /wss51068
+      headers:
+        Host: 
+  - name: "🇯🇵JP-185.172.113.182-8460"
+    type: ss
+    server: 185.172.113.182
+    port: 811
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇯🇵JP-185.172.113.182-8461"
+    type: ss
+    server: 185.172.113.182
+    port: 800
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇯🇵JP-185.172.113.182-8462"
+    type: ss
+    server: 185.172.113.182
+    port: 804
+    cipher: chacha20-ietf-poly1305
+    password: G!yBwPWH3Vao
+  - name: "🇱🇻LV-185.135.86.86-8468"
+    type: ss
+    server: 185.135.86.86
+    port: 51348
+    cipher: chacha20-ietf-poly1305
+    password: PhilEhgKJQ540MNK7mNoim
+  - name: "🇱🇻LV-185.135.86.173-8469"
+    type: ss
+    server: 185.135.86.173
+    port: 9030
+    cipher: aes-256-cfb
+    password: GeregetR8cvQHzYr
+  - name: "🇱🇻LV-185.135.86.173-8470"
+    type: ss
+    server: 185.135.86.173
+    port: 9029
+    cipher: aes-256-cfb
+    password: dU3DSNS8wYPXzEKw
+  - name: "🇱🇻LV-185.135.86.173-8471"
+    type: ss
+    server: 185.135.86.173
+    port: 9027
+    cipher: aes-256-cfb
+    password: EXN3S3eQpjE7EJu8
+  - name: "🇱🇻LV-185.135.86.173-8472"
+    type: ss
+    server: 185.135.86.173
+    port: 9025
+    cipher: aes-256-cfb
+    password: XPtzA9sCug3SPR4c
+  - name: "🇱🇻LV-185.135.86.173-8473"
+    type: ss
+    server: 185.135.86.173
+    port: 9020
+    cipher: aes-256-cfb
+    password: BNmAXXxAHYpTRdzu
+  - name: "🇱🇻LV-185.135.86.173-8474"
+    type: ss
+    server: 185.135.86.173
+    port: 9019
+    cipher: aes-256-cfb
+    password: GA9KzeEgvfxNrgmM
+  - name: "🇱🇻LV-185.135.86.173-8475"
+    type: ss
+    server: 185.135.86.173
+    port: 9000
+    cipher: aes-256-cfb
+    password: a3GFYt36Sm82Vys9
+  - name: "🇱🇻LV-185.135.86.173-8476"
+    type: ss
+    server: 185.135.86.173
+    port: 9043
+    cipher: aes-256-cfb
+    password: HSZuyJQcWe8dxNdF
+  - name: "🇱🇻LV-185.135.86.173-8477"
+    type: ss
+    server: 185.135.86.173
+    port: 9042
+    cipher: aes-256-cfb
+    password: S7KwUu7yBy58S3Ga
+  - name: "🇱🇻LV-185.135.86.173-8478"
+    type: ss
+    server: 185.135.86.173
+    port: 9041
+    cipher: aes-256-cfb
+    password: U6qnYRhfyDmn8sgn
+  - name: "🇱🇻LV-185.135.86.173-8479"
+    type: ss
+    server: 185.135.86.173
+    port: 9040
+    cipher: aes-256-cfb
+    password: p9z5BVADH2YFs3MN
+  - name: "🇱🇻LV-185.135.86.173-8480"
+    type: ss
+    server: 185.135.86.173
+    port: 9037
+    cipher: aes-256-cfb
+    password: TN2YqghxeFDKZfLU
+  - name: "🇱🇻LV-185.135.86.173-8481"
+    type: ss
+    server: 185.135.86.173
+    port: 9031
+    cipher: aes-256-cfb
+    password: BwcAUZk8hUFAkDGN
+  - name: "🇨🇳CN-183.240.222.15-8482"
+    type: ss
+    server: 183.240.222.15
+    port: 870
+    cipher: chacha20-ietf-poly1305
+    password: a5a0a8d9-ab2c-407f-89a4-bf027d216184
+  - name: "🇦🇿AZ-180.149.44.120-8483"
+    type: ss
+    server: 180.149.44.120
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇺🇸US-18.237.109.159-8484"
+    type: ss
+    server: 18.237.109.159
     port: 443
-    uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
-    udp: true
-    tls: true
-    servername: www.bing.com
-  - name: "🇺🇦[www.v2nodes.com] vless-UA-1... #2"
-    type: vless
-    server: netx.smrtai.top
-    port: 443
-    uuid: d8b58872-cc25-4bb2-badb-b86399c075fa
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇺🇸US_1|1.8MB/s"
-    type: vless
-    server: 146.75.59.186
-    port: 443
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    udp: true
-    tls: true
-    servername: firefox.com
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #9"
-    type: vless
-    server: finlandlanzarotte.live
-    port: 443
-    uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-    udp: true
-    tls: true
-    servername: finlandlanzarotte.live
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #4"
-    type: vless
-    server: wwww.qarvian.ir
-    port: 443
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    udp: true
-    tls: true
-    servername: cdn.akamai.steamstatic.com
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #5"
-    type: vless
-    server: fast.145779.xyz
-    port: 2053
-    uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-    udp: true
-    tls: true
-    servername: fast.145779.xyz
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #6"
-    type: vless
-    server: 47.251.108.158
-    port: 443
-    uuid: 975fc322-6e38-434b-a53c-d39fed49b9a9
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #8"
-    type: vless
-    server: 46.29.255.123
-    port: 59539
-    uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-    udp: true
-    tls: true
-    servername: cloudflare-dns.com
-  - name: "🏳[www.v2nodes.com] vless- #21"
-    type: vless
-    server: cdn2.ir53.indevs.in
-    port: 443
-    uuid: e9378202-c7db-4204-a41c-ce981fa927d4
-    udp: true
-    tls: true
-    servername: cdn2.ir53.indevs.in
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #10"
-    type: vless
-    server: 187.52.44.20
-    port: 47443
-    uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-    udp: true
-    tls: true
-    servername: nl4.waspnest.space
-  - name: "🇺🇸[www.v2nodes.com] vless-US-1... #11"
-    type: vless
-    server: 169.128.83.4
-    port: 57259
-    uuid: a1962f23-f8f8-412d-f2ce-3361e7b72889
-    udp: true
-  - name: "🇻🇳[www.v2nodes.com] vless-VN-1..."
-    type: vless
-    server: 150.95.109.109
-    port: 2086
-    uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
-    udp: true
-  - name: "🇻🇳[www.v2nodes.com] vless-VN-1... #1"
-    type: vless
-    server: 154.21.203.106
-    port: 51279
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    udp: true
-  - name: "🇦🇱[www.v2nodes.com] ss-AL-1608..."
-    type: ss
-    server: alb.rvpn.app
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: hTTg7lwQMzpaF7KXpY3A8w
-  - name: "🇦🇱[www.v2nodes.com] ss-AL-1490..."
-    type: ss
-    server: 130.49.189.158
-    port: 43558
-    cipher: chacha20-ietf-poly1305
-    password: cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI=
-  - name: "🇦🇹[www.v2nodes.com] ss-AT-1595..."
-    type: ss
-    server: 82.110.60.9
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1559..."
-    type: ss
-    server: 51.222.141.125
-    port: 445
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1559... #1"
-    type: ss
-    server: 51.79.85.185
-    port: 8118
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1558..."
-    type: ss
-    server: 51.222.200.165
-    port: 5000
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1557..."
-    type: ss
-    server: 51.222.136.236
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1546..."
-    type: ss
-    server: 51.222.155.113
-    port: 5601
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1546... #1"
-    type: ss
-    server: 51.222.155.32
-    port: 5003
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1545..."
-    type: ss
-    server: 51.79.64.198
-    port: 8119
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1545... #1"
-    type: ss
-    server: 51.79.49.116
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇨🇦[www.v2nodes.com] ss-CA-1538..."
-    type: ss
-    server: 51.222.12.127
-    port: 445
-    cipher: aes-256-gcm
-    password: zDNVedRFPQexG9v
-  - name: "🇪🇬[www.v2nodes.com] ss-EG-1599..."
-    type: ss
-    server: 38.54.59.102
-    port: 443
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: "🇫🇮[www.v2nodes.com] ss-FI-1606..."
-    type: ss
-    server: 178.253.16.185
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: x2A6AsyZ-rAllz0wbKHzWA
-  - name: "🇫🇷[www.v2nodes.com] ss-FR-1609..."
-    type: ss
-    server: 51.75.118.5
-    port: 20222
-    cipher: aes-256-gcm
-    password: lF3nRjH58koKTe-_VtABbg
-  - name: "🇬🇧[www.v2nodes.com] ss-GB-1602..."
-    type: ss
-    server: 185.176.206.9
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇬🇧[www.v2nodes.com] ss-GB-1451..."
-    type: ss
-    server: 158.173.24.73
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇬🇧[www.v2nodes.com] ss-GB-1247..."
-    type: ss
-    server: 94.156.250.148
-    port: 7001
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "🇮🇳[www.v2nodes.com] ss-IN-1561..."
-    type: ss
-    server: 139.84.166.47
-    port: 8388
-    cipher: aes-256-gcm
-    password: GEdoeeqLZtkJRgSa
-  - name: "🇺🇸 美国 | USA #1"
-    type: ss
-    server: 202.50.253.63
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #1"
-    type: ss
-    server: 202.50.253.54
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #2"
-    type: ss
-    server: 202.50.253.72
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #3"
-    type: ss
-    server: 202.50.253.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #4"
-    type: ss
-    server: 202.50.253.99
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹IT_1|2.3MB/s"
-    type: ss
-    server: 202.50.253.45
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #6"
-    type: ss
-    server: 202.50.253.36
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸 美国 | USA #6"
-    type: ss
-    server: 202.50.253.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1602... #8"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇺🇸 美国 | USA #3"
-    type: ss
-    server: 202.50.253.27
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1597..."
-    type: ss
-    server: 185.164.175.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "🏳[www.v2nodes.com] ss-"
-    type: ss
-    server: 66.245.207.70
-    port: 8388
-    cipher: aes-256-gcm
-    password: qMvJmCbMduKUoeHq
-  - name: "🇮🇹[www.v2nodes.com] ss-IT-1549..."
-    type: ss
-    server: 57.131.48.45
-    port: 8388
-    cipher: aes-256-gcm
-    password: itzvpn@321
-  - name: "🇯🇵[www.v2nodes.com] ss-JP-1599..."
-    type: ss
-    server: 154.36.158.197
-    port: 8388
-    cipher: aes-256-gcm
-    password: BeaUf9c0AEWH40Pu
-  - name: "🇯🇵[www.v2nodes.com] ss-JP-1544..."
-    type: ss
-    server: 84.247.155.196
-    port: 80
-    cipher: aes-256-gcm
-    password: 3eOFeNssde7PYYMv
-  - name: "🇯🇵[www.v2nodes.com] ss-JP-5141..."
-    type: ss
-    server: 149.22.87.204
-    port: 443
-    cipher: aes-128-gcm
-    password: shadowsocks
-  - name: "🇰🇷[www.v2nodes.com] ss-KR-1185..."
-    type: ss
-    server: 141.164.45.187
-    port: 8888
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇳🇱[www.v2nodes.com] ss-NL-1604..."
-    type: ss
-    server: 104.239.12.81
-    port: 43385
-    cipher: chacha20-ietf-poly1305
-    password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  - name: "🇳🇴[www.v2nodes.com] ss-NO-1220..."
-    type: ss
-    server: 185.213.23.63
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: "🇵🇭[www.v2nodes.com] ss-PH-1540..."
-    type: ss
-    server: 149.104.109.252
-    port: 8882
-    cipher: aes-256-gcm
-    password: kDWvXYZoTBcGkC4
-  - name: "🇵🇱[www.v2nodes.com] ss-PL-1608..."
-    type: ss
-    server: pol.rvpn.app
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: 8z2OB_gvFvpKgjFi8s9Cvw
-  - name: "🇵🇱[www.v2nodes.com] ss-PL-1548..."
-    type: ss
-    server: 51.83.192.80
-    port: 8388
-    cipher: aes-256-gcm
-    password: itzvpn@321
-  - name: "🇵🇱[www.v2nodes.com] ss-PL-1273..."
-    type: ss
-    server: pl140.vpnbook.com
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 6heexyz
-  - name: "🇵🇱[www.v2nodes.com] ss-PL-1273... #1"
-    type: ss
-    server: pl134.vpnbook.com
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: 6heexyz
-  - name: "🇷🇴[www.v2nodes.com] ss-RO-1595..."
-    type: ss
-    server: 194.68.44.42
-    port: 64546
-    cipher: chacha20-ietf-poly1305
-    password: U83u9OGpvSatIUW7LsWffr
-  - name: "🇷🇴[www.v2nodes.com] ss-RO-1298..."
-    type: ss
-    server: 154.46.31.106
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: QFWzCw2uX9B9i6qAYeFBIE
-  - name: "🇷🇺[www.v2nodes.com] ss-RU-1609..."
-    type: ss
-    server: 185.22.155.121
-    port: 18443
-    cipher: aes-256-gcm
-    password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  - name: "🇷🇺[www.v2nodes.com] ss-RU-1163..."
-    type: ss
-    server: 90.156.203.62
-    port: 5112
-    cipher: chacha20-ietf-poly1305
-    password: VVlAff77CnAU43Aoc5j15Y
-  - name: "🇸🇪[www.v2nodes.com] ss-SE-1608..."
-    type: ss
-    server: msk2.rvpn.app
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: MODziWLa9qMuW-4yPa0rfw
-  - name: "🇸🇪[www.v2nodes.com] ss-SE-1560..."
-    type: ss
-    server: 70.34.212.124
-    port: 8388
-    cipher: aes-256-gcm
-    password: AxIYWtskJWIIaefW
-  - name: "🇸🇬[www.v2nodes.com] ss-SG-1559..."
-    type: ss
-    server: 139.180.220.175
-    port: 8388
-    cipher: aes-256-gcm
-    password: qpSevKaUXYQKvSjp
-  - name: "🇺🇦[www.v2nodes.com] ss-UA-1603..."
-    type: ss
-    server: staging.lastilhame.monster
-    port: 49917
-    cipher: chacha20-ietf-poly1305
-    password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
-  - name: "🇿🇦[www.v2nodes.com] ss-ZA-1534..."
-    type: ss
-    server: 139.84.247.164
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: tfAcRikawhNoZAhu
-  - name: "🇿🇦[www.v2nodes.com] ss-ZA-1336..."
-    type: ss
-    server: 102.37.156.224
-    port: 443
-    cipher: chacha20-ietf-poly1305
-    password: aduB9HGxQHjA2SBMRjkHX6
-  - name: "🇿🇦[www.v2nodes.com] ss-ZA-1333..."
-    type: ss
-    server: 102.133.165.160
-    port: 16233
-    cipher: chacha20-ietf-poly1305
-    password: Xsy8Ox4yOV3xLlpxtjzs3X
-  - name: "🇦🇺[www.v2nodes.com] trojan-AU-..."
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇩🇪DE-18.196.127.24-8485"
     type: trojan
-    server: 45.63.30.142
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.196.127.24
+    port: 22222
+    password: telegram-id-directvpn
     udp: true
-    sni: connectwithemployerstohireyouridealteam.com
-  - name: "🇧🇷[www.v2nodes.com] trojan-BR-..."
+    sni: trj.rollingnext.co.uk
+  - name: "🇩🇪DE-18.196.127.24-8487"
     type: trojan
-    server: 216.238.104.154
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.196.127.24
+    port: 22222
+    password: telegram-id-directvpn
     udp: true
-  - name: "🇨🇦[www.v2nodes.com] trojan-CA-... #1"
+    sni: trj.rollingnext.co.uk
+  - name: "🇩🇪DE-18.184.9.101-8489"
     type: trojan
-    server: 216.152.147.89
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.184.9.101
+    port: 22222
+    password: telegram-id-privatevpns
     udp: true
-  - name: "🇨🇭[www.v2nodes.com] trojan-CH-..."
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.135.6.102-8491"
     type: trojan
-    server: 208.69.78.19
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.135.6.102
+    port: 22222
+    password: telegram-id-privatevpns
     udp: true
-  - name: "🇨🇱[www.v2nodes.com] trojan-CL-..."
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.135.6.102-8493"
     type: trojan
-    server: 64.176.7.205
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.135.6.102
+    port: 22222
+    password: telegram-id-privatevpns
     udp: true
-  - name: "🇩🇪[www.v2nodes.com] trojan-DE-... #3"
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.132.35.140-8497"
     type: trojan
-    server: 193.108.119.15
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.132.35.140
+    port: 22222
+    password: telegram-id-privatevpns
     udp: true
-  - name: "🇩🇪[www.v2nodes.com] trojan-DE-... #5"
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.132.35.140-8499"
     type: trojan
-    server: 193.108.119.15
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.132.35.140
+    port: 22222
+    password: telegram-id-privatevpns
     udp: true
-    sni: courses.iloverussia2026.com
-  - name: "🇪🇸[www.v2nodes.com] trojan-ES-..."
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.130.204.79-8500"
     type: trojan
-    server: 66.163.118.62
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+    server: 18.130.204.79
+    port: 22222
+    password: telegram-id-directvpn
     udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇬🇧GB-18.130.204.79-8502"
+    type: trojan
+    server: 18.130.204.79
+    port: 22222
+    password: telegram-id-directvpn
+    udp: true
+    sni: trj.rollingnext.co.uk
+  - name: "🇺🇸US-173.249.206.136-8504"
+    type: vmess
+    server: 173.249.206.136
+    port: 443
+    uuid: e5543efd-5400-3760-9bb6-02767728e888
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /video
+      headers:
+        Host: 
+  - name: "🏁RELAY-173.245.58.43-8505"
+    type: vmess
+    server: 173.245.58.43
+    port: 2082
+    uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /blue
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.93.207-8506"
+    type: vmess
+    server: 172.67.93.207
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.9.200-8507"
+    type: vmess
+    server: 172.67.9.200
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.86.87-8508"
+    type: vmess
+    server: 172.67.86.87
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.86.190-8509"
+    type: vmess
+    server: 172.67.86.190
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.81.49-8510"
+    type: vmess
+    server: 172.67.81.49
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.81.238-8511"
+    type: vmess
+    server: 172.67.81.238
+    port: 443
+    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /11201
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.8.33-8512"
+    type: vmess
+    server: 172.67.8.33
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.7.236-8513"
+    type: vmess
+    server: 172.67.7.236
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
+  - name: "🏁RELAY-172.67.7.186-8514"
+    type: vmess
+    server: 172.67.7.186
+    port: 2095
+    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /hgcefomn
+      headers:
+        Host: 
