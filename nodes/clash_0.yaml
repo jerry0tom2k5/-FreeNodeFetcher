@@ -1,199 +1,148 @@
 proxies:
-  - name: "tg频道:@ripaojiedian"
+  - name: "美国_CloudFlare节点"
+    type: vmess
+    server: 104.21.15.251
+    port: 443
+    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: www.windowssearchtools.com
+    ws-opts:
+      path: /truth
+      headers:
+        Host: www.windowssearchtools.com
+  - name: "新西兰+V2CROSS.COM"
     type: ss
-    server: 63.180.254.10
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "香港2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 44837
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "香港1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 14699
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: fe-static.deepseek.com
-  - name: "香港4|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 41495
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "美国3|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 19466
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "香港3|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 34926
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: wximg.qq.com
-  - name: "香港5|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 43638
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "台湾1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 47786
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "台湾2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 54815
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "日本1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 24914
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "日本2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 18295
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "日本3|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 43992
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: wximg.qq.com
-  - name: "新加坡1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 47966
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "新加坡2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 42338
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "新加坡3|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 37212
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "韩国1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 29628
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "韩国2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 18572
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "美国1|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 49049
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: fe-static.deepseek.com
-  - name: "美国2|@ripaojiedian"
-    type: trojan
-    server: ench-snet-app.w-ctrip.cn
-    port: 17285
-    password: b17e9b52db9623bd6c16eea3d7adb5b3
-    udp: true
-    sni: cm.g.doubleclick.net
-  - name: "美国+纽约IBM公司"
-    type: hysteria2
-    server: 9.247.54.68
-    port: 443
-    password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
-    udp: true
-  - name: "美国+Xerox"
-    type: hysteria2
-    server: 13.143.188.143
-    port: 4444
-    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-    udp: true
-  - name: "美国+CloudFlare节点"
+    server: 202.50.253.99
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "伊朗+V2CROSS.COM"
     type: vless
-    server: 104.20.5.134
-    port: 8080
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    server: 188.253.21.238
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
     udp: true
+    tls: true
+    servername: sdwf-amq.pages.dev
+  - name: "以色列+V2CROSS.COM"
+    type: vless
+    server: 79.182.39.57
+    port: 443
+    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+    udp: true
+  - name: "德国+V2CROSS.COM"
+    type: vless
+    server: 5.253.28.224
+    port: 40443
+    uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+    udp: true
+  - name: "香港+阿里云"
+    type: vless
+    server: 47.82.155.79
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+    udp: true
+    tls: true
+    servername: sdwf-amq.pages.dev
   - name: "伊朗+V2CROSS.COM"
     type: hysteria2
-    server: 217.60.73.56
+    server: forshynewh.duckdns.org
     port: 443
     password: 69e41e64-a832-471a-b740-94577ca85520
     udp: true
-  - name: "荷兰+V2CROSS.COM"
+  - name: "美国+CloudFlare节点"
     type: vless
-    server: 188.164.248.110
-    port: 443
-    uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+    server: 104.20.6.134
+    port: 8080
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    udp: true
+  - name: "香港+阿里云"
+    type: vless
+    server: 47.82.155.79
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
     udp: true
     tls: true
-    servername: imanvipreserved.pages.dev
-  - name: "英国+V2CROSS.COM"
+    servername: sdwf-amq.pages.dev
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.36
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "俄罗斯+V2CROSS.COM"
     type: vless
-    server: 31.77.13.22
-    port: 2063
-    uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+    server: 62.182.196.194
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
     udp: true
-  - name: "瑞典+V2CROSS.COM"
-    type: trojan
-    server: 167.88.61.198
-    port: 443
-    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-    udp: true
-    sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
-  - name: "英国+V2CROSS.COM"
+    tls: true
+    servername: sdwf-amq.pages.dev
+  - name: "俄罗斯+莫斯科"
     type: vless
-    server: 31.77.13.22
-    port: 2063
-    uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
+    server: 89.208.97.224
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
     udp: true
+    tls: true
+    servername: sdwf-amq.pages.dev
   - name: "美国+V2CROSS.COM"
     type: ss
     server: 154.36.158.197
     port: 8388
     cipher: aes-256-gcm
     password: BeaUf9c0AEWH40Pu
-  - name: "巴西+V2CROSS.COM"
-    type: vless
-    server: 186.246.9.29
+  - name: "美国+V2CROSS.COM"
+    type: hysteria2
+    server: starlink-ft.251313.xyz
     port: 443
-    uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+    password: https%3A%2F%2Fxship.top
     udp: true
+  - name: "德国+V2CROSS.COM"
+    type: vless
+    server: hydra.yokkastars.com
+    port: 40443
+    uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+    udp: true
+  - name: "澳大利亚+V2CROSS.COM"
+    type: vless
+    server: 103.11.78.211
+    port: 8443
+    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+    udp: true
+    tls: true
+    servername: sdwf-amq.pages.dev
+  - name: "巴西圣保罗+CloudFlare节点"
+    type: vless
+    server: 188.114.97.6
+    port: 8080
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.26.0.1
+    port: 443
+    uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+    udp: true
+    tls: true
+    servername: ezaccess-project-f62c30.pages.dev
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: cfnode-11ivy8.pages.dev
+    port: 443
+    uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
+    udp: true
+    tls: true
+    servername: cfnode-11ivy8.pages.dev
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
     type: trojan
     server: 172.67.203.46
@@ -706,3 +655,63 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+  - name: "防范境外势力渗透_#7"
+    type: vmess
+    server: 127.0.0.53
+    port: 87
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#8"
+    type: vmess
+    server: 127.0.0.53
+    port: 88
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "防范境外势力渗透_#9"
+    type: vmess
+    server: 127.0.0.53
+    port: 89
+    uuid: 88888888-8888-8888-8888-888888888888
+    alterId: 0
+    cipher: auto
+    network: tcp
+  - name: "@KAFING_2"
+    type: hysteria2
+    server: 181.214.99.162
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    udp: true
+  - name: "@VPNConnectd"
+    type: hysteria2
+    server: ll5xoe8j.easyiran.org
+    port: 22357
+    password: dq6rfcyex30h1b6z
+    udp: true
+  - name: "@tootffarangi🍓-1"
+    type: hysteria2
+    server: kp09bn7y.easyiran.org
+    port: 46183
+    password: eik6hcffscbuqdbt
+    udp: true
+  - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: 54.213.89.22
+    port: 443
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    udp: true
+  - name: "🇰🇷205310 | ⚡️Telegram = t.me/S..."
+    type: hysteria2
+    server: 132.226.226.189
+    port: 50160
+    password: 1671a252e2a97dc2bda4e515475931da
+    udp: true
+  - name: "⚡7@oneclickvpnkeys"
+    type: hysteria2
+    server: 198.13.140.193
+    port: 443
+    password: 59018379-d5df-4314-ab23-df0e838d7953
+    udp: true
