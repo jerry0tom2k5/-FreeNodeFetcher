@@ -1,455 +1,240 @@
 proxies:
   - name: "美国_CloudFlare节点"
     type: vmess
-    server: 104.21.15.251
+    server: cf.877771.xyz
     port: 443
-    uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: www.windowssearchtools.com
+    servername: vmess.lbw666.dpdns.org
     ws-opts:
-      path: /truth
+      path: /ws?ed=2048
       headers:
-        Host: www.windowssearchtools.com
+        Host: vmess.lbw666.dpdns.org
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.20.5.134
+    port: 8080
+    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    udp: true
+  - name: "南非+豪登省约翰内斯堡Cloudinnovation数据中心"
+    type: vless
+    server: 156.252.229.11
+    port: 8443
+    uuid: 3e21e3d3-6d26-4155-b851-764dd8e8c6b5
+    udp: true
+  - name: "美国+亚利桑那州凤凰城Oracle云计算数据中心"
+    type: hysteria2
+    server: 129.146.215.233
+    port: 51000
+    password: f274d006-4c01-4fe0-aaa4-83c426577cd0
+    udp: true
+  - name: "保加利亚+V2CROSS.COM"
+    type: vless
+    server: papad1.vethilis.ru
+    port: 443
+    uuid: 5fb552a8-9c41-4031-86f5-ca10fc802da5
+    udp: true
+    tls: true
+    servername: papad1.vethilis.ru
+  - name: "北京市+惟译天创信息技术有限公司"
+    type: vless
+    server: jp.sofast.live
+    port: 52683
+    uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+    udp: true
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.81
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "美国+V2CROSS.COM"
+    type: hysteria2
+    server: starlink-ft.251313.xyz
+    port: 443
+    password: https%3A%2F%2Fxship.2fa.cat
+    udp: true
+  - name: "北京市+惟译天创信息技术有限公司"
+    type: vless
+    server: jp.sofast.live
+    port: 52683
+    uuid: 399b6b23-cc40-4831-a494-61948e2df133
+    udp: true
+  - name: "美国+Xerox"
+    type: hysteria2
+    server: 13.143.189.147
+    port: 4444
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    udp: true
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: ywvzlti1ni1ny206wljwz2fczud4devosvhndmhwa1pcs3o5r25xulmyzfljedlpk2eyaxdond1amjayljuwlji1my4xodoxotk5oq==
+    port: None
+    cipher: aes-256-gcm
+    password: 
+  - name: "美国+CloudFlare节点"
+    type: vless
+    server: 104.25.10.54
+    port: 443
+    uuid: d342d11e-d224-4463-b982-532309285094
+    udp: true
+    tls: true
+    servername: ccc.010304.xyz
   - name: "新西兰+V2CROSS.COM"
     type: ss
     server: 202.50.253.99
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "伊朗+V2CROSS.COM"
-    type: vless
-    server: 188.253.21.238
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-    udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "以色列+V2CROSS.COM"
-    type: vless
-    server: 79.182.39.57
-    port: 443
-    uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-    udp: true
-  - name: "德国+V2CROSS.COM"
-    type: vless
-    server: 5.253.28.224
-    port: 40443
-    uuid: af5eac96-e478-488a-bc8c-45269d7e8847
-    udp: true
-  - name: "香港+阿里云"
-    type: vless
-    server: 47.82.155.79
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-    udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "伊朗+V2CROSS.COM"
-    type: hysteria2
-    server: forshynewh.duckdns.org
-    port: 443
-    password: 69e41e64-a832-471a-b740-94577ca85520
-    udp: true
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 104.20.6.134
-    port: 8080
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    udp: true
-  - name: "香港+阿里云"
-    type: vless
-    server: 47.82.155.79
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-    udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "新西兰+V2CROSS.COM"
+  - name: "tg频道:@ripaojiedian"
     type: ss
-    server: 202.50.253.36
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "新西兰+V2CROSS.COM"
-    type: ss
-    server: 202.50.253.63
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "俄罗斯+V2CROSS.COM"
-    type: vless
-    server: 62.182.196.194
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-    udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "俄罗斯+莫斯科"
-    type: vless
-    server: 89.208.97.224
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
-    udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "美国+V2CROSS.COM"
-    type: ss
-    server: 154.36.158.197
-    port: 8388
-    cipher: aes-256-gcm
-    password: BeaUf9c0AEWH40Pu
-  - name: "美国+V2CROSS.COM"
-    type: hysteria2
-    server: starlink-ft.251313.xyz
+    server: 63.180.254.10
     port: 443
-    password: https%3A%2F%2Fxship.top
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "香港2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 44837
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-  - name: "德国+V2CROSS.COM"
-    type: vless
-    server: hydra.yokkastars.com
-    port: 40443
-    uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+    sni: cm.g.doubleclick.net
+  - name: "香港1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 14699
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-  - name: "澳大利亚+V2CROSS.COM"
-    type: vless
-    server: 103.11.78.211
-    port: 8443
-    uuid: 3305c285-8d55-4f52-a3b0-2a582f5ffd59
+    sni: fe-static.deepseek.com
+  - name: "香港4|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 41495
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-    tls: true
-    servername: sdwf-amq.pages.dev
-  - name: "巴西圣保罗+CloudFlare节点"
-    type: vless
-    server: 188.114.97.6
-    port: 8080
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+    sni: cm.g.doubleclick.net
+  - name: "美国3|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 19466
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: 104.26.0.1
-    port: 443
-    uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+    sni: cm.g.doubleclick.net
+  - name: "香港3|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 34926
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-    tls: true
-    servername: ezaccess-project-f62c30.pages.dev
-  - name: "美国+CloudFlare节点"
-    type: vless
-    server: cfnode-11ivy8.pages.dev
-    port: 443
-    uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
+    sni: wximg.qq.com
+  - name: "香港5|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 43638
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
     udp: true
-    tls: true
-    servername: cfnode-11ivy8.pages.dev
+    sni: cm.g.doubleclick.net
+  - name: "台湾1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 47786
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "台湾2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 54815
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "日本1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 24914
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "日本2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 18295
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "日本3|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 43992
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: wximg.qq.com
+  - name: "新加坡1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 47966
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "新加坡2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 42338
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "新加坡3|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 37212
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "韩国1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 29628
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "韩国2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 18572
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
+  - name: "美国1|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 49049
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: fe-static.deepseek.com
+  - name: "美国2|@ripaojiedian"
+    type: trojan
+    server: ench-snet-app.w-ctrip.cn
+    port: 17285
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    udp: true
+    sni: cm.g.doubleclick.net
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
-    type: trojan
-    server: 172.67.203.46
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 12"
-    type: trojan
-    server: 172.66.0.172
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 14"
-    type: trojan
-    server: 78.40.209.33
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 15"
-    type: trojan
-    server: 213.165.55.4
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 16"
-    type: trojan
-    server: 172.67.74.177
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 17"
-    type: trojan
-    server: 173.242.51.189
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 18"
-    type: trojan
-    server: 178.104.197.49
-    port: 2053
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 19"
-    type: trojan
-    server: 172.64.153.224
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 20"
-    type: trojan
-    server: 91.196.32.217
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 21"
-    type: trojan
-    server: 179.255.132.69
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 22"
-    type: trojan
-    server: 185.82.218.224
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 23"
-    type: trojan
-    server: 172.64.151.20
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 24"
-    type: trojan
-    server: 77.221.139.114
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 26"
-    type: trojan
-    server: 172.64.150.181
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 30"
-    type: trojan
-    server: 185.112.249.201
-    port: 8443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 31"
-    type: trojan
-    server: 207.57.123.77
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 32"
-    type: trojan
-    server: 129.225.185.49
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 33"
-    type: trojan
-    server: 141.98.41.20
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 34"
-    type: hysteria2
-    server: 9.247.54.69
-    port: 443
-    password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
-    udp: true
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 35"
-    type: trojan
-    server: 172.64.149.78
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 36"
-    type: trojan
-    server: 172.64.229.7
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 37"
-    type: trojan
-    server: 95.182.95.144
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 38"
-    type: trojan
-    server: 172.67.89.103
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 39"
-    type: trojan
-    server: 38.180.100.80
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 40"
-    type: trojan
-    server: 199.119.137.32
-    port: 8443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 41"
-    type: trojan
-    server: 168.143.108.38
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 42"
-    type: trojan
-    server: 172.104.185.40
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 43"
-    type: trojan
-    server: 83.147.254.59
-    port: 2053
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 44"
     type: vless
-    server: 179.253.179.109
-    port: 50083
-    uuid: 268fac1e-bb07-4d6c-8942-92fef4d7ede1
+    server: 186.246.9.29
+    port: 443
+    uuid: b2847c3b-5278-4b06-9c66-bc919d2dfec7
+    udp: true
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 14"
+    type: vless
+    server: 195.137.226.133
+    port: 2083
+    uuid: 7f733b1a-6c00-48ac-ae3b-cbc178a9146e
     udp: true
     tls: true
-    servername: 177.3.219.252
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 45"
-    type: trojan
-    server: 172.64.154.144
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 46"
-    type: trojan
-    server: 172.64.155.36
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 47"
-    type: trojan
-    server: 143.110.175.165
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 48"
-    type: trojan
-    server: 172.64.148.230
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 49"
-    type: trojan
-    server: 172.66.0.118
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 50"
-    type: trojan
-    server: 172.67.67.89
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 51"
-    type: trojan
-    server: 87.120.126.131
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 52"
-    type: trojan
-    server: 144.31.120.77
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 53"
-    type: trojan
-    server: 165.22.89.207
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 54"
-    type: trojan
-    server: 46.174.142.238
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 55"
-    type: trojan
-    server: 172.64.154.219
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 56"
-    type: trojan
-    server: 169.58.44.174
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 57"
-    type: trojan
-    server: 172.64.151.23
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 58"
-    type: trojan
-    server: 172.67.94.180
-    port: 443
-    password: humanity
-    udp: true
-    sni: www.cordweave.com
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 59"
-    type: vless
-    server: app-mi-26.spbstudentlife.com
-    port: 443
-    uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-    udp: true
+    servername: nexostore.xnetaro.ir
   - name: "🇫🇷 机场推荐:dafei.de 法国 02"
     type: vless
     server: edge.bookmai.com
@@ -468,121 +253,133 @@ proxies:
     port: 443
     uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
     udp: true
-  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 05"
     type: vless
     server: 163.245.42.132
     port: 443
     uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
     udp: true
-  - name: "🇭🇰_机场推荐:dafei.de_香港_02"
-    type: vmess
-    server: az-1.linkaa.xyz
-    port: 53617
-    uuid: 6E571484-4166-4699-8F58-B34A1823691F
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: az-1.linkaa.xyz
-    ws-opts:
-      path: /game/resources
-      headers:
-        Host: az-1.linkaa.xyz
-  - name: "🇭🇰 机场推荐:dafei.de 香港 05"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
     type: vless
-    server: hk2.huahua.wiki
+    server: 163.245.42.120
     port: 443
-    uuid: 07fff28d-1ae9-493e-926e-8bf941c53782
+    uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 15"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 06"
+    type: vless
+    server: 13.143.180.141
+    port: 443
+    uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 07"
+    type: vless
+    server: 79.182.39.75
+    port: 25362
+    uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 08"
+    type: vless
+    server: 13.143.180.142
+    port: 443
+    uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+    udp: true
+  - name: "🇩🇪 机场推荐:dafei.de 德国 13"
+    type: vless
+    server: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
+    port: 20065
+    uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
+    udp: true
+    tls: true
+    servername: 875f9760-be1a-4dfe-8c2b-3f080b5ab158.node1.runet.network
+  - name: "🇩🇪 机场推荐:dafei.de 德国 14"
+    type: vless
+    server: fast.private-ai.ir
+    port: 443
+    uuid: 2eb8ba3a-b398-4dbf-a586-c2929a8997ec
+    udp: true
+    tls: true
+    servername: cdn.akamai.steamstatic.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 17"
     type: vless
     server: us22.sofast.live
     port: 58011
     uuid: 0afc6426-606c-48e7-bd70-3c424a416842
     udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 23"
-    type: vless
-    server: us.huahua.wiki
-    port: 443
-    uuid: b9dd6833-9121-41fc-badc-ecbab952f606
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 31"
-    type: vless
-    server: jp.sofast.live
-    port: 52683
-    uuid: 399b6b23-cc40-4831-a494-61948e2df133
-    udp: true
-  - name: "🇺🇸 机场推荐:dafei.de 美国 32"
-    type: vless
-    server: 146.75.57.238
-    port: 443
-    uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
-    udp: true
-    tls: true
-    servername: cdn.akamai.steamstatic.com
-  - name: "🇯🇵 机场推荐:dafei.de 日本 02"
-    type: vless
-    server: jp.huahua.wiki
-    port: 443
-    uuid: ef857676-6b00-4c1b-8d98-712dd355230a
-    udp: true
-  - name: "🇩🇪_机场推荐:dafei.de_德国_10"
+  - name: "🇺🇸_机场推荐:dafei.de_美国_18"
     type: vmess
-    server: w12.luoli.de
+    server: 172.67.190.164
     port: 443
-    uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
     alterId: 0
     cipher: auto
     network: ws
     tls: true
-    servername: w12.luoli.de
+    servername: guanwang.awsno.com
     ws-opts:
-      path: /v2ws
+      path: /hls/cctv5phd.m3u8
       headers:
-        Host: w12.luoli.de
-  - name: "🇩🇪 机场推荐:dafei.de 德国 11"
-    type: vless
-    server: wwww.qarvian.ir
+        Host: guanwang.awsno.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 20"
+    type: trojan
+    server: 167.88.61.52
     port: 443
-    uuid: e3425eb4-e9be-4568-8740-529a031c9315
+    password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
     udp: true
-    tls: true
-    servername: firefox.com
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 04"
+    sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  - name: "🇺🇸 机场推荐:dafei.de 美国 21"
     type: vless
-    server: sg1.zestapp778.com
-    port: 56984
-    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-    udp: true
-    tls: true
-    servername: sg1.zestapp778.com
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 07"
-    type: vless
-    server: sgtht.wawojk.dpdns.org
+    server: 179.254.92.190
     port: 443
-    uuid: 953150e0-cd65-408e-9d71-01b1fee8a172
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 26"
+    type: vless
+    server: 192.177.26.55
+    port: 443
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 27"
+    type: vless
+    server: 179.254.92.134
+    port: 443
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+  - name: "🇺🇸 机场推荐:dafei.de 美国 38"
+    type: vless
+    server: 47.245.134.84
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
     udp: true
     tls: true
-    servername: sgtht.wawojk.dpdns.org
-  - name: "🇪🇪 机场推荐:dafei.de 爱沙尼亚 02"
-    type: vless
-    server: 179.253.179.109
-    port: 57043
-    uuid: da8fab8e-4a25-4eb0-b224-88ab96c753ce
-    udp: true
+    servername: xy1ej.stream-node-us.danfeng.qzz.io
+  - name: "🇺🇸_机场推荐:dafei.de_美国_45"
+    type: vmess
+    server: www.shopify.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    network: ws
     tls: true
-    servername: 87.121.86.24
-  - name: "🇰🇿 机场推荐:dafei.de 哈萨克斯坦 01"
-    type: vless
-    server: 95.56.251.12
-    port: 47443
-    uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-    udp: true
-  - name: "🇦🇿 机场推荐:dafei.de 阿塞拜疆 01"
-    type: vless
-    server: tunell2027.crackerbinam.org
-    port: 48312
-    uuid: f47057d5-120d-4b42-b6d6-30469aef6813
-    udp: true
+    servername: guanwang.awsno.com
+    ws-opts:
+      path: /hls/cctv5phd.m3u8
+      headers:
+        Host: guanwang.awsno.com
+  - name: "🇺🇸_机场推荐:dafei.de_美国_46"
+    type: vmess
+    server: 172.64.229.21
+    port: 443
+    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: vmess.lbw666.dpdns.org
+    ws-opts:
+      path: /ws
+      headers:
+        Host: vmess.lbw666.dpdns.org
   - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
     type: vless
     server: 87.242.119.253
@@ -591,14 +388,249 @@ proxies:
     udp: true
     tls: true
     servername: hvtlr-ru-47sb.fade.mom
-  - name: "🇹🇷 机场推荐:dafei.de 土耳其 02"
+  - name: "🇮🇪 机场推荐:dafei.de 爱尔兰 04"
     type: vless
-    server: 146.75.59.186
+    server: qtir1.dnetsolutions.ru
     port: 443
-    uuid: 7cefd992-452a-4c28-86bb-6195876582cf
+    uuid: 63959ed7-d26f-48dd-8c7b-ebdb6ea68535
+    udp: true
+  - name: "🇬🇧 机场推荐:dafei.de 英国 07"
+    type: vless
+    server: 132.243.207.154
+    port: 443
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+  - name: "🇮🇹 机场推荐:dafei.de 意大利 02"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "🇪🇪 机场推荐:dafei.de 爱沙尼亚 04"
+    type: vless
+    server: 13.143.182.104
+    port: 443
+    uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
+    udp: true
+  - name: "🇮🇳 机场推荐:dafei.de 印度 02"
+    type: vless
+    server: 5.253.28.240
+    port: 40443
+    uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+    udp: true
+  - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
+    type: trojan
+    server: 172.67.118.45
+    port: 2053
+    password: gHQP0D7D15
+    udp: true
+    sni: marvdasht.phonecomparisonblog.org
+  - name: "🇺🇸_US_美国_IPV4"
+    type: hysteria2
+    server: 129.146.215.233
+    port: 51000
+    password: f274d006-4c01-4fe0-aaa4-83c426577cd0
+    udp: true
+  - name: "🇺🇸_US_美国_IPV4 (2)"
+    type: hysteria2
+    server: 129.146.124.201
+    port: 51000
+    password: 1d491f8c-ccaa-43e1-b62d-f255c7832e27
+    udp: true
+  - name: "🇸🇬_SG_新加坡_IPV4"
+    type: hysteria2
+    server: 138.2.74.42
+    port: 60110
+    password: 5bc65313-6a35-4685-ba97-fe7784370c7b
+    udp: true
+  - name: "🇮🇳_IN_印度_IPV4"
+    type: hysteria2
+    server: 144.24.109.215
+    port: 51000
+    password: d105c6ae-621b-47c1-b85b-075fd6a39aca
+    udp: true
+  - name: "🇸🇬_SG_新加坡_IPV4 (2)"
+    type: vless
+    server: 85.137.51.53
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
     udp: true
     tls: true
-    servername: cdn.akamai.steamstatic.com
+    servername: t5pmr.mail-node.gfw.kdns.fr
+  - name: "🇫🇷_FR_法国_IPV6"
+    type: vmess
+    server: 2001:bc8:32d7:1a9::3
+    port: 18901
+    uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+      headers:
+        Host: 
+  - name: "🇺🇸_US_美国_IPV4 (3)"
+    type: vless
+    server: 69.8.129.152
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: t5pmr.mail-node.gfw.kdns.fr
+  - name: "🇺🇸_US_美国_IPV4 (4)"
+    type: vless
+    server: 38.207.182.119
+    port: 443
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    udp: true
+    tls: true
+    servername: t5pmr.mail-node.gfw.kdns.fr
+  - name: "🇺🇸_US_美国_IPV4 (5)"
+    type: trojan
+    server: 179.253.238.240
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (6)"
+    type: trojan
+    server: 179.255.103.84
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (7)"
+    type: trojan
+    server: 179.253.231.141
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (8)"
+    type: trojan
+    server: 104.17.0.3
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇭🇰_HK_香港->🇺🇸_US_美国_IPV4"
+    type: trojan
+    server: 47.75.104.211
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (9)"
+    type: trojan
+    server: 104.19.0.5
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (10)"
+    type: trojan
+    server: 179.255.141.59
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (11)"
+    type: trojan
+    server: 64.186.224.154
+    port: 10962
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (12)"
+    type: trojan
+    server: 179.255.99.7
+    port: 8443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (13)"
+    type: trojan
+    server: 179.253.239.20
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国_IPV4 (14)"
+    type: trojan
+    server: 179.253.231.22
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇸🇬_SG_新加坡_IPV4 (3)"
+    type: trojan
+    server: 45.127.34.109
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇺🇸_US_美国->🇵🇱_PL_波兰_IPV4"
+    type: hysteria2
+    server: 13.143.189.144
+    port: 4444
+    password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+    udp: true
+  - name: "🇳🇱_NL_荷兰_IPV4"
+    type: trojan
+    server: 104.26.0.6
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇳🇱_NL_荷兰_IPV4 (2)"
+    type: trojan
+    server: 104.21.0.7
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇳🇱_NL_荷兰_IPV4 (3)"
+    type: trojan
+    server: 104.25.0.2
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇯🇵_JP_日本_IPV4"
+    type: trojan
+    server: 172.238.22.178
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇯🇵_JP_日本_IPV4 (2)"
+    type: trojan
+    server: 172.237.1.32
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇯🇵_JP_日本_IPV4 (3)"
+    type: trojan
+    server: 172.233.91.12
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇯🇵_JP_日本_IPV4 (4)"
+    type: trojan
+    server: 172.238.29.97
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
+  - name: "🇸🇬_SG_新加坡_IPV4 (4)"
+    type: trojan
+    server: 69.8.133.223
+    port: 443
+    password: 8deb189a-3aed-4865-843b-b72dae954c46
+    udp: true
+    sni: api.85s.me
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -684,34 +716,4 @@ proxies:
     server: 181.214.99.162
     port: 35000
     password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    udp: true
-  - name: "@VPNConnectd"
-    type: hysteria2
-    server: ll5xoe8j.easyiran.org
-    port: 22357
-    password: dq6rfcyex30h1b6z
-    udp: true
-  - name: "@tootffarangi🍓-1"
-    type: hysteria2
-    server: kp09bn7y.easyiran.org
-    port: 46183
-    password: eik6hcffscbuqdbt
-    udp: true
-  - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: 54.213.89.22
-    port: 443
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    udp: true
-  - name: "🇰🇷205310 | ⚡️Telegram = t.me/S..."
-    type: hysteria2
-    server: 132.226.226.189
-    port: 50160
-    password: 1671a252e2a97dc2bda4e515475931da
-    udp: true
-  - name: "⚡7@oneclickvpnkeys"
-    type: hysteria2
-    server: 198.13.140.193
-    port: 443
-    password: 59018379-d5df-4314-ab23-df0e838d7953
     udp: true
