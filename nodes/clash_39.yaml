@@ -1,766 +1,601 @@
 proxies:
-  - name: "🇮🇪IE-45.131.248.228-7513"
-    type: vmess
-    server: 45.131.248.228
-    port: 59102
-    uuid: ac027362-c988-4670-f78f-021b5be6f4e3
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇮🇪IE-45.131.248.140-7514"
-    type: vmess
-    server: 45.131.248.140
-    port: 50068
-    uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇮🇪IE-45.131.248.140-7516"
-    type: vmess
-    server: 45.131.248.140
-    port: 50068
-    uuid: 557e532e-de4a-4b3e-9fb2-5d355ccb5da9
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇨🇾CY-45.12.144.68-7519"
-    type: vmess
-    server: 45.12.144.68
+  - name: "🇺🇸US-38.114.114.19-7235"
+    type: ss
+    server: 38.114.114.19
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-142.202.48.7-7236"
+    type: ss
+    server: 142.202.48.7
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.68.134.191-7237"
+    type: ss
+    server: 38.68.134.191
     port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1689849487190
-      headers:
-        Host: 
-  - name: "🇺🇸US-44.211.71.82-7520"
-    type: trojan
-    server: 44.211.71.82
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-44.201.217.130-7522"
-    type: trojan
-    server: 44.201.217.130
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-44.201.217.130-7524"
-    type: trojan
-    server: 44.201.217.130
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇯🇵JP-43.207.83.221-7525"
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.63.59-7238"
     type: ss
-    server: 43.207.83.221
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇰🇷KR-43.202.49.222-7526"
+    server: 167.88.63.59
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.86.135.36-7241"
     type: ss
-    server: 43.202.49.222
-    port: 2333
-    cipher: aes-256-cfb
-    password: doub.io
-  - name: "🇰🇷KR-43.201.108.109-7527"
+    server: 38.86.135.36
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.107.226.49-7242"
     type: ss
-    server: 43.201.108.109
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇳🇱NL-40.114.213.220-7531"
+    server: 38.107.226.49
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-167.88.63.44-7243"
     type: ss
-    server: 40.114.213.220
-    port: 64504
-    cipher: chacha20-ietf-poly1305
-    password: f7Pj0c73PqQf97lmWYmBbX
-  - name: "🇳🇱NL-40.114.210.138-7533"
+    server: 167.88.63.44
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.121.43.71-7244"
     type: ss
-    server: 40.114.210.138
-    port: 40943
-    cipher: chacha20-ietf-poly1305
-    password: pWqTTV6lrnPApdEAF8Qsm8
-  - name: "🇺🇸US-38.91.107.245-7535"
+    server: 38.121.43.71
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.63.59-7246"
     type: ss
-    server: 38.91.107.245
-    port: 1230
-    cipher: chacha20-ietf-poly1305
-    password: H5S0hvcxRi#YLmgU
-  - name: "🇩🇴DO-38.63.0.85-7537"
-    type: vmess
-    server: 38.63.0.85
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1689935243027
-      headers:
-        Host: 
-  - name: "🇩🇴DO-38.63.0.68-7538"
-    type: vmess
-    server: 38.63.0.68
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1683715826870
-      headers:
-        Host: 
-  - name: "🇺🇸US-38.59.243.133-7539"
-    type: vmess
-    server: 38.59.243.133
-    port: 80
-    uuid: 58c76d75-563c-4694-84c4-a798d55e90ed
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇺🇸US-38.150.13.140-7541"
-    type: trojan
-    server: 38.150.13.140
-    port: 57063
-    password: Hu4CFM0wJ3
-    udp: true
-    sni: 38.150.13.140
-  - name: "🇬🇧GB-37.235.55.21-7543"
+    server: 167.88.63.59
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-142.202.48.7-7248"
     type: ss
-    server: 37.235.55.21
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇸🇪SE-37.19.222.214-7544"
+    server: 142.202.48.7
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.63.59-7249"
     type: ss
-    server: 37.19.222.214
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇸🇪SE-37.19.222.213-7545"
+    server: 167.88.63.59
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.64.138.145-7250"
     type: ss
-    server: 37.19.222.213
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇸🇪SE-37.19.222.212-7546"
+    server: 38.64.138.145
+    port: 2375
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-38.114.114.49-7251"
     type: ss
-    server: 37.19.222.212
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇸🇪SE-37.19.222.211-7547"
+    server: 38.114.114.49
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-167.88.63.79-7252"
     type: ss
-    server: 37.19.222.211
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇨🇦CA-35.182.28.167-7549"
-    type: trojan
-    server: 35.182.28.167
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.36.215-7551"
-    type: trojan
-    server: 35.180.36.215
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.36.215-7553"
-    type: trojan
-    server: 35.180.36.215
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.202.29-7554"
-    type: trojan
-    server: 35.180.202.29
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇫🇷FR-35.180.202.29-7556"
-    type: trojan
-    server: 35.180.202.29
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-35.156.35.238-7559"
-    type: trojan
-    server: 35.156.35.238
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-35.156.35.238-7561"
-    type: trojan
-    server: 35.156.35.238
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-34.253.231.7-7562"
-    type: trojan
-    server: 34.253.231.7
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-34.253.231.7-7564"
-    type: trojan
-    server: 34.253.231.7
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.223.228.213-7566"
+    server: 167.88.63.79
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.86.135.36-7253"
     type: ss
-    server: 34.223.228.213
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇺🇸US-34.219.52.119-7567"
-    type: trojan
-    server: 34.219.52.119
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.219.52.119-7569"
-    type: trojan
-    server: 34.219.52.119
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.219.40.74-7571"
+    server: 38.86.135.36
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-38.75.137.9-7254"
     type: ss
-    server: 34.219.40.74
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇺🇸US-34.217.75.169-7572"
+    server: 38.75.137.9
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.61.2-7255"
     type: ss
-    server: 34.217.75.169
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "🇷🇺RU-31.172.67.43-7573"
-    type: ss
-    server: 31.172.67.43
-    port: 443
-    cipher: aes-256-cfb
-    password: asdKkaskJKfnsa
-  - name: "🇦🇱AL-31.171.153.181-7574"
-    type: ss
-    server: 31.171.153.181
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇨🇦CA-3.96.217.9-7575"
-    type: trojan
-    server: 3.96.217.9
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-3.8.123.26-7576"
-    type: trojan
-    server: 3.8.123.26
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-3.8.123.26-7578"
-    type: trojan
-    server: 3.8.123.26
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.252.69.131-7579"
-    type: trojan
-    server: 3.252.69.131
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.249.15.72-7581"
-    type: trojan
-    server: 3.249.15.72
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-3.249.15.72-7583"
-    type: trojan
-    server: 3.249.15.72
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-3.21.104.170-7584"
-    type: trojan
-    server: 3.21.104.170
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.22.69-7585"
-    type: trojan
-    server: 3.123.22.69
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.22.69-7587"
-    type: trojan
-    server: 3.123.22.69
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.128.240-7590"
-    type: trojan
-    server: 3.123.128.240
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.123.128.240-7592"
-    type: trojan
-    server: 3.123.128.240
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.120.187.229-7593"
-    type: trojan
-    server: 3.120.187.229
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-3.120.187.229-7595"
-    type: trojan
-    server: 3.120.187.229
-    port: 22222
-    password: telegram-id-privatevpns
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-23.94.122.66-7597"
-    type: trojan
-    server: 23.94.122.66
-    port: 38505
-    password: dTjHHw2kDE
-    udp: true
-    sni: telewebion.com
-  - name: "🇸🇨SC-23.92.127.134-7598"
-    type: ss
-    server: 23.92.127.134
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇸🇨SC-23.92.127.133-7599"
-    type: ss
-    server: 23.92.127.133
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇦🇺AU-23.26.239.163-7600"
-    type: vmess
-    server: 23.26.239.163
-    port: 18420
-    uuid: 65578c09-f23e-49cc-abee-4ad2a1850f9a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇦🇺AU-23.26.239.163-7602"
-    type: vmess
-    server: 23.26.239.163
-    port: 18420
-    uuid: 65578c09-f23e-49cc-abee-4ad2a1850f9a
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🏁RELAY-23.227.60.184-7603"
-    type: vmess
-    server: 23.227.60.184
-    port: 2096
-    uuid: 73376c70-3108-11ee-9710-1239d0255272
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-  - name: "🇺🇸US-23.225.33.173-7604"
-    type: vmess
-    server: 23.225.33.173
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1685877796747
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.255.248-7605"
-    type: vmess
-    server: 23.224.255.248
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/1688289359107
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.110.184-7606"
-    type: vmess
-    server: 23.224.110.184
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/080712342310
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.110.184-7608"
-    type: vmess
-    server: 23.224.110.184
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/080712342310
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.110.183-7609"
-    type: vmess
-    server: 23.224.110.183
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/080712342310
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.110.183-7611"
-    type: vmess
-    server: 23.224.110.183
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/080712342310
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.224.110.182-7612"
-    type: vmess
-    server: 23.224.110.182
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /path/080712342310
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.108.100.103-7614"
-    type: vmess
-    server: 23.108.100.103
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /footers
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.108.100.101-7615"
-    type: vmess
-    server: 23.108.100.101
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /footers
-      headers:
-        Host: 
-  - name: "🇺🇸US-23.108.100.101-7617"
-    type: vmess
-    server: 23.108.100.101
-    port: 443
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /footers
-      headers:
-        Host: 
-  - name: "🇭🇰HK-218.255.149.45-7619"
-    type: vmess
-    server: 218.255.149.45
-    port: 80
-    uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇵🇱PL-217.30.10.70-7621"
-    type: ss
-    server: 217.30.10.70
-    port: 9044
-    cipher: aes-256-cfb
-    password: KBGjZYcy4SyRShmA
-  - name: "🇵🇱PL-217.30.10.68-7622"
-    type: ss
-    server: 217.30.10.68
-    port: 9057
-    cipher: aes-256-cfb
-    password: wjTugX3ZtHMB9c3Z
-  - name: "🇵🇱PL-217.30.10.68-7623"
-    type: ss
-    server: 217.30.10.68
-    port: 9038
-    cipher: aes-256-cfb
-    password: gYCYXfkUQEs2TaJQ
-  - name: "🇵🇱PL-217.30.10.68-7624"
-    type: ss
-    server: 217.30.10.68
-    port: 9000
-    cipher: aes-256-cfb
-    password: a3GFYt36Sm82Vys9
-  - name: "🇵🇱PL-217.30.10.68-7625"
-    type: ss
-    server: 217.30.10.68
-    port: 9010
-    cipher: aes-256-cfb
-    password: f63gg8EruDnUrmz4
-  - name: "🇵🇱PL-217.30.10.68-7626"
-    type: ss
-    server: 217.30.10.68
-    port: 9019
-    cipher: aes-256-cfb
-    password: GA9KzeEgvfxNrgmM
-  - name: "🇵🇱PL-217.30.10.68-7627"
-    type: ss
-    server: 217.30.10.68
-    port: 9007
-    cipher: aes-256-cfb
-    password: kSPmvwdFzGMMW5pY
-  - name: "🇵🇱PL-217.30.10.68-7628"
-    type: ss
-    server: 217.30.10.68
-    port: 9045
-    cipher: aes-256-cfb
-    password: Lp27rqyJq72bZsqX
-  - name: "🇵🇱PL-217.30.10.68-7629"
-    type: ss
-    server: 217.30.10.68
-    port: 9011
-    cipher: aes-256-cfb
-    password: M3t2ZEQcMGRWBjRa
-  - name: "🇵🇱PL-217.30.10.68-7630"
-    type: ss
-    server: 217.30.10.68
-    port: 9079
-    cipher: aes-256-cfb
-    password: TPqX8edgbAURcAMb
-  - name: "🇵🇱PL-217.30.10.68-7631"
-    type: ss
-    server: 217.30.10.68
-    port: 9027
-    cipher: aes-256-cfb
-    password: EXN3S3eQpjE7EJu8
-  - name: "🇵🇱PL-217.30.10.68-7632"
-    type: ss
-    server: 217.30.10.68
-    port: 9043
-    cipher: aes-256-cfb
-    password: HSZuyJQcWe8dxNdF
-  - name: "🇵🇱PL-217.30.10.68-7633"
-    type: ss
-    server: 217.30.10.68
-    port: 9073
-    cipher: aes-256-cfb
-    password: daFYagqDdBdA6VTX
-  - name: "🇵🇱PL-217.30.10.68-7634"
-    type: ss
-    server: 217.30.10.68
-    port: 9033
-    cipher: aes-256-cfb
-    password: UTJA57ypk2XKQpnm
-  - name: "🇵🇱PL-217.30.10.68-7635"
-    type: ss
-    server: 217.30.10.68
-    port: 9031
-    cipher: aes-256-cfb
-    password: BwcAUZk8hUFAkDGN
-  - name: "🇵🇱PL-217.30.10.68-7636"
-    type: ss
-    server: 217.30.10.68
-    port: 9014
-    cipher: aes-256-cfb
-    password: KnJGad3FqTvjqbaX
-  - name: "🇵🇱PL-217.30.10.68-7637"
-    type: ss
-    server: 217.30.10.68
-    port: 9026
-    cipher: aes-256-cfb
-    password: QWDDvVE9npNurQfA
-  - name: "🇵🇱PL-217.30.10.68-7638"
-    type: ss
-    server: 217.30.10.68
-    port: 9093
-    cipher: aes-256-cfb
-    password: wfLC2y7rzZyCmuyt
-  - name: "🇵🇱PL-217.30.10.68-7639"
-    type: ss
-    server: 217.30.10.68
-    port: 9018
-    cipher: aes-256-cfb
-    password: fG2artUmHfNT2cX7
-  - name: "🇵🇱PL-217.30.10.68-7640"
-    type: ss
-    server: 217.30.10.68
-    port: 9070
-    cipher: aes-256-cfb
-    password: bf7v334KKDV3YDhH
-  - name: "🇵🇱PL-217.30.10.68-7641"
-    type: ss
-    server: 217.30.10.68
-    port: 9001
-    cipher: aes-256-cfb
-    password: UkXRsXvR6buDMG2Y
-  - name: "🇵🇱PL-217.30.10.68-7642"
-    type: ss
-    server: 217.30.10.68
-    port: 9097
-    cipher: aes-256-cfb
-    password: Sn5B7jTqr76aCJT8
-  - name: "🇵🇱PL-217.30.10.68-7643"
-    type: ss
-    server: 217.30.10.68
-    port: 9053
-    cipher: aes-256-cfb
-    password: SBM7R883jBmnqe6C
-  - name: "🇵🇱PL-217.30.10.68-7644"
-    type: ss
-    server: 217.30.10.68
-    port: 9006
-    cipher: aes-256-cfb
-    password: FAdUvMJUq5vDgKEq
-  - name: "🇸🇬SG-217.197.161.138-7645"
-    type: ss
-    server: 217.197.161.138
-    port: 805
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7646"
-    type: ss
-    server: 217.197.161.138
-    port: 811
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7647"
-    type: ss
-    server: 217.197.161.138
-    port: 807
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7648"
-    type: ss
-    server: 217.197.161.138
-    port: 802
-    cipher: chacha20-ietf-poly1305
-    password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7649"
-    type: ss
-    server: 217.197.161.138
+    server: 167.88.61.2
     port: 800
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.138-7650"
+  - name: "🇺🇸US-167.88.61.60-7256"
     type: ss
-    server: 217.197.161.138
-    port: 804
+    server: 167.88.61.60
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.143.66.87-7257"
+    type: ss
+    server: 38.143.66.87
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.62.62-7258"
+    type: ss
+    server: 167.88.62.62
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.68.134.85-7259"
+    type: ss
+    server: 38.68.134.85
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.114.114.67-7260"
+    type: ss
+    server: 38.114.114.67
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.68.134.191-7262"
+    type: ss
+    server: 38.68.134.191
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-38.75.136.21-7264"
+    type: ss
+    server: 38.75.136.21
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.61.60-7266"
+    type: ss
+    server: 167.88.61.60
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-38.68.134.85-7267"
+    type: ss
+    server: 38.68.134.85
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.107.226.48-7270"
+    type: ss
+    server: 38.107.226.48
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-37.120.147.230-7271"
+    type: ss
+    server: 37.120.147.230
+    port: 809
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7651"
+  - name: "🇺🇸US-38.143.66.87-7272"
     type: ss
-    server: 217.197.161.136
-    port: 810
+    server: 38.143.66.87
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.91.107.16-7273"
+    type: ss
+    server: 38.91.107.16
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-38.91.107.16-7274"
+    type: ss
+    server: 38.91.107.16
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7275"
+    type: ss
+    server: 38.68.134.85
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-38.91.107.16-7276"
+    type: ss
+    server: 38.91.107.16
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-37.120.147.230-7277"
+    type: ss
+    server: 37.120.147.230
+    port: 805
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇸🇬SG-217.197.161.136-7652"
+  - name: "🇺🇸US-38.68.135.18-7278"
     type: ss
-    server: 217.197.161.136
-    port: 803
+    server: 38.68.135.18
+    port: 7002
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.91.107.225-7279"
+    type: ss
+    server: 38.91.107.225
+    port: 800
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
+  - name: "🇺🇸US-167.88.63.44-7281"
+    type: ss
+    server: 167.88.63.44
+    port: 7307
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.75.136.102-7282"
+    type: ss
+    server: 38.75.136.102
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.75.136.102-7283"
+    type: ss
+    server: 38.75.136.102
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇳🇱NL-172.99.188.71-7284"
+    type: ss
+    server: 172.99.188.71
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.75.136.102-7285"
+    type: ss
+    server: 38.75.136.102
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.75.136.21-7286"
+    type: ss
+    server: 38.75.136.21
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.75.136.135-7287"
+    type: ss
+    server: 38.75.136.135
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.75.137.9-7288"
+    type: ss
+    server: 38.75.137.9
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-167.88.61.60-7289"
+    type: ss
+    server: 167.88.61.60
+    port: 8008
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-167.88.63.82-7290"
+    type: ss
+    server: 167.88.63.82
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-167.88.61.60-7291"
+    type: ss
+    server: 167.88.61.60
+    port: 5003
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.107.226.132-7292"
+    type: ss
+    server: 38.107.226.132
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇳🇱NL-172.99.188.71-7293"
+    type: ss
+    server: 172.99.188.71
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7294"
+    type: ss
+    server: 38.68.134.85
+    port: 9102
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.68.134.85-7295"
+    type: ss
+    server: 38.68.134.85
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.68.134.48-7296"
+    type: ss
+    server: 38.68.134.48
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.68.134.85-7297"
+    type: ss
+    server: 38.68.134.85
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇺🇸US-38.121.43.71-7299"
+    type: ss
+    server: 38.121.43.71
+    port: 5600
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.121.43.71-7301"
+    type: ss
+    server: 38.121.43.71
+    port: 8888
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.121.43.71-7302"
+    type: ss
+    server: 38.121.43.71
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-142.202.48.34-7305"
+    type: ss
+    server: 142.202.48.34
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-142.202.48.34-7307"
+    type: ss
+    server: 142.202.48.34
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.107.226.159-7308"
+    type: ss
+    server: 38.107.226.159
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-37.218.241.43-7309"
+    type: ss
+    server: 37.218.241.43
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: xCjmxGzrUoBA
+  - name: "🇺🇸US-38.68.134.85-7310"
+    type: ss
+    server: 38.68.134.85
+    port: 3306
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.114.114.69-7311"
+    type: ss
+    server: 38.114.114.69
+    port: 8091
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.143.66.20-7312"
+    type: ss
+    server: 38.143.66.20
+    port: 5000
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.114.114.67-7313"
+    type: ss
+    server: 38.114.114.67
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+  - name: "🇬🇧GB-172.99.190.61-7315"
+    type: ss
+    server: 172.99.190.61
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-167.88.61.60-7317"
+    type: ss
+    server: 167.88.61.60
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇳🇱NL-172.99.188.71-7318"
+    type: ss
+    server: 172.99.188.71
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.114.114.67-7319"
+    type: ss
+    server: 38.114.114.67
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.68.135.19-7320"
+    type: ss
+    server: 38.68.135.19
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.61.60-7321"
+    type: ss
+    server: 167.88.61.60
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-167.88.61.14-7322"
+    type: ss
+    server: 167.88.61.14
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇳🇱NL-172.99.188.71-7323"
+    type: ss
+    server: 172.99.188.71
+    port: 6679
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.91.100.27-7324"
+    type: ss
+    server: 38.91.100.27
+    port: 443
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-167.88.62.68-7325"
+    type: ss
+    server: 167.88.62.68
+    port: 3389
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.86.135.27-7327"
+    type: ss
+    server: 38.86.135.27
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇬🇧GB-172.99.190.87-7328"
+    type: ss
+    server: 172.99.190.87
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.107.226.132-7329"
+    type: ss
+    server: 38.107.226.132
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-38.75.136.102-7330"
+    type: ss
+    server: 38.75.136.102
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇺🇸US-142.202.48.34-7331"
+    type: ss
+    server: 142.202.48.34
+    port: 8009
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: "🇺🇸US-38.86.135.169-7334"
+    type: ss
+    server: 38.86.135.169
+    port: 8000
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-38.143.66.87-7335"
+    type: ss
+    server: 38.143.66.87
+    port: 6697
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+  - name: "🇺🇸US-38.86.135.27-7336"
+    type: ss
+    server: 38.86.135.27
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-92.38.169.196-7337"
+    type: ss
+    server: 92.38.169.196
+    port: 826
+    cipher: chacha20-ietf-poly1305
+    password: sF43Xt2gONqcgFX563
+  - name: "🇬🇧GB-172.99.190.61-7338"
+    type: ss
+    server: 172.99.190.61
+    port: 5500
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: "🇺🇸US-38.91.107.66-7339"
+    type: ss
+    server: 38.91.107.66
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇳🇱NL-172.99.188.71-7341"
+    type: ss
+    server: 172.99.188.71
+    port: 8119
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: "🇺🇸US-38.68.135.18-7342"
+    type: ss
+    server: 38.68.135.18
+    port: 4444
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: "🇺🇸US-38.86.135.36-7343"
+    type: ss
+    server: 38.86.135.36
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.75.136.21-7344"
+    type: ss
+    server: 38.75.136.21
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: "🇺🇸US-38.107.226.146-7345"
+    type: ss
+    server: 38.107.226.146
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇺🇸US-167.88.63.44-7346"
+    type: ss
+    server: 167.88.63.44
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.114.114.69-7347"
+    type: ss
+    server: 38.114.114.69
+    port: 9101
+    cipher: aes-256-gcm
+    password: e4FCWrgpkji3QY
+  - name: "🇺🇸US-38.86.135.27-7349"
+    type: ss
+    server: 38.86.135.27
+    port: 5001
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-38.64.138.145-7350"
+    type: ss
+    server: 38.64.138.145
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇬🇧GB-172.99.190.61-7351"
+    type: ss
+    server: 172.99.190.61
+    port: 8090
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+  - name: "🇺🇸US-167.88.63.82-7352"
+    type: ss
+    server: 167.88.63.82
+    port: 7306
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+  - name: "🇺🇸US-38.68.134.191-7353"
+    type: ss
+    server: 38.68.134.191
+    port: 8881
+    cipher: aes-256-gcm
+    password: kDWvXYZoTBcGkC4
+  - name: "🇬🇧GB-172.99.190.87-7354"
+    type: ss
+    server: 172.99.190.87
+    port: 2376
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+  - name: "🇬🇧GB-172.99.190.7-7355"
+    type: ss
+    server: 172.99.190.7
+    port: 5601
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+  - name: "🇺🇸US-167.88.62.68-7358"
+    type: ss
+    server: 167.88.62.68
+    port: 5004
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
