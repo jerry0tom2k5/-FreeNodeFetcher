@@ -1,84 +1,73 @@
 proxies:
-  - name: "RU_speednode_0031"
-    type: vless
-    server: 147.45.47.117
-    port: 443
-    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
+  - name: "🇻🇳VN-103.82.25.106-8243"
+    type: vmess
+    server: 103.82.25.106
+    port: 80
+    uuid: ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /fuzzyng?ed=2048
+      headers:
+        Host: 
+  - name: "🇯🇵JP-103.75.118.27-8244"
+    type: ss
+    server: 103.75.118.27
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇭🇰HK-103.234.53.23-8245"
+    type: trojan
+    server: 103.234.53.23
+    port: 50014
+    password: 73658d71-be45-4495-bc3e-e69d36ce73b5
     udp: true
-    tls: true
-    servername: ozon.ru
-  - name: "RU_speednode_0032"
-    type: vless
-    server: 45.151.71.159
-    port: 443
-    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-    udp: true
-    tls: true
-    servername: gb.ozon.ru
-  - name: "RU_speednode_0033"
-    type: vless
-    server: 45.151.71.176
-    port: 443
-    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-    udp: true
-    tls: true
-    servername: gb.ozon.ru
-  - name: "RU_speednode_0034"
-    type: vless
-    server: 92.42.201.107
-    port: 443
-    uuid: d0c8aa8d-a535-432a-b521-21f0e561f643
-    udp: true
-    tls: true
-    servername: node-slo02.rkitman.ru
-  - name: "RU_speednode_0035"
-    type: vless
-    server: 147.45.46.183
-    port: 443
-    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-    udp: true
-    tls: true
-    servername: gb.ozon.ru
-  - name: "RU_speednode_0036"
-    type: vless
-    server: 45.151.71.167
-    port: 443
-    uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-    udp: true
-    tls: true
-    servername: abuse.ozon.ru
-  - name: "RU_speednode_0037"
-    type: vless
-    server: 37.235.249.12
-    port: 443
-    uuid: bcf07b50-9da7-44dc-a955-43302f12e1e5
-    udp: true
-    tls: true
-    servername: gb.ozon.ru
-  - name: "TR_speednode_0038"
-    type: vless
-    server: 193.160.141.27
-    port: 443
-    uuid: fd0a5c32-afc0-4d57-b95a-ca6ec8f93e87
-    udp: true
-    tls: true
-    servername: abuse.ozon.ru
-  - name: "US_speednode_0042"
-    type: vless
-    server: mx001.zestapp778.com
-    port: 19167
-    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-    udp: true
-    tls: true
-    servername: mx001.zestapp778.com
-  - name: "US_speednode_0043"
-    type: vless
-    server: 130.94.18.208
-    port: 54857
-    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-    udp: true
-    tls: true
-    servername: us001.zestapp778.com
+    sni: telewebion.com
+  - name: "🇸🇬SG-103.172.116.79-8273"
+    type: ss
+    server: 103.172.116.79
+    port: 9044
+    cipher: aes-256-cfb
+    password: KBGjZYcy4SyRShmA
+  - name: "🇻🇳VN-103.163.218.2-8274"
+    type: ss
+    server: 103.163.218.2
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇵🇰PK-103.125.147.48-8275"
+    type: ss
+    server: 103.125.147.48
+    port: 51348
+    cipher: chacha20-ietf-poly1305
+    password: qe6peFG54F9n4u3x3
+  - name: "🏁RELAY-104.21.59.29-8276"
+    type: vmess
+    server: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
+    port: 80
+    uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
+  - name: "🏁RELAY-172.67.211.210-8278"
+    type: vmess
+    server: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
+    port: 80
+    uuid: 4a75c3ba-f2e9-11ed-bf1b-f23c91369f2d
+    alterId: 0
+    cipher: auto
+    network: ws
+    servername: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
+    ws-opts:
+      path: /
+      headers:
+        Host: 081d1aad-rwcsg0-1n7jq.bn.p5pv.com
   - name: "意大利|@ripaojiedian"
     type: ss
     server: 202.50.253.63
@@ -154,95 +143,310 @@ proxies:
     password: Mitivpn
     udp: true
     sni: ssl.fastly.com
-  - name: "US_VMESS-01_|_free-nodes"
-    type: vmess
-    server: 104.225.148.201
-    port: 52402
-    uuid: 0542f509-4368-4ee3-be54-0557fed80f6b
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "US_VMESS-02_|_free-nodes"
-    type: vmess
-    server: 192.220.47.85
-    port: 44441
-    uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-    alterId: 0
-    cipher: auto
-    network: tcp
-  - name: "DE SS-03 | free-nodes"
+  - name: "未知 HY2-01 | free-nodes"
+    type: hysteria2
+    server: 77.90.15.183
+    port: 8964
+    password: HATATEAYA
+    udp: true
+  - name: "DE SS-02 | free-nodes"
     type: ss
-    server: 202.50.253.45
-    port: 19999
+    server: 47.85.162.44
+    port: 443
     cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-04 | free-nodes"
-    type: ss
-    server: 202.50.253.36
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-05 | free-nodes"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-06 | free-nodes"
-    type: ss
-    server: 202.50.253.27
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-07 | free-nodes"
-    type: ss
-    server: 202.50.253.63
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-08 | free-nodes"
-    type: ss
-    server: 202.50.253.54
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-09 | free-nodes"
-    type: ss
-    server: 202.50.253.72
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-10 | free-nodes"
-    type: ss
-    server: 202.50.253.99
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-11 | free-nodes"
-    type: ss
-    server: 202.50.253.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-12 | free-nodes"
+    password: 2022-blake3-chacha20-poly1305
+  - name: "未知 VLESS-03 | free-nodes"
+    type: vless
+    server: 191.217.206.147
+    port: 9443
+    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+    udp: true
+  - name: "未知 SS-04 | free-nodes"
     type: ss
     server: 202.50.253.18
     port: 19999
     cipher: aes-256-gcm
     password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-05 | free-nodes"
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-06 | free-nodes"
+    type: ss
+    server: 202.50.253.36
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-07 | free-nodes"
+    type: ss
+    server: 202.50.253.72
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-08 | free-nodes"
+    type: ss
+    server: 202.50.253.81
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-09 | free-nodes"
+    type: ss
+    server: 202.50.253.90
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 SS-10 | free-nodes"
+    type: ss
+    server: 57.131.27.21
+    port: 8388
+    cipher: aes-256-gcm
+    password: itzvpn@321
+  - name: "未知 VLESS-11 | free-nodes"
+    type: vless
+    server: 88.216.189.192
+    port: 443
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    udp: true
+  - name: "未知 SS-12 | free-nodes"
+    type: ss
+    server: 202.50.253.54
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "US VLESS-13 | free-nodes"
+    type: vless
+    server: ryanserver.ir
+    port: 18434
+    uuid: Inetiran
+    udp: true
+  - name: "US_VMESS-14_|_free-nodes"
+    type: vmess
+    server: 192.74.236.148
+    port: 30004
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    servername: www.91334565.xyz
+    ws-opts:
+      path: /path/1733477783705
+      headers:
+        Host: www.91334565.xyz
+  - name: "未知 SS-15 | free-nodes"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "未知 VLESS-16 | free-nodes"
+    type: vless
+    server: 2.26.191.219
+    port: 443
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    udp: true
+  - name: "US VLESS-17 | free-nodes"
+    type: vless
+    server: 84.32.54.237
+    port: 443
+    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+    udp: true
+  - name: "DE VLESS-18 | free-nodes"
+    type: vless
+    server: 46.247.109.129
+    port: 443
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    udp: true
+  - name: "未知 SS-19 | free-nodes"
+    type: ss
+    server: 202.50.253.99
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE VLESS-20 | free-nodes"
+    type: vless
+    server: 37.114.37.192
+    port: 443
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    udp: true
+  - name: "SG VLESS-21 | free-nodes"
+    type: vless
+    server: 122.9.123.248
+    port: 44306
+    uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e
+    udp: true
+  - name: "未知 VLESS-22 | free-nodes"
+    type: vless
+    server: 88.216.60.73
+    port: 443
+    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+    udp: true
+  - name: "未知 VLESS-23 | free-nodes"
+    type: vless
+    server: 80.47.10.106
+    port: 443
+    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+    udp: true
+  - name: "DE VLESS-24 | free-nodes"
+    type: vless
+    server: de5.rvpn.online
+    port: 443
+    uuid: VjbzAL3fXn01D9
+    udp: true
+  - name: "DE VLESS-25 | free-nodes"
+    type: vless
+    server: de6.rvpn.online
+    port: 443
+    uuid: ROChtSUYxmxK2V
+    udp: true
+  - name: "DE VLESS-26 | free-nodes"
+    type: vless
+    server: 104.18.139.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "GB VLESS-27 | free-nodes"
+    type: vless
+    server: free.fugui.lol
+    port: 62015
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    udp: true
+  - name: "未知 VLESS-28 | free-nodes"
+    type: vless
+    server: 89.251.22.59
+    port: 20721
+    uuid: 04261321-8725-4d03-a502-704656b0cb8a
+    udp: true
+  - name: "DE TROJAN-29 | free-nodes"
+    type: trojan
+    server: 8.6.112.0
+    port: 443
+    password: XnjwEJbEbqBt8bjlrKZPwg
+    udp: true
+    sni: cf.lunex-vpn.xyz
+  - name: "DE VLESS-30 | free-nodes"
+    type: vless
+    server: 104.18.137.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "DE VLESS-31 | free-nodes"
+    type: vless
+    server: 104.18.140.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "DE VLESS-32 | free-nodes"
+    type: vless
+    server: 104.18.141.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "HK_VMESS-33_|_free-nodes"
+    type: vmess
+    server: motorcycles-scan-ceremony-ideas.trycloudflare.com
+    port: 443
+    uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    servername: motorcycles-scan-ceremony-ideas.trycloudflare.com
+    ws-opts:
+      path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
+      headers:
+        Host: motorcycles-scan-ceremony-ideas.trycloudflare.com
+  - name: "DE VLESS-34 | free-nodes"
+    type: vless
+    server: 104.18.138.67
+    port: 443
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    udp: true
+    tls: true
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  - name: "DE SS-35 | free-nodes"
+    type: ss
+    server: 202.50.253.45
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-36 | free-nodes"
+    type: ss
+    server: 202.50.253.36
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-37 | free-nodes"
+    type: ss
+    server: 202.50.253.90
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-38 | free-nodes"
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-39 | free-nodes"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-40 | free-nodes"
+    type: ss
+    server: 202.50.253.54
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-41 | free-nodes"
+    type: ss
+    server: 202.50.253.72
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-42 | free-nodes"
+    type: ss
+    server: 202.50.253.99
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-43 | free-nodes"
+    type: ss
+    server: 202.50.253.81
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "DE SS-44 | free-nodes"
+    type: ss
+    server: 202.50.253.18
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "US VLESS-45 | free-nodes"
     type: vless
     server: 104.160.44.254
     port: 443
     uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
     udp: true
-  - name: "US VLESS-14 | free-nodes"
+  - name: "US VLESS-46 | free-nodes"
     type: vless
     server: 107.172.214.195
     port: 443
     uuid: 2af77824-f83d-4f50-9dd0-560bb6e7cd45
     udp: true
-  - name: "HK VLESS-15 | free-nodes"
+  - name: "HK VLESS-47 | free-nodes"
     type: vless
     server: 152.175.6.229
     port: 31884
@@ -250,13 +454,13 @@ proxies:
     udp: true
     tls: true
     servername: hk010.zestapp778.com
-  - name: "US VLESS-16 | free-nodes"
+  - name: "US VLESS-48 | free-nodes"
     type: vless
     server: swedenafteraventura.space
     port: 443
     uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
     udp: true
-  - name: "SG VLESS-17 | free-nodes"
+  - name: "SG VLESS-49 | free-nodes"
     type: vless
     server: 43.163.112.174
     port: 443
