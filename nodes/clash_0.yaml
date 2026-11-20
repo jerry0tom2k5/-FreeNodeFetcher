@@ -1,4 +1,135 @@
 proxies:
+  - name: "意大利|@ripaojiedian"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "意大利2|@ripaojiedian"
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "日本|@ripaojiedian"
+    type: vless
+    server: 139.162.91.239
+    port: 443
+    uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
+    udp: true
+  - name: "美国|@ripaojiedian"
+    type: trojan
+    server: 167.82.76.27
+    port: 443
+    password: MiTiVPN
+    udp: true
+    sni: ssl.fastly.com
+  - name: "法国|@ripaojiedian"
+    type: vless
+    server: edge.bookmai.com
+    port: 443
+    uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+    udp: true
+  - name: "日本2|@ripaojiedian"
+    type: trojan
+    server: v2jp.k1.ssnss.live
+    port: 44184
+    password: d050aca3-9df2-4461-90ec-92373c1d7636
+    udp: true
+  - name: "日本3|@ripaojiedian"
+    type: vless
+    server: 172.105.216.21
+    port: 443
+    uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
+    udp: true
+  - name: "新加坡|@ripaojiedian"
+    type: vless
+    server: 139.162.20.241
+    port: 443
+    uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+    udp: true
+  - name: "美国2|@ripaojiedian"
+    type: vless
+    server: 172.235.53.103
+    port: 443
+    uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
+    udp: true
+  - name: "美国3|@ripaojiedian"
+    type: vless
+    server: 172.236.239.126
+    port: 443
+    uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+    udp: true
+  - name: "美国4|@ripaojiedian"
+    type: trojan
+    server: 167.82.76.27
+    port: 443
+    password: MiTiVPN
+    udp: true
+    sni: ssl.fastly.com
+  - name: "美国5|@ripaojiedian"
+    type: trojan
+    server: 151.101.110.219
+    port: 443
+    password: Mitivpn
+    udp: true
+    sni: ssl.fastly.com
+  - name: "爱沙尼亚+V2CROSS.COM"
+    type: vless
+    server: 196.196.148.85
+    port: 443
+    uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+    udp: true
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.54
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.27
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "台湾省台北市+中华电信"
+    type: vless
+    server: free.fugui.lol
+    port: 47396
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    udp: true
+  - name: "香港+阿里云"
+    type: ss
+    server: 47.85.162.44
+    port: 443
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  - name: "香港+葵兴数据中心"
+    type: trojan
+    server: sclass-b1.catcat321.com
+    port: 20051
+    password: d7563108-615c-4338-a7bd-77f359869a4a
+    udp: true
+    sni: hk.catxstar.com
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.72
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  - name: "日本+东京Amazon数据中心"
+    type: trojan
+    server: sclass-c2.catcat321.com
+    port: 20051
+    password: d9064589-74af-432a-9390-5d8a9da281bf
+    udp: true
+    sni: hk.catxstar.com
+  - name: "新西兰+V2CROSS.COM"
+    type: ss
+    server: 202.50.253.63
+    port: 19999
+    cipher: aes-256-gcm
+    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   - name: "防范境外势力渗透"
     type: vmess
     server: 127.0.0.53
@@ -85,23 +216,11 @@ proxies:
     port: 443
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     udp: true
-  - name: "🇱🇹 15@exclavevpn"
-    type: hysteria2
-    server: 179.254.127.219
-    port: 25318
-    password: b36a14f8-fc3f-4142-968f-48031cf5f330
-    udp: true
   - name: "🇺🇸139909 | ⚡️Telegram = t.me/S..."
     type: hysteria2
     server: 54.213.89.22
     port: 443
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    udp: true
-  - name: " 🇺🇸 15@exclavevpn"
-    type: hysteria2
-    server: 192.255.152.147
-    port: 443
-    password: yO8pug5XmwkBXBAjleYIaVt
     udp: true
   - name: "@OutlineReleasedKey"
     type: hysteria2
@@ -127,7 +246,7 @@ proxies:
     port: 443
     password: 3a17ce52-4547-45aa-9820-a7d03ad5faca
     udp: true
-  - name: "@OutlineReleasedKey #3"
+  - name: "@OutlineReleasedKey #2"
     type: hysteria2
     server: 212.34.137.105
     port: 443
@@ -135,8 +254,8 @@ proxies:
     udp: true
   - name: "@OutlineReleasedKey #4"
     type: hysteria2
-    server: 94.183.164.119
-    port: 24433
+    server: 212.34.137.105
+    port: 443
     password: 549766c3-fa5f-471e-8031-ffc1f8d5064f
     udp: true
   - name: "@OutlineReleasedKey #5"
@@ -163,11 +282,11 @@ proxies:
     port: 443
     password: 7e68e32f-8015-4f37-9082-70e8b0b58043
     udp: true
-  - name: "@ConfigV2RayNG"
+  - name: "🔵93@oneclickvpnkeys"
     type: hysteria2
-    server: ide.vipvirtualnet.eu
-    port: 30746
-    password: 99a271e85dbc4aa8950f9c7beee06b19
+    server: 24.233.8.109
+    port: 443
+    password: 8294f130408299df8cab08c80bf6f819
     udp: true
   - name: "🔹69@oneclickvpnkeys"
     type: hysteria2
@@ -175,11 +294,23 @@ proxies:
     port: 443
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     udp: true
-  - name: "🇩🇪 德国 | DEU"
+  - name: "🔵92@oneclickvpnkeys"
+    type: hysteria2
+    server: vpn-hk-004.fastervpn.world
+    port: 443
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    udp: true
+  - name: "Channel : @Daily_Configs"
     type: hysteria2
     server: 77.90.15.183
     port: 8964
     password: HATATEAYA
+    udp: true
+  - name: "🔵10@oneclickvpnkeys"
+    type: hysteria2
+    server: hysteria.udpgw.com
+    port: 8443
+    password: HowdyHysteria2023w0W
     udp: true
   - name: "🩵+@Azarakhsh_Proxy+🩷"
     type: hysteria2
@@ -259,7 +390,7 @@ proxies:
     port: 35000
     password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
     udp: true
-  - name: "Channel : @Daily_Configs"
+  - name: "Channel : @Daily_Configs #1"
     type: hysteria2
     server: panel.autonetshop.ir
     port: 43345
@@ -289,23 +420,17 @@ proxies:
     port: 10444
     password: fa937345-6d3e-4ff4-8127-1a836987a0db
     udp: true
-  - name: "🇯🇵218802 | ⚡️Telegram = t.me/L..."
+  - name: "🔵100@oneclickvpnkeys"
     type: hysteria2
-    server: 129.225.181.46
-    port: 8443
-    password: oracle_hy2_pass_2026
+    server: 13.55.52.44
+    port: 36712
+    password: linlin-2026
     udp: true
   - name: "@confiig_hub #1"
     type: hysteria2
     server: 130.49.161.70
     port: 443
     password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-    udp: true
-  - name: "🇺🇸 美国 | USA 6"
-    type: hysteria2
-    server: sub.macdonalder.cyou
-    port: 16146
-    password: u9axzkplfc3463am
     udp: true
   - name: "Telegram@vpnjey #7"
     type: hysteria2
@@ -325,12 +450,6 @@ proxies:
     port: 14430
     uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
     udp: true
-  - name: "🇦🇪[www.v2nodes.com] vless-AE-1... #1"
-    type: vless
-    server: 84.235.244.108
-    port: 22573
-    uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-    udp: true
   - name: "🇦🇱[www.v2nodes.com] vless-AL-1..."
     type: vless
     server: 15b171g.nl7.h1clayd.click
@@ -339,7 +458,7 @@ proxies:
     udp: true
     tls: true
     servername: 15b171g.nl7.h1clayd.click
-  - name: "🇳🇱[www.v2nodes.com] vless-NL-1... #2"
+  - name: "🇳🇱[www.v2nodes.com] vless-NL-1... #3"
     type: vless
     server: 94.183.234.245
     port: 443
@@ -347,14 +466,6 @@ proxies:
     udp: true
     tls: true
     servername: www.bing.com
-  - name: "🇦🇺[www.v2nodes.com] vless-AU-1..."
-    type: vless
-    server: 39.109.111.23
-    port: 48158
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    udp: true
-    tls: true
-    servername: www.apple.com
   - name: "🇧🇾[www.v2nodes.com] vless-BY-1..."
     type: vless
     server: 178.172.227.228
@@ -367,7 +478,7 @@ proxies:
     port: 10443
     uuid: 1af36694-b548-4b18-89a0-bc076eab4ed7
     udp: true
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-7... #1"
+  - name: "🇨🇦[www.v2nodes.com] vless-CA-1..."
     type: vless
     server: 104.18.109.147
     port: 2052
@@ -375,37 +486,21 @@ proxies:
     udp: true
   - name: "🇨🇦[www.v2nodes.com] vless-CA-1... #1"
     type: vless
-    server: 188.114.98.0
-    port: 443
-    uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9
-    udp: true
-    tls: true
-    servername: party-5cn.pages.dev
-  - name: "🇨🇦[www.v2nodes.com] vless-CA-1... #2"
-    type: vless
     server: cf.008500.xyz
     port: 443
     uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
     udp: true
-  - name: "🏳[www.v2nodes.com] vless- #15"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-8..."
     type: vless
     server: 104.26.13.31
     port: 8080
     uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
     udp: true
-  - name: "🇨🇦[www.v2nodes.com] vless-CA-1... #4"
+  - name: "🇨🇦[www.v2nodes.com] vless-CA-1... #3"
     type: vless
     server: 209.200.246.148
     port: 443
     uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇨🇦[www.v2nodes.com] vless-CA-1... #5"
-    type: vless
-    server: 66.70.179.198
-    port: 2053
-    uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
     udp: true
     tls: true
     servername: www.cloudflare.com
@@ -415,15 +510,21 @@ proxies:
     port: 8080
     uuid: 989d58b8-d2ea-4d28-b5ff-0f3cd078f2cf
     udp: true
-  - name: "🇨🇭[www.v2nodes.com] vless-CH-1..."
+  - name: "🇨🇦[www.v2nodes.com] vless-CA"
     type: vless
-    server: 74.161.152.237
-    port: 2083
-    uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
+    server: 27.50.48.6
+    port: 443
+    uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+    udp: true
+  - name: "🇭🇰[www.v2nodes.com] vless-HK"
+    type: vless
+    server: 149.104.5.141
+    port: 443
+    uuid: 0c492b73-98de-4ad2-bbe9-eb25661d17ac
     udp: true
     tls: true
-    servername: www.apple.com
-  - name: "🇨🇭[www.v2nodes.com] vless-CH-1... #1"
+    servername: byyzz.pages.dev
+  - name: "🇨🇭[www.v2nodes.com] vless-CH-1..."
     type: vless
     server: 45.90.59.15
     port: 443
@@ -431,14 +532,6 @@ proxies:
     udp: true
     tls: true
     servername: www.cloudflare.com
-  - name: "🇨🇭[www.v2nodes.com] vless-CH-1... #2"
-    type: vless
-    server: 208.69.78.217
-    port: 2053
-    uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-    udp: true
-    tls: true
-    servername: www.apple.com
   - name: "🇨🇿[www.v2nodes.com] vless-CZ-1..."
     type: vless
     server: 195.123.245.241
@@ -455,38 +548,6 @@ proxies:
     udp: true
     tls: true
     servername: udemy.com
-  - name: "🇩🇪[www.v2nodes.com] vless-DE-1..."
-    type: vless
-    server: 87.242.94.42
-    port: 443
-    uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
-    udp: true
-    tls: true
-    servername: 87.242.94.42
-  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #1"
-    type: vless
-    server: 31.58.213.31
-    port: 443
-    uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-    udp: true
-    tls: true
-    servername: app.streamru2.net
-  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #2"
-    type: vless
-    server: 176.98.176.60
-    port: 443
-    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-    udp: true
-    tls: true
-    servername: mosaic.topp-con.xyz
-  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #4"
-    type: vless
-    server: 195.206.235.202
-    port: 443
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-    udp: true
-    tls: true
-    servername: 4935e4t.de25.h1clayd.click
   - name: "🏳[www.v2nodes.com] vless- #1"
     type: vless
     server: music.3apes.online
@@ -495,53 +556,61 @@ proxies:
     udp: true
     tls: true
     servername: music.3apes.online
-  - name: "🏳[www.v2nodes.com] vless- #2"
+  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #1"
     type: vless
-    server: 5.83.129.236
+    server: 46.243.205.192
     port: 443
-    uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+    uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
     udp: true
     tls: true
-    servername: host-de-upscale.cdn.cachefleet.com
-  - name: "🏳[www.v2nodes.com] vless- #3"
+    servername: 46.243.205.192
+  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #2"
     type: vless
-    server: 45.129.242.56
+    server: 87.242.94.42
     port: 443
-    uuid: ebdfaf99-41d8-4e48-8196-d54510ffb556
+    uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
     udp: true
     tls: true
-    servername: www.cloudflare.com
-  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #5"
+    servername: 87.242.94.42
+  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #3"
     type: vless
-    server: 144.31.140.125
-    port: 8443
-    uuid: f5e70ce3-cfb4-4df1-b25c-d19bfae627c0
+    server: 31.58.213.31
+    port: 443
+    uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
     udp: true
     tls: true
-    servername: twitch.tv
+    servername: app.streamru2.net
+  - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #4"
+    type: vless
+    server: 176.98.176.60
+    port: 443
+    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+    udp: true
+    tls: true
+    servername: mosaic.topp-con.xyz
   - name: "🇩🇪[www.v2nodes.com] vless-DE-1... #6"
     type: vless
-    server: 37.18.14.177
+    server: 195.206.235.202
     port: 443
-    uuid: 7955bf18-35c4-412d-aabd-c0b36c793063
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     udp: true
     tls: true
-    servername: owj5svd907.deshevayashaurma.icu
+    servername: 4935e4t.de25.h1clayd.click
+  - name: "🇩🇰[www.v2nodes.com] vless-DK-1..."
+    type: vless
+    server: 193.180.208.167
+    port: 443
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    udp: true
+    tls: true
+    servername: v2n5.11676767.xyz
   - name: "🇪🇪[www.v2nodes.com] vless-EE-1..."
     type: vless
     server: 45.86.60.174
     port: 16443
     uuid: 13e541f3-d09d-4633-89df-8513db0ced20
     udp: true
-  - name: "🇪🇸[www.v2nodes.com] vless-ES-1..."
-    type: vless
-    server: 68.221.177.135
-    port: 2083
-    uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
-    udp: true
-    tls: true
-    servername: www.apple.com
-  - name: "🏳[www.v2nodes.com] vless- #4"
+  - name: "🏳[www.v2nodes.com] vless- #2"
     type: vless
     server: 196.196.149.80
     port: 443
@@ -549,39 +618,9 @@ proxies:
     udp: true
     tls: true
     servername: 7aa271t.es1.h1clayd.click
-  - name: "🇪🇸[www.v2nodes.com] vless-ES-1... #1"
-    type: vless
-    server: 66.163.118.113
-    port: 443
-    uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-    udp: true
-    tls: true
-    servername: www.apple.com
-  - name: "🏳[www.v2nodes.com] vless- #5"
-    type: vless
-    server: 46.28.71.247
-    port: 443
-    uuid: 12c53e32-e589-47d6-b857-e4132294f767
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🏳[www.v2nodes.com] vless- #6"
-    type: vless
-    server: 212.227.235.66
-    port: 2053
-    uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
-    udp: true
-    tls: true
-    servername: www.apple.com
-  - name: "🇨🇦[www.v2nodes.com] vless-CA"
-    type: vless
-    server: 27.50.48.6
-    port: 443
-    uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-    udp: true
   - name: "🇫🇮[www.v2nodes.com] vless-FI-1..."
     type: vless
-    server: 198.202.24.142
+    server: 104.17.145.145
     port: 2083
     uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
     udp: true
@@ -597,55 +636,17 @@ proxies:
     servername: db-28.topp-con.xyz
   - name: "🇫🇮[www.v2nodes.com] vless-FI-1... #2"
     type: vless
-    server: 104.171.133.213
-    port: 443
-    uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-    udp: true
-    tls: true
-    servername: mirror-75.topp-con.xyz
-  - name: "🇫🇮[www.v2nodes.com] vless-FI-1... #3"
-    type: vless
     server: 45.144.234.157
     port: 14430
     uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
     udp: true
-  - name: "🇫🇮[www.v2nodes.com] vless-FI-1... #4"
-    type: vless
-    server: 95.216.27.15
-    port: 2053
-    uuid: b79d736d-0f10-4169-b626-362059d18204
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
   - name: "🇫🇷[www.v2nodes.com] vless-FR-1..."
-    type: vless
-    server: 20.19.83.143
-    port: 2083
-    uuid: 52a5a29f-c162-411a-8a37-a3f11b0dc537
-    udp: true
-    tls: true
-    servername: www.apple.com
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #1"
-    type: vless
-    server: 199.232.78.120
-    port: 443
-    uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-    udp: true
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #2"
-    type: vless
-    server: 145.223.68.58
-    port: 443
-    uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
-    udp: true
-    tls: true
-    servername: www.cloudflare.com
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #3"
     type: vless
     server: 138.124.70.41
     port: 14430
     uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
     udp: true
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #4"
+  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #1"
     type: vless
     server: 152.228.139.33
     port: 35108
@@ -653,39 +654,9 @@ proxies:
     udp: true
     tls: true
     servername: www.nvidia.com
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #5"
-    type: vless
-    server: ww3.levikogjgfdd.ir
-    port: 443
-    uuid: b81b4d1b-7f20-48f1-82dc-d24bef898cab
-    udp: true
-    tls: true
-    servername: passport.yandex.ru
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #6"
-    type: vless
-    server: 51.77.217.70
-    port: 2053
-    uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-    udp: true
-    tls: true
-    servername: www.apple.com
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #7"
+  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #2"
     type: vless
     server: 62.210.91.10
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    udp: true
-    tls: true
-    servername: fuck.rkn
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #8"
-    type: vless
-    server: ov-france1.09vpn.com
-    port: 80
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    udp: true
-  - name: "🇫🇷[www.v2nodes.com] vless-FR-1... #9"
-    type: vless
-    server: 62.210.91.2
     port: 23576
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     udp: true
