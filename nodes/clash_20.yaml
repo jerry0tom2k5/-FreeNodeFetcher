@@ -1,11 +1,36 @@
 proxies:
-  - name: "🇱🇹LT-85.208.108.90-2306"
+  - name: "🇸🇬SG-146.190.82.241-2384"
+    type: vmess
+    server: 146.190.82.241
+    port: 80
+    uuid: ee76cecf-1219-42be-ae3f-6b8077e4cacc
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-24.199.119.135-2388"
+    type: vmess
+    server: 24.199.119.135
+    port: 443
+    uuid: e6da31cb-6c97-4699-c412-124d5ab80856
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇱🇹LT-85.208.108.90-2391"
     type: ss
     server: 85.208.108.90
     port: 2375
     cipher: aes-256-gcm
     password: faBAoD54k87UJG7
-  - name: "🇿🇦ZA-129.151.164.152-2307"
+  - name: "🇿🇦ZA-129.151.164.152-2392"
     type: vmess
     server: 129.151.164.152
     port: 55600
@@ -17,7 +42,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇫🇮FI-65.109.184.152-2308"
+  - name: "🇫🇮FI-65.109.184.152-2393"
     type: vmess
     server: 65.109.184.152
     port: 443
@@ -29,7 +54,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-141.193.213.20-2311"
+  - name: "🏁RELAY-141.193.213.21-2396"
     type: vmess
     server: news.microsoft.com
     port: 443
@@ -43,7 +68,7 @@ proxies:
       path: /ECTCJ0DF
       headers:
         Host: news.microsoft.com
-  - name: "🇮🇳IN-87.254.31.23-2312"
+  - name: "🇮🇳IN-87.254.31.23-2397"
     type: vmess
     server: 87.254.31.23
     port: 41647
@@ -56,19 +81,19 @@ proxies:
       path: /uk/getData
       headers:
         Host: 
-  - name: "🇨🇳CN-120.226.39.25-2313"
+  - name: "🇨🇳CN-120.226.39.25-2398"
     type: trojan
     server: 120.226.39.25
     port: 19201
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2315"
+  - name: "🇨🇳CN-120.226.39.25-2400"
     type: trojan
     server: 120.226.39.25
     port: 19240
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🏁RELAY-103.21.244.122-2316"
+  - name: "🏁RELAY-103.21.244.122-2401"
     type: vmess
     server: 103.21.244.122
     port: 8443
@@ -81,7 +106,7 @@ proxies:
       path: /8cda48b3
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.20-2321"
+  - name: "🏁RELAY-203.30.191.20-2406"
     type: vmess
     server: 203.30.191.20
     port: 443
@@ -94,7 +119,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.18-2322"
+  - name: "🏁RELAY-203.30.191.18-2407"
     type: vmess
     server: 203.30.191.18
     port: 443
@@ -107,33 +132,33 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🇸🇬SG-54.179.221.54-2324"
+  - name: "🇸🇬SG-54.179.221.54-2409"
     type: ss
     server: 54.179.221.54
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇱🇹LT-85.208.108.90-2325"
+  - name: "🇱🇹LT-85.208.108.90-2410"
     type: ss
     server: 85.208.108.90
     port: 6379
     cipher: aes-256-gcm
     password: zDNVedRFPQexG9v
-  - name: "🇺🇸US-173.82.240.199-2326"
+  - name: "🇺🇸US-173.82.240.199-2411"
     type: trojan
     server: 173.82.240.199
     port: 44301
     password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
     udp: true
     sni: lav002.jd0001.top
-  - name: "🇺🇸US-3.145.14.67-2330"
+  - name: "🇺🇸US-3.145.14.67-2415"
     type: trojan
     server: 3.145.14.67
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇨🇳CN-153.101.64.221-2333"
+  - name: "🇨🇳CN-153.101.64.221-2418"
     type: vmess
     server: 153.101.64.221
     port: 40013
@@ -145,14 +170,14 @@ proxies:
       path: /qwe123321ewq
       headers:
         Host: 
-  - name: "🇫🇷FR-51.38.99.96-2334"
+  - name: "🇫🇷FR-51.38.99.96-2419"
     type: trojan
     server: 51.38.99.96
     port: 443
     password: b8808043-6566-4923-9195-e66bfb553d57
     udp: true
     sni: ba24.ir
-  - name: "🇸🇬SG-18.143.123.35-2335"
+  - name: "🇸🇬SG-18.143.123.35-2420"
     type: vmess
     server: 18.143.123.35
     port: 80
@@ -164,14 +189,14 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇰🇷KR-144.24.76.54-2338"
+  - name: "🇰🇷KR-144.24.76.54-2423"
     type: trojan
     server: 144.24.76.54
     port: 8443
     password: cd27884b-c5af-34ec-b75f-8248077818fe
     udp: true
     sni: 2.hg.kr.cat77.cloud
-  - name: "🏁RELAY-23.227.38.100-2345"
+  - name: "🏁RELAY-23.227.38.100-2430"
     type: vmess
     server: 23.227.38.100
     port: 443
@@ -184,49 +209,49 @@ proxies:
       path: /UMW36262
       headers:
         Host: 
-  - name: "🇨🇳CN-120.226.39.25-2348"
+  - name: "🇨🇳CN-120.226.39.25-2433"
     type: trojan
     server: 120.226.39.25
     port: 19241
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2349"
+  - name: "🇨🇳CN-120.226.39.25-2434"
     type: trojan
     server: 120.226.39.25
     port: 19232
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2350"
+  - name: "🇨🇳CN-120.226.39.25-2435"
     type: trojan
     server: 120.226.39.25
     port: 19233
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2351"
+  - name: "🇨🇳CN-120.226.39.25-2436"
     type: trojan
     server: 120.226.39.25
     port: 19239
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2352"
+  - name: "🇨🇳CN-120.226.39.25-2437"
     type: trojan
     server: 120.226.39.25
     port: 19248
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2353"
+  - name: "🇨🇳CN-120.226.39.25-2438"
     type: trojan
     server: 120.226.39.25
     port: 19245
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇨🇳CN-120.226.39.25-2355"
+  - name: "🇨🇳CN-120.226.39.25-2440"
     type: trojan
     server: 120.226.39.25
     port: 19225
     password: 0b2d98a4-25bc-3d9f-9694-9d1e929de8dd
     udp: true
-  - name: "🇺🇸US-129.146.113.254-2356"
+  - name: "🇺🇸US-129.146.113.254-2441"
     type: vmess
     server: 129.146.113.254
     port: 44107
@@ -238,7 +263,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🏁RELAY-172.64.154.155-2361"
+  - name: "🏁RELAY-172.64.154.155-2446"
     type: vmess
     server: 172.64.154.155
     port: 443
@@ -251,91 +276,91 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🇸🇬SG-13.215.191.190-2362"
+  - name: "🇸🇬SG-13.215.191.190-2447"
     type: ss
     server: 13.215.191.190
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇨🇦CA-51.161.118.38-2363"
+  - name: "🇨🇦CA-51.161.118.38-2448"
     type: ss
     server: 51.161.118.38
     port: 812
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2364"
+  - name: "🇨🇦CA-51.161.118.38-2449"
     type: ss
     server: 51.161.118.38
     port: 805
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2365"
+  - name: "🇨🇦CA-51.161.118.38-2450"
     type: ss
     server: 51.161.118.38
     port: 808
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2366"
+  - name: "🇨🇦CA-51.161.118.38-2451"
     type: ss
     server: 51.161.118.38
     port: 811
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2367"
+  - name: "🇨🇦CA-51.161.118.38-2452"
     type: ss
     server: 51.161.118.38
     port: 807
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2368"
+  - name: "🇨🇦CA-51.161.118.38-2453"
     type: ss
     server: 51.161.118.38
     port: 802
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2369"
+  - name: "🇨🇦CA-51.161.118.38-2454"
     type: ss
     server: 51.161.118.38
     port: 804
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2370"
+  - name: "🇨🇦CA-51.161.118.38-2455"
     type: ss
     server: 51.161.118.38
     port: 810
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇺🇸US-103.224.182.210-2371"
+  - name: "🇺🇸US-103.224.182.210-2456"
     type: ss
     server: ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
     port: 802
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2372"
+  - name: "🇨🇦CA-51.161.118.38-2457"
     type: ss
     server: 51.161.118.38
     port: 803
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇨🇦CA-51.161.118.38-2373"
+  - name: "🇨🇦CA-51.161.118.38-2458"
     type: ss
     server: 51.161.118.38
     port: 800
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇱🇹LT-85.208.108.90-2374"
+  - name: "🇱🇹LT-85.208.108.90-2459"
     type: ss
     server: 85.208.108.90
     port: 2376
     cipher: aes-256-gcm
     password: faBAoD54k87UJG7
-  - name: "🇯🇵JP-43.207.166.104-2375"
+  - name: "🇯🇵JP-43.207.166.104-2460"
     type: ss
     server: 43.207.166.104
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇰🇷KR-52.78.213.224-2379"
+  - name: "🇰🇷KR-52.78.213.224-2464"
     type: vmess
     server: 52.78.213.224
     port: 80
@@ -347,21 +372,21 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇬🇧GB-35.177.137.88-2380"
+  - name: "🇬🇧GB-35.177.137.88-2465"
     type: trojan
     server: 35.177.137.88
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-35.91.162.93-2381"
+  - name: "🇺🇸US-35.91.162.93-2466"
     type: trojan
     server: 35.91.162.93
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇷🇺RU-45.89.230.196-2389"
+  - name: "🇷🇺RU-45.89.230.196-2474"
     type: vmess
     server: 45.89.230.196
     port: 80
@@ -373,13 +398,13 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-155.248.193.254-2398"
+  - name: "🇺🇸US-155.248.193.254-2483"
     type: trojan
     server: 155.248.193.254
     port: 31853
     password: jKRJgS7uvI
     udp: true
-  - name: "🇹🇼TW-1.161.186.146-2403"
+  - name: "🇹🇼TW-1.161.186.146-2488"
     type: vmess
     server: 1.161.186.146
     port: 64443
@@ -392,7 +417,7 @@ proxies:
       path: /clientarea
       headers:
         Host: 
-  - name: "🏁RELAY-141.193.213.20-2406"
+  - name: "🏁RELAY-141.193.213.20-2491"
     type: vmess
     server: 141.193.213.20
     port: 443
@@ -405,7 +430,7 @@ proxies:
       path: /5QNROSRV
       headers:
         Host: 
-  - name: "🇺🇸US-23.224.191.6-2423"
+  - name: "🇺🇸US-23.224.191.6-2508"
     type: vmess
     server: 23.224.191.6
     port: 443
@@ -418,7 +443,7 @@ proxies:
       path: /path/220128071100
       headers:
         Host: 
-  - name: "🇨🇦CA-132.145.99.228-2425"
+  - name: "🇨🇦CA-132.145.99.228-2510"
     type: vmess
     server: 132.145.99.228
     port: 13724
@@ -430,19 +455,19 @@ proxies:
       path: /ws-path
       headers:
         Host: 
-  - name: "🇺🇸US-54.187.181.151-2428"
+  - name: "🇺🇸US-54.187.181.151-2513"
     type: ss
     server: 54.187.181.151
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇺🇸US-54.245.219.99-2429"
+  - name: "🇺🇸US-54.245.219.99-2514"
     type: ss
     server: 54.245.219.99
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🏁RELAY-173.245.49.143-2435"
+  - name: "🏁RELAY-173.245.49.143-2520"
     type: vmess
     server: 173.245.49.143
     port: 443
@@ -455,7 +480,7 @@ proxies:
       path: /233blog
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.182.90-2436"
+  - name: "🏁RELAY-172.67.182.90-2521"
     type: vmess
     server: 172.67.182.90
     port: 443
@@ -468,7 +493,7 @@ proxies:
       path: /233blog
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.203.85-2437"
+  - name: "🏁RELAY-172.67.203.85-2522"
     type: vmess
     server: 172.67.203.85
     port: 443
@@ -481,7 +506,7 @@ proxies:
       path: /233blog
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.190.192-2438"
+  - name: "🏁RELAY-203.30.190.192-2523"
     type: vmess
     server: 203.30.190.192
     port: 443
@@ -494,7 +519,7 @@ proxies:
       path: /A2DJOPFT
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.199.34-2440"
+  - name: "🏁RELAY-172.67.199.34-2525"
     type: vmess
     server: 172.67.199.34
     port: 443
@@ -507,7 +532,7 @@ proxies:
       path: /9JZFDTKE
       headers:
         Host: 
-  - name: "🏁RELAY-104.26.9.112-2441"
+  - name: "🏁RELAY-104.26.8.112-2526"
     type: vmess
     server: get.tech
     port: 80
@@ -520,7 +545,7 @@ proxies:
       path: /shared
       headers:
         Host: get.tech
-  - name: "🏁RELAY-103.21.244.109-2442"
+  - name: "🏁RELAY-103.21.244.109-2527"
     type: vmess
     server: 103.21.244.109
     port: 443
@@ -533,7 +558,7 @@ proxies:
       path: /233blog
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.8-2443"
+  - name: "🏁RELAY-203.30.191.8-2528"
     type: vmess
     server: 203.30.191.8
     port: 443
@@ -546,13 +571,13 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇳🇱NL-51.124.217.177-2449"
+  - name: "🇳🇱NL-51.124.217.177-2534"
     type: ss
     server: 51.124.217.177
     port: 62048
     cipher: chacha20-ietf-poly1305
     password: TRoGQKepg1AsWO2kTnfPnb
-  - name: "🇺🇸US-129.146.113.254-2450"
+  - name: "🇺🇸US-129.146.113.254-2535"
     type: vmess
     server: 129.146.113.254
     port: 43121
@@ -564,7 +589,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇫🇷FR-5.135.43.119-2455"
+  - name: "🇫🇷FR-5.135.43.119-2540"
     type: vmess
     server: 5.135.43.119
     port: 58732
@@ -576,7 +601,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-173.249.199.27-2459"
+  - name: "🇺🇸US-173.249.199.27-2544"
     type: vmess
     server: 173.249.199.27
     port: 443
@@ -588,7 +613,7 @@ proxies:
       path: /video
       headers:
         Host: 
-  - name: "🇨🇳CN-223.111.202.139-2463"
+  - name: "🇨🇳CN-223.111.202.139-2548"
     type: vmess
     server: 223.111.202.139
     port: 63088
@@ -601,7 +626,7 @@ proxies:
       path: /mugua
       headers:
         Host: 
-  - name: "🏁RELAY-162.159.153.13-2466"
+  - name: "🏁RELAY-162.159.153.13-2551"
     type: vmess
     server: 162.159.153.13
     port: 443
@@ -614,7 +639,7 @@ proxies:
       path: /meizhiyuan/tr1?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-103.21.244.95-2467"
+  - name: "🏁RELAY-103.21.244.95-2552"
     type: vmess
     server: 103.21.244.95
     port: 443
@@ -627,7 +652,7 @@ proxies:
       path: /233blog
       headers:
         Host: 
-  - name: "🏁RELAY-45.95.241.251-2472"
+  - name: "🏁RELAY-45.95.241.251-2557"
     type: vmess
     server: 45.95.241.251
     port: 443
@@ -640,7 +665,7 @@ proxies:
       path: /vmess
       headers:
         Host: 
-  - name: "🇯🇵JP-152.69.197.74-2475"
+  - name: "🇯🇵JP-152.69.197.74-2560"
     type: vmess
     server: 152.69.197.74
     port: 12345
@@ -652,7 +677,7 @@ proxies:
       path: /bb
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.5-2476"
+  - name: "🏁RELAY-203.30.191.5-2561"
     type: vmess
     server: 203.30.191.5
     port: 443
@@ -665,14 +690,14 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇨🇦CA-35.182.251.60-2477"
+  - name: "🇨🇦CA-35.182.251.60-2562"
     type: trojan
     server: 35.182.251.60
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🏁RELAY-141.193.213.21-2481"
+  - name: "🏁RELAY-141.193.213.21-2566"
     type: vmess
     server: 141.193.213.21
     port: 443
@@ -685,7 +710,7 @@ proxies:
       path: /9JZFDTKE
       headers:
         Host: 
-  - name: "🇨🇳CN-223.111.202.139-2486"
+  - name: "🇨🇳CN-223.111.202.139-2571"
     type: vmess
     server: 223.111.202.139
     port: 63086
@@ -698,14 +723,14 @@ proxies:
       path: /mugua
       headers:
         Host: 
-  - name: "🇯🇵JP-138.2.45.89-2487"
+  - name: "🇯🇵JP-138.2.45.89-2572"
     type: trojan
     server: 138.2.45.89
     port: 44301
     password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702
     udp: true
     sni: osav101.jd0001.top
-  - name: "🇮🇳IN-68.183.83.94-2493"
+  - name: "🇮🇳IN-68.183.83.94-2578"
     type: vmess
     server: 68.183.83.94
     port: 59477
@@ -717,34 +742,34 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-152.70.143.228-2494"
+  - name: "🇺🇸US-152.70.143.228-2579"
     type: trojan
     server: 152.70.143.228
     port: 44302
     password: 4d111af8-5078-37e0-a583-34155f60b32c
     udp: true
-  - name: "🇸🇪SE-13.48.202.26-2495"
+  - name: "🇸🇪SE-13.48.202.26-2580"
     type: trojan
     server: 13.48.202.26
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-34.210.47.105-2496"
+  - name: "🇺🇸US-34.210.47.105-2581"
     type: trojan
     server: 34.210.47.105
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-18.222.168.7-2497"
+  - name: "🇺🇸US-18.222.168.7-2582"
     type: trojan
     server: 18.222.168.7
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-89.163.213.20-2500"
+  - name: "🇩🇪DE-89.163.213.20-2585"
     type: vmess
     server: 89.163.213.20
     port: 80
@@ -756,7 +781,7 @@ proxies:
       path: /vmess
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.145.166-2501"
+  - name: "🏁RELAY-172.67.145.166-2586"
     type: vmess
     server: 172.67.145.166
     port: 443
@@ -769,7 +794,7 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🏁RELAY-23.227.38.24-2509"
+  - name: "🏁RELAY-23.227.38.24-2594"
     type: vmess
     server: 23.227.38.24
     port: 443
@@ -782,13 +807,13 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇸🇬SG-13.215.177.216-2512"
+  - name: "🇸🇬SG-13.215.177.216-2597"
     type: ss
     server: 13.215.177.216
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🏁RELAY-172.67.201.14-2515"
+  - name: "🏁RELAY-172.67.201.14-2600"
     type: vmess
     server: 172.67.201.14
     port: 443
@@ -801,7 +826,7 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🏁RELAY-203.30.191.19-2519"
+  - name: "🏁RELAY-203.30.191.19-2604"
     type: vmess
     server: 203.30.191.19
     port: 443
@@ -814,7 +839,7 @@ proxies:
       path: /dongtaiwang.com
       headers:
         Host: 
-  - name: "🇨🇦CA-192.99.8.99-2525"
+  - name: "🇨🇦CA-192.99.8.99-2610"
     type: vmess
     server: 192.99.8.99
     port: 36005
@@ -827,7 +852,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇸🇬SG-178.128.61.149-2529"
+  - name: "🇸🇬SG-178.128.61.149-2614"
     type: vmess
     server: 178.128.61.149
     port: 50328
@@ -839,7 +864,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇳🇱NL-141.11.187.30-2533"
+  - name: "🇳🇱NL-141.11.187.30-2618"
     type: vmess
     server: 141.11.187.30
     port: 45837
@@ -851,28 +876,28 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇮🇪IE-3.253.67.209-2534"
+  - name: "🇮🇪IE-3.253.67.209-2619"
     type: trojan
     server: 3.253.67.209
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-3.239.128.106-2536"
+  - name: "🇺🇸US-3.239.128.106-2621"
     type: trojan
     server: 3.239.128.106
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-103.224.182.253-2538"
+  - name: "🇺🇸US-103.224.182.253-2623"
     type: trojan
     server: zi.you.usdtvfk.top
     port: 443
     password: 4d048fc6-d944-41dd-b327-10856adcc82d
     udp: true
     sni: zi.you.usdtvfk.top
-  - name: "🏁RELAY-203.30.191.9-2544"
+  - name: "🏁RELAY-203.30.191.9-2629"
     type: vmess
     server: 203.30.191.9
     port: 443
@@ -885,27 +910,21 @@ proxies:
       path: /AUIKN8AU
       headers:
         Host: 
-  - name: "🇱🇹LT-85.208.108.60-2552"
-    type: ss
-    server: 85.208.108.60
-    port: 3306
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-  - name: "🇩🇪DE-54.93.240.151-2558"
+  - name: "🇩🇪DE-54.93.240.151-2643"
     type: trojan
     server: 54.93.240.151
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇮🇪IE-54.78.157.126-2559"
+  - name: "🇮🇪IE-54.78.157.126-2644"
     type: trojan
     server: 54.78.157.126
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇯🇵JP-172.104.78.98-2560"
+  - name: "🇯🇵JP-172.104.78.98-2645"
     type: vmess
     server: 172.104.78.98
     port: 443
@@ -918,23 +937,10 @@ proxies:
       path: /chat
       headers:
         Host: 
-  - name: "🇺🇸US-34.220.74.123-2562"
+  - name: "🇺🇸US-34.220.74.123-2647"
     type: trojan
     server: 34.220.74.123
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-3.129.217.93-2563"
-    type: trojan
-    server: 3.129.217.93
-    port: 22222
-    password: telegram-id-directvpn
-    udp: true
-    sni: trj.rollingnext.co.uk
-  - name: "🇯🇵JP-43.207.153.185-2573"
-    type: ss
-    server: 43.207.153.185
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05

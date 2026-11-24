@@ -1,35 +1,99 @@
 proxies:
-  - name: "🇺🇸US-205.134.180.151-8047"
+  - name: "🇦🇹AT-212.113.106.243-8137"
+    type: ss
+    server: 212.113.106.243
+    port: 12949
+    cipher: chacha20-ietf-poly1305
+    password: P2zxXPewlV3BlfqqYiSthvtLc
+  - name: "🇬🇧GB-212.102.53.196-8141"
+    type: ss
+    server: 212.102.53.196
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: "🇨🇿CZ-212.102.38.88-8142"
+    type: ss
+    server: 212.102.38.88
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇨🇿CZ-212.102.38.41-8143"
+    type: ss
+    server: 212.102.38.41
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇩🇪DE-209.250.236.93-8144"
+    type: trojan
+    server: 209.250.236.93
+    port: 443
+    password: Cl150MQWlG
+    udp: true
+    sni: irancell-ir-4.mmdruby13.store
+  - name: "🇺🇸US-206.168.190.219-8145"
+    type: trojan
+    server: 206.168.190.219
+    port: 8443
+    password: 1d4ddd40-3134-11ee-8623-1239d0255272
+    udp: true
+    sni: ba24.ir
+  - name: "🇺🇸US-206.168.190.218-8146"
+    type: vmess
+    server: 206.168.190.218
+    port: 2087
+    uuid: 68bd0ca0-3131-11ee-b032-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /V2RayyNGvpn
+      headers:
+        Host: 
+  - name: "🇺🇸US-206.168.190.218-8147"
+    type: vmess
+    server: 206.168.190.218
+    port: 2083
+    uuid: dadc15c0-3169-11ee-b437-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /V2RayyNGvpn
+      headers:
+        Host: 
+  - name: "🇺🇸US-205.134.180.151-8149"
     type: ss
     server: 205.134.180.151
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 5cp9Z3iWnJZ2
-  - name: "🇺🇸US-205.134.180.147-8048"
+  - name: "🇺🇸US-205.134.180.147-8150"
     type: ss
     server: 205.134.180.147
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 9Bvkw5aupNy8
-  - name: "🇺🇸US-205.134.180.145-8049"
+  - name: "🇺🇸US-205.134.180.145-8151"
     type: ss
     server: 205.134.180.145
     port: 443
     cipher: chacha20-ietf-poly1305
     password: hgLCgfLRgB6d
-  - name: "🇺🇸US-205.134.180.143-8050"
+  - name: "🇺🇸US-205.134.180.143-8152"
     type: ss
     server: 205.134.180.143
     port: 443
     cipher: chacha20-ietf-poly1305
     password: R9Xc4dHXGv3c
-  - name: "🇺🇸US-205.134.180.137-8051"
+  - name: "🇺🇸US-205.134.180.137-8153"
     type: ss
     server: 205.134.180.137
     port: 443
     cipher: chacha20-ietf-poly1305
     password: g13S7doXar0A
-  - name: "🏁RELAY-203.34.80.107-8052"
+  - name: "🏁RELAY-203.34.80.107-8154"
     type: vmess
     server: 203.34.80.107
     port: 443
@@ -42,7 +106,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-203.34.80.107-8053"
+  - name: "🏁RELAY-203.34.80.107-8155"
     type: vmess
     server: 203.34.80.107
     port: 443
@@ -55,7 +119,7 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🏁RELAY-203.28.8.207-8054"
+  - name: "🏁RELAY-203.28.8.207-8156"
     type: vmess
     server: 203.28.8.207
     port: 2053
@@ -68,7 +132,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-203.24.103.45-8055"
+  - name: "🏁RELAY-203.24.103.45-8157"
     type: vmess
     server: 203.24.103.45
     port: 443
@@ -81,7 +145,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.106.26-8056"
+  - name: "🏁RELAY-203.23.106.26-8158"
     type: vmess
     server: 203.23.106.26
     port: 443
@@ -94,7 +158,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.106.26-8058"
+  - name: "🏁RELAY-203.23.106.26-8160"
     type: vmess
     server: 203.23.106.26
     port: 2053
@@ -107,7 +171,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.106.26-8060"
+  - name: "🏁RELAY-203.23.106.26-8162"
     type: vmess
     server: 203.23.106.26
     port: 2053
@@ -120,7 +184,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.106.157-8063"
+  - name: "🏁RELAY-203.23.106.157-8165"
     type: vmess
     server: 203.23.106.157
     port: 443
@@ -133,7 +197,7 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.106.157-8064"
+  - name: "🏁RELAY-203.23.106.157-8166"
     type: vmess
     server: 203.23.106.157
     port: 443
@@ -146,7 +210,7 @@ proxies:
       path: /12796
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.104.45-8065"
+  - name: "🏁RELAY-203.23.104.45-8167"
     type: vmess
     server: 203.23.104.45
     port: 443
@@ -159,7 +223,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.104.242-8066"
+  - name: "🏁RELAY-203.23.104.242-8168"
     type: vmess
     server: 203.23.104.242
     port: 2053
@@ -172,7 +236,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.104.242-8068"
+  - name: "🏁RELAY-203.23.104.242-8170"
     type: vmess
     server: 203.23.104.242
     port: 2053
@@ -185,7 +249,7 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.104.222-8070"
+  - name: "🏁RELAY-203.23.104.222-8172"
     type: vmess
     server: 203.23.104.222
     port: 443
@@ -198,7 +262,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-203.23.104.190-8071"
+  - name: "🏁RELAY-203.23.104.190-8173"
     type: vmess
     server: 203.23.104.190
     port: 443
@@ -211,7 +275,7 @@ proxies:
       path: /11201
       headers:
         Host: 
-  - name: "🇳🇱NL-199.247.30.45-8072"
+  - name: "🇳🇱NL-199.247.30.45-8174"
     type: vmess
     server: 199.247.30.45
     port: 8080
@@ -223,7 +287,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇩🇪DE-199.247.23.31-8074"
+  - name: "🇩🇪DE-199.247.23.31-8176"
     type: vmess
     server: 199.247.23.31
     port: 443
@@ -236,7 +300,7 @@ proxies:
       path: /12796?ed=2048
       headers:
         Host: 
-  - name: "🇺🇸US-199.188.111.51-8075"
+  - name: "🇺🇸US-199.188.111.51-8177"
     type: vmess
     server: 199.188.111.51
     port: 443
@@ -249,7 +313,7 @@ proxies:
       path: /path/1686728830913
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.222.199-8076"
+  - name: "🏁RELAY-198.41.222.199-8178"
     type: vmess
     server: 198.41.222.199
     port: 2095
@@ -261,7 +325,7 @@ proxies:
       path: /hgcefomn
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.221.143-8077"
+  - name: "🏁RELAY-198.41.221.143-8179"
     type: vmess
     server: 198.41.221.143
     port: 2095
@@ -273,7 +337,7 @@ proxies:
       path: /hgcefomn
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.214.55-8078"
+  - name: "🏁RELAY-198.41.214.55-8180"
     type: vmess
     server: 198.41.214.55
     port: 2095
@@ -285,7 +349,7 @@ proxies:
       path: /hgcefomn
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.212.7-8079"
+  - name: "🏁RELAY-198.41.212.7-8181"
     type: vmess
     server: 198.41.212.7
     port: 2095
@@ -297,7 +361,7 @@ proxies:
       path: /hgcefomn
       headers:
         Host: 
-  - name: "🏁RELAY-198.41.193.110-8080"
+  - name: "🏁RELAY-198.41.193.110-8182"
     type: vmess
     server: 198.41.193.110
     port: 2082
@@ -309,7 +373,7 @@ proxies:
       path: /blue
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.208.69-8081"
+  - name: "🇺🇸US-198.2.208.69-8183"
     type: vmess
     server: 198.2.208.69
     port: 443
@@ -322,7 +386,7 @@ proxies:
       path: /path/1689326360096
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.208.68-8083"
+  - name: "🇺🇸US-198.2.208.68-8185"
     type: vmess
     server: 198.2.208.68
     port: 443
@@ -335,7 +399,7 @@ proxies:
       path: /path/1689068934789
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.204.161-8085"
+  - name: "🇺🇸US-198.2.204.161-8187"
     type: vmess
     server: 198.2.204.161
     port: 443
@@ -348,7 +412,7 @@ proxies:
       path: /path/1689935243027
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.197.72-8086"
+  - name: "🇺🇸US-198.2.197.72-8188"
     type: vmess
     server: 198.2.197.72
     port: 443
@@ -361,7 +425,7 @@ proxies:
       path: /path/1689767805929
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.197.72-8087"
+  - name: "🇺🇸US-198.2.197.72-8189"
     type: vmess
     server: 198.2.197.72
     port: 443
@@ -374,7 +438,7 @@ proxies:
       path: /path/1689935243027
       headers:
         Host: 
-  - name: "🇺🇸US-198.2.197.71-8089"
+  - name: "🇺🇸US-198.2.197.71-8191"
     type: vmess
     server: 198.2.197.71
     port: 443
@@ -387,13 +451,13 @@ proxies:
       path: /path/1689588497765
       headers:
         Host: 
-  - name: "🇺🇦UA-195.28.182.217-8090"
+  - name: "🇺🇦UA-195.28.182.217-8192"
     type: ss
     server: 195.28.182.217
     port: 51348
     cipher: chacha20-ietf-poly1305
     password: shwoghRia
-  - name: "🇰🇿KZ-195.245.221.246-8091"
+  - name: "🇰🇿KZ-195.245.221.246-8193"
     type: vmess
     server: 195.245.221.246
     port: 443
@@ -406,25 +470,25 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🇫🇷FR-195.154.169.198-8092"
+  - name: "🇫🇷FR-195.154.169.198-8194"
     type: ss
     server: 195.154.169.198
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇨🇿CZ-195.123.246.15-8093"
+  - name: "🇨🇿CZ-195.123.246.15-8195"
     type: ss
     server: 195.123.246.15
     port: 51348
     cipher: chacha20-ietf-poly1305
     password: cyi4FDe4FdrTG3rUpna
-  - name: "🇷🇴RO-194.14.217.115-8095"
+  - name: "🇷🇴RO-194.14.217.115-8197"
     type: ss
     server: 194.14.217.115
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-192.74.244.203-8098"
+  - name: "🇺🇸US-192.74.244.203-8200"
     type: vmess
     server: 192.74.244.203
     port: 443
@@ -437,19 +501,19 @@ proxies:
       path: /path/1689068934789
       headers:
         Host: 
-  - name: "🇧🇪BE-192.71.249.78-8100"
+  - name: "🇧🇪BE-192.71.249.78-8202"
     type: ss
     server: 192.71.249.78
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇩🇰DK-192.36.27.116-8102"
+  - name: "🇩🇰DK-192.36.27.116-8204"
     type: ss
     server: 192.36.27.116
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-192.3.150.233-8103"
+  - name: "🇺🇸US-192.3.150.233-8205"
     type: vmess
     server: 192.3.150.233
     port: 8443
@@ -462,7 +526,7 @@ proxies:
       path: /8cda48b3
       headers:
         Host: 
-  - name: "🏁RELAY-190.93.247.184-8106"
+  - name: "🏁RELAY-190.93.247.184-8208"
     type: vmess
     server: 190.93.247.184
     port: 2095
@@ -474,7 +538,7 @@ proxies:
       path: /hgcefomn
       headers:
         Host: 
-  - name: "🏁RELAY-190.93.246.41-8107"
+  - name: "🏁RELAY-190.93.246.41-8209"
     type: vmess
     server: 190.93.246.41
     port: 443
@@ -487,7 +551,7 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🏁RELAY-190.93.244.195-8108"
+  - name: "🏁RELAY-190.93.244.195-8210"
     type: vmess
     server: 190.93.244.195
     port: 443
@@ -500,19 +564,19 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🇨🇴CO-190.120.231.45-8109"
+  - name: "🇨🇴CO-190.120.231.45-8211"
     type: ss
     server: 190.120.231.45
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇵🇪PE-190.120.229.28-8110"
+  - name: "🇵🇪PE-190.120.229.28-8212"
     type: ss
     server: 190.120.229.28
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🏁RELAY-188.42.89.174-8112"
+  - name: "🏁RELAY-188.42.89.174-8214"
     type: vmess
     server: 188.42.89.174
     port: 443
@@ -525,7 +589,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-188.42.88.227-8113"
+  - name: "🏁RELAY-188.42.88.227-8215"
     type: vmess
     server: 188.42.88.227
     port: 443
@@ -538,7 +602,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-188.114.99.29-8114"
+  - name: "🏁RELAY-188.114.99.29-8216"
     type: vmess
     server: 188.114.99.29
     port: 443
@@ -551,7 +615,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🏁RELAY-188.114.99.29-8115"
+  - name: "🏁RELAY-188.114.99.29-8217"
     type: vmess
     server: 188.114.99.29
     port: 443
@@ -564,7 +628,7 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🏁RELAY-188.114.99.29-8116"
+  - name: "🏁RELAY-188.114.99.29-8218"
     type: vmess
     server: 188.114.99.29
     port: 2053
@@ -577,25 +641,25 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 
-  - name: "🇳🇴NO-185.90.61.153-8117"
+  - name: "🇳🇴NO-185.90.61.153-8219"
     type: ss
     server: 185.90.61.153
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇳🇱NL-185.88.141.118-8118"
+  - name: "🇳🇱NL-185.88.141.118-8220"
     type: ss
     server: 185.88.141.118
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: XvK0ltH67Xhv9ht9RhYsFy
-  - name: "🇳🇱NL-185.88.140.204-8120"
+  - name: "🇳🇱NL-185.88.140.204-8222"
     type: ss
     server: 185.88.140.204
     port: 8080
     cipher: chacha20-ietf-poly1305
     password: qGjmI8WQlF0tfhDbkLqGdN
-  - name: "🇷🇺RU-185.59.218.177-8121"
+  - name: "🇷🇺RU-185.59.218.177-8223"
     type: vmess
     server: 185.59.218.177
     port: 443
@@ -608,25 +672,25 @@ proxies:
       path: /72d6d25e-1b39-11ee-a5c8-8213fd3be4b9
       headers:
         Host: 
-  - name: "🇵🇷PR-185.47.255.219-8122"
+  - name: "🇵🇷PR-185.47.255.219-8224"
     type: ss
     server: 185.47.255.219
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇳🇬NG-185.255.123.90-8123"
+  - name: "🇳🇬NG-185.255.123.90-8225"
     type: ss
     server: 185.255.123.90
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇷🇺RU-185.221.153.52-8124"
+  - name: "🇷🇺RU-185.221.153.52-8226"
     type: ss
     server: 185.221.153.52
     port: 444
     cipher: chacha20-ietf-poly1305
     password: slatpifOon
-  - name: "🏁RELAY-185.18.250.70-8125"
+  - name: "🏁RELAY-185.18.250.70-8227"
     type: vmess
     server: 185.18.250.70
     port: 443
@@ -639,190 +703,190 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🇯🇵JP-185.172.113.182-8126"
+  - name: "🇯🇵JP-185.172.113.182-8228"
     type: ss
     server: 185.172.113.182
     port: 811
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇯🇵JP-185.172.113.182-8127"
+  - name: "🇯🇵JP-185.172.113.182-8229"
     type: ss
     server: 185.172.113.182
     port: 800
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇯🇵JP-185.172.113.182-8128"
+  - name: "🇯🇵JP-185.172.113.182-8230"
     type: ss
     server: 185.172.113.182
     port: 804
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇱🇻LV-185.135.86.86-8134"
+  - name: "🇱🇻LV-185.135.86.86-8236"
     type: ss
     server: 185.135.86.86
     port: 51348
     cipher: chacha20-ietf-poly1305
     password: PhilEhgKJQ540MNK7mNoim
-  - name: "🇱🇻LV-185.135.86.173-8135"
+  - name: "🇱🇻LV-185.135.86.173-8237"
     type: ss
     server: 185.135.86.173
     port: 9030
     cipher: aes-256-cfb
     password: GeregetR8cvQHzYr
-  - name: "🇱🇻LV-185.135.86.173-8136"
+  - name: "🇱🇻LV-185.135.86.173-8238"
     type: ss
     server: 185.135.86.173
     port: 9029
     cipher: aes-256-cfb
     password: dU3DSNS8wYPXzEKw
-  - name: "🇱🇻LV-185.135.86.173-8137"
+  - name: "🇱🇻LV-185.135.86.173-8239"
     type: ss
     server: 185.135.86.173
     port: 9027
     cipher: aes-256-cfb
     password: EXN3S3eQpjE7EJu8
-  - name: "🇱🇻LV-185.135.86.173-8138"
+  - name: "🇱🇻LV-185.135.86.173-8240"
     type: ss
     server: 185.135.86.173
     port: 9025
     cipher: aes-256-cfb
     password: XPtzA9sCug3SPR4c
-  - name: "🇱🇻LV-185.135.86.173-8139"
+  - name: "🇱🇻LV-185.135.86.173-8241"
     type: ss
     server: 185.135.86.173
     port: 9020
     cipher: aes-256-cfb
     password: BNmAXXxAHYpTRdzu
-  - name: "🇱🇻LV-185.135.86.173-8140"
+  - name: "🇱🇻LV-185.135.86.173-8242"
     type: ss
     server: 185.135.86.173
     port: 9019
     cipher: aes-256-cfb
     password: GA9KzeEgvfxNrgmM
-  - name: "🇱🇻LV-185.135.86.173-8141"
+  - name: "🇱🇻LV-185.135.86.173-8243"
     type: ss
     server: 185.135.86.173
     port: 9000
     cipher: aes-256-cfb
     password: a3GFYt36Sm82Vys9
-  - name: "🇱🇻LV-185.135.86.173-8142"
+  - name: "🇱🇻LV-185.135.86.173-8244"
     type: ss
     server: 185.135.86.173
     port: 9043
     cipher: aes-256-cfb
     password: HSZuyJQcWe8dxNdF
-  - name: "🇱🇻LV-185.135.86.173-8143"
+  - name: "🇱🇻LV-185.135.86.173-8245"
     type: ss
     server: 185.135.86.173
     port: 9042
     cipher: aes-256-cfb
     password: S7KwUu7yBy58S3Ga
-  - name: "🇱🇻LV-185.135.86.173-8144"
+  - name: "🇱🇻LV-185.135.86.173-8246"
     type: ss
     server: 185.135.86.173
     port: 9041
     cipher: aes-256-cfb
     password: U6qnYRhfyDmn8sgn
-  - name: "🇱🇻LV-185.135.86.173-8145"
+  - name: "🇱🇻LV-185.135.86.173-8247"
     type: ss
     server: 185.135.86.173
     port: 9040
     cipher: aes-256-cfb
     password: p9z5BVADH2YFs3MN
-  - name: "🇱🇻LV-185.135.86.173-8146"
+  - name: "🇱🇻LV-185.135.86.173-8248"
     type: ss
     server: 185.135.86.173
     port: 9037
     cipher: aes-256-cfb
     password: TN2YqghxeFDKZfLU
-  - name: "🇱🇻LV-185.135.86.173-8147"
+  - name: "🇱🇻LV-185.135.86.173-8249"
     type: ss
     server: 185.135.86.173
     port: 9031
     cipher: aes-256-cfb
     password: BwcAUZk8hUFAkDGN
-  - name: "🇨🇳CN-183.240.222.15-8148"
+  - name: "🇨🇳CN-183.240.222.15-8250"
     type: ss
     server: 183.240.222.15
     port: 870
     cipher: chacha20-ietf-poly1305
     password: a5a0a8d9-ab2c-407f-89a4-bf027d216184
-  - name: "🇦🇿AZ-180.149.44.120-8149"
+  - name: "🇦🇿AZ-180.149.44.120-8251"
     type: ss
     server: 180.149.44.120
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-18.237.109.159-8150"
+  - name: "🇺🇸US-18.237.109.159-8252"
     type: ss
     server: 18.237.109.159
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇩🇪DE-18.196.127.24-8151"
+  - name: "🇩🇪DE-18.196.127.24-8253"
     type: trojan
     server: 18.196.127.24
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-18.196.127.24-8153"
+  - name: "🇩🇪DE-18.196.127.24-8255"
     type: trojan
     server: 18.196.127.24
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇩🇪DE-18.184.9.101-8155"
+  - name: "🇩🇪DE-18.184.9.101-8257"
     type: trojan
     server: 18.184.9.101
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.135.6.102-8157"
+  - name: "🇬🇧GB-18.135.6.102-8259"
     type: trojan
     server: 18.135.6.102
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.135.6.102-8159"
+  - name: "🇬🇧GB-18.135.6.102-8261"
     type: trojan
     server: 18.135.6.102
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.132.35.140-8163"
+  - name: "🇬🇧GB-18.132.35.140-8265"
     type: trojan
     server: 18.132.35.140
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.132.35.140-8165"
+  - name: "🇬🇧GB-18.132.35.140-8267"
     type: trojan
     server: 18.132.35.140
     port: 22222
     password: telegram-id-privatevpns
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.130.204.79-8166"
+  - name: "🇬🇧GB-18.130.204.79-8268"
     type: trojan
     server: 18.130.204.79
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇬🇧GB-18.130.204.79-8168"
+  - name: "🇬🇧GB-18.130.204.79-8270"
     type: trojan
     server: 18.130.204.79
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-173.249.206.136-8170"
+  - name: "🇺🇸US-173.249.206.136-8272"
     type: vmess
     server: 173.249.206.136
     port: 443
@@ -834,7 +898,7 @@ proxies:
       path: /video
       headers:
         Host: 
-  - name: "🏁RELAY-173.245.58.43-8171"
+  - name: "🏁RELAY-173.245.58.43-8273"
     type: vmess
     server: 173.245.58.43
     port: 2082
@@ -846,106 +910,9 @@ proxies:
       path: /blue
       headers:
         Host: 
-  - name: "🏁RELAY-172.67.93.207-8172"
+  - name: "🏁RELAY-172.67.93.207-8274"
     type: vmess
     server: 172.67.93.207
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.9.200-8173"
-    type: vmess
-    server: 172.67.9.200
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.86.87-8174"
-    type: vmess
-    server: 172.67.86.87
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.86.190-8175"
-    type: vmess
-    server: 172.67.86.190
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.81.49-8176"
-    type: vmess
-    server: 172.67.81.49
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.81.238-8177"
-    type: vmess
-    server: 172.67.81.238
-    port: 443
-    uuid: 1af4ba3d-e60f-4f83-b38b-23fc181f676d
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /11201
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.8.33-8178"
-    type: vmess
-    server: 172.67.8.33
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.7.236-8179"
-    type: vmess
-    server: 172.67.7.236
-    port: 2095
-    uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /hgcefomn
-      headers:
-        Host: 
-  - name: "🏁RELAY-172.67.7.186-8180"
-    type: vmess
-    server: 172.67.7.186
     port: 2095
     uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821
     alterId: 0
