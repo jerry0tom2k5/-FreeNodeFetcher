@@ -1,139 +1,5 @@
 proxies:
-  - name: "🇧🇬BG-95.164.36.192-7854"
-    type: ss
-    server: 95.164.36.192
-    port: 64751
-    cipher: chacha20-ietf-poly1305
-    password: xSOmiMASb2uLAcS0z8fvCI
-  - name: "🇧🇬BG-95.164.34.184-7855"
-    type: vmess
-    server: 95.164.34.184
-    port: 443
-    uuid: 3af9754e-f2a8-406c-a8a1-4553065e6da4
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇧🇬BG-95.164.34.184-7856"
-    type: vmess
-    server: 95.164.34.184
-    port: 80
-    uuid: 3af9754e-f2a8-406c-a8a1-4553065e6da4
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: 
-  - name: "🇲🇩MD-94.131.10.5-7857"
-    type: vmess
-    server: 94.131.10.5
-    port: 443
-    uuid: 88d476c1-48f7-4d3d-a0e6-acccbff02db6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇲🇩MD-94.131.10.5-7859"
-    type: vmess
-    server: 94.131.10.5
-    port: 443
-    uuid: 88d476c1-48f7-4d3d-a0e6-acccbff02db6
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇪🇸ES-92.38.171.89-7861"
-    type: ss
-    server: 92.38.171.89
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇱🇺LU-92.38.163.53-7862"
-    type: ss
-    server: 92.38.163.53
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇫🇷FR-92.243.27.51-7863"
-    type: ss
-    server: 92.243.27.51
-    port: 9802
-    cipher: chacha20-ietf-poly1305
-    password: Kq3iQqtVlyPJBPcD6QpnGE
-  - name: "🇷🇺RU-91.207.183.63-7864"
-    type: ss
-    server: 91.207.183.63
-    port: 15720
-    cipher: chacha20-ietf-poly1305
-    password: mX1q8sv17wA5LGDHIHD6Jo
-  - name: "🇩🇪DE-91.107.189.98-7865"
-    type: ss
-    server: 91.107.189.98
-    port: 1080
-    cipher: chacha20-ietf-poly1305
-    password: rIvzNCBP_t5odSW4DiMLDw
-  - name: "🇷🇺RU-90.156.228.141-7867"
-    type: ss
-    server: 90.156.228.141
-    port: 46717
-    cipher: chacha20-ietf-poly1305
-    password: MjU9yGcudqQlVH1y3KiA8f
-  - name: "🇩🇪DE-89.163.140.153-7868"
-    type: ss
-    server: 89.163.140.153
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇸🇬SG-8.222.222.64-7869"
-    type: vmess
-    server: 8.222.222.64
-    port: 80
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /2TokGE9A/
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.222.138.164-7870"
-    type: vmess
-    server: 8.222.138.164
-    port: 80
-    uuid: 7e7f8398-bd39-49d8-9ce6-e48ffef463dd
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /2TokGE9A/
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.219.150.28-7871"
-    type: vmess
-    server: 8.219.150.28
-    port: 443
-    uuid: 1d4379ed-27c2-4f12-9f69-25b8ca8b084c
-    alterId: 0
-    cipher: auto
-    network: ws
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: 
-  - name: "🇸🇬SG-8.219.123.35-7872"
+  - name: "🇸🇬SG-8.219.123.35-7855"
     type: vmess
     server: 8.219.123.35
     port: 80
@@ -145,7 +11,7 @@ proxies:
       path: /2TokGE9A/
       headers:
         Host: 
-  - name: "🇬🇧GB-8.208.30.41-7873"
+  - name: "🇬🇧GB-8.208.30.41-7856"
     type: vmess
     server: 8.208.30.41
     port: 443
@@ -158,13 +24,13 @@ proxies:
       path: /swoole
       headers:
         Host: 
-  - name: "🇬🇧GB-77.72.5.150-7874"
+  - name: "🇬🇧GB-77.72.5.150-7857"
     type: ss
     server: 77.72.5.150
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-74.217.182.116-7875"
+  - name: "🇺🇸US-74.217.182.116-7858"
     type: vmess
     server: 74.217.182.116
     port: 443
@@ -177,7 +43,7 @@ proxies:
       path: /path/1689673828070
       headers:
         Host: 
-  - name: "🇺🇸US-74.217.179.133-7877"
+  - name: "🇺🇸US-74.217.179.133-7860"
     type: vmess
     server: 74.217.179.133
     port: 443
@@ -190,7 +56,7 @@ proxies:
       path: /path/1685783030182
       headers:
         Host: 
-  - name: "🇺🇸US-74.217.179.133-7878"
+  - name: "🇺🇸US-74.217.179.133-7861"
     type: vmess
     server: 74.217.179.133
     port: 443
@@ -203,13 +69,13 @@ proxies:
       path: /path/1685950726372
       headers:
         Host: 
-  - name: "🇺🇸US-74.121.191.98-7879"
+  - name: "🇺🇸US-74.121.191.98-7862"
     type: ss
     server: 74.121.191.98
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-67.21.72.44-7881"
+  - name: "🇺🇸US-67.21.72.44-7864"
     type: vmess
     server: 67.21.72.44
     port: 443
@@ -222,7 +88,7 @@ proxies:
       path: /path/120208301422
       headers:
         Host: 
-  - name: "🇺🇸US-67.21.72.41-7885"
+  - name: "🇺🇸US-67.21.72.41-7868"
     type: vmess
     server: 67.21.72.41
     port: 443
@@ -235,7 +101,7 @@ proxies:
       path: /path/173418141123
       headers:
         Host: 
-  - name: "🏁RELAY-66.81.247.222-7888"
+  - name: "🏁RELAY-66.81.247.222-7871"
     type: vmess
     server: 66.81.247.222
     port: 443
@@ -248,7 +114,7 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🇺🇸US-66.241.124.93-7889"
+  - name: "🇺🇸US-66.241.124.93-7872"
     type: vmess
     server: 66.241.124.93
     port: 443
@@ -261,14 +127,14 @@ proxies:
       path: /vmess
       headers:
         Host: 
-  - name: "🇺🇸US-66.228.55.178-7890"
+  - name: "🇺🇸US-66.228.55.178-7873"
     type: trojan
     server: 66.228.55.178
     port: 2083
     password: O4K-nAbZC4qEnBA0a_9EWQ
     udp: true
     sni: gstatic.com
-  - name: "🇺🇸US-66.228.55.178-7891"
+  - name: "🇺🇸US-66.228.55.178-7874"
     type: vmess
     server: 66.228.55.178
     port: 8080
@@ -280,72 +146,72 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇺🇸US-66.228.55.178-7892"
+  - name: "🇺🇸US-66.228.55.178-7875"
     type: trojan
     server: 66.228.55.178
     port: 2083
     password: O4K-nAbZC4qEnBA0a_9EWQ
     udp: true
     sni: gstatic.com
-  - name: "🇹🇼TW-61.220.130.70-7894"
+  - name: "🇹🇼TW-61.220.130.70-7877"
     type: ss
     server: 61.220.130.70
     port: 50701
     cipher: aes-256-cfb
     password: qwerREWQ@@
-  - name: "🇸🇬SG-54.254.129.246-7895"
+  - name: "🇸🇬SG-54.254.129.246-7878"
     type: ss
     server: 54.254.129.246
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: "🇫🇷FR-51.91.11.29-7897"
+  - name: "🇫🇷FR-51.91.11.29-7880"
     type: trojan
     server: 51.91.11.29
     port: 80
     password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
     udp: true
     sni: namayesh.com
-  - name: "🇫🇷FR-51.91.11.29-7899"
+  - name: "🇫🇷FR-51.91.11.29-7882"
     type: trojan
     server: 51.91.11.29
     port: 80
     password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
     udp: true
     sni: asriran.com
-  - name: "🇫🇷FR-51.91.11.29-7903"
+  - name: "🇫🇷FR-51.91.11.29-7886"
     type: trojan
     server: 51.91.11.29
     port: 80
     password: e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad
     udp: true
     sni: softsaaz.ir
-  - name: "🇺🇸US-51.81.82.15-7909"
+  - name: "🇺🇸US-51.81.82.15-7892"
     type: trojan
     server: 51.81.82.15
     port: 443
     password: de798060-31d0-11ee-b282-1239d0255272
     udp: true
     sni: zula.ir
-  - name: "🇸🇬SG-51.79.161.232-7911"
+  - name: "🇸🇬SG-51.79.161.232-7894"
     type: ss
     server: 51.79.161.232
     port: 443
     cipher: chacha20-ietf-poly1305
     password: 4Hub2f9JyhECyAq2Opm0NS
-  - name: "🇬🇧GB-51.68.206.229-7912"
+  - name: "🇬🇧GB-51.68.206.229-7895"
     type: ss
     server: 51.68.206.229
     port: 8080
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
-  - name: "🇬🇧GB-51.68.206.229-7914"
+  - name: "🇬🇧GB-51.68.206.229-7897"
     type: ss
     server: 51.68.206.229
     port: 8080
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
-  - name: "🇫🇷FR-51.38.82.132-7915"
+  - name: "🇫🇷FR-51.38.82.132-7898"
     type: vmess
     server: 51.38.82.132
     port: 80
@@ -357,39 +223,39 @@ proxies:
       path: /vmess
       headers:
         Host: 
-  - name: "🇬🇧GB-51.38.71.175-7916"
+  - name: "🇬🇧GB-51.38.71.175-7899"
     type: trojan
     server: 51.38.71.175
     port: 80
     password: b640d791-ff83-4300-b509-c2a02f97f167
     udp: true
     sni: uk1.trojanvh.xyz
-  - name: "🇫🇷FR-51.178.87.37-7918"
+  - name: "🇫🇷FR-51.178.87.37-7901"
     type: ss
     server: 51.178.87.37
     port: 804
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇫🇷FR-51.178.87.37-7919"
+  - name: "🇫🇷FR-51.178.87.37-7902"
     type: ss
     server: 51.178.87.37
     port: 810
     cipher: chacha20-ietf-poly1305
     password: G!yBwPWH3Vao
-  - name: "🇳🇱NL-51.158.146.183-7920"
+  - name: "🇳🇱NL-51.158.146.183-7903"
     type: trojan
     server: 51.158.146.183
     port: 443
     password: f6a0a650-306e-11ee-b692-1239d0255272
     udp: true
     sni: Speedtest.net
-  - name: "🇳🇱NL-51.15.27.48-7921"
+  - name: "🇳🇱NL-51.15.27.48-7904"
     type: ss
     server: 51.15.27.48
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇳🇱NL-51.15.19.206-7922"
+  - name: "🇳🇱NL-51.15.19.206-7905"
     type: vmess
     server: 51.15.19.206
     port: 80
@@ -401,7 +267,7 @@ proxies:
       path: /V2RayyNGvpn
       headers:
         Host: 
-  - name: "🇳🇱NL-51.15.19.206-7923"
+  - name: "🇳🇱NL-51.15.19.206-7906"
     type: vmess
     server: 51.15.19.206
     port: 8443
@@ -414,7 +280,7 @@ proxies:
       path: /V2RayyNGvpn
       headers:
         Host: 
-  - name: "🇳🇱NL-51.15.19.206-7924"
+  - name: "🇳🇱NL-51.15.19.206-7907"
     type: vmess
     server: 51.15.19.206
     port: 2083
@@ -427,7 +293,7 @@ proxies:
       path: /V2RayyNGvpn
       headers:
         Host: 
-  - name: "🇳🇱NL-51.15.105.39-7925"
+  - name: "🇳🇱NL-51.15.105.39-7908"
     type: vmess
     server: 51.15.105.39
     port: 443
@@ -440,7 +306,7 @@ proxies:
       path: /nimvws
       headers:
         Host: 
-  - name: "🇳🇱NL-51.15.105.39-7927"
+  - name: "🇳🇱NL-51.15.105.39-7910"
     type: vmess
     server: 51.15.105.39
     port: 443
@@ -453,19 +319,25 @@ proxies:
       path: /nimvws
       headers:
         Host: 
-  - name: "🇺🇦UA-5.188.6.8-7928"
+  - name: "🇺🇦UA-5.188.6.8-7911"
     type: ss
     server: 5.188.6.8
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇵🇱PL-5.188.108.10-7935"
+  - name: "🇪🇸ES-5.188.181.201-7917"
+    type: ss
+    server: 5.188.181.201
+    port: 9030
+    cipher: aes-256-cfb
+    password: GeregetR8cvQHzYr
+  - name: "🇵🇱PL-5.188.108.10-7918"
     type: ss
     server: 5.188.108.10
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇺🇸US-47.89.231.138-7936"
+  - name: "🇺🇸US-47.89.231.138-7919"
     type: vmess
     server: 47.89.231.138
     port: 443
@@ -478,7 +350,7 @@ proxies:
       path: /O0emfe0pBfYovpz5526rhq
       headers:
         Host: 
-  - name: "🇺🇸US-47.89.231.138-7937"
+  - name: "🇺🇸US-47.89.231.138-7920"
     type: vmess
     server: 47.89.231.138
     port: 80
@@ -490,7 +362,7 @@ proxies:
       path: /O0emfe0pBfYovpz5526rhq
       headers:
         Host: 
-  - name: "🇺🇸US-47.89.229.201-7938"
+  - name: "🇺🇸US-47.89.229.201-7921"
     type: vmess
     server: 47.89.229.201
     port: 80
@@ -502,7 +374,7 @@ proxies:
       path: /PxcYlDIHtv3GtsBfhm1AaayIV
       headers:
         Host: 
-  - name: "🇺🇸US-47.89.211.175-7940"
+  - name: "🇺🇸US-47.89.211.175-7923"
     type: vmess
     server: 47.89.211.175
     port: 80
@@ -514,7 +386,7 @@ proxies:
       path: /84BxD2shFYFpsiRGXACUPqWt
       headers:
         Host: 
-  - name: "🇺🇸US-47.89.211.175-7942"
+  - name: "🇺🇸US-47.89.211.175-7925"
     type: vmess
     server: 47.89.211.175
     port: 80
@@ -526,7 +398,7 @@ proxies:
       path: /84BxD2shFYFpsiRGXACUPqWt
       headers:
         Host: 
-  - name: "🇺🇸US-47.89.192.94-7943"
+  - name: "🇺🇸US-47.89.192.94-7926"
     type: vmess
     server: 47.89.192.94
     port: 80
@@ -538,7 +410,7 @@ proxies:
       path: /4a5yXsGODBM1cvl9TzyF0SHR3v
       headers:
         Host: 
-  - name: "🇺🇸US-47.88.89.251-7944"
+  - name: "🇺🇸US-47.88.89.251-7927"
     type: vmess
     server: 47.88.89.251
     port: 80
@@ -550,7 +422,7 @@ proxies:
       path: /MqINN7CF6UeFSASP4LNTFNn
       headers:
         Host: 
-  - name: "🇺🇸US-47.88.89.106-7945"
+  - name: "🇺🇸US-47.88.89.106-7928"
     type: vmess
     server: 47.88.89.106
     port: 80
@@ -562,7 +434,7 @@ proxies:
       path: /rxrsOUmNbuTJCk4izFEHWrb9qm
       headers:
         Host: 
-  - name: "🇺🇸US-47.88.87.39-7947"
+  - name: "🇺🇸US-47.88.87.39-7930"
     type: vmess
     server: 47.88.87.39
     port: 80
@@ -574,7 +446,7 @@ proxies:
       path: /wRDYyXAgH6oASzMKs65VUYw
       headers:
         Host: 
-  - name: "🇺🇸US-47.88.104.186-7949"
+  - name: "🇺🇸US-47.88.104.186-7932"
     type: vmess
     server: 47.88.104.186
     port: 80
@@ -586,7 +458,7 @@ proxies:
       path: /4DJIP58JF6JTq4HIG0yr
       headers:
         Host: 
-  - name: "🇺🇸US-47.88.104.186-7951"
+  - name: "🇺🇸US-47.88.104.186-7934"
     type: vmess
     server: 47.88.104.186
     port: 80
@@ -598,7 +470,7 @@ proxies:
       path: /4DJIP58JF6JTq4HIG0yr
       headers:
         Host: 
-  - name: "🇺🇸US-47.254.89.211-7952"
+  - name: "🇺🇸US-47.254.89.211-7935"
     type: vmess
     server: 47.254.89.211
     port: 80
@@ -610,7 +482,7 @@ proxies:
       path: /GSoTl9ZoYG5V2R0k4tUTGI8k
       headers:
         Host: 
-  - name: "🇺🇸US-47.254.17.235-7954"
+  - name: "🇺🇸US-47.254.17.235-7937"
     type: vmess
     server: 47.254.17.235
     port: 443
@@ -623,7 +495,7 @@ proxies:
       path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
       headers:
         Host: 
-  - name: "🇺🇸US-47.254.17.235-7955"
+  - name: "🇺🇸US-47.254.17.235-7938"
     type: vmess
     server: 47.254.17.235
     port: 80
@@ -635,7 +507,7 @@ proxies:
       path: /Ogl9djGbo2NTAt3Ovj1NvwjJ
       headers:
         Host: 
-  - name: "🇺🇸US-47.254.16.114-7957"
+  - name: "🇺🇸US-47.254.16.114-7940"
     type: vmess
     server: 47.254.16.114
     port: 80
@@ -647,7 +519,7 @@ proxies:
       path: /mePGXW6SFZZw2QyAqaYK
       headers:
         Host: 
-  - name: "🇺🇸US-47.254.121.68-7958"
+  - name: "🇺🇸US-47.254.121.68-7941"
     type: vmess
     server: 47.254.121.68
     port: 80
@@ -659,7 +531,7 @@ proxies:
       path: /OFglbcWQ8P3dJUA7yf
       headers:
         Host: 
-  - name: "🇺🇸US-47.253.84.189-7960"
+  - name: "🇺🇸US-47.253.84.189-7943"
     type: vmess
     server: 47.253.84.189
     port: 443
@@ -672,7 +544,7 @@ proxies:
       path: /swoole
       headers:
         Host: 
-  - name: "🇺🇸US-47.253.60.200-7961"
+  - name: "🇺🇸US-47.253.60.200-7944"
     type: vmess
     server: 47.253.60.200
     port: 443
@@ -685,7 +557,7 @@ proxies:
       path: /swoole
       headers:
         Host: 
-  - name: "🇺🇸US-47.253.55.72-7962"
+  - name: "🇺🇸US-47.253.55.72-7945"
     type: vmess
     server: 47.253.55.72
     port: 443
@@ -698,31 +570,31 @@ proxies:
       path: /swoole
       headers:
         Host: 
-  - name: "🇩🇪DE-46.4.162.18-7963"
+  - name: "🇩🇪DE-46.4.162.18-7946"
     type: ss
     server: 46.4.162.18
     port: 30696
     cipher: chacha20-ietf-poly1305
     password: f8f7aCzcPKbsF8p3
-  - name: "🇲🇰MK-46.183.185.37-7964"
+  - name: "🇲🇰MK-46.183.185.37-7947"
     type: ss
     server: 46.183.185.37
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇭🇷HR-46.183.184.64-7965"
+  - name: "🇭🇷HR-46.183.184.64-7948"
     type: ss
     server: 46.183.184.64
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇭🇷HR-46.183.184.61-7966"
+  - name: "🇭🇷HR-46.183.184.61-7949"
     type: ss
     server: 46.183.184.61
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: "🇹🇷TR-45.94.169.142-7967"
+  - name: "🇹🇷TR-45.94.169.142-7950"
     type: vmess
     server: 45.94.169.142
     port: 443
@@ -735,43 +607,43 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🇷🇺RU-45.89.52.66-7968"
+  - name: "🇷🇺RU-45.89.52.66-7951"
     type: ss
     server: 45.89.52.66
     port: 9043
     cipher: aes-256-cfb
     password: HSZuyJQcWe8dxNdF
-  - name: "🇷🇺RU-45.89.52.66-7969"
+  - name: "🇷🇺RU-45.89.52.66-7952"
     type: ss
     server: 45.89.52.66
     port: 9042
     cipher: aes-256-cfb
     password: S7KwUu7yBy58S3Ga
-  - name: "🇷🇺RU-45.89.52.66-7970"
+  - name: "🇷🇺RU-45.89.52.66-7953"
     type: ss
     server: 45.89.52.66
     port: 9041
     cipher: aes-256-cfb
     password: U6qnYRhfyDmn8sgn
-  - name: "🇷🇺RU-45.89.52.66-7971"
+  - name: "🇷🇺RU-45.89.52.66-7954"
     type: ss
     server: 45.89.52.66
     port: 9040
     cipher: aes-256-cfb
     password: p9z5BVADH2YFs3MN
-  - name: "🇷🇺RU-45.89.52.66-7972"
+  - name: "🇷🇺RU-45.89.52.66-7955"
     type: ss
     server: 45.89.52.66
     port: 9037
     cipher: aes-256-cfb
     password: TN2YqghxeFDKZfLU
-  - name: "🇷🇺RU-45.89.52.66-7973"
+  - name: "🇷🇺RU-45.89.52.66-7956"
     type: ss
     server: 45.89.52.66
     port: 9031
     cipher: aes-256-cfb
     password: BwcAUZk8hUFAkDGN
-  - name: "🇬🇧GB-45.86.8.6-7974"
+  - name: "🇬🇧GB-45.86.8.6-7957"
     type: vmess
     server: 45.86.8.6
     port: 443
@@ -784,7 +656,7 @@ proxies:
       path: /path/1689935243027
       headers:
         Host: 
-  - name: "🇬🇧GB-45.86.8.117-7975"
+  - name: "🇬🇧GB-45.86.8.117-7958"
     type: vmess
     server: 45.86.8.117
     port: 443
@@ -797,7 +669,7 @@ proxies:
       path: /path/1689935243027
       headers:
         Host: 
-  - name: "🇬🇧GB-45.86.8.117-7976"
+  - name: "🇬🇧GB-45.86.8.117-7959"
     type: vmess
     server: 45.86.8.117
     port: 443
@@ -810,7 +682,7 @@ proxies:
       path: /path/1689767805929
       headers:
         Host: 
-  - name: "🏁RELAY-45.85.119.207-7977"
+  - name: "🏁RELAY-45.85.119.207-7960"
     type: vmess
     server: 45.85.119.207
     port: 443
@@ -823,13 +695,13 @@ proxies:
       path: /wss51068
       headers:
         Host: 
-  - name: "🇦🇺AU-45.79.238.129-7978"
+  - name: "🇦🇺AU-45.79.238.129-7961"
     type: ss
     server: 45.79.238.129
     port: 443
     cipher: chacha20-ietf-poly1305
     password: YUWX6COLZYmaHlUGiKwDaN
-  - name: "🇩🇪DE-45.76.88.37-7980"
+  - name: "🇩🇪DE-45.76.88.37-7963"
     type: vmess
     server: 45.76.88.37
     port: 2053
@@ -841,7 +713,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇩🇪DE-45.76.88.37-7981"
+  - name: "🇩🇪DE-45.76.88.37-7964"
     type: vmess
     server: 45.76.88.37
     port: 2087
@@ -853,7 +725,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇩🇪DE-45.76.88.37-7982"
+  - name: "🇩🇪DE-45.76.88.37-7965"
     type: vmess
     server: 45.76.88.37
     port: 8443
@@ -865,7 +737,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇳🇱NL-45.159.218.111-7984"
+  - name: "🇳🇱NL-45.159.218.111-7967"
     type: vmess
     server: 45.159.218.111
     port: 443
@@ -878,13 +750,13 @@ proxies:
       path: /wss13889
       headers:
         Host: 
-  - name: "🇲🇩MD-45.145.0.31-7985"
+  - name: "🇲🇩MD-45.145.0.31-7968"
     type: ss
     server: 45.145.0.31
     port: 51348
     cipher: chacha20-ietf-poly1305
     password: DM0395LVqxyl
-  - name: "🇮🇪IE-45.131.248.228-7986"
+  - name: "🇮🇪IE-45.131.248.228-7969"
     type: vmess
     server: 45.131.248.228
     port: 59102
@@ -896,7 +768,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇮🇪IE-45.131.248.228-7988"
+  - name: "🇮🇪IE-45.131.248.228-7971"
     type: vmess
     server: 45.131.248.228
     port: 59102
@@ -908,7 +780,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇮🇪IE-45.131.248.140-7989"
+  - name: "🇮🇪IE-45.131.248.140-7972"
     type: vmess
     server: 45.131.248.140
     port: 50068
@@ -920,7 +792,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇮🇪IE-45.131.248.140-7991"
+  - name: "🇮🇪IE-45.131.248.140-7974"
     type: vmess
     server: 45.131.248.140
     port: 50068
@@ -932,7 +804,7 @@ proxies:
       path: /
       headers:
         Host: 
-  - name: "🇨🇾CY-45.12.144.68-7994"
+  - name: "🇨🇾CY-45.12.144.68-7977"
     type: vmess
     server: 45.12.144.68
     port: 443
@@ -945,30 +817,135 @@ proxies:
       path: /path/1689849487190
       headers:
         Host: 
-  - name: "🇺🇸US-44.211.71.82-7995"
+  - name: "🇺🇸US-44.211.71.82-7978"
     type: trojan
     server: 44.211.71.82
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-44.201.217.130-7997"
+  - name: "🇺🇸US-44.201.217.130-7980"
     type: trojan
     server: 44.201.217.130
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇺🇸US-44.201.217.130-7999"
+  - name: "🇺🇸US-44.201.217.130-7982"
     type: trojan
     server: 44.201.217.130
     port: 22222
     password: telegram-id-directvpn
     udp: true
     sni: trj.rollingnext.co.uk
-  - name: "🇯🇵JP-43.207.83.221-8000"
+  - name: "🇯🇵JP-43.207.83.221-7983"
     type: ss
     server: 43.207.83.221
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
+  - name: "🇰🇷KR-43.202.49.222-7984"
+    type: ss
+    server: 43.202.49.222
+    port: 2333
+    cipher: aes-256-cfb
+    password: doub.io
+  - name: "🇰🇷KR-43.201.108.109-7985"
+    type: ss
+    server: 43.201.108.109
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: "🇳🇱NL-40.114.213.220-7989"
+    type: ss
+    server: 40.114.213.220
+    port: 64504
+    cipher: chacha20-ietf-poly1305
+    password: f7Pj0c73PqQf97lmWYmBbX
+  - name: "🇳🇱NL-40.114.210.138-7991"
+    type: ss
+    server: 40.114.210.138
+    port: 40943
+    cipher: chacha20-ietf-poly1305
+    password: pWqTTV6lrnPApdEAF8Qsm8
+  - name: "🇺🇸US-38.91.107.245-7993"
+    type: ss
+    server: 38.91.107.245
+    port: 1230
+    cipher: chacha20-ietf-poly1305
+    password: H5S0hvcxRi#YLmgU
+  - name: "🇩🇴DO-38.63.0.85-7995"
+    type: vmess
+    server: 38.63.0.85
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1689935243027
+      headers:
+        Host: 
+  - name: "🇩🇴DO-38.63.0.68-7996"
+    type: vmess
+    server: 38.63.0.68
+    port: 443
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: /path/1683715826870
+      headers:
+        Host: 
+  - name: "🇺🇸US-38.59.243.133-7997"
+    type: vmess
+    server: 38.59.243.133
+    port: 80
+    uuid: 58c76d75-563c-4694-84c4-a798d55e90ed
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 
+  - name: "🇺🇸US-38.150.13.140-7999"
+    type: trojan
+    server: 38.150.13.140
+    port: 57063
+    password: Hu4CFM0wJ3
+    udp: true
+    sni: 38.150.13.140
+  - name: "🇬🇧GB-37.235.55.21-8001"
+    type: ss
+    server: 37.235.55.21
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "🇸🇪SE-37.19.222.214-8002"
+    type: ss
+    server: 37.19.222.214
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇸🇪SE-37.19.222.213-8003"
+    type: ss
+    server: 37.19.222.213
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇸🇪SE-37.19.222.212-8004"
+    type: ss
+    server: 37.19.222.212
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
+  - name: "🇸🇪SE-37.19.222.211-8005"
+    type: ss
+    server: 37.19.222.211
+    port: 443
+    cipher: aes-256-cfb
+    password: asdKkaskJKfnsa
