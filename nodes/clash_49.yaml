@@ -1,152 +1,5 @@
 proxies:
-  - name: "🇻🇳VN-103.163.218.2-8797"
-    type: ss
-    server: 103.163.218.2
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "🇵🇰PK-103.125.147.48-8798"
-    type: ss
-    server: 103.125.147.48
-    port: 51348
-    cipher: chacha20-ietf-poly1305
-    password: qe6peFG54F9n4u3x3
-  - name: "未知 SS-01 | free-nodes"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "HK_VMESS-02_|_free-nodes"
-    type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16622
-    uuid: 00736f0b-8715-45b7-888b-ced7aaa637bf
-    alterId: 0
-    cipher: auto
-    network: ws
-    servername: 71863cd408e0a1b6626012d168c0b94e.mobgslb.tbcache.com
-    ws-opts:
-      path: /
-      headers:
-        Host: 71863cd408e0a1b6626012d168c0b94e.mobgslb.tbcache.com
-  - name: "TW TROJAN-03 | free-nodes"
-    type: trojan
-    server: ddrr2.tube-cat.com
-    port: 59188
-    password: d7563108-615c-4338-a7bd-77f359869a4a
-    udp: true
-    sni: r.tw3.cat.bilibili.com
-  - name: "TW TROJAN-04 | free-nodes"
-    type: trojan
-    server: ddrr1.tube-cat.com
-    port: 28478
-    password: d7563108-615c-4338-a7bd-77f359869a4a
-    udp: true
-    sni: r.tw2.cat.bilibili.com
-  - name: "US VLESS-05 | free-nodes"
-    type: vless
-    server: 179.255.137.204
-    port: 8443
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
-    udp: true
-    tls: true
-    servername: senflarelink-node-xfcyh2.pages.dev
-  - name: "FR VLESS-06 | free-nodes"
-    type: vless
-    server: 178.104.77.229
-    port: 8443
-    uuid: b69cf773-da16-486e-afce-a45b94f998b3
-    udp: true
-    tls: true
-    servername: senflarelink-node-m3bfbn.pages.dev
-  - name: "未知 VLESS-07 | free-nodes"
-    type: vless
-    server: 94.183.167.172
-    port: 443
-    uuid: d7121b33-e335-4921-bb00-4c0b157e7fc1
-    udp: true
-    tls: true
-    servername: s8k4.scan-cdn.com
-  - name: "DE HY2-08 | free-nodes"
-    type: hysteria2
-    server: 128.254.186.190
-    port: 13337
-    password: 900c8c92-1979-4c7c-8f2f-63e87d53d8fe
-    udp: true
-  - name: "DE SS-09 | free-nodes"
-    type: ss
-    server: 202.50.253.45
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-10 | free-nodes"
-    type: ss
-    server: 202.50.253.36
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-11 | free-nodes"
-    type: ss
-    server: 202.50.253.90
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-12 | free-nodes"
-    type: ss
-    server: 202.50.253.27
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-13 | free-nodes"
-    type: ss
-    server: 202.50.253.63
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-14 | free-nodes"
-    type: ss
-    server: 202.50.253.54
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-15 | free-nodes"
-    type: ss
-    server: 202.50.253.72
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-16 | free-nodes"
-    type: ss
-    server: 202.50.253.99
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-17 | free-nodes"
-    type: ss
-    server: 202.50.253.81
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "DE SS-18 | free-nodes"
-    type: ss
-    server: 202.50.253.18
-    port: 19999
-    cipher: aes-256-gcm
-    password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  - name: "US VLESS-19 | free-nodes"
-    type: vless
-    server: 104.160.44.254
-    port: 443
-    uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
-    udp: true
-  - name: "US VLESS-20 | free-nodes"
-    type: vless
-    server: 107.172.214.195
-    port: 443
-    uuid: 2af77824-f83d-4f50-9dd0-560bb6e7cd45
-    udp: true
-  - name: "HK VLESS-21 | free-nodes"
+  - name: "HK VLESS-60 | free-nodes"
     type: vless
     server: 152.175.6.229
     port: 31884
@@ -154,13 +7,13 @@ proxies:
     udp: true
     tls: true
     servername: hk010.zestapp778.com
-  - name: "US VLESS-22 | free-nodes"
+  - name: "US VLESS-61 | free-nodes"
     type: vless
     server: swedenafteraventura.space
     port: 443
     uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
     udp: true
-  - name: "SG VLESS-23 | free-nodes"
+  - name: "SG VLESS-62 | free-nodes"
     type: vless
     server: 43.163.112.174
     port: 443
